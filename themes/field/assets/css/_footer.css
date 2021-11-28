@@ -190,7 +190,9 @@
     color: #7D8D98;
     text-decoration: none;
 }
-
+.ftr-developed-by p a:hover{
+    color: #e63312;
+}
 .ftr-angle-btn a{
     background: #E63312;
     color: #fff;
