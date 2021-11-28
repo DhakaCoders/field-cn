@@ -41,6 +41,9 @@
 
     <!-- <svg class="id-name" width="16" height="16" viewBox="0 0 16 16" fill="#FF5C26">
       <use xlink:href="#id-name"></use> </svg> -->
+    <symbol id="square-red-icon" width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M10.0148 9.3667H0V0H10.0148V9.3667ZM1.13216 8.24981H8.89081V1.11688H1.13216V8.24981Z" fill="#E63312"/>
+    </symbol>
 
 
     <!-- start of Noyon -->
@@ -106,6 +109,7 @@
 </section>
 
 
+<section style="height: 500px;"></section>
 
 
 <footer class="footer-wrp">
@@ -118,46 +122,26 @@
               <div class="ftr-logo">
                 <a href="#"><img src="assets/images/ftr-logo.svg" alt=""></a>
               </div>
-              <div class="ftr-top-col-socials">
+              <div class="ftr-socials">
                 <ul class="reset-list">
                   <li>
                     <a target="_blank" href="#">
-                      <i>
-                        <svg class="facebook-icon" width="24" height="24" viewBox="0 0 24 24" fill="#FFA800">
-                        <use xlink:href="#facebook-icon"></use> </svg>
-                      </i>
+                      <i class="fab fa-facebook-f"></i>
                     </a>
                   </li>
                   <li>
                     <a target="_blank" href="#">
-                      <i>
-                        <svg class="twiter-icon" width="24" height="24" viewBox="0 0 24 24" fill="#FFA800">
-                        <use xlink:href="#twiter-icon"></use> </svg>
-                      </i>
+                      <i class="fab fa-instagram"></i>
                     </a>
                   </li>
-                  <li>
-                    <a target="_blank" href="#">
-                      <i>
-                        <svg class="linkden-icon" width="24" height="24" viewBox="0 0 24 24" fill="#FFA800">
-                        <use xlink:href="#linkden-icon"></use> </svg>
-                      </i>
-                    </a>
-                  </li>
-                  <li>
-                    <a target="_blank" href="#">
-                      <i><svg class="instagram-icon" width="24" height="24" viewBox="0 0 24 24" fill="#FFA800">
-                        <use xlink:href="#instagram-icon"></use></svg>
-                      </i>
-                    </a>
-                  </li>
+                  
                 </ul>
               </div>
             </div>
             
             <div class="ftr-top-col ftr-top-col-2">
-              <h6 class="ftr-top-col-title fl-h6">Navigatie</h6>
-              <div class="ftr-top-col-menu">
+              <h6 class="ftr-col-title fl-h6">Navigatie</h6>
+              <div class="ftr-col-menu">
                 <ul class="reset-list">
                   <li><a href="#">Home</a></li>
                   <li><a href="#">Clubs</a></li>
@@ -169,8 +153,8 @@
             </div>
 
             <div class="ftr-top-col ftr-top-col-3">
-              <h6 class="ftr-top-col-title fl-h6">Account</h6>
-              <div class="ftr-top-col-menu">
+              <h6 class="ftr-col-title fl-h6">Account</h6>
+              <div class="ftr-col-menu">
                 <ul class="reset-list">
                   <li><a href="#">Mijn Account</a></li>
                   <li><a href="#">Verzending</a></li>
@@ -183,21 +167,23 @@
             </div>
 
             <div class="ftr-top-col ftr-top-col-4">
-              <h6 class="ftr-top-col-title fl-h6">CONTACT</h6>
-              <div class="ftr-top-col-desc">
-                <div class="ftr-top-col-tel">
+              <h6 class="ftr-col-title fl-h6">Contact</h6>
+              <div class="ftr-col-desc">
+                <div class="ftr-col-tel">
                   <a href="tel:(+32)0485001699">(+32) 0485001699</a>
                 </div>
-                <div class="ftr-top-col-mail">
+                <div class="ftr-col-mail">
                   <a href="mailto:info@field-sportswear.com">info@field-sportswear.com</a>
                 </div>
-                <div class="ftr-top-col-btw">
+                <div class="ftr-col-btw">
                   <span>BTW:</span>
                   <strong>BE 000 0000</strong>
                 </div>
-                <div class="ftr-top-col-address">
-                  <a href="#">Burg. Maenhautstraat 64 <br>
-                  9820 Merelbeke, Belgium</a>
+                <div class="ftr-col-address">
+                  <a href="#">
+                    Burg. Maenhautstraat 64<br>
+                    9820 Merelbeke, Belgium
+                  </a>
                 </div>
                 <div class="ftr-angle-btn">
                   <a href="#">Afspraak maken</a>
@@ -205,11 +191,18 @@
               </div>
             </div>
             <div class="ftr-top-col ftr-top-col-5">
-              <h6 class="ftr-top-col-title fl-h6">Nieuwsbrief</h6>
+              <h6 class="ftr-col-title fl-h6">Nieuwsbrief</h6>
               <div class="ftr-newsletter">
                 <form>
                   <input type="email" name="" placeholder="E-mailadres">
-                  <button>Inschrijven</button>
+                  <div class="ftr-newsletter-btn">
+                    <button>
+                      <svg class="square-red-icon" width="11" height="10" viewBox="0 0 11 10" fill="#E63312">
+                        <use xlink:href="#square-red-icon"></use> 
+                      </svg>
+                      Inschrijven
+                    </button>
+                  </div>
                 </form>
               </div>
             </div>
@@ -229,7 +222,7 @@
             <p>&copy; Copyright 2021 FiELD. All Rights Reserved.</p>
           </div>
           <div class="ftr-developed-by">
-            <p>Website ontwerp door <a target="_blank" href="#">conversal</a></p>
+            <p>Website ontwerp door <a target="_blank" href="#">Conversal</a></p>
           </div>
         </div>
       </div>
