@@ -16,15 +16,37 @@ a, a:hover, a:focus, button:hover, button:focus{
 }
 
 body {
-    background: #f8f8f8;
-    color: #000000;
+    background: #101010;
+    color: #B2BCC2;
     font-size: 18px;
-    line-height: 24px;
-     font-family: 'Candara';
+    line-height: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
+/*font-family: 'Barlow Condensed', sans-serif;*/
+/*font-family: 'Source Sans Pro', sans-serif;*/
+/*font-family: 'Work Sans', sans-serif;*/
 p{
-	line-height: 1.2;
+	line-height: 1.5;
 	margin-bottom: 15px;
+}
+
+a{
+	color: #E63312;
+	text-decoration: underline;
+}
+a:hover{
+	text-decoration: none;
+	color: #7D8D98;
+}
+strong,b{
+	font-weight: 700;
+}
+em,i{
+	font-style: italic;
+}
+u{
+	text-decoration: underline;
 }
 
 input[type=text],
@@ -38,7 +60,7 @@ textarea{
 }
 ::selection {
   color: #fff;
-  background: #512C36;
+  background: #E63312;
 }
 /*-- app gap use pattern --*/
 /*data-xxs = 575

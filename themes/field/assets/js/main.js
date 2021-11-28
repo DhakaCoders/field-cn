@@ -272,6 +272,32 @@ $(".dft-fl-btn" ).each(function( index ) {
 });
 
 
+
+/* start of Noyon*/
+
+
+
+
+/* start of Kashob*/
+
+
+
+
+
+
+/* start of Momin*/
+
+
+
+
+
+
+/* start of Shariful*/
+
+
+
+
+
 new WOW().init();
 
 })(jQuery);
