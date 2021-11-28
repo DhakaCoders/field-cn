@@ -20,7 +20,22 @@
 	height: 207px;
 	padding-left: 70px;
 	padding-right: 20px;
+	
+	position: relative;
+}
+.fd-link-module-sec-desktop,
+.fd-link-module-sec-xs{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+.fd-link-module-sec-desktop{
 	background-position: right center!important;
+}
+.fd-link-module-sec-xs{
+	background-position: center bottom!important;
 }
 .fdlms-link a{
 	display: flex;
@@ -31,6 +46,8 @@
 	font-weight: 600;
 	font-size: 34px;
 	line-height: 1.2;
+	position: relative;
+	z-index: 2;
 }
 .fdlms-link a svg{
 	margin-left: 35px;
@@ -41,4 +58,57 @@
 .fdlms-link a:hover i svg{
 	fill: #E63312!important;
 	margin-left: 40px;
+}
+
+
+
+@media (max-width: 1699px){
+
+}
+@media (max-width: 1499px) {
+
+}
+
+@media(max-width: 1399px){
+
+}
+
+@media(max-width: 1299px){
+
+}
+
+@media(max-width: 1199px){
+	
+
+}
+
+@media(max-width: 991px){
+	
+	
+}
+
+@media(max-width: 767px){
+	.fd-link-module-sec-inr{
+		height: 400px;
+		padding-top: 60px;
+		padding-left: 20px;
+		padding-right: 20px;
+		align-items: top;
+		justify-content: center;
+
+	}
+}
+
+@media(max-width: 575px){
+	
+
+}
+
+@media(max-width: 479px){
+
+
+}
+
+@media(max-width: 359px){
+
 }
