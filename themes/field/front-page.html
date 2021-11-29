@@ -72,8 +72,8 @@
   </svg>
 
 </head>
-<body>
-<header class="header">
+<body class="home">
+<header class="header hdr-border-none">
   <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -113,7 +113,14 @@
                 <nav class="main-nav">
                   <ul class="clearfix reset-list">
                     <li class="current-menu-item"><a href="#">Home</a></li>
-                    <li><a href="#">Clubs</a></li>
+                    <li class="menu-item-has-children">
+                      <a href="#">Clubs</a>
+                      <ul class="sub-menu">
+                        <li><a href="#">submenu 1</a></li>
+                        <li><a href="#">submenu 2</a></li>
+                        <li><a href="#">submenu 3</a></li>
+                      </ul>
+                    </li>
                     <li><a href="#">FAQ</a></li>
                     <li><a href="#">Over FiELD</a></li>
                     <li><a href="#">Contact</a></li>
@@ -126,6 +133,38 @@
       </div>
   </div>
 </header>
+
+
+<!-- end of Header -->
+
+<section class="hm-banner">
+  <div class="hm-banner-bg-black"></div>
+  <div class="hm-video-cntlr">
+    <video id="bnr-vdo" autoplay muted loop>
+      <source src="assets/images/videos/placeholder-video.mp4" type="video/mp4">
+      <source src="assets/images/videos/placeholder-video.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="hm-bnr-slider hmBnrSlider">
+    <div class="hm-bnr-slider-item">
+      <div class="hm-banner-bg inline-bg" style="background-image:url(assets/images/hm-page-bnr.jpg);"></div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="hm-banner-des-cntlr">
+          <div class="hm-banner-des">
+            <h2 class="hm-bnr-sub-title fl-h6">Quis id velit diam varius ut tempus.</h2>
+            <h1 class="hm-bnr-title fl-h1">Jouw team in custom-made sportkledij?</h1>
+            <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut nunc turpis, faucibus nec lectus quis, porttitor porta sem. Curabitur feugiat diam dui, vel imperdiet libero consequat at.</p>
+            <a href="#" class="fl-btn fl-btn-angel">LATEN WE SAMEN EEN TOPPROJECT STARTEN</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <section class="main-content">
   <div class="container">

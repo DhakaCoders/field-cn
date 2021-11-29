@@ -1,0 +1,78 @@
+.home .hm-banner{
+    position: relative;
+    z-index: 1;
+}
+.hm-banner{
+	position: relative;
+	overflow: hidden;
+}
+.hm-banner-bg-black {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #000;
+    z-index: 1;
+}
+.hm-video-cntlr {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+    z-index: 2;
+}
+#bnr-vdo {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.has-vdo .hm-video-cntlr{
+    display: block;
+}
+.has-vdo .hm-banner-bg{
+    display: none;
+}
+.hm-banner-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.hm-banner-des-cntlr{
+	height: 909px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 3;
+}
+
+.hm-banner-des{
+    max-width: 510px;
+    width: 100%;
+}
+
+
+.hm-bnr-sub-title{
+    color: #E63312;
+    font-weight: 400;
+}
+
+.hm-banner-des p{
+    margin-bottom: 30px;
+}
+.hm-banner-des .fl-btn{
+    min-width: 428px;
+}
