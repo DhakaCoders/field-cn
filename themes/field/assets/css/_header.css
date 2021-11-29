@@ -148,6 +148,7 @@ nav.main-nav > ul > li > a:after{
     transition: all 0.5s;
     -ms-transition: all 0.5s;
     -webkit-transition: all 0.5s;
+    background: #E63312;
 }
 nav.main-nav > ul > li > a:hover:after{
 	width: 17px;
