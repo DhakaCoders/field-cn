@@ -131,6 +131,26 @@ nav.main-nav > ul > li > a{
 	font-weight: 600;
 	font-family: 'Barlow Condensed', sans-serif;
 	padding-bottom: 10px;
+	position: relative;
+}
+nav.main-nav > ul > li > a:after{
+	content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    bottom: 0;
+    transform-origin: left;
+    width: 0;
+    height: 3px;
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+nav.main-nav > ul > li > a:hover:after{
+	width: 17px;
 }
 
 nav.main-nav > ul > li.current-menu-item > a{
