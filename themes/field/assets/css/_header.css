@@ -1,20 +1,136 @@
-nav.main-nav ul{
+header.header{
+	padding: 35px 0;
+}
 
+.header-inr{
+	display: flex;
+	align-items: center;
 }
-nav.main-nav ul li{
-	
+
+.hdr-rgt{
+	margin-left: auto;
 }
-nav.main-nav ul li a{
-	
+
+.logo a{
+	display: inline-block;
+	vertical-align: baseline;
 }
+
+.hdr-top-menu{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding-bottom: 30px;
+}
+
+.hdr-account{
+	padding-right: 35px;
+}
+.hdr-account strong{
+	display: inline-block;
+	vertical-align: baseline;
+	font-size: 14px;
+	line-height: 1;
+	color: #7D8D98;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+
+.hdr-social-media{
+	padding-left: 35px;
+	padding-right: 35px;
+}
+.hdr-social-media ul{
+	display: flex;
+	align-items: center;
+	margin-left: -12px;
+	margin-right: -12px;
+}
+.hdr-social-media ul li{
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.hdr-social-media ul li a{
+	display: inline-block;
+	vertical-align: baseline;
+	font-size: 18px;
+	color: #7D8D98;
+}
+
+.hdr-lang-cntlr{
+	margin-left: 35px;
+}
+.hdr-lang ul{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 0 -11px;
+}
+.hdr-lang ul li{
+	position: relative;
+	padding: 0 11px;
+}
+.hdr-lang ul li:after{
+	position: absolute;
+	content: "";
+	margin-top: 2px;
+	right: 0;
+	top: 50%;
+	transform: translate(50%,-50%);
+	-ms-transform: translate(50%,-50%);
+	-webkit-transform: translate(50%,-50%);
+	-o-transform: translate(50%,-50%);
+	background-image: url('../images/slash-icon.png');
+	width: 6px;
+	height: 11px;
+	background-repeat: no-repeat!important;
+	background-size: contain!important;
+	background-position: center center!important;
+}
+.hdr-lang ul li:last-child:after{
+	content: none;
+	display: none;
+}
+.hdr-lang ul li a{
+	display: inline-block;
+	vertical-align: baseline;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1;
+	color: #7D8D98;
+	text-decoration: none;
+}
+.hdr-lang ul li.active a,
+.hdr-lang ul li a:hover{
+	color: #fff;
+}
+.hdr-lang ul li.active a{
+	font-weight: 800;
+}
+
+
 nav.main-nav > ul{
-
+	display: flex;
+	align-items: center;
+	margin-left: -40px;
+	margin-right: -40px;
 }
 nav.main-nav > ul > li{
-
+	padding-left: 40px;
+	padding-right: 40px;
 }
 nav.main-nav > ul > li > a{
-
+	display: inline-block;
+	vertical-align: baseline;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 23px;
+	line-height: 1;
+	font-weight: 600;
+	font-family: 'Barlow Condensed', sans-serif;
+	padding-bottom: 10px;
 }
 
 nav.main-nav > ul > li.current-menu-item > a{
