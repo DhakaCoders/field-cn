@@ -26,7 +26,7 @@ header.header{
 .hdr-account{
 	padding-right: 35px;
 }
-.hdr-account strong{
+.hdr-account a{
 	display: inline-block;
 	vertical-align: baseline;
 	font-size: 14px;
@@ -34,6 +34,15 @@ header.header{
 	color: #7D8D98;
 	text-transform: uppercase;
 	font-weight: 700;
+	text-decoration: none;
+	padding-left: 22px;
+	position: relative;
+}
+.hdr-account a i{
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: -2px;
 }
 
 
@@ -154,8 +163,8 @@ nav.main-nav > ul > li > a:hover:after{
 	width: 17px;
 }
 
-nav.main-nav > ul > li.current-menu-item > a{
-
+nav.main-nav > ul > li.current-menu-item > a:after{
+	width: 17px;
 }
 
 nav.main-nav > ul > li.menu-item-has-children > a{
