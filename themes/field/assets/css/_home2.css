@@ -217,6 +217,7 @@
 
 .process-lft{
     width: 50%;
+    min-height: 800px;
 }
 
 .process-rgt{
@@ -227,7 +228,7 @@
 
 
 .process-lft-img{
-    padding-right: 150px;
+    padding-right: 120px;
 }
 .process-lft-img-inr{
     position: relative;
@@ -243,7 +244,7 @@
     max-width: 315px;
     width: 100%;
     margin-left: auto;
-    margin-top: -320px;
+    margin-top: -310px;
 }
 .process-rgt-img-inr{
     position: relative;
