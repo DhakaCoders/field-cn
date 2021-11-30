@@ -280,7 +280,19 @@ $(".dft-fl-btn" ).each(function( index ) {
 
 /* start of Kashob*/
 
+if( $('.contact-form-wrp').length ){
+  $('.contact-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button').on('click', function(){
+    $('.wpforms-field input[required],.wpforms-field select[required]').parents('.wpforms-field').addClass('wpforms-has-error');
+    $('.wpforms-field input[required],.wpforms-field select[required]').addClass('wpforms-error');
+  });
+}
 
+
+if( $('.wpforms-error').length ){
+  $('.wpforms-error').on('click', function(){
+    $(this).parents('.wpforms-field').removeClass('wpforms-has-error');
+  });
+}
 
 
 
@@ -292,12 +304,27 @@ $(".dft-fl-btn" ).each(function( index ) {
 
 /* start of Jahir*/
 
-
+$('fld-club-catg-select-cntlr select').select2();
+$('.fld-select-2-cntlr').select2();
 
 
 
 
 /* start of Shariful*/
+  
+  /*if( $('.hmBnrSlider').length ){
+    $('.hmBnrSlider').slick({
+      dots: true,
+      arrows: false,
+      infinite: false,
+      autoplay: false,
+      autoplaySpeed: 4000,
+      speed: 700,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    });
+  }*/
+
 
   if( $('.clubsTeamSlider').length ){
     $('.clubsTeamSlider').slick({
