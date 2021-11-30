@@ -318,10 +318,47 @@
 }
 
 
+.part-of-team-sec{
+    padding: 70px 0 140px;
+    position: relative;
+}
+.part-of-team-box{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 400px;
+    width: 75%;
+    background: rgba(125, 141, 152, 0.05);
+}
+
+.part-of-team-des{
+    text-align: center;
+}
+.part-of-team-des-title{
+    font-size: 100px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.part-of-team-des-title strong{
+    color: #E63312;
+}
+
 
 
 .cta-sec{
     padding: 110px 0;
+}
+
+.cta-module-2{
+    position: relative;
+}
+.cta-module-2 .cta-lft-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -50px;
 }
 
 .cta-module-2 .cta-ctlr{
