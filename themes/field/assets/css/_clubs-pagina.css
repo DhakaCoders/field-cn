@@ -254,7 +254,8 @@ strong.active{
 	    -webkit-transform: translate(-50%, -50%);
 	    -moz-transform: translate(-50%, -50%);
 	}
-	/*if you want to rotate icon without any problem when it will position at i tag , then sure you need to rotate(img)tag not directly i tag  !!*/
+	/*if you want to rotate icon without any problem when it will position at the inner of i tag ,
+	 then sure you need to rotate(img)tag not directly i tag  !!*/
 	.rotate-to-up-arrow i img{
 		transform: rotate(-180deg);
 		-webkit-transform: rotate(-180deg);
