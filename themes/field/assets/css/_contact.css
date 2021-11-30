@@ -58,7 +58,7 @@
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field-textarea textarea:focus, 
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field input:focus {
-    border: 1px solid #4F4B34!important;
+    border: 1px solid #7D8D98!important;
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field label{
     font-weight: 500;
@@ -254,26 +254,26 @@ textarea {
   right: 0;
   top: 28px;
   bottom: 0;
-  height: 18px!important;
-  width: 18px!important;
+  height: 20px!important;
+  width: 20px!important;
   z-index: 1;
 }
 .wpforms-field-description span.checkmark{
   position: absolute;
   top: 28px;
   left: 0;
-  height: 18px;
-  width: 18px;
+  height: 20px;
+  width: 20px;
   background: transparent;
-  border: 1px solid #ECEEEF;
+  border: 1px solid rgba(125, 141, 152, 0.25);
   border-radius: 2px;
 }
 .wpforms-field-description span.checkmark::after{
-  left: 6px;
-  top: 2px;
+  left: 7px;
+  top: 3px;
   width: 5px;
   height: 10px;
-  border: solid #F4A301;
+  border: solid #E63312;
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
 }
@@ -291,18 +291,19 @@ textarea {
 .wpforms-field-description label {
     margin-bottom: 0!important;
     padding-left: 10px;
-    font-size: 16px!important;
+    font-size: 14px!important;
+    line-height: 1.4!important;
     cursor: pointer!important;
     font-weight: 400!important;
-    color: #4F4B34!important;
+    color: #7D8D98!important;
 }
 .wpforms-field-description label a{
-    color: #4F4B34;
+    color: #7D8D98;
     text-decoration: underline;
     font-weight: 400;
 }
 .wpforms-field-description label a:hover{
-    color: #F4A301;
+    color: #Ffffff;
     text-decoration: none;
 }
 .cnt-sec-entry-hdr-title{
@@ -317,13 +318,16 @@ textarea {
     background: #4F7F35;
 }
 .contact-form-info-title{
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 18px!important;
-    letter-spacing: 0.04em;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-bottom: 35px;
 
+}
+.cnt-tel.cnt-dtails a{
+    font-weight: 300;
+    font-size: 24px;
+    color: #B2BCC2;
+    padding-right: 35px;
+    position: relative;
 }
 .cnt-details-col span,
 .cnt-details-col a{
