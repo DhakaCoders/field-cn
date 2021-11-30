@@ -299,7 +299,20 @@ $(".dft-fl-btn" ).each(function( index ) {
 
 /* start of Shariful*/
 
-  
+  if( $('.clubsTeamSlider').length ){
+    $('.clubsTeamSlider').slick({
+      dots: false,
+      arrows: true,
+      infinite: false,
+      autoplay: false,
+      autoplaySpeed: 4000,
+      speed: 700,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      prevArrow: $('.clubs-team-sec .fl-prev-next .fl-prev'),
+      nextArrow: $('.clubs-team-sec .fl-prev-next .fl-next'),
+    });
+  }
 
 
 

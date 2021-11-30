@@ -287,3 +287,93 @@
     margin-bottom: 25px;
 }
 
+
+
+
+
+.clubs-team-sec-inr{
+    display: flex;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.clubs-team-lft{
+    width: 65%;
+    padding-right: 20px;
+}
+.clubs-team-rgt{
+    width: 35%;
+    text-align: right;
+}
+
+
+.clubs-team-grds{
+    display: flex;
+    flex-wrap: wrap;
+}
+.clubs-team-grd{
+    width: 25%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+.clubs-team-grd-item{
+    position: relative;
+}
+
+.clubs-team-grd-des{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(0deg, rgba(16, 16, 16, 0.7), rgba(16, 16, 16, 0.7));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.clubs-team-grd-des-inr{
+    text-align: center;
+}
+
+.clubs-team-name-title{
+    margin-bottom: 0;
+}
+
+.clubs-team-grd-item:hover .clubs-team-grd-des{
+    opacity: 1;
+    visibility: visible;
+}
+
+.fl-prev-next{
+    margin-left: -22px;
+    margin-right: -22px;
+}
+.fl-prev,
+.fl-next{
+    padding-left: 22px;
+    padding-right: 22px;
+}
+.fl-prev i,
+.fl-next i{
+    cursor: pointer;
+}
+
+.fl-prev i:hover svg,
+.fl-next i:hover svg{
+    fill: #E63312;
+}
+
+.clubs-team-logo{
+    max-width: 70px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
