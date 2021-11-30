@@ -46,6 +46,17 @@
 }
 
 
+/* section entry header */
+.sec-entry-hdr{
+	max-width: 845px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+.sec-entry-hdr-title{
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
 
 /* common button */
 
