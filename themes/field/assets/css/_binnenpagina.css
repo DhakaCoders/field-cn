@@ -1,0 +1,39 @@
+.block-848{
+	max-width: 848px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.innerpage-con-wrap{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.default-page-con h1,
+.dfp-promo-module-title,
+.default-page-con h2,
+.default-page-con h3,
+.default-page-con h4,
+.default-page-con h5{
+	margin-bottom: 20px;
+	line-height: 1;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 600;
+}
+.dfp-promo-module-title {
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 52px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 600;
+    display: block;
+}
+.default-page-con p{
+	margin-bottom: 30px;
+}
+.dfp-plate-one-img-bx {
+    margin-bottom: 55px;
+}
+.dfp-plate-one-img-bx img{
+	width: 100%;
+}
