@@ -128,8 +128,33 @@
     padding-bottom: 12px;
 }
 
+.msnry-grd-item-inr{
+    position: relative;
+}
 .msnry-grd-item-des{
-    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(0deg, rgba(13, 21, 28, 0.75), rgba(13, 21, 28, 0.75));
+    display: flex;
+    align-items: flex-end;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.msnry-grd-item-inr:hover .msnry-grd-item-des{
+    opacity: 1;
+    visibility: visible;
+}
+
+.msnry-grd-item-des-inr{
+    padding-left: 50px;
+    padding-bottom: 25px;
+    padding-right: 20px;
 }
 
 .msnry-grd-item-img-ctlr{
@@ -160,11 +185,62 @@
     border: 1px solid #E63312;
 }
 
+.msnry-grd-des-title{
+    margin-bottom: 10px;
+    position: relative;
+}
+.msnry-grd-des-title:after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: 10px;
+    width: 10px;
+    border: 1px solid #E63312;
+}
+.msnry-grd-item-des-inr p{
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.msnry-grd-item-des-inr a{
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: baseline;
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 1;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+}
+
 
 
 
 .hm-grd-sec{
-    padding: 130px 0 110px;
+    padding: 230px 0 110px;
+    position: relative;
+}
+.hm-grd-sec:after{
+    content: "";
+    height: 5px;
+    background: rgba(125, 141, 152, 0.1);
+    width: 60%;
+    position: absolute;
+    right: 0;
+    top: 100px;
+}
+.hm-grd-rgt-sqr-box{
+    height: 650px;
+    width: 700px;
+    background: rgba(125, 141, 152, 0.05);
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 .hm-grd-sec-inr ul{
@@ -295,6 +371,8 @@
     display: flex;
     align-items: center;
     padding-bottom: 80px;
+    padding-top: 75px;
+    border-top: 2px solid rgba(125, 141, 152, 0.1);
 }
 .clubs-team-lft{
     width: 65%;
