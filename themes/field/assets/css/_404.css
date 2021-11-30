@@ -58,10 +58,21 @@
 	.page-404-cntent-cntlr .page-bedankt-cntent-img-inr{
 		height: 500px;
 	}
+	.page-404-xs-img{
+		max-width: 70px;
+		width: 100%;
+		bottom: -53px;
+	}
 }
 
 @media(max-width: 575px){
 	.page-404-cntent-cntlr .page-bedankt-cntent-img-inr{
 		height: 400px;
+	}
+}
+
+@media(max-width: 479px){
+	.page-404-cntent-cntlr .page-bedankt-cntent-img-inr{
+		height: 322px;
 	}
 }
