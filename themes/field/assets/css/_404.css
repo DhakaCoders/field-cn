@@ -1,0 +1,29 @@
+.page-404-cntent-cntlr .page-bedankt-cntent-img-cntlr{
+	height: 800px;
+}
+.page-404-cntent-rgt-img{
+	height: 100%;
+}
+.page-404-cntent-cntlr .page-bedankt-cntent-img-inr{
+	width: 49%;
+    order: 2;
+}
+.page-404-cntent-cntlr .page-bedankt-cntent-desc-inr{
+	width: 51%;
+}
+.page-404-cntent-cntlr .page-bedankt-cntent-desc-cntlr{
+	padding-right: 44px;
+}
+.page-404-cntent-cntlr .page-bedankt-cntent-desc-inr{
+	order: 1;
+	padding-left: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.page-404-cntent-cntlr .page-bedankt-cntent-desc-inr{
+	padding-left: 0;
+
+}
+.page-404-cntent-cntlr .page-bedankt-cntent-desc-cntlr i{
+	margin-bottom: 20px;
+}
