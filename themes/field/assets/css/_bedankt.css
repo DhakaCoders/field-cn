@@ -3,11 +3,11 @@
 	align-items: center;
 }
 .page-bedankt-cntent-cntlr{
-	padding-top: 254px;
+	padding-bottom: 105px;
 }
 .page-bedankt-cntent-lft-img-ctlr{
 	height: 600px;
-	width: 64%;
+	width: 83%;
 }
 .page-bedankt-cntent-img-inr {
     width: 43%;
@@ -23,7 +23,7 @@
 	height: 360px;
 	margin-left: auto;
 	margin-top: -310px;
-	width: 44%;
+	width: 40%;
 }
 .page-bedankt-cntent-rgt-img-ctlr .inline-bg{
 	background-position: initial!important;
