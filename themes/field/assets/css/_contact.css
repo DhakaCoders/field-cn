@@ -3,11 +3,11 @@
     flex-wrap: wrap;
 }
 .contact-form-lft {
-    width: 66%;
+    width: 71%;
     padding-right: 70px;
 }
 .contact-form-rgt {
-    width: 34%;
+    width: 29%;
 }
 .contact-form-sec-wrp {
     padding-bottom: 90px;
@@ -314,52 +314,59 @@ textarea {
     padding-bottom: 70px;
 }
 .contact-info-details-cntlr {
-    padding: 65px 45px;
-    background: #4F7F35;
+    padding: 45px 38px 58px;
+    background: #151617;
+}
+.contact-forn-con-cntlr {
+    padding-top: 40px;
 }
 .contact-form-info-title{
     text-transform: uppercase;
     color: #FFFFFF;
 
 }
-.cnt-tel.cnt-dtails a{
+.cnt-details-col{
+    position: relative;
+    margin-bottom: 30px;
+}
+.cnt-details-col:last-child{
+    margin-bottom: 0;
+}
+.cnt-tel.cnt-details-col a{
     font-weight: 300;
     font-size: 24px;
     color: #B2BCC2;
-    padding-right: 35px;
+    padding-left: 35px;
     position: relative;
+}
+.cnt-tel.cnt-details-col a i {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+.cnt-tel.cnt-details-col {
+    padding-bottom: 36px;
+    border-bottom: 1px solid #7D8C98;
+    margin-bottom: 41px;
 }
 .cnt-details-col span,
 .cnt-details-col a{
-    color: #ffffff;
     font-size: 18px;
-    line-height: 1.3;
+    line-height: 1.5;
+    color: #B2BCC2;
     display: inline-block;
     vertical-align: baseline;
-    text-decoration: underline;
-}
-.cnt-details-col span{
     text-decoration: none;
 }
 .cnt-details-col a:hover{
-    color: #F4A301;
-    text-decoration: none;
+    color: #Ffffff;
 }
 .cnt-addrs.cnt-details-col span{
     display: block;
-}
-.cnt-addrs.cnt-details-col {
-    margin-bottom: 20px;
-}
-.cnt-fax.cnt-details-col,
-.cnt-tel.cnt-details-col {
-    margin-bottom: 15px;
-}
-.cnt-social a i{
-    display: inline-block;
-}
-.cnt-social a i svg.cnt-linkedin-icon:hover{
-    fill: #36D56B;
 }
 .wpforms-container .wpforms-field-description{
     margin-top: 0!important;
