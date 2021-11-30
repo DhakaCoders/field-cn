@@ -252,3 +252,38 @@
     z-index: 2;
     height: 350px;
 }
+
+
+
+
+.cta-sec{
+    padding: 110px 0;
+}
+
+.cta-module-2 .cta-ctlr{
+   max-width: 1000px; 
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+} 
+.cta-module{
+   display: flex;
+   align-items: center;
+}
+.cta-module-2 .cta-module-des-ctlr{
+    width: 60%;
+    padding-right: 20px;
+    order: 1;
+}
+.cta-module-2 .cta-module-img-ctlr{
+    width: 40%;
+    order: 2;
+}
+
+.cta-module-des-title{
+    margin-bottom: 25px;
+}
+.cta-module-des p{
+    margin-bottom: 25px;
+}
+
