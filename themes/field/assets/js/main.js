@@ -307,7 +307,26 @@ if( $('.wpforms-error').length ){
 $('fld-club-catg-select-cntlr select').select2();
 $('.fld-select-2-cntlr').select2();
 
+if( $('.category-box-cntlr').length ){
+  $('.category-box-cntlr').on('click', function() {
+  $('.category-item-cntlr').toggle("slow");
+  });
+}
 
+
+// if( $('.category-box-cntlr').length ){
+//   $('.category-box-cntlr').on('click', function() {
+//   $(this).fadeToggle("slow");
+//   $(this).addClass('show-after-click');
+//   });
+// }
+
+
+// if( $('.category-box-cntlr-copy').length ){
+//   $('.category-box-cntlr-copy').on('click', function() {
+//   $('.category-item-cntlr-copy').fadeToggle("slow");
+//   });
+// }
 
 
 /* start of Shariful*/
