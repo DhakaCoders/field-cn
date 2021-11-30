@@ -199,7 +199,16 @@
 }
 
 
+.process-sec{
+    position: relative;
+}
 
+.process-img-ctlr{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+}
 
 .process-sec-inr{
     display: flex;
@@ -215,10 +224,7 @@
     padding-left: 40px;
 }
 
-.process-img-ctlr{
-    position: relative;
-    margin-left: -100px;
-}
+
 
 .process-lft-img{
     padding-right: 150px;
