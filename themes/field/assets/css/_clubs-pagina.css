@@ -266,6 +266,9 @@ strong.active{
 	    top: 0;
 	    margin-top: 10px;
 	}
+	.fld-team-grid-item-img-cntlr {
+	    height: 270px;
+	}
 }
 @media (max-width: 479px){
 	.fld-team-grid-item:after {
@@ -280,11 +283,16 @@ strong.active{
 	.fld-team-grid-items-cntlr ul li {
 	    max-width: 100%;
 	}
+	.team-grid-dscrptn-title{
+		font-size: 28px;
+	}
 }
+
 @media (max-width: 359px){
 	.fld-club-catg-select-cntlr {
 	    width: 100%;
 	    max-width: 280px;
 	    margin: 0 auto;
 	}
+
 }
