@@ -311,6 +311,20 @@ $('.fld-select-2-cntlr').select2();
 
 
 /* start of Shariful*/
+  
+  /*if( $('.hmBnrSlider').length ){
+    $('.hmBnrSlider').slick({
+      dots: true,
+      arrows: false,
+      infinite: false,
+      autoplay: false,
+      autoplaySpeed: 4000,
+      speed: 700,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    });
+  }*/
+
 
   if( $('.clubsTeamSlider').length ){
     $('.clubsTeamSlider').slick({
