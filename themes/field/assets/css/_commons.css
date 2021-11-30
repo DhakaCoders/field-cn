@@ -125,7 +125,8 @@ Containers
 	
 }
 .container-lg{
-
+	max-width: 1530px;
+	width: 100%;
 }
 .container{
 	max-width: 1200px;
