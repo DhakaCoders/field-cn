@@ -61,11 +61,11 @@
     border: 1px solid #4F4B34!important;
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field label{
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 18px;
     line-height: 1.3;
     margin-bottom: 10px;
-    color: #4F4B34;
+    color: #FFFFFF;
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field label.wpforms-field-label-inline{
     padding-left: 16px!important;
@@ -84,32 +84,39 @@
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button {
     display: inline-block;
     vertical-align: baseline;
-    max-width: 303px;
-    width: 100%;
-    position: relative;
+    min-width: 177px;
     color: #fff;
-    font-size: 16px;
-    font-family: 'Libre Franklin', sans-serif;
+    background: #E63312;
+    font-size: 19px;
     line-height: 1.1;
     text-align: center;
-    padding: 19.5px 20px;
-    letter-spacing: 0.04em;
+    padding: 15px 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    border: 2px solid #E63312;
+    position: relative;
     text-transform: uppercase;
-    font-weight: 700;
-    border: 2px solid #F4A301;
     z-index: 2;
-    background: #F4A301;
-    cursor: pointer!important;
-    border-radius: 8px;
+    cursor: pointer!important;    
 }
-.contact-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button:hover {
-    background: transparent!important;
-    color: #F4A301!important;
-    border-color: #F4A301!important;
-    border-width: 2px!important;
+.contact-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button:after{
+    content: "";
+    position: absolute;
+    top: -2px;
+    right: -32px;
+    border-top: 55px solid #E63312;
+    border-right: 30px solid transparent;
+    -webkit-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
 }
-.wpforms-submit-container {
-    padding-top: 15px;
+.contact-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button:hover{
+    background: #fff!important;
+    border-color: #fff!important;
+    color: #E63312!important;
+}
+.contact-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button:hover:after{
+    border-top-color: #fff;
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container:after, 
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container:before {
@@ -236,7 +243,7 @@ textarea {
 
 .wpforms-field-description{
     position: relative;
-    padding: 38px 15px 10px 20px;
+    padding: 24px 15px 4px 20px;
     font-size:  16px;
 }
 .wpforms-field-description input[type="checkbox"]{
@@ -245,7 +252,7 @@ textarea {
   cursor: pointer;
   left: 0;
   right: 0;
-  top: 41px;
+  top: 28px;
   bottom: 0;
   height: 18px!important;
   width: 18px!important;
@@ -253,7 +260,7 @@ textarea {
 }
 .wpforms-field-description span.checkmark{
   position: absolute;
-  top: 41px;
+  top: 28px;
   left: 0;
   height: 18px;
   width: 18px;
