@@ -316,6 +316,7 @@ textarea {
 .contact-info-details-cntlr {
     padding: 45px 38px 58px;
     background: #151617;
+    border-bottom: 11px solid #E63312;
 }
 .contact-forn-con-cntlr {
     padding-top: 40px;
