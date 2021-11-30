@@ -15,6 +15,7 @@
 .page-bedankt-cntent-desc-inr {
     width: 57%;
     padding-left: 90px;
+    padding-right: 15px;
 }
 .page-bedankt-cntent-lft-img{
 	height: 100%;
@@ -24,6 +25,12 @@
 	margin-left: auto;
 	margin-top: -310px;
 	width: 40%;
+	position: relative;
+}
+.page-bedankt-xs-img{
+	position: absolute;
+    bottom: 96%;
+    right: -10px;
 }
 .page-bedankt-cntent-rgt-img-ctlr .inline-bg{
 	background-position: initial!important;
@@ -98,5 +105,53 @@
 	}
 	.page-bedankt-cntent-desc-cntlr i img{
 		max-width: 55px;
+	}
+}
+@media(max-width: 767px){
+	.page-bedankt-cntent-cntlr{
+		padding-bottom: 50px;	
+	}
+	.page-bedankt-cntent-inr{
+		display: block;
+		padding: 0 20px;
+	}
+	.page-bedankt-cntent-img-cntlr{
+		width: 100%;
+		padding-bottom: 35px;
+	}
+	.page-bedankt-cntent-desc-inr{
+		width: 100%;
+	}
+	.page-bedankt-con-desc-title{
+		margin-bottom: 30px;
+	}
+	.page-bedankt-cntent-rgt-img-ctlr{
+		width: 40%;
+	    margin-top: -230px;
+	    height: 260px;
+	}
+}
+@media(max-width: 575px){
+	.page-bedankt-cntent-cntlr{
+		padding-bottom: 50px;
+	}
+	.page-bedankt-cntent-rgt-img-ctlr{
+		width: 58%;
+	    margin-top: -260px;
+	    height: 293px;
+	}
+	.page-bedankt-cntent-lft-img-ctlr{
+		height: 420px;
+	}
+}
+@media(max-width: 379px){
+	.page-bedankt-cntent-lft-img-ctlr {
+	    width: 80%;
+	    height: 300px;
+	}
+	.page-bedankt-cntent-rgt-img-ctlr{
+		width: 60%;
+	    margin-top: -175px;
+	    height: 200px;
 	}
 }
