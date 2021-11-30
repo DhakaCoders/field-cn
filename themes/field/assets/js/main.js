@@ -310,7 +310,7 @@ $('.fld-select-2-cntlr').select2();
 if( $('.category-box-cntlr').length ){
   $('.category-box-cntlr').on('click', function() {
   $('.category-item-cntlr').toggle("slow");
-  $('.category-box-cntlr .xs-category-item-title').toggleClass('rotate-to-up-arrow');
+  $('.category-box-cntlr .xs-category-item-title').toggleClass('rotate-180d');
   });
 }
 

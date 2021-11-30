@@ -256,7 +256,7 @@ strong.active{
 	}
 	/*if you want to rotate icon without any problem when it will position at the inner of i tag ,
 	 then sure you need to rotate(img)tag not directly i tag  !!*/
-	.rotate-to-up-arrow i img{
+	.rotate-180d i img{
 		transform: rotate(-180deg);
 		-webkit-transform: rotate(-180deg);
 		-moz-transform: rotate(-180deg);
