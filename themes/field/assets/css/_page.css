@@ -91,9 +91,9 @@
 	content: "";
 	position: absolute;
 	top: -2px;
-	right: -2px;
-	border-bottom: 55px solid #E63312;
-    border-left: 30px solid transparent;
+	right: -32px;
+	border-top: 55px solid #E63312;
+    border-right: 30px solid transparent;
 }
 .fl-btn.fl-transparent-btn{
 	background: transparent;
