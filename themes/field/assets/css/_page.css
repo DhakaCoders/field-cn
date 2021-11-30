@@ -116,6 +116,29 @@
 	border-color: #E63312;
 	color: #fff;
 }
+.fl-text-btn{
+	font-size: 16px;
+	line-height: 1.75;
+	font-weight: 700;
+	color: #E63312!important;
+	padding-right: 25px;
+	position: relative;
+}
+.fl-text-btn i{
+	position: absolute;
+	right: 0;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	margin-top: 0;
+	-webkit-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.fl-text-btn:hover i{
+	margin-right: -5px;
+}
 
 .select2-container--default .select2-selection--single {
      background-color: #101010; 
