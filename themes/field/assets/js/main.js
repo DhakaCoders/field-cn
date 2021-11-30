@@ -292,7 +292,8 @@ $(".dft-fl-btn" ).each(function( index ) {
 
 /* start of Jahir*/
 
-
+$('fld-club-catg-select-cntlr select').select2();
+$('.fld-select-2-cntlr').select2();
 
 
 
