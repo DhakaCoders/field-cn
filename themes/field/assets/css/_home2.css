@@ -287,3 +287,20 @@
     margin-bottom: 25px;
 }
 
+
+
+
+
+.clubs-team-sec-inr{
+    display: flex;
+    align-items: center;
+}
+.clubs-team-lft{
+    width: 75%;
+    padding-right: 20px;
+}
+.clubs-team-rgt{
+    width: 25%;
+    margin-left: auto;
+}
+
