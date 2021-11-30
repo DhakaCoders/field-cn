@@ -94,10 +94,26 @@
 	right: -32px;
 	border-top: 55px solid #E63312;
     border-right: 30px solid transparent;
+    -webkit-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.fl-btn.fl-btn-angel:hover{
+	background: #fff;
+	border-color: #fff;
+	color: #E63312;
+}
+.fl-btn.fl-btn-angel:hover:after{
+	border-top-color: #fff;
 }
 .fl-btn.fl-transparent-btn{
 	background: transparent;
 	border-color: #7D8C98;
 	color: #7D8C98;
+}
+.fl-btn.fl-transparent-btn:hover{
+	background: #E63312;
+	border-color: #E63312;
+	color: #fff;
 }
 
