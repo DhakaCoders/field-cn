@@ -9,7 +9,7 @@
 	height: 600px;
 	width: 83%;
 }
-.page-bedankt-cntent-img-inr {
+.page-bedankt-cntent-img-cntlr{
     width: 43%;
 }
 .page-bedankt-cntent-desc-inr {
@@ -51,9 +51,9 @@
 
 @media(max-width: 1499px){
 	.page-bedankt-cntent-rgt-img-ctlr{
-		height: 330px;
-		margin-top: -280px;
-		width: 45%;
+		height: 310px;
+	    margin-top: -280px;
+	    width: 50%;
 	}
 }
 @media(max-width: 1199px){
