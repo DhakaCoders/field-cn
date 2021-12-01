@@ -4,7 +4,6 @@
 }
 .hm-banner{
 	position: relative;
-	overflow: hidden;
 }
 .hm-banner-bg-black {
     position: absolute;
@@ -97,7 +96,12 @@
     bottom: 0;
     left: 20px;
     z-index: 9;
-    margin-bottom: -90px;
+    margin-bottom: -60px;
+}
+
+.hm-bnr-icon img{
+    max-width: 80px;
+    width: 100%;
 }
 
 
@@ -225,6 +229,10 @@
     margin-bottom: 10px;
     position: relative;
 }
+.msnry-grd-des-title a{
+    text-decoration: none;
+    color: #fff;
+}
 .msnry-grd-des-title:after{
     content: "";
     position: absolute;
@@ -242,7 +250,7 @@
     color: #fff;
 }
 
-.msnry-grd-item-des-inr a{
+.msnry-grd-item-des-inr > a{
     text-decoration: none;
     display: inline-block;
     vertical-align: baseline;
@@ -409,8 +417,10 @@
 
 
 
-.cta-sec{
-    padding: 110px 0;
+.cta-module-2 .cta-module{
+    border-bottom: none;
+    background: transparent;
+    padding: 100px 70px;
 }
 
 .cta-module-2{
@@ -450,10 +460,28 @@
 .cta-module-des-title{
     margin-bottom: 25px;
 }
-.cta-module-des p{
-    margin-bottom: 25px;
+.cta-module-2 .cta-module-des p{
+    margin-bottom: 25px!important;
 }
 
+.cta-module{
+    padding: 70px 70px;
+    border-bottom: 11px solid #E63312;
+    background: #151617;
+}
+
+.cta-module-des-ctlr{
+    width: 60%;
+    padding-right: 20px;
+}
+
+.cta-btn-ctlr{
+    width: 40%;
+    text-align: right;
+}
+.cta-module-des p:last-of-type{
+    margin-bottom: 0;
+}
 
 
 
@@ -515,11 +543,20 @@
 
 .clubs-team-grd-des-inr{
     text-align: center;
+    position: relative;
+    z-index: 11;
 }
 
 .clubs-team-name-title{
     margin-bottom: 0;
     font-size: 25px;
+}
+.clubs-team-name-title a{
+    color: #fff;
+    text-decoration: none;
+}
+.clubs-team-name-title a:hover{
+    color: #E63312;
 }
 
 .clubs-team-grd-item:hover .clubs-team-grd-des{
