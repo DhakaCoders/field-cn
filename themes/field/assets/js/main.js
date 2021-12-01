@@ -381,7 +381,49 @@ if( $('.category-box-cntlr').length ){
       }).masonry('layout');
     };
 
+    /* start of niaz*/
 
+
+  if( $('.clubCollectionSlider').length ){
+      $('.clubCollectionSlider').slick({
+        dots: false,
+        arrows:false,
+        infinite: true,
+        autoplay: false,
+        autoplaySpeed: 4000,
+        speed: 700,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        dots: true,
+        responsive: [
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 700,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 576,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              dots: true
+            }
+          }
+        ]
+      });
+  }
 
 
 
