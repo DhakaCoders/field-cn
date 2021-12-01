@@ -53,3 +53,22 @@
 .club-pagina-details-con-ctlr .page-bnr-subtitle{
 	text-transform: initial;
 }
+
+
+.customer-service-sec{
+	padding-top: 90px;
+}
+
+.customer-service-sec-inr{
+	display: flex;
+	align-items: flex-end;
+}
+.customer-service-lft{
+	width: 50%;
+	padding-right: 20px;
+}
+
+.customer-service-rgt{
+	width: 50%;
+	text-align: right;
+}
