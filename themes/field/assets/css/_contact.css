@@ -303,7 +303,7 @@ textarea {
     font-weight: 400;
 }
 .wpforms-field-description label a:hover{
-    color: #Ffffff;
+    color: #E63312;
     text-decoration: none;
 }
 .cnt-sec-entry-hdr-title{
@@ -364,7 +364,7 @@ textarea {
     text-decoration: none;
 }
 .cnt-details-col a:hover{
-    color: #Ffffff;
+    color: #E63312;
 }
 .cnt-addrs.cnt-details-col span{
     display: block;
