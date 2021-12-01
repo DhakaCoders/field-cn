@@ -398,6 +398,23 @@ if( $('.category-box-cntlr').length ){
       $('.customer-service-slider-ctlr').css('padding-left', lftOffSet);
     });
 
+    if( $('.customerServiceSlider').length ){
+      $('.customerServiceSlider').slick({
+        dots: false,
+        arrows: true,
+        infinite: false,
+        autoplay: false,
+        autoplaySpeed: 4000,
+        speed: 700,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        prevArrow: $('.customer-service-sec .fl-prev-next .fl-prev'),
+        nextArrow: $('.customer-service-sec .fl-prev-next .fl-next'),
+      });
+    }
+
+
+
     /* start of niaz*/
 
 
