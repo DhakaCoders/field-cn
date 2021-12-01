@@ -345,7 +345,17 @@
     margin-bottom: 35px;
 }
 
-
+.process-sec{
+    position: relative;
+}
+.process-rgt-pos-img{
+    position: absolute;
+    top: -80px;
+    right: 10px;
+}
+.process-rgt-pos-img img{
+    max-width: 100px;
+}
 .process-sec-inr{
     display: flex;
     align-items: center;
