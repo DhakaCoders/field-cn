@@ -326,3 +326,65 @@ ul.select2-results__options li {
 	margin-right: auto;
 	padding-bottom: 35px;
 }
+
+
+/*xs-page-entry-menu*/
+.xs-page-entry-menu{
+	margin-bottom: 40px;
+}
+.xs-page-entry-menu ul{
+
+}
+.xs-page-entry-menu > ul > li {
+    background: #101010;
+    position: relative;
+    line-height: 1;
+    border: 1px solid#2b2f32;
+}
+.xs-page-entry-menu > ul > li a {
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    font-size: 16px;
+    /* line-height: 1; */
+    letter-spacing: -0.02em;
+    color: #fff;
+    padding: 15px 20px 15px;
+    text-transform: capitalize;
+}
+.xs-page-entry-menu > ul > li > a{
+	position: relative;
+}
+.xs-page-entry-menu > ul > li > a:after{
+	position: absolute;
+	content: "";
+	top: 23px;
+	right: 23px;
+	background-image: url('../images/next-icon.svg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	width: 14px;
+	height: 14px;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.xs-page-entry-menu > ul > li.active > a:after{
+	transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+}
+.xs-page-entry-menu > ul > li > ul.page-entry-sub-menu {
+    position: absolute;
+    background: #7d8d98;
+    box-shadow: -10px 10px 30px rgba(68, 68, 65, 0.1);
+    left: 0;
+    top: 100%;
+    right: 0;
+    z-index: 111;
+    padding-top: 10px;
+    padding-bottom: 14px;
+    display: none;
+}
