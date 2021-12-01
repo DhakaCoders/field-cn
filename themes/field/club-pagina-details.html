@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Club Pagina Details</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme-color" content="#E63312">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <!--   <?php $favicon = get_theme_mod('favicon'); if(!empty($favicon)) { ?> 
+  <link rel="shortcut icon" href="<?php echo $favicon; ?>" />
+  <?php } ?> -->
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome/font-awesome.css">
+  
+  <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+  <link rel="stylesheet" type="text/css" href="assets/fancybox3/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/slick.slider/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="assets/slick.slider/slick.css">
+  <link rel="stylesheet" type="text/css" href="assets/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/select2/select2.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/flatpickr/flatpickr.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/fonts/custom-fonts.css">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->	
+
+  <svg style="display: none;">
+
+    <!-- <svg class="id-name" width="16" height="16" viewBox="0 0 16 16" fill="#FF5C26">
+      <use xlink:href="#id-name"></use> </svg> -->
+    <symbol id="square-red-icon" width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M10.0148 9.3667H0V0H10.0148V9.3667ZM1.13216 8.24981H8.89081V1.11688H1.13216V8.24981Z" fill="#E63312"/>
+    </symbol>
+    <symbol id="right-arrow-white-icon" width="33" height="18" viewBox="0 0 33 18" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1.56855 10.4905H27.8831L22.9531 15.413C21.537 16.8268 23.6612 18.9476 25.0772 17.5337L29.5671 13.0438L32.5643 10.0464C33.1452 9.463 33.1452 8.5207 32.5643 7.93725L25.0772 0.452911C24.7924 0.160647 24.4003 -0.00334025 23.9918 5.15908e-05C22.6433 0.000221183 21.9815 1.64018 22.9531 2.57384L27.8948 7.49629H1.49101C-0.585803 7.59918 -0.430736 10.5937 1.56855 10.4905Z"/>
+    </symbol>
+
+
+    <!-- start of Noyon -->
+
+
+
+    <!-- start of Kashob -->
+    <symbol id="cntct-tel-icon" width="18" height="30" viewBox="0 0 18 30" xmlns="http://www.w3.org/2000/svg">
+      <path d="M15 0H3C1.34643 0 0 1.34643 0 3V27C0 28.6548 1.34643 30 3 30H15C16.6548 30 18 28.6548 18 27V3C18 1.34643 16.6548 0 15 0ZM16.8 27C16.8 27.9924 15.9924 28.8 15 28.8H3C2.0076 28.8 1.2 27.9924 1.2 27V3C1.2 2.0076 2.0076 1.2 3 1.2H15C15.9924 1.2 16.8 2.0076 16.8 3V27Z"/>
+      <path d="M10.2012 2.40001H7.80117C7.46994 2.40001 7.20117 2.66884 7.20117 3.00001C7.20117 3.33118 7.47 3.60001 7.80117 3.60001H10.2012C10.5323 3.60001 10.8012 3.33118 10.8012 3.00001C10.8012 2.66884 10.5323 2.40001 10.2012 2.40001Z"/>
+      <path d="M9.0004 26.4C8.66922 26.4 8.40039 26.6688 8.40039 27C8.40039 27.3312 8.66922 27.6 9.0004 27.6C9.33157 27.6 9.6004 27.3312 9.6004 27C9.6004 26.6688 9.33157 26.4 9.0004 26.4Z"/>
+      <path d="M17.4 4.8H0.6C0.268769 4.8 0 5.06883 0 5.4C0 5.73123 0.268769 6 0.6 6H17.4C17.7312 6 18 5.73117 18 5.4C18 5.06883 17.7312 4.8 17.4 4.8Z"/>
+      <path d="M17.4 24H0.6C0.268769 24 0 24.2688 0 24.6C0 24.9312 0.268769 25.2 0.6 25.2H17.4C17.7312 25.2 18 24.9312 18 24.6C18 24.2688 17.7312 24 17.4 24Z"/>         
+    </symbol>
+
+    <symbol id="btn-right-arrow" width="16" height="9" viewBox="0 0 16 9" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0.760508 5.09412H13.5191L11.1288 7.48443C10.4422 8.171 11.4721 9.20083 12.1587 8.51425L14.3356 6.33397L15.7888 4.87849C16.0704 4.59517 16.0704 4.13759 15.7888 3.85427L12.1587 0.21993C12.0206 0.0780093 11.8304 -0.001622 11.6324 2.50521e-05C10.9786 0.000107405 10.6577 0.796462 11.1288 1.24984L13.5247 3.64015H0.722916C-0.284026 3.69011 -0.208842 5.14425 0.760508 5.09412Z"/>
+    </symbol>
+
+
+    <!-- start of Momin -->
+
+
+
+    <!-- start of Jahir -->
+
+
+
+    <!-- start of Shariful -->
+
+    <symbol id="user-icon-svg" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg">
+      <path d="M8.87541 6.75964C9.55359 6.04844 9.97164 5.08693 9.97164 4.02828C9.97164 1.84772 8.20978 0 6.0094 0C3.82553 0 1.98112 1.84441 1.98112 4.02828C1.98112 5.05451 2.38331 6.02327 3.11367 6.76757C1.30228 7.78322 0 9.73264 0 12.0189V13.0094C0 13.5562 0.4438 14 0.990559 14H10.9623C11.509 14 11.9528 13.5562 11.9528 13.0094V12.0189C11.9528 9.77755 10.72 7.79775 8.87541 6.75964ZM6.0094 1.98119C7.08317 1.98119 7.99052 2.91891 7.99052 4.02835C7.99052 5.12062 7.10166 6.00947 6.0094 6.00947C4.89996 6.00947 3.96224 5.10212 3.96224 4.02835C3.96224 2.93807 4.91912 1.98119 6.0094 1.98119ZM1.98112 12.0189C1.98112 9.83501 3.82553 7.99059 6.0094 7.99059C8.19393 7.99059 9.97164 9.79736 9.97164 12.0189H1.98112Z"/>
+    </symbol>
+
+    <symbol id="slider-lft-arrow-svg" width="44" height="24" viewBox="0 0 44 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M41.8444 13.9873H6.8122L13.3754 20.5506C15.2606 22.4358 12.4328 25.2635 10.5476 23.3783L4.57026 17.3917L0.580097 13.3953C-0.193233 12.6173 -0.193233 11.3609 0.580097 10.583L10.5476 0.603881C10.9268 0.214196 11.4488 -0.00445366 11.9926 6.87877e-05C13.7879 0.00029491 14.6689 2.18691 13.3754 3.43179L6.79662 9.99506H41.9476C44.7125 10.1322 44.5061 14.125 41.8444 13.9873Z" fill-opacity="0.32"/>
+    </symbol>
+
+    <symbol id="slider-rgt-arrow-svg" width="44" height="24" viewBox="0 0 44 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M2.08819 13.9873H37.1204L30.5572 20.5506C28.672 22.4358 31.4998 25.2635 33.385 23.3783L39.3624 17.3917L43.3525 13.3953C44.1259 12.6173 44.1259 11.3609 43.3525 10.583L33.385 0.603881C33.0058 0.214196 32.4838 -0.00445366 31.94 6.87877e-05C30.1447 0.00029491 29.2637 2.18691 30.5572 3.43179L37.136 9.99506H1.98497C-0.779873 10.1322 -0.573434 14.125 2.08819 13.9873Z" fill-opacity="0.32"/>
+    </symbol>
+
+
+
+
+  </svg>
+
+</head>
+<body>
+
+<div class="page-body-cntlr">
+  <header class="header">
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="header-inr clearfix">
+              <div class="hdr-lft">
+                <div class="logo">
+                  <a href="#"><img src="assets/images/logo.png"></a>
+                </div>
+              </div>
+              <div class="hdr-rgt">
+                <div class="hdr-top-menu">
+                  <div class="hdr-account">
+                    <a href="#">Mijn account
+                      <i>
+                        <svg class="user-icon-svg" width="12" height="14" viewBox="0 0 12 14" fill="#7D8D98">
+                          <use xlink:href="#user-icon-svg"></use> 
+                        </svg>
+                      </i>
+                    </a>
+                  </div>
+                  <div class="hdr-social-media">
+                    <ul class="reset-list">
+                      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                  </div>
+                  <div class="hdr-lang-cntlr">
+                    <div class="hdr-lang">
+                      <ul class="reset-list">
+                        <li class="active"><a href="#">NL</a></li>
+                        <li><a href="#">EN</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="hdr-main-menu">
+                  <nav class="main-nav">
+                    <ul class="clearfix reset-list">
+                      <li class="current-menu-item"><a href="#">Home</a></li>
+                      <li class="menu-item-has-children">
+                        <a href="#">Clubs</a>
+                        <ul class="sub-menu">
+                          <li><a href="#">submenu 1</a></li>
+                          <li><a href="#">submenu 2</a></li>
+                          <li><a href="#">submenu 3</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">FAQ</a></li>
+                      <li><a href="#">Over FiELD</a></li>
+                      <li><a href="#">Contact</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </header>
+
+
+  <!-- end of Header -->
+
+  <div class="club-pagina-details-con-ctlr">
+    <section class="breadcrumb-sec hide-sm">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="breadcrumb-cntlr">
+              <ul class="reset-list clearfix">
+                <li>
+                  <a href="#">
+                    <span>Home</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span>Binnenpagina</span>
+                  </a>
+                </li>
+                <li class="active">
+                  <span>Binnenpagina</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-banner">
+      <div class="page-banner-bg inline-bg" style="background-image: url(assets/images/page-bnr-img-01.jpg);"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="page-bnr-des-ctlr">
+              <div class="page-bnr-des">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+
+
+    
+
+       
+  </div>
+
+
+
+
+
+  <footer class="footer-wrp">
+    <div class="ftr-top-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="ftr-top">
+              <div class="ftr-top-col ftr-top-col-1">
+                <div class="ftr-logo">
+                  <a href="#"><img src="assets/images/ftr-logo.svg" alt=""></a>
+                </div>
+                <div class="ftr-socials">
+                  <ul class="reset-list">
+                    <li>
+                      <a target="_blank" href="#">
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a target="_blank" href="#">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </li>
+                    
+                  </ul>
+                </div>
+              </div>
+              
+              <div class="ftr-top-col ftr-top-col-2">
+                <h6 class="ftr-col-title fl-h6">Navigatie</h6>
+                <div class="ftr-col-menu">
+                  <ul class="reset-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Clubs</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Over FiELD</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="ftr-top-col ftr-top-col-3">
+                <h6 class="ftr-col-title fl-h6">Account</h6>
+                <div class="ftr-col-menu">
+                  <ul class="reset-list">
+                    <li><a href="#">Mijn Account</a></li>
+                    <li><a href="#">Verzending</a></li>
+                    <li><a href="#">Retourneren</a></li>
+                    <li><a href="#">Voorwaarden</a></li>
+                    <li><a href="#">Privacybeleid</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="ftr-top-col ftr-top-col-4">
+                <h6 class="ftr-col-title fl-h6">Contact</h6>
+                <div class="ftr-col-desc">
+                  <div class="ftr-col-tel">
+                    <a href="tel:(+32)0485001699">(+32) 0485001699</a>
+                  </div>
+                  <div class="ftr-col-mail">
+                    <a href="mailto:info@field-sportswear.com">info@field-sportswear.com</a>
+                  </div>
+                  <div class="ftr-col-btw">
+                    <span>BTW:</span>
+                    <strong>BE 000 0000</strong>
+                  </div>
+                  <div class="ftr-col-address">
+                    <a href="#">
+                      Burg. Maenhautstraat 64<br>
+                      9820 Merelbeke, Belgium
+                    </a>
+                  </div>
+                  <div class="ftr-angle-btn">
+                    <a href="#">Afspraak maken</a>
+                  </div>
+                </div>
+              </div>
+              <div class="ftr-top-col ftr-top-col-5">
+                <h6 class="ftr-col-title fl-h6">Nieuwsbrief</h6>
+                <div class="ftr-newsletter">
+                  <form>
+                    <input type="email" name="" placeholder="E-mailadres">
+                    <div class="ftr-newsletter-btn">
+                      <button>
+                        <i>
+                          <svg class="square-red-icon" width="11" height="10" viewBox="0 0 11 10" fill="#E63312">
+                            <use xlink:href="#square-red-icon"></use> 
+                          </svg>
+                        </i>
+                        Inschrijven
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+
+    <div class="ftr-btm-wrap">
+      <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="ftr-btm-cntlr">
+            <div class="ftr-copyright">
+              <p>&copy; Copyright 2021 FiELD. All Rights Reserved.</p>
+            </div>
+            <div class="ftr-developed-by">
+              <p>Website ontwerp door <a target="_blank" href="#">Conversal</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div> 
+    </div> 
+  </footer>  
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.0.0.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+<script src="assets/fancybox3/dist/jquery.fancybox.min.js"></script>
+<script src="assets/slick.slider/slick.js"></script>
+<script src="assets/swiper/swiper-bundle.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBaRQsAJCZyyD6MbCg0jB_0sdLGEOxt97Y"></script>
+<script src="assets/js/jquery.matchHeight-min.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/select2/select2.min.js"></script>
+<script src="assets/flatpickr/flatpickr.js"></script>
+<script src="assets/js/masonry.pkgd.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
+
+
+
+
