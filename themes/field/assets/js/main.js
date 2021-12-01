@@ -403,7 +403,7 @@ if( $('.category-box-cntlr').length ){
 
   if( $('.clubCollectionSlider').length ){
       $('.clubCollectionSlider').slick({
-        dots: false,
+        dots: true,
         arrows:false,
         infinite: true,
         autoplay: false,
