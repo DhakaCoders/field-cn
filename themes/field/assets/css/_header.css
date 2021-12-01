@@ -335,3 +335,12 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu > li:hover:after {
 nav.main-nav > ul > li.menu-item-has-children:hover a{
     color: #7D8D98;
 }
+
+
+
+
+@media(max-width: 767px){
+	.hdr-rgt{
+		display: none;
+	}
+}

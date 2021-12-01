@@ -98,6 +98,7 @@
 <body>
 
 <div class="page-body-cntlr">
+  <div class="bdoverlay"></div>
   <header class="header">
     <div class="container">
         <div class="row">
@@ -134,7 +135,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="hdr-main-menu">
+                <div class="hdr-main-menu hide-sm">
                   <nav class="main-nav">
                     <ul class="clearfix reset-list">
                       <li class="current-menu-item"><a href="#">Home</a></li>
@@ -152,12 +153,54 @@
                     </ul>
                   </nav>
                 </div>
+                <div class="hamburgar-cntlr show-sm">
+                  <div class="hamburger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
     </div>
   </header>
+
+  <div class="xs-mobile-menu d-none">
+    <div class="xs-pop-up-menu-top">
+      <div class="logo">
+        <a href="#"><img src="assets/images/logo.png"></a>
+      </div>
+    </div>
+    <div class="xs-menu">
+      <div class="hdr-menu">
+        <nav class="main-nav">
+          <ul class="clearfix reset-list">
+            <li class="current-menu-item"><a href="#">Home</a></li>
+            <li class="menu-item-has-children">
+              <a href="#">Clubs</a>
+              <ul class="sub-menu">
+                <li><a href="#">submenu 1</a></li>
+                <li><a href="#">submenu 2</a></li>
+                <li><a href="#">submenu 3</a></li>
+              </ul>
+            </li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Over FiELD</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="xs-hdr-social-media">
+        <div class="hdr-social-media">
+          <ul class="reset-list">
+            <li><a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a target="_blank" href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
   <!-- end of Header -->
