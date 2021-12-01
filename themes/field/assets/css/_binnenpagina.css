@@ -270,3 +270,19 @@ hr {
 	padding-left: 12px;
 	padding-right: 12px;
 }
+
+
+
+/*extra*/
+.dfp-field-fag-cntlr .field-fag ul{
+	padding: 0!important;
+}
+.dfp-field-fag-cntlr .field-fag ul li{
+	padding: 0!important;
+}
+.dfp-field-fag-cntlr .field-fag-title{
+	margin-bottom: 58px!important;
+}
+.dfp-field-fag-cntlr{
+	padding-bottom: 15px;
+}

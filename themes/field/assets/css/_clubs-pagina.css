@@ -23,7 +23,7 @@
 	list-style: none;
 	margin-bottom: 10px;
 }
-strong.active{
+.fld-catagories-cntlr ul li.active .fld-catg-item strong{
 	color: #E63312!important;
 }
 .fld-catg-item{
@@ -50,6 +50,10 @@ strong.active{
 .fld-catg-item i{
 	margin-bottom: 5px;
 	align-items: center;
+}
+.fld-catg-item i img{
+	max-height: 56px;
+	width: auto;
 }
 .fld-team-grid-items-sec{
 	padding-bottom: 80px;
