@@ -274,7 +274,14 @@ $(".dft-fl-btn" ).each(function( index ) {
 
 
 /* start of Noyon*/
-
+if( $('.field-fag').length ){
+  $('.field-faq-accordion-hdr').on('click', function(){
+    $(this).toggleClass('active');
+    $(this).parents('.field-fag ul li').siblings().find('.field-faq-accordion-hdr').removeClass('active');
+    $(this).parents('.field-fag ul li').find('.field-faq-accordion-desc').slideToggle(300);
+    $(this).parents('.field-fag ul li').siblings().find('.field-faq-accordion-desc').slideUp(300);
+  });
+}
 
 
 

@@ -1,0 +1,121 @@
+.faq-overview-sec{
+	padding-bottom: 65px;
+}
+
+.faq-overview-sec .sec-entry-hdr{
+	padding-bottom: 45px;
+}
+
+
+.fag-overview-btn{
+	padding-bottom: 40px;
+	margin-bottom: 65px;
+	border-bottom: 2px solid rgba(125, 141, 152, 0.1);
+}
+.fag-overview-btn ul{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0 -35px;
+}
+.fag-overview-btn ul li{
+	padding: 0 35px;
+	display: block;
+	line-height: 1;
+	margin-bottom: 20px;
+}
+.fag-overview-btn ul li a{
+	text-transform: uppercase;
+	display: inline-block;
+	font-weight: 500;
+	line-height: 1;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.fag-overview-btn ul li a:hover,
+.fag-overview-btn ul li.active a{
+	color: #E63312;
+}
+
+.field-fag{
+	max-width: 848px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.field-faq-accordion{
+	padding-top: 45px;
+	margin-bottom: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+	background: #151617;
+}
+.field-faq-accordion-hdr{
+	padding-bottom: 40px;
+	cursor: pointer;
+}
+.field-faq-accordion-title{
+	color: #FFFFFF;
+	margin-bottom: 0;
+	position: relative;
+	padding-right: 40px;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.field-faq-accordion-title:hover{
+	color: #E63312;
+}
+.field-faq-accordion-title:after{
+	position: absolute;
+	content: '';
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	background-image: url('../images/fag-plus-icon.png');
+	width: 13px;
+	height: 13px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	margin-top: 2px;
+}
+.active .field-faq-accordion-title:after{
+	width: 13px;
+	height: 13px;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	background-image: url('../images/fag-minus-icon.png');
+}
+.field-faq-accordion-desc{
+	padding-bottom: 60px;
+	padding-right: 50px;
+	display: none;
+}
+.field-faq-accordion-desc p{
+	color: #B2BCC2;
+	margin-bottom: 30px;
+}
+.field-faq-accordion-desc p:last-of-type{
+	margin-bottom: 35px;
+}
+.field-faq-accordion-btn a{
+	display: inline-block;
+	font-size: 16px;
+	line-height: 1;
+	color: #E63312;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.field-faq-accordion-btn a:hover{
+	color: #fff;
+}
