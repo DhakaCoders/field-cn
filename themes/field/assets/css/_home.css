@@ -80,11 +80,11 @@
     padding: 82px 20px;
     background: #E9E9E9;
 }
-.club-collection-slider-item{
+.club-collection-grid-item{
 	padding:0 10px;
 	position: relative;
 }
-.club-collection-slider{
+.club-collection-grid{
 	margin:0 -10px;
 }
 .clb-cltion-grd-item-img img {
@@ -134,11 +134,11 @@
 	opacity:0;
 	border-top: 2px solid rgba(249, 249, 249, 0.05);
 }
-.club-collection-slider-item:hover .clb-cltion-grd-item-bottom-des-hover-ef{
+.club-collection-grid-item:hover .clb-cltion-grd-item-bottom-des-hover-ef{
 	bottom:0;
 	opacity:1;
 }
-.club-collection-slider-item:hover .clb-cltion-grd-item-bottom-des{
+.club-collection-grid-item:hover .clb-cltion-grd-item-bottom-des{
 	opacity: 0;
 }
 .clb-cltion-item-btn {
@@ -146,11 +146,11 @@
 }
 .clb-cltion-grd-item-des ul{
 	padding-left:0px;
-	padding-bottom: 60px;
+	padding-bottom: 55px;
 }
 .clb-cltion-grd-item-des ul li{
     font-size: 16px;
-    padding: 4px 0 8px 23px;
+    padding: 4px 0 6px 23px;
 }
 .clb-cltion-grd-item-des ul li:before{
 	margin-top: 13px;
@@ -205,6 +205,10 @@
 	color:#fff;
 	text-decoration: none;
 }
+.team-grd-item-heading .team-grd-item-title:hover,
+.team-grd-item-heading .team-grd-item-title:hover a{
+ 	color:#E63312;
+}
 .team-grd-item-heading span{
  	color:#E63312;
  	font-size:22px;
@@ -213,12 +217,12 @@
  	font-weight:400;
  	display:inline-block;
 }
-.team-slider{
+.team-grid{
 	display: flex;
 	flex-wrap: wrap;
 	margin:0 -10px;
 }
-.team-slider-item{
+.team-grid-item{
 	width:25%;
 	padding:0 10px;
     margin-bottom:40px;
@@ -290,6 +294,28 @@
 .over-field-team-sec .sec-entry-hdr{
 	margin-bottom:50px;
 }
+
+@media(max-width:1399px){
+	.team-grd-item-des{
+		padding-top: 30px;
+	    padding-bottom: 25px;
+	}
+}
+
+
+
+/*over field css end*/
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 1699px){
 
