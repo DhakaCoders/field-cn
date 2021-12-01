@@ -77,7 +77,7 @@
 		padding-bottom: 75px;
 	}
 	.page-bedankt-cntent-desc-cntlr{
-		padding-left: 60px;
+		padding-left: 50px;
 	}
 	.page-bedankt-cntent-rgt-img-ctlr{
 		height: 320px;
@@ -110,7 +110,7 @@
 		height: 265px;
 	}
 	.page-bedankt-cntent-desc-cntlr{
-		padding-left: 40px;
+		padding-left: 30px;
 	}
 	.page-bedankt-cntent-desc-inr i img{
 		max-width: 55px;
@@ -118,7 +118,8 @@
 }
 @media(max-width: 767px){
 	.page-bedankt-cntent-cntlr{
-		padding-bottom: 50px;	
+		padding-bottom: 50px;
+		padding-top: 40px;	
 	}
 	.page-bedankt-cntent-inr{
 		display: block;
