@@ -139,6 +139,23 @@
 .fl-text-btn:hover i{
 	margin-right: -5px;
 }
+.dft-fl-btn{
+	display: inline-block;
+    vertical-align: baseline;
+    min-width: 185px;
+    color: #fff;
+    background: transparent;
+    font-size: 19px;
+    line-height: 1.1;
+    text-align: center;
+    padding: 15px 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    border: 2px solid #E63312;
+    text-transform: capitalize;
+    text-decoration: none;
+    position: relative;
+}
 .default-page-con ul,
 ul{
 	list-style: none;
