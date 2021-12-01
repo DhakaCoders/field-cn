@@ -23,7 +23,7 @@
 .page-bedankt-cntent-rgt-img-ctlr{
 	height: 410px;
 	margin-left: auto;
-	margin-top: -46.15%;
+	margin-top: -360px;
 	width: 40.34%;
 	position: relative;
 	z-index: 4;
@@ -70,12 +70,15 @@
 .page-bedankt-con-item ul li a:hover{
 	text-decoration: none;
 }
-@media(max-width: 1499px){
-	/*.page-bedankt-cntent-rgt-img-ctlr{
-		height: 280px;
-	    margin-top: -248px;
-	    width: 44%;
-	}*/
+@media(max-width: 1399px){
+	.page-bedankt-cntent-lft-img-ctlr{
+		height: 550px;
+		width: 77.43%;
+	}
+	.page-bedankt-cntent-rgt-img-ctlr{
+		height: 300px;
+		margin-top: -250px;
+	}
 }
 @media(max-width: 1199px){
 	.page-bedankt-cntent-cntlr{
