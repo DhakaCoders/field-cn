@@ -1,0 +1,74 @@
+.page-banner{
+	position: relative;
+	overflow: hidden;
+}
+
+.page-banner-bg{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.page-bnr-des-ctlr{
+	height: 700px;
+	display: flex;
+	align-items: flex-end;
+	z-index: 2;
+	position: relative;
+	padding-bottom: 80px;
+}
+
+.club-pagina-details-con-ctlr{
+	position: relative;
+}
+.club-pagina-details-con-ctlr .breadcrumb-sec{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9;
+}
+.club-pagina-details-con-ctlr .breadcrumb-cntlr ul li a, 
+.club-pagina-details-con-ctlr .breadcrumb-cntlr ul li span, 
+.club-pagina-details-con-ctlr .breadcrumb-cntlr ul li a span{
+	color: #fff;
+}
+.club-pagina-details-con-ctlr .breadcrumb-cntlr ul li a:hover, 
+.club-pagina-details-con-ctlr .breadcrumb-cntlr ul li span:hover, 
+.club-pagina-details-con-ctlr .breadcrumb-cntlr ul li a span:hover{
+	color: #E63312;
+}
+.club-pagina-details-con-ctlr .breadcrumb-cntlr ul li.active span, 
+.club-pagina-details-con-ctlr .breadcrumb-cntlr ul li.active a {
+    color: #E63312;
+}
+
+.club-pagina-details-con-ctlr .page-bnr-title{
+	font-size: 96px!important;
+	margin-bottom: 12px;
+}
+.club-pagina-details-con-ctlr .page-bnr-subtitle{
+	text-transform: initial;
+}
+
+
+.customer-service-sec{
+	padding-top: 90px;
+}
+
+.customer-service-sec-inr{
+	display: flex;
+	align-items: flex-end;
+}
+.customer-service-lft{
+	width: 50%;
+	padding-right: 20px;
+}
+
+.customer-service-rgt{
+	width: 50%;
+	text-align: right;
+}
