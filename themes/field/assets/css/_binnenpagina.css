@@ -46,9 +46,6 @@
 	width: 100%;
 }
 
-
-
-
 /*
 Gallery design
 */
@@ -292,4 +289,21 @@ hr {
 }
 .dfp-field-fag-cntlr{
 	padding-bottom: 15px;
+}
+.dfp-club-collection-cntlr .club-collection-slider{
+	display: flex;
+	flex-wrap: wrap;
+}
+.dfp-club-collection-cntlr .club-collection-slider-item{
+	overflow: hidden;
+}
+.dfp-club-collection-cntlr .club-collection-slider-item:hover .clb-cltion-grd-item-bottom-hover-ef{
+	opacity: 1;
+}
+
+.dfp-club-collection-cntlr .clb-cltion-grd-item-bottom-hover-ef{
+	opacity: 0;
+}
+.dfp-club-collection-cntlr{
+	margin-bottom: 57px;
 }

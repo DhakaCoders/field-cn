@@ -122,8 +122,8 @@
     right: 0;
     z-index: 2;
     background: #151617;
-    padding-left:30px;
-    padding-right:30px;
+    padding-left:25px;
+    padding-right:25px;
     transition: all 0.5s;
     -ms-transition: all 0.5s;
     -webkit-transition: all 0.5s;
@@ -131,9 +131,12 @@
 }
 .clb-cltion-grd-item-bottom-hover-ef{
 	bottom:-100%;
+	opacity:0;
+	border-top: 2px solid rgba(249, 249, 249, 0.05);
 }
 .club-collection-slider-item:hover .clb-cltion-grd-item-bottom-hover-ef{
 	bottom:0;
+	opacity:1;
 }
 .club-collection-slider-item:hover .clb-cltion-grd-item-bottom{
 	opacity: 0;
@@ -143,7 +146,7 @@
 }
 .clb-cltion-grd-item-des ul{
 	padding-left:0px;
-	padding-bottom: 68px;
+	padding-bottom: 60px;
 }
 .clb-cltion-grd-item-des ul li{
     font-size: 16px;
@@ -171,7 +174,7 @@
 	position: relative;
 }
 .clb-cltion-item-btn .fl-btn.fl-btn-angel:after{
-	border-top: 49px solid #E63312;
+	border-top: 50px solid #E63312;
 }
 .clb-cltion-item-btn .fl-btn.fl-btn-angel:hover:after{
 	border-top: 49px solid #fff;
