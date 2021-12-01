@@ -79,15 +79,14 @@
 }
 .club-collection-slider-item{
 	padding:0 10px;
-	transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    -ms-transition: all 0.5s;
+	position: relative;
 }
 .club-collection-slider{
 	margin:0 -10px;
 }
 .clb-cltion-grd-item-img img {
-    height: 300px;
+    height: 280px;
+    width: auto;
 }
 .clb-cltion-grd-item-img{
 	display: flex;
@@ -108,7 +107,8 @@
 	color: #E63312;
 }
 
-.clb-cltion-grd-item-bottom {
+.clb-cltion-grd-item-bottom,
+.clb-cltion-grd-item-bottom-hover-ef{
     border: 2px solid rgba(249, 249, 249, 0.05);
     border-top: none;
     padding-bottom: 11px;
@@ -121,12 +121,24 @@
     background: #151617;
     padding-left:30px;
     padding-right:30px;
+    transition: all 0.5s;
+
+}
+.clb-cltion-grd-item-bottom-hover-ef{
+	bottom:-100%;
+}
+.club-collection-slider-item:hover .clb-cltion-grd-item-bottom-hover-ef{
+	bottom:0;
+}
+.club-collection-slider-item:hover .clb-cltion-grd-item-bottom{
+	opacity: 0;
 }
 .clb-cltion-item-btn {
     margin-bottom: 22px;
 }
 .clb-cltion-grd-item-des ul{
 	padding-left:0px;
+	padding-bottom: 68px;
 }
 .clb-cltion-grd-item-des ul li{
     font-size: 16px;
@@ -138,21 +150,40 @@
 .clb-cltion-grd-item-des p {
     font-size: 16px;
 }
-.clb-cltion-grd-item-des{
-    height: 0;
-    opacity: 0;
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    z-index: -1;
+.club-collection-slider-item:after {
+	content: "";
+	width: 76px;
+	height: 2px;
+	background: #fff;
+	position: absolute;
+	left: 0px;
+	bottom: 123px;
+	z-index: 11;
 }
-.club-collection-slider-item:hover .clb-cltion-grd-item-des{
-	height: 400px;
-    opacity: 1;
-    z-index: 1;
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    -ms-transition: all 0.5s;
+.clb-cltion-item-btn .fl-btn{
+	min-width:155px;
+	padding: 12px 20px;
+	position: relative;
+}
+.clb-cltion-item-btn .fl-btn.fl-btn-angel:after{
+	border-top: 49px solid #E63312;
+}
+.clb-cltion-item-btn .fl-btn.fl-btn-angel:hover:after{
+	border-top: 49px solid #fff;
+
+}
+.clb-cltion-item-btn .fl-btn:before {
+	content: "";
+    width: 56px;
+    height: 2px;
+    color: #182027;
+    top: 0;
+    position: absolute;
+    z-index: 111;
+    right: 0;
+}
+.club-collection-sec{
+    padding-bottom: 30px;
 }
 @media (max-width: 1699px){
 
