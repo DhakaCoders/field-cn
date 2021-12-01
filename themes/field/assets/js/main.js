@@ -381,6 +381,23 @@ if( $('.category-box-cntlr').length ){
       }).masonry('layout');
     };
 
+
+    /*var windowWidth_1920 = $('.page-body-cntlr').width();*/
+    var containerwidth = $('.container').width();
+    var offSet = (windowWidth_1920 - containerwidth);
+    var lftOffSet = (offSet / 2);
+
+    $('.customer-service-slider-ctlr').css('padding-left', lftOffSet);
+
+    $(window).resize(function(){
+      var windowWidth_1920 = $('.page-body-cntlr').width();
+      var containerwidth = $('.container').width();
+      var offSet = (windowWidth_1920 - containerwidth);
+      var lftOffSet = (offSet / 2);
+
+      $('.customer-service-slider-ctlr').css('padding-left', lftOffSet);
+    });
+
     /* start of niaz*/
 
 

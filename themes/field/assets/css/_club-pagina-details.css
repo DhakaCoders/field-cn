@@ -61,14 +61,20 @@
 
 .customer-service-sec-inr{
 	display: flex;
-	align-items: flex-end;
+	align-items: center;
+	padding-bottom: 55px;
 }
 .customer-service-lft{
-	width: 50%;
+	width: 60%;
 	padding-right: 20px;
 }
 
 .customer-service-rgt{
-	width: 50%;
+	width: 40%;
 	text-align: right;
 }
+
+.club-pagina-details-con-ctlr .sec-entry-hdr-title{
+	margin-bottom: 30px;
+}
+
