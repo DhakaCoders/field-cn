@@ -281,6 +281,9 @@
 	max-width: 350px;
     width: 100%;
 }
+.over-field-team-sec .sec-entry-hdr{
+	margin-bottom:50px;
+}
 @media (max-width: 1699px){
 
 }
