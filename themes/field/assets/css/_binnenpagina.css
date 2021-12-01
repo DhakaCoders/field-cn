@@ -37,3 +37,94 @@
 .dfp-plate-one-img-bx img{
 	width: 100%;
 }
+
+
+
+
+/*
+Gallery design
+*/
+
+.gallery-wrap h1,
+.gallery-wrap h2,
+.gallery-wrap h3,
+.gallery-wrap h4,
+.gallery-wrap h5,
+.gallery-wrap h6{
+	margin-bottom: 30px;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -12px;
+	margin-right: -12px;
+}
+
+
+.gallery-item {
+	margin: 0;
+	padding: 0 12px;
+	margin-bottom: 24px;
+}
+.gallery-item img {
+	width: 100%;
+}
+.top-gallery-module .gallery-item img{
+	border-radius: 0;
+}
+
+.gallery-columns-1 .gallery-item {
+    width: 100%;
+    float: none;
+}
+.gallery-columns-2 .gallery-item {
+    width: 50%
+}
+.gallery-columns-3 .gallery-item {
+    width: 33.3333%
+}
+.gallery-columns-4 .gallery-item {
+    width: 25%
+}
+.gallery-columns-5 .gallery-item {
+    width: 20%
+}
+.gallery-columns-6 .gallery-item {
+    width: 16.6667%
+}
+.gallery-columns-7 .gallery-item {
+    width: 14.2857%
+}
+.gallery-columns-8 .gallery-item {
+    width: 12.5%
+}
+.gallery-columns-9 .gallery-item {
+    width: 11.1111%
+}
+
+
+.has-inline-bg .gallery-icon-img{
+	height: 270px;
+	display: block;
+}
+
+.has-inline-bg .gallery-item img{
+	display: none;
+}
+.gallery-icon-img{
+	height: 270px;
+	display: none;
+}
+
+.glry-col-3 .gallery-icon-img{
+	height: 285px;
+}
+
+.glry-col-2 .gallery-icon-img{
+	height: 263px;
+}
+.gallery-wrap{
+	padding-top: 30px;
+	padding-bottom: 33px;
+}
