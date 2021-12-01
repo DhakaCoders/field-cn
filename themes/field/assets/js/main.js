@@ -274,7 +274,14 @@ $(".dft-fl-btn" ).each(function( index ) {
 
 
 /* start of Noyon*/
-
+if( $('.field-fag').length ){
+  $('.field-faq-accordion-hdr').on('click', function(){
+    $(this).toggleClass('active');
+    $(this).parents('.field-fag ul li').siblings().find('.field-faq-accordion-hdr').removeClass('active');
+    $(this).parents('.field-fag ul li').find('.field-faq-accordion-desc').slideToggle(300);
+    $(this).parents('.field-fag ul li').siblings().find('.field-faq-accordion-desc').slideUp(300);
+  });
+}
 
 
 
@@ -294,7 +301,12 @@ if( $('.wpforms-error').length ){
   });
 }
 
-
+if( $('.gallery-masonry-items-cntlr').length ){
+  $('.gallery-masonry-items-cntlr').masonry({
+    // options
+    itemSelector: '.gallery-masonry-item',
+  }).masonry('layout');
+};
 
 
 /* start of Momin*/
@@ -332,7 +344,7 @@ if( $('.category-box-cntlr').length ){
 
 /* start of Shariful*/
   
-  /*if( $('.hmBnrSlider').length ){
+  if( $('.hmBnrSlider').length ){
     $('.hmBnrSlider').slick({
       dots: true,
       arrows: false,
@@ -343,7 +355,7 @@ if( $('.category-box-cntlr').length ){
       slidesToShow: 1,
       slidesToScroll: 1
     });
-  }*/
+  }
 
 
   if( $('.clubsTeamSlider').length ){
@@ -360,6 +372,14 @@ if( $('.category-box-cntlr').length ){
       nextArrow: $('.clubs-team-sec .fl-prev-next .fl-next'),
     });
   }
+
+  //Masonry
+    if( $('.msnry-grd').length ){
+      $('.msnry-grd').masonry({
+        // options
+        itemSelector: '.msnry-grd-item',
+      }).masonry('layout');
+    };
 
 
 
