@@ -147,6 +147,7 @@ textarea {
     top: 92px;
     right: 12px;
     color: #E63312;
+    letter-spacing: -0.02em;
     margin-bottom: 0;
     text-transform: inherit;
 }
