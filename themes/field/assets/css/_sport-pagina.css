@@ -23,6 +23,9 @@
 .sport-pagina-intro-img-lft{
 	height: 300px;
 	width: 34%;
+	position: relative;
+	z-index: 3;
+	margin-top: -201px;
 }
 .sport-pagina-intro-img-rgt-bg,
 .sport-pagina-intro-img-lft-bg{
@@ -32,6 +35,9 @@
 .sport-pagina-intro-img-rgt{
 	height: 550px;
 	width:  82.56%;
+	margin-left: auto;
+	position: relative;
+	z-index: 2;
 }
 .sport-pagina-intro-desc-cntlr{
 	padding-left: 80px;
