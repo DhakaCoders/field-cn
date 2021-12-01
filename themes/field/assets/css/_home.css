@@ -181,6 +181,9 @@
     z-index: 111;
     right: 0;
 }
+.club-collection-sec{
+    padding-bottom: 30px;
+}
 @media (max-width: 1699px){
 
 }
