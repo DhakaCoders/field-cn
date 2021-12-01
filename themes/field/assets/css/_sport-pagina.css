@@ -1,5 +1,12 @@
 .sport-pagina-intro-sec{
 	position: relative;
+	padding-bottom: 130px;
+}
+.sport-pagina-intro-hding{
+	position: absolute;
+	left: 0;
+	top: -153px;
+	z-index: 20;
 }
 .fl-h1-150{
 	font-family: Machine;
@@ -8,6 +15,8 @@
 	line-height: 1;
 	text-transform: uppercase;
 	color: #FFFFFF;
+	line-height: 97px;
+	margin-bottom: 0;
 }
 .sport-pagina-intro-cntlr{
 	display: flex;
@@ -16,6 +25,7 @@
 
 .sport-pagina-intro-img-cntlr{
 	width:  49.10%;
+	margin-top: -84px;
 }
 .sport-pagina-intro-desc-cntlr{
 	width: 50.90%;
@@ -40,5 +50,15 @@
 	z-index: 2;
 }
 .sport-pagina-intro-desc-cntlr{
-	padding-left: 80px;
+	padding-left: 84px;
+	padding-top: 130px;
+}
+.sport-pagina-intro-desc p{
+	margin-bottom: 25px;
+}
+.sport-pagina-intro-desc p:last-of-type{
+	margin-bottom: 35px;
+}
+.sport-pagina-intro-desc-btn .fl-btn.fl-btn-angel{
+	min-width: 230px;
 }
