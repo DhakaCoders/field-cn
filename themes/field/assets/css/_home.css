@@ -198,28 +198,33 @@
 
 /*over field css*/
 
-.over-field-team-grd-item-heading .clb-cltion-item-title,
-.over-field-team-grd-item-heading .clb-cltion-item-title a{
+.team-grd-item-heading .team-grd-item-title,
+.team-grd-item-heading .team-grd-item-title a{
 	text-transform: capitalize;
 	margin-bottom:10px;
+	color:#fff;
+	text-decoration: none;
 }
-.over-field-team-grd-item-heading span{
+.team-grd-item-heading span{
  	color:#E63312;
  	font-size:22px;
  	text-transform: uppercase;
+	font-family: 'Barlow Condensed', sans-serif;
+ 	font-weight:400;
+ 	display:inline-block;
 }
-.over-field-team-sec-inner ul {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 -10px;
+.team-slider{
+	display: flex;
+	flex-wrap: wrap;
+	margin:0 -10px;
+}
+.team-slider-item{
+	width:25%;
+	padding:0 10px;
+    margin-bottom:40px;
 }
 
-.over-field-team-sec-inner ul li {
-    width: 25%;
-    padding: 0 10px;
-    margin-bottom:50px;
-}
-.over-field-team-grd-item-img-div{
+.team-grd-item-img-div{
     height: 100%;
     width: 100%;
 	transition: all 0.5s;
@@ -227,33 +232,34 @@
 	-ms-transition: all 0.5s;
 
 }
-.over-field-team-grd-item-img {
+.team-grd-item-img {
     height: 420px;
     position: relative;
     overflow: hidden;
 }
-.over-field-team-grd-item-img img{
+.team-grd-item-img img{
 	height:420px;
 	width: auto;
 	transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 	-ms-transition: all 0.5s;
 }
-.over-field-team-grd-item-img:hover .over-field-team-grd-item-img-div,
-.over-field-team-grd-item-img:hover img{
+.team-grd-item-img:hover .team-grd-item-img-div,
+.team-grd-item-img:hover img{
     transform:scale(1.1);
     -ms-transform:scale(1.1);
     -webkit-transform:scale(1.1);
 }
-.clb-cltion-grd-item-des {
+.team-grd-item-des{
     background: #151617;
     border: 2px solid rgba(249, 249, 249, 0.05);
     border-top: none;
     padding-top: 40px;
     padding-left: 32px;
     padding-bottom: 30px;
+    padding-right: 30px;
 }
-.over-field-team-grd-item-inner:after {
+.team-grd-item-inner:after{
 	content: "";
 	width: 76px;
 	height: 2px;
@@ -263,7 +269,7 @@
 	left: -10px;
 }
 
-.over-field-team-grd-item-inner {
+.team-grd-item-inner {
     position: relative;
 }
 .over-field-team-sec {
@@ -271,19 +277,20 @@
     padding-bottom: 90px;
     padding-top: 120px;
 }
-.over-field-team-red-angle-img{
+.team-red-angle-img{
 	position: absolute;
 	left:0;
 	top:0;
 	margin-top:-50px;
 }
-.over-field-team-red-angle-img img{
+.team-red-angle-img img{
 	max-width: 350px;
     width: 100%;
 }
 .over-field-team-sec .sec-entry-hdr{
 	margin-bottom:50px;
 }
+
 @media (max-width: 1699px){
 
 }
