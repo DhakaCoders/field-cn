@@ -23,7 +23,7 @@
 .page-bedankt-cntent-rgt-img-ctlr{
 	height: 410px;
 	margin-left: auto;
-	margin-top: -46.15%;
+	margin-top: -47.15%;
 	width: 40.34%;
 	position: relative;
 	z-index: 4;
@@ -71,13 +71,9 @@
 	text-decoration: none;
 }
 @media(max-width: 1499px){
-	/*.page-bedankt-cntent-rgt-img-ctlr{
-		height: 280px;
-	    margin-top: -248px;
-	    width: 44%;
-	}*/
+	
 }
-@media(max-width: 1199px){
+/*@media(max-width: 1199px){
 	.page-bedankt-cntent-cntlr{
 		padding-bottom: 75px;
 	}
@@ -172,4 +168,4 @@
 	    margin-top: -175px;
 	    height: 200px;
 	}
-}
+}*/
