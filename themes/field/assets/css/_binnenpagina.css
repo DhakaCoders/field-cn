@@ -120,6 +120,11 @@ Gallery design
 .gallery-icon{
 	overflow: hidden;
 }
+.gallery-icon-img{
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
 .gallery-icon:hover img,
 .gallery-icon:hover .gallery-icon-img{
 	-webkit-transform: scale(1.05);
