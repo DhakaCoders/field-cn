@@ -129,6 +129,9 @@ Gallery design
 	padding-top: 30px;
 	padding-bottom: 33px;
 }
+.gallery-columns-3 .gallery-item{
+	margin-bottom: 18px;
+}
 
 
 .fl-dft-lftimg-rgtdes {
