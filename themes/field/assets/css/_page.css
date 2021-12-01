@@ -307,7 +307,7 @@ ul.select2-results__options li {
 
 /* page entry header*/
 .page-entry-sec{
-
+	padding-top: 15px;
 }
 .page-entry-hdr-cntlr{
 	max-width: 845px;
