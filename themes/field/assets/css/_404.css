@@ -1,3 +1,6 @@
+.page-404-cntent-cntlr{
+	padding-top: 10px;
+}
 .page-404-cntent-cntlr .page-bedankt-cntent-img-inr{
 	height: 800px;
 	position: relative;
@@ -46,6 +49,9 @@
 }
 
 @media(max-width: 767px){
+	.page-404-cntent-cntlr{
+		padding-top: 35px;
+	}
 	.page-404-cntent-cntlr .page-bedankt-cntent-img-cntlr{
 		width: 100%;
 		padding-bottom: 70px;
