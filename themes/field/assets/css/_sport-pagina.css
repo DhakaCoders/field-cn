@@ -1,0 +1,64 @@
+.sport-pagina-intro-sec{
+	position: relative;
+	padding-bottom: 130px;
+}
+.sport-pagina-intro-hding{
+	position: absolute;
+	left: 0;
+	top: -153px;
+	z-index: 20;
+}
+.fl-h1-150{
+	font-family: Machine;
+	font-weight: 500;
+	font-size: 150px;
+	line-height: 1;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	line-height: 97px;
+	margin-bottom: 0;
+}
+.sport-pagina-intro-cntlr{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.sport-pagina-intro-img-cntlr{
+	width:  49.10%;
+	margin-top: -84px;
+}
+.sport-pagina-intro-desc-cntlr{
+	width: 50.90%;
+}
+.sport-pagina-intro-img-lft{
+	height: 300px;
+	width: 34%;
+	position: relative;
+	z-index: 3;
+	margin-top: -201px;
+}
+.sport-pagina-intro-img-rgt-bg,
+.sport-pagina-intro-img-lft-bg{
+	width: 100%;
+	height: 100%;
+}
+.sport-pagina-intro-img-rgt{
+	height: 550px;
+	width:  82.56%;
+	margin-left: auto;
+	position: relative;
+	z-index: 2;
+}
+.sport-pagina-intro-desc-cntlr{
+	padding-left: 84px;
+	padding-top: 130px;
+}
+.sport-pagina-intro-desc p{
+	margin-bottom: 25px;
+}
+.sport-pagina-intro-desc p:last-of-type{
+	margin-bottom: 35px;
+}
+.sport-pagina-intro-desc-btn .fl-btn.fl-btn-angel{
+	min-width: 230px;
+}

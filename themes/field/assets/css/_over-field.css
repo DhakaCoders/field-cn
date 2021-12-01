@@ -1,10 +1,19 @@
 .over-field-intro-sec{
-	padding: 15px 0 80px;
+	padding: 15px 0 0;
 }
 
 .over-field-intro-sec-inr{
 	display: flex;
 	align-items: center;
+	position: relative;
+	padding-bottom: 80px;
+}
+
+.over-field-intro-pos-rgt{
+	position: absolute;
+	bottom: 20px;
+	right: -70px;
+	max-width: 350px;
 }
 
 .over-field-intro-img-ctlr{
@@ -44,4 +53,9 @@
 .over-field-con-ctlr .part-of-team-box{
 	height: 1020px;
 	width: 80%;
+}
+
+.over-field-con-ctlr .process-rgt-pos-img{
+	top: 80px;
+	right: 20px;
 }

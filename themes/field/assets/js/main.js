@@ -343,6 +343,22 @@ if( $('.xs-page-entry-menu').length ){
 
 
 /* start of Shariful*/
+
+  function bannerheight(){
+      var windowWidth = $(window).width();
+      var windowHeight = $(window).height();
+      /*var winHeight = (windowHeight + 100);*/
+      /*var headerHeight = $('.header').height();
+      var hdrHeight = (headerHeight + 40);
+      var bnrHeight = (windowHeight - hdrHeight);*/
+      if (windowWidth > 767){
+        $('.hm-banner-des-cntlr').css('height', windowHeight);
+      }
+    }
+    bannerheight();
+    $(window).resize(function(){
+      bannerheight();
+    });
   
   if( $('.hmBnrSlider').length ){
     $('.hmBnrSlider').slick({
@@ -458,7 +474,48 @@ if( $('.xs-page-entry-menu').length ){
         ]
       });
   }
-
+ if (windowWidth <= 767) {
+  if( $('.teamSlider').length ){
+      $('.teamSlider').slick({
+        dots: true,
+        arrows:false,
+        infinite: true,
+        autoplay: false,
+        autoplaySpeed: 4000,
+        speed: 700,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        dots: true,
+        responsive: [
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 700,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 576,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              dots: true
+            }
+          }
+        ]
+      });
+  }
+}
 
 
 new WOW().init();
