@@ -1,0 +1,38 @@
+.sport-pagina-intro-sec{
+	position: relative;
+}
+.fl-h1-150{
+	font-family: Machine;
+	font-weight: 500;
+	font-size: 150px;
+	line-height: 1;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+.sport-pagina-intro-cntlr{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.sport-pagina-intro-img-cntlr{
+	width:  49.10%;
+}
+.sport-pagina-intro-desc-cntlr{
+	width: 50.90%;
+}
+.sport-pagina-intro-img-lft{
+	height: 300px;
+	width: 34%;
+}
+.sport-pagina-intro-img-rgt-bg,
+.sport-pagina-intro-img-lft-bg{
+	width: 100%;
+	height: 100%;
+}
+.sport-pagina-intro-img-rgt{
+	height: 550px;
+	width:  82.56%;
+}
+.sport-pagina-intro-desc-cntlr{
+	padding-left: 80px;
+}
