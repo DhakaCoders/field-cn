@@ -34,6 +34,13 @@
 }
 .dfp-plate-one-img-bx {
     margin-bottom: 55px;
+    position: relative;
+}
+.dfp-plate-one-img-squre{
+	position: absolute;
+	right: -110px;
+	bottom: -89px;
+	z-index: 1;
 }
 .dfp-plate-one-img-bx img{
 	width: 100%;
