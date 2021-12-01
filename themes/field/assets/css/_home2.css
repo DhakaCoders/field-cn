@@ -417,8 +417,10 @@
 
 
 
-.cta-sec{
-    padding: 110px 0;
+.cta-module-2 .cta-module{
+    border-bottom: none;
+    background: transparent;
+    padding: 100px 70px;
 }
 
 .cta-module-2{
@@ -458,8 +460,8 @@
 .cta-module-des-title{
     margin-bottom: 25px;
 }
-.cta-module-des p{
-    margin-bottom: 25px;
+.cta-module-2 .cta-module-des p{
+    margin-bottom: 25px!important;
 }
 
 .cta-module{
@@ -541,11 +543,20 @@
 
 .clubs-team-grd-des-inr{
     text-align: center;
+    position: relative;
+    z-index: 11;
 }
 
 .clubs-team-name-title{
     margin-bottom: 0;
     font-size: 25px;
+}
+.clubs-team-name-title a{
+    color: #fff;
+    text-decoration: none;
+}
+.clubs-team-name-title a:hover{
+    color: #E63312;
 }
 
 .clubs-team-grd-item:hover .clubs-team-grd-des{
