@@ -1,14 +1,21 @@
+.fld-clubs-page-contents .page-entry-hdr-title{
+	margin-bottom: 30px;
+}
+.fld-clubs-page-contents .page-entry-hdr-desc{
+	padding-bottom: 10px;
+}
 .fld-sec-intro{
 	text-align: center;
 	padding-bottom: 10px;
 }
 .fld-catagories-sec{
-	padding-bottom: 65px;
+	/*padding-bottom: 65px;*/
 }
 .fld-catagories-cntlr{
 	position: relative;
 	padding-bottom: 10px;
 	border-bottom: 2px solid #1b1c1e;
+	margin-bottom: 65px;
 }
 .fld-catagories-cntlr ul {
     display: flex;
