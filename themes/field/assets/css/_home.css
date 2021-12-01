@@ -85,7 +85,8 @@
 	margin:0 -10px;
 }
 .clb-cltion-grd-item-img img {
-    height: 300px;
+    height: 280px;
+    width: auto;
 }
 .clb-cltion-grd-item-img{
 	display: flex;
@@ -180,6 +181,9 @@
     position: absolute;
     z-index: 111;
     right: 0;
+}
+.club-collection-sec{
+    padding-bottom: 30px;
 }
 @media (max-width: 1699px){
 
