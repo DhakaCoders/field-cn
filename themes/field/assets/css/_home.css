@@ -85,7 +85,7 @@
 	margin:0 -10px;
 }
 .clb-cltion-grd-item-img img {
-    height: 280px;
+    max-height: 280px;
     width: auto;
 }
 .clb-cltion-grd-item-img{
