@@ -294,7 +294,12 @@ if( $('.wpforms-error').length ){
   });
 }
 
-
+if( $('.gallery-masonry-items-cntlr').length ){
+  $('.gallery-masonry-items-cntlr').masonry({
+    // options
+    itemSelector: '.gallery-masonry-item',
+  }).masonry('layout');
+};
 
 
 /* start of Momin*/
