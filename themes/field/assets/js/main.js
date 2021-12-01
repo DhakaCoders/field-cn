@@ -343,6 +343,22 @@ if( $('.category-box-cntlr').length ){
 
 
 /* start of Shariful*/
+
+  function bannerheight(){
+      var windowWidth = $(window).width();
+      var windowHeight = $(window).height();
+      /*var winHeight = (windowHeight + 100);*/
+      /*var headerHeight = $('.header').height();
+      var hdrHeight = (headerHeight + 40);
+      var bnrHeight = (windowHeight - hdrHeight);*/
+      if (windowWidth > 767){
+        $('.hm-banner-des-cntlr').css('height', windowHeight);
+      }
+    }
+    bannerheight();
+    $(window).resize(function(){
+      bannerheight();
+    });
   
   if( $('.hmBnrSlider').length ){
     $('.hmBnrSlider').slick({
