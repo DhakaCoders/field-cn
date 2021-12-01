@@ -6,7 +6,7 @@
 	margin-bottom: 39px;
 }
 .related-faq-con-cntlr .sec-entry-hdr{
-	margin-bottom: 20px;
+	padding-bottom: 20px;
 }
 .related-faq-field-cntlr .field-fag{
 	max-width: 100%;
@@ -34,4 +34,8 @@
 	padding-top: 80px;
 	padding-bottom: 84px;
 	background: #151618;
+}
+.faq-detail-sec-con-cntlr .innerpage-con-wrap{
+	padding-top: 42px;
+	padding-bottom: 70px;
 }
