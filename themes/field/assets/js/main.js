@@ -315,29 +315,29 @@ if( $('.gallery-masonry-items-cntlr').length ){
 
 
 /* start of Jahir*/
+// $('fld-club-catg-select-cntlr select').select2();
+// $('.fld-select-2-cntlr').select2();
 
-$('fld-club-catg-select-cntlr select').select2();
-$('.fld-select-2-cntlr').select2();
+// if( $('.category-box-cntlr').length ){
+//   $('.category-box-cntlr').on('click', function() {
+//   $('.category-item-cntlr').toggle("slow");
+//   $('.category-box-cntlr .xs-category-item-title').toggleClass('rotate-180d');
+//   });
+// }
 
-if( $('.category-box-cntlr').length ){
-  $('.category-box-cntlr').on('click', function() {
-  $('.category-item-cntlr').toggle("slow");
-  $('.category-box-cntlr .xs-category-item-title').toggleClass('rotate-180d');
+if( $('.xs-page-entry-menu').length ){
+  $('.xs-page-entry-menu ul li a').on('click', function(e){
+    e.preventDefault();
+    $(this).parent().toggleClass('active');
+    $(this).parents('.xs-page-entry-menu').find('.xs-page-entry-menu ul li').removeClass('active');
+    $(this).next().slideToggle(300);
   });
 }
-
 
 // if( $('.category-box-cntlr').length ){
 //   $('.category-box-cntlr').on('click', function() {
 //   $(this).fadeToggle("slow");
 //   $(this).addClass('show-after-click');
-//   });
-// }
-
-
-// if( $('.category-box-cntlr-copy').length ){
-//   $('.category-box-cntlr-copy').on('click', function() {
-//   $('.category-item-cntlr-copy').fadeToggle("slow");
 //   });
 // }
 
@@ -474,7 +474,48 @@ if( $('.category-box-cntlr').length ){
         ]
       });
   }
-
+ if (windowWidth <= 767) {
+  if( $('.teamSlider').length ){
+      $('.teamSlider').slick({
+        dots: true,
+        arrows:false,
+        infinite: true,
+        autoplay: false,
+        autoplaySpeed: 4000,
+        speed: 700,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        dots: true,
+        responsive: [
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 700,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 576,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              dots: true
+            }
+          }
+        ]
+      });
+  }
+}
 
 
 new WOW().init();
