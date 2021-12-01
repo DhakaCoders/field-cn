@@ -12,7 +12,7 @@
 .page-bedankt-cntent-img-cntlr{
     width: 43%;
 }
-.page-bedankt-cntent-desc-inr {
+.page-bedankt-cntent-desc-cntlr {
     width: 57%;
     padding-left: 90px;
     padding-right: 15px;
@@ -24,7 +24,7 @@
 	height: 360px;
 	margin-left: auto;
 	margin-top: -310px;
-	width: 40%;
+	width: 42%;
 	position: relative;
 }
 .page-bedankt-xs-img{
@@ -39,15 +39,15 @@
 	height: 100%;
 	width: 100%;
 }
-.page-bedankt-cntent-desc-cntlr{
+.page-bedankt-cntent-desc-inr{
 	max-width: 600px;
 	width: 100%;
 }
-.page-bedankt-cntent-desc-cntlr i{
+.page-bedankt-cntent-desc-inr i{
 	display: inline-block;
 	margin-bottom: 10px;
 }
-.page-bedankt-cntent-desc-cntlr i img{
+.page-bedankt-cntent-desc-inr i img{
 	max-width: 70px;
 	width: 100%;
 	height: auto;
@@ -55,7 +55,16 @@
 .page-bedankt-con-desc-title{
 	margin-bottom: 25px;
 }
+.page-bedankt-con-item ul li::before{
+	margin-top: 17px;
+}
+.page-bedankt-con-item ul li a{
+	color: #B2BCC2;
+}
 
+.page-bedankt-con-item ul li a:hover{
+	text-decoration: none;
+}
 @media(max-width: 1499px){
 	.page-bedankt-cntent-rgt-img-ctlr{
 		height: 310px;
@@ -67,8 +76,8 @@
 	.page-bedankt-cntent-cntlr{
 		padding-bottom: 95px;
 	}
-	.page-bedankt-cntent-desc-inr{
-		padding-left: 65px;
+	.page-bedankt-cntent-desc-cntlr{
+		padding-left: 60px;
 	}
 	.page-bedankt-cntent-rgt-img-ctlr{
 		height: 320px;
@@ -80,7 +89,7 @@
 	.page-bedankt-cntent-lft-img-ctlr{
 		width: 80%;
 	}
-	.page-bedankt-cntent-desc-cntlr i img{
+	.page-bedankt-cntent-desc-inr i img{
 		max-width: 60px;
 	}
 	.page-bedankt-con-desc-title{
@@ -100,10 +109,10 @@
 		margin-top: -230px;
 		height: 265px;
 	}
-	.page-bedankt-cntent-desc-inr{
+	.page-bedankt-cntent-desc-cntlr{
 		padding-left: 40px;
 	}
-	.page-bedankt-cntent-desc-cntlr i img{
+	.page-bedankt-cntent-desc-inr i img{
 		max-width: 55px;
 	}
 }
@@ -119,7 +128,7 @@
 		width: 100%;
 		padding-bottom: 35px;
 	}
-	.page-bedankt-cntent-desc-inr{
+	.page-bedankt-cntent-desc-cntlr{
 		width: 100%;
 	}
 	.page-bedankt-con-desc-title{
@@ -130,7 +139,7 @@
 	    margin-top: -230px;
 	    height: 260px;
 	}
-	.page-bedankt-cntent-desc-inr{
+	.page-bedankt-cntent-desc-cntlr{
 		padding: 0;
 	}
 }
