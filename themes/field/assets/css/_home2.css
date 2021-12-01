@@ -229,6 +229,10 @@
     margin-bottom: 10px;
     position: relative;
 }
+.msnry-grd-des-title a{
+    text-decoration: none;
+    color: #fff;
+}
 .msnry-grd-des-title:after{
     content: "";
     position: absolute;
@@ -246,7 +250,7 @@
     color: #fff;
 }
 
-.msnry-grd-item-des-inr a{
+.msnry-grd-item-des-inr > a{
     text-decoration: none;
     display: inline-block;
     vertical-align: baseline;
