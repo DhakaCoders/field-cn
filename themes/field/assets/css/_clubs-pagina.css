@@ -110,6 +110,10 @@
 	height: auto;
 	position: relative;
 	z-index: 2;
+	filter: grayscale(1);
+}
+.fld-team-grid-item:hover .fld-team-grid-item-img-cntlr img{
+	filter: grayscale(0);
 }
 .fld-team-grid-item:hover .show-img-on-hover-img{
 	opacity: 1;
