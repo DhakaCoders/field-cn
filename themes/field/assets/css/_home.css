@@ -133,7 +133,26 @@
 	bottom:-100%;
 	opacity:0;
 	border-top: 2px solid rgba(249, 249, 249, 0.05);
+	max-height:100%;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
+/* width */
+.clb-cltion-grd-item-bottom-des-hover-ef::-webkit-scrollbar {
+  width: 4px;
+}
+/* Track */
+.clb-cltion-grd-item-bottom-des-hover-ef::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #fff; 
+  border-radius: 10px;
+}
+/* Handle */
+.clb-cltion-grd-item-bottom-des-hover-ef::-webkit-scrollbar-thumb {
+  background: #E63312; 
+  border-radius: 10px;
+}
+
 .club-collection-grid-item:hover .clb-cltion-grd-item-bottom-des-hover-ef{
 	bottom:0;
 	opacity:1;
