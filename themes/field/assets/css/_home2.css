@@ -42,13 +42,18 @@
 .has-vdo .hm-banner-bg{
     display: none;
 }
-.hm-banner-bg {
+.hm-bnr-slider-ctlr{
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     z-index: 2;
+}
+.hm-bnr-slider,
+.hm-bnr-slider-item,
+.hm-banner-bg{
+    height: 100%;
 }
 
 .hm-banner-des-cntlr{

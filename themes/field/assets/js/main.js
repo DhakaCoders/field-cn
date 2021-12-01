@@ -332,7 +332,7 @@ if( $('.category-box-cntlr').length ){
 
 /* start of Shariful*/
   
-  /*if( $('.hmBnrSlider').length ){
+  if( $('.hmBnrSlider').length ){
     $('.hmBnrSlider').slick({
       dots: true,
       arrows: false,
@@ -343,7 +343,7 @@ if( $('.category-box-cntlr').length ){
       slidesToShow: 1,
       slidesToScroll: 1
     });
-  }*/
+  }
 
 
   if( $('.clubsTeamSlider').length ){
@@ -360,6 +360,14 @@ if( $('.category-box-cntlr').length ){
       nextArrow: $('.clubs-team-sec .fl-prev-next .fl-next'),
     });
   }
+
+  //Masonry
+    if( $('.msnry-grd').length ){
+      $('.msnry-grd').masonry({
+        // options
+        itemSelector: '.msnry-grd-item',
+      }).masonry('layout');
+    };
 
 
 
