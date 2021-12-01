@@ -35,6 +35,9 @@
 	padding-right: 0;
 
 }
+.page-bedankt-cntent-desc-inr i img{
+	max-width: 70px;
+}
 .page-404-cntent-cntlr .page-bedankt-cntent-desc-inr i{
 	margin-bottom: 20px;
 }
@@ -60,6 +63,7 @@
 		width: 100%;
 		display: block;
 		padding-left: 0;
+		padding-top: 10px;
 	}
 	.page-404-cntent-cntlr .page-bedankt-cntent-img-inr{
 		height: 500px;
