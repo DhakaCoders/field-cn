@@ -205,6 +205,10 @@
 	color:#fff;
 	text-decoration: none;
 }
+.team-grd-item-heading .team-grd-item-title:hover,
+.team-grd-item-heading .team-grd-item-title:hover a{
+ 	color:#E63312;
+}
 .team-grd-item-heading span{
  	color:#E63312;
  	font-size:22px;
@@ -213,12 +217,12 @@
  	font-weight:400;
  	display:inline-block;
 }
-.team-slider{
+.team-grid{
 	display: flex;
 	flex-wrap: wrap;
 	margin:0 -10px;
 }
-.team-slider-item{
+.team-grid-item{
 	width:25%;
 	padding:0 10px;
     margin-bottom:40px;
@@ -290,6 +294,28 @@
 .over-field-team-sec .sec-entry-hdr{
 	margin-bottom:50px;
 }
+
+@media(max-width:1399px){
+	.team-grd-item-des{
+		padding-top: 30px;
+	    padding-bottom: 25px;
+	}
+}
+
+
+
+/*over field css end*/
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 1699px){
 
