@@ -355,26 +355,26 @@ ul.select2-results__options li {
 .xs-page-entry-menu > ul > li > a{
 	position: relative;
 }
-.xs-page-entry-menu > ul > li > a:after{
-	position: absolute;
-	content: "";
-	top: 23px;
-	right: 23px;
-	background-image: url('../images/next-icon.svg');
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: center center;
-	width: 14px;
-	height: 14px;
-	transition: all 0.5s;
-	-ms-transition: all 0.5s;
-	-webkit-transition: all 0.5s;
+.xs-page-entry-menu > ul > li > a:after {
+    position: absolute;
+    content: "";
+    top: 18px;
+    right: 23px;
+    background-image: url('../images/next-icon.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    width: 18px;
+    height: 10px;
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
 }
 .xs-page-entry-menu > ul > li.active > a:after{
-	transform: rotate(90deg);
-	-ms-transform: rotate(90deg);
-	-webkit-transform: rotate(90deg);
-	-o-transform: rotate(90deg);
+	transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
 }
 .xs-page-entry-menu > ul > li > ul.page-entry-sub-menu {
     position: absolute;
