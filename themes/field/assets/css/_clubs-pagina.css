@@ -1,11 +1,6 @@
-.fld-club-page-intro-cntlr {
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
-    padding-bottom: 10px;
-}
-.fld-club-page-intro-cntlr p {
-    padding: 0 85px;
+.fld-sec-intro{
+	text-align: center;
+	padding-bottom: 10px;
 }
 .fld-catagories-sec{
 	padding-bottom: 65px;
