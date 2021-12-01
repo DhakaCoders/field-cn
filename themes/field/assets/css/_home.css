@@ -122,6 +122,8 @@
     padding-left:30px;
     padding-right:30px;
     transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
 
 }
 .clb-cltion-grd-item-bottom-hover-ef{
@@ -173,14 +175,17 @@
 
 }
 .clb-cltion-item-btn .fl-btn:before {
-	content: "";
+    content: "";
     width: 56px;
     height: 2px;
-    color: #182027;
-    top: 0;
+    background: #182027;
     position: absolute;
     z-index: 111;
-    right: 0;
+    right: -43px;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
 }
 .club-collection-sec{
     padding-bottom: 30px;
