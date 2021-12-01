@@ -139,6 +139,23 @@
 .fl-text-btn:hover i{
 	margin-right: -5px;
 }
+.dft-fl-btn{
+	display: inline-block;
+    vertical-align: baseline;
+    min-width: 185px;
+    color: #fff;
+    background: transparent;
+    font-size: 19px;
+    line-height: 1.1;
+    text-align: center;
+    padding: 15px 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    border: 2px solid #E63312;
+    text-transform: capitalize;
+    text-decoration: none;
+    position: relative;
+}
 .default-page-con ul,
 ul{
 	list-style: none;
@@ -231,4 +248,57 @@ ul.select2-results__options li {
 }
 .select2-container--default .select2-selection--single .select2-selection__rendered {
     color: #ffffff;
+}
+
+
+/* breadcrumbs */
+
+.breadcrumb-sec{
+	padding: 35px 0;
+	overflow: hidden;
+}
+.breadcrumb-cntlr ul{
+	display: flex;
+	align-items: center;
+	margin: 0 -23px;
+}
+.breadcrumb-cntlr ul li{
+	padding: 0 23px;
+	position: relative;
+	line-height: 1;
+}
+.breadcrumb-cntlr ul li:not(:first-child):after{
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 0;
+	-webkit-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	background-image: url('../images/right-arrow-red.svg');
+	background-repeat: no-repeat!important;
+	background-size: contain!important;
+	width: 10px;
+	height: 5px;
+	margin-top: 1px;
+}
+.breadcrumb-cntlr ul li a,
+.breadcrumb-cntlr ul li span,
+.breadcrumb-cntlr ul li a span{
+	display: inline-block;
+	vertical-align: baseline;
+	font-weight: 700;
+	color: #7D8D98;
+	line-height: 1;
+	font-size: 14px;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.breadcrumb-cntlr ul li.active span,
+.breadcrumb-cntlr ul li.active a{
+	color: #E63312;
+}
+.breadcrumb-cntlr ul li a span:hover{
+	color: #E63312;
 }
