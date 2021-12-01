@@ -131,7 +131,7 @@
 	-moz-transition: all 0.5s;
 }
 .fld-team-grid-dscrptn{
-	padding: 15px 25px;
+	padding: 30px 25px;
 	background-color: #151618;
 	border-left: 2px solid#202123;
 	border-right: 2px solid#202123;
@@ -145,7 +145,6 @@
 	text-transform: capitalize;
 	position: relative;
 	margin-bottom: 0!important;
-	line-height: 2;
 }
 .team-grid-dscrptn-title:after{
 	position: absolute;
@@ -194,19 +193,18 @@
 	.fld-team-grid-items-cntlr ul {
 	    margin: 0 -10px;
 	}
-/*	.fld-team-grid-dscrptn {
+	.fld-team-grid-dscrptn {
 	    padding: 25px 20px;
-	}*/
+	}
 	.fld-team-grid-items-cntlr ul li {
 	    padding: 0 10px;
 	}
 	.fld-team-grid-item-img-cntlr img {
 	    max-width: 160px;
 	}
-/*	.fld-team-grid-item:after {
+	.fld-team-grid-item:after {
 	    bottom: 105px;
-	    width: 70px;
-	}*/
+	}
 }
 @media (max-width: 991px){
 	.fld-catagories-cntlr ul li {
@@ -227,9 +225,9 @@
 	.fld-team-grid-item-img-cntlr {
 	    height: 220px;
 	}
-/*	.fld-team-grid-dscrptn {
+	.fld-team-grid-dscrptn {
 	    padding: 20px 15px;
-	}*/
+	}
 	.fld-team-grid-item:after {
 	    bottom: 95px;
 	    width: 65px;
@@ -260,12 +258,12 @@
 	    max-width: 500px;
 	    margin: 0 auto;
 	}
-	.xs-category-item-title{
+/*	.xs-category-item-title{
 		font-weight: 400;
 		position: relative;
 		display: block;
-	}
-	.xs-category-item-title i {
+	}*/
+/*	.xs-category-item-title i {
 	    position: absolute;
 	    display: inline-block;
 	    right: 0;
@@ -274,8 +272,6 @@
 	    -webkit-transform: translate(-50%, -50%);
 	    -moz-transform: translate(-50%, -50%);
 	}
-	/*if you want to rotate icon without any problem when it will position at the inner of i tag ,
-	 then sure you need to rotate(img)tag not directly i tag  !!*/
 	.rotate-180d i img{
 		transform: rotate(-180deg);
 		-webkit-transform: rotate(-180deg);
@@ -285,15 +281,19 @@
 	    display: none;
 	    top: 0;
 	    margin-top: 10px;
-	}
+	}*/
 	.fld-team-grid-item-img-cntlr {
 	    height: 270px;
 	}
+	.fld-team-grid-item:after {
+	    bottom: 95px;
+	    width: 76px;
+	}
 }
+
 @media (max-width: 479px){
 	.fld-team-grid-item:after {
-	    bottom: 125px;
-	    width: 76px;
+	    bottom: 110px;
 	}
 	.fld-team-grid-item {
 	    position: relative;
