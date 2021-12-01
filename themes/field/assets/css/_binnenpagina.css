@@ -117,7 +117,15 @@ Gallery design
 	height: 270px;
 	display: none;
 }
-
+.gallery-icon{
+	overflow: hidden;
+}
+.gallery-icon:hover img,
+.gallery-icon:hover .gallery-icon-img{
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+}
 .glry-col-3 .gallery-icon-img{
 	height: 285px;
 }
