@@ -60,7 +60,7 @@
 	.page-bedankt-cntent-rgt-img-ctlr{
 		height: 310px;
 	    margin-top: -280px;
-	    width: 50%;
+	    width: 44%;
 	}
 }
 @media(max-width: 1199px){
@@ -129,6 +129,9 @@
 		width: 40%;
 	    margin-top: -230px;
 	    height: 260px;
+	}
+	.page-bedankt-cntent-desc-inr{
+		padding: 0;
 	}
 }
 @media(max-width: 575px){
