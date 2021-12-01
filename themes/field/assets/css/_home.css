@@ -69,7 +69,10 @@
 	position:relative;
 	padding-bottom:93px;
 }
-
+.club-collection-sec{
+    padding-bottom: 30px;
+    padding-top: 140px;
+}
 /*.clb-cltion-grd-item-des{
 	display: none;
 }*/
@@ -187,9 +190,7 @@
     -ms-transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
-.club-collection-sec{
-    padding-bottom: 30px;
-}
+
 @media (max-width: 1699px){
 
 }
