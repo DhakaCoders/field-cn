@@ -236,6 +236,9 @@
 	    height: 13px;
 	    width: 14px;
 	}
+	.fld-team-grid-items-sec {
+	    padding-bottom: 50px;
+	}
 }
 @media (max-width: 767px){
 	.fld-club-catg-select-cntlr {
@@ -288,6 +291,9 @@
 	.fld-team-grid-item:after {
 	    bottom: 95px;
 	    width: 76px;
+	}
+	.fld-team-grid-items-sec {
+	    padding-bottom: 25px;
 	}
 }
 
