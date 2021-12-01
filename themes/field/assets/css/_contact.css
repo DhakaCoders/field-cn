@@ -140,13 +140,14 @@ textarea {
     display: block;
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-has-error label.wpforms-error {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 14px;
     padding-left: 2px;
     position: absolute;
     top: 92px;
     right: 12px;
     color: #E63312;
+    letter-spacing: -0.02em;
     margin-bottom: 0;
     text-transform: inherit;
 }
@@ -158,7 +159,7 @@ textarea {
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field .wpforms-error:after{
     content: "x";
     position: absolute;
-    bottom: 44px;
+    bottom: 40px;
     right: 22px;
     color:  #E63312;
     opacity: 1;
@@ -273,7 +274,7 @@ textarea {
   top: 3px;
   width: 5px;
   height: 10px;
-  border: solid #E63312;
+  border: solid #7D8D98;
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
 }
@@ -354,7 +355,7 @@ textarea {
     border-bottom: 1px solid #7D8C98;
     margin-bottom: 41px;
 }
-.cnt-details-col span,
+.cnt-details-col strong,
 .cnt-details-col a{
     font-size: 18px;
     line-height: 1.5;
@@ -362,6 +363,7 @@ textarea {
     display: inline-block;
     vertical-align: baseline;
     text-decoration: none;
+    font-weight: 400;
 }
 .cnt-details-col a:hover{
     color: #E63312;
