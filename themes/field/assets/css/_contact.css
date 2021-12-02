@@ -327,21 +327,21 @@ textarea {
     color: #FFFFFF;
 
 }
-.cnt-details-col{
+.cntct-details-col{
     position: relative;
     margin-bottom: 30px;
 }
-.cnt-details-col:last-child{
+.cntct-details-col:last-child{
     margin-bottom: 0;
 }
-.cnt-tel.cnt-details-col a{
+.cntct-tel.cntct-details-col a{
     font-weight: 300;
     font-size: 24px;
     color: #B2BCC2;
     padding-left: 35px;
     position: relative;
 }
-.cnt-tel.cnt-details-col a i {
+.cntct-tel.cntct-details-col a i {
     display: inline-block;
     position: absolute;
     top: 50%;
@@ -350,13 +350,13 @@ textarea {
     -ms-transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
-.cnt-tel.cnt-details-col {
+.cntct-tel.cntct-details-col {
     padding-bottom: 36px;
     border-bottom: 1px solid #7D8C98;
     margin-bottom: 41px;
 }
-.cnt-details-col strong,
-.cnt-details-col a{
+.cntct-details-col strong,
+.cntct-details-col a{
     font-size: 18px;
     line-height: 1.5;
     color: #B2BCC2;
@@ -365,10 +365,10 @@ textarea {
     text-decoration: none;
     font-weight: 400;
 }
-.cnt-details-col a:hover{
+.cntct-details-col a:hover{
     color: #E63312;
 }
-.cnt-addrs.cnt-details-col span{
+.cntct-addrs.cntct-details-col span{
     display: block;
 }
 .wpforms-container .wpforms-field-description{
@@ -574,14 +574,14 @@ textarea {
     .contact-info-details-cntlr {
         padding: 40px;
     }
-    .cnt-details-col span, .cnt-details-col a{
+    .cntct-details-col span, .cntct-details-col a{
         font-size: 17px;
     }
     .contact-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button{
         max-width: 230px;
         padding: 14.5px;
     }
-    .cnt-addrs.cnt-details-col {
+    .cntct-addrs.cntct-details-col {
         margin-bottom: 15px;
     }
     .contact-form-sec-wrp {
@@ -651,11 +651,11 @@ textarea {
         padding-left: 53px;
         padding-right: 60px;
     }
-    .cnt-addrs.cnt-details-col {
+    .cntct-addrs.cntct-details-col {
         margin-bottom: 20px;
     }
-    .cnt-fax.cnt-details-col,
-    .cnt-tel.cnt-details-col {
+    .cnt-fax.cntct-details-col,
+    .cntct-tel.cntct-details-col {
         margin-bottom: 15px;
     }
     .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-has-error label.wpforms-error {
