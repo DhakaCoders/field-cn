@@ -98,7 +98,6 @@
 		padding-left: 75px;
 	}
 }
-
 @media(max-width: 1199px){
 	.page-bedankt-cntent-cntlr{
 		padding-bottom: 70px;
@@ -118,7 +117,6 @@
 	.page-bedankt-cntent-desc-inr i img{
 		max-width: 55px;
 	}
-
 }
 @media(max-width: 991px){
 	.page-bedankt-cntent-cntlr{
@@ -173,7 +171,6 @@
 	    width: 37.34%;
 	    height: 336px;
 	}
-
 }
 @media(max-width: 639px){
 	.page-bedankt-cntent-lft-img-ctlr{
