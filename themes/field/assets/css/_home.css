@@ -308,7 +308,8 @@
 	top:0;
 	margin-top:-50px;
 }
-.team-red-angle-img img{
+.team-red-angle-img img,
+.team-red-angle-img .team-red-angle-img-div{
 	max-width: 450px;
     width: 100%;
 }
@@ -322,6 +323,14 @@
 	    padding-bottom: 25px;
 	}
 }
+@media(max-width:991px){
+	.team-grid-item{
+		width:33.33%;
+	}
+	.over-field-team-sec{
+		padding-bottom:60px;
+	}
+}
 @media(max-width:767px){
 
 	.teamSlider .team-grid-item{
@@ -333,9 +342,31 @@
 	.teamSlider.slick-initialized .team-grid-item{
 		display: block;
 	}
+	.team-grid{
+		margin:0 -7px;
+	}
+	.team-grid-item{
+		padding:0 7px;
+		margin-bottom:0px;
+	}
+	.team-grd-item-inner:after{
+		left:-7px;
+	}
+	.over-field-team-sec{
+		padding-bottom:38px;
+	}
+	.over-field-team-sec .sec-entry-hdr {
+	    padding-bottom: 10px;
+	}
 
 }
-
+@media(max-width:479px){
+	.team-grid{
+	    max-width: 300px;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+}
 
 /*over field css end*/
 
@@ -444,7 +475,11 @@
 }
 
 @media(max-width: 479px){
-
+	.club-collection-grid{
+	    max-width: 300px;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
 
 }
 
