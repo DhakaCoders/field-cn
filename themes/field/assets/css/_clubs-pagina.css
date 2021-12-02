@@ -299,10 +299,10 @@
 	    width: 76px;
 	}
 	.fld-club-grids-sec {
-	    padding-bottom: 30px;
+	    padding-bottom: 25px;
 	}
 	.fld-club-desc-title{
-		font-size: 28px!important;
+		font-size: 30px!important;
 	}
 }
 @media (max-width: 575px){
@@ -313,7 +313,7 @@
 	    width: 100%;
 	    max-width: 335px;
 	    margin: 0 auto;
-	    padding-bottom: 30px!important;
+	    padding-bottom: 33px!important;
 	}
 
 }
