@@ -406,6 +406,7 @@ hr {
 @media (max-width: 767px){
 	.innerpage-con-wrap{
 		padding-top: 39px;
+		padding-bottom: 48px;
 	}
 	.dfp-promo-module-title {
 	    margin-bottom: 40px;
@@ -464,6 +465,7 @@ hr {
 	}
 	.fl-dft-lftimg-rgtdes.fl-dft-rgtimg-lftdes .fl-dft-lftimg-rgtdes-rgt{
 		padding-right: 0;
+		margin-bottom: 0;
 	}
 	.fl-dft-overflow-module-out-bg{
 		width: 100%;
@@ -474,10 +476,33 @@ hr {
 	}
 	.fl-dft-lftimg-rgtdes.fl-dft-rgtimg-lftdes{
 		padding-top: 32px;
+		padding-bottom: 20px;
+	}
+	.dfp-club-collection-cntlr .club-collection-grid.slick-dotted.slick-slider{
+		margin-bottom: 0!important;
+	}
+	.dfp-club-collection-cntlr{
+		margin-bottom: 26px;
+	}
+	.dfp-cta-module .cta-ctlr{
+		padding-bottom: 40px;
+	}
+	.dfp-btn-module {
+	    padding-top: 30px;
 	}
 }
 @media (max-width: 575px){
-	
+	.btm-gallery-wrap .gallery{
+		display: block;
+		margin: 0;
+	}
+	.gallery-columns-3 .gallery-item{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.gallery-icon {
+	    overflow: initial;
+	}
 }
 @media (max-width: 479px){
 	

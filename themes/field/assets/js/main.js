@@ -322,6 +322,18 @@ if( $('.gallery-masonry-items-cntlr').length ){
   }).masonry('layout');
 };
 
+if( $('.BtmGallerySlider').length ){
+    $('.BtmGallerySlider').slick({
+      dots: true,
+      arrows: false,
+      infinite: false,
+      autoplay: true,
+      autoplaySpeed: 4000,
+      speed: 700,
+      slidesToShow: 2,
+      slidesToScroll: 1
+    });
+}
 
 /* start of Momin*/
 
