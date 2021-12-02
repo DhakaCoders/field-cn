@@ -218,7 +218,6 @@
 
 
 /*over field css*/
-
 .team-grd-item-heading .team-grd-item-title,
 .team-grd-item-heading .team-grd-item-title a{
 	text-transform: capitalize;
@@ -248,7 +247,6 @@
 	padding:0 10px;
     margin-bottom:40px;
 }
-
 .team-grd-item-img-div{
     height: 100%;
     width: 100%;
@@ -293,7 +291,6 @@
 	bottom: 162px;
 	left: -10px;
 }
-
 .team-grd-item-inner {
     position: relative;
 }
@@ -350,8 +347,6 @@
 	}
 }
 @media(max-width:767px){
-
-	
 	.team-grid{
 		margin:0 -7px;
 	}
@@ -371,8 +366,6 @@
 	.team-grd-item-img{
 		height:350px;
 	}
-
-
 }
 @media(max-width:639px){
 	.teamSlider .team-grid-item{
@@ -411,8 +404,6 @@
 
 
 
-
-
 @media (max-width: 1699px){
 
 }
@@ -427,7 +418,6 @@
 @media(max-width: 1299px){
 
 }
-
 @media(max-width: 1199px){
 	.clb-cltion-grd-item-des ul li {
 	    font-size: 15px;
@@ -464,14 +454,12 @@
 		padding-top:80px;
 	}
 }
-
 @media(max-width: 991px){
 	.clb-cltion-grd-item-inner {
 	    padding-bottom: 82px;
 	}
 	
 }
-
 @media(max-width: 767px){
 	.fd-link-module-sec-inr{
 		height: 400px;
@@ -480,7 +468,6 @@
 		padding-right: 20px;
 		align-items: top;
 		justify-content: center;
-
 	}
 	.club-collection-grid {
 	    margin: 0 -7px;
@@ -500,7 +487,6 @@
 	    padding-bottom: 40px;
 	}
 }
-
 @media(max-width: 575px){
 	.club-collection-grid{
 	    max-width: 300px;
@@ -509,7 +495,6 @@
 	}
 
 }
-
 @media(max-width: 479px){
 	
 
