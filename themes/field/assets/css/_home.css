@@ -397,11 +397,15 @@
 	.clb-cltion-grd-item-inner:after{
 		bottom:110px;
 	}
-
+	.club-collection-sec{
+		padding-top:80px;
+	}
 }
 
 @media(max-width: 991px){
-	
+	.clb-cltion-grd-item-inner {
+	    padding-bottom: 82px;
+	}
 	
 }
 
@@ -428,6 +432,9 @@
 	}
 	.clb-cltion-grd-item-inner:after{
 		left:-7px;
+	}
+	.club-collection-sec {
+	    padding-bottom: 40px;
 	}
 }
 
