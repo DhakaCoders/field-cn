@@ -47,7 +47,6 @@
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: 2;
 }
 .hm-bnr-slider,
 .hm-bnr-slider-item,
@@ -57,12 +56,19 @@
     height: 100%;
 }
 
+.hm-bnr-slider-item,
+.hm-banner-bg{
+    position: relative;
+    z-index: 2;
+}
+
 .hm-banner-des-cntlr{
 	height: 909px;
     display: flex;
     align-items: center;
     position: relative;
     z-index: 3;
+    padding-top: 180px;
 }
 
 .hm-banner-des{
