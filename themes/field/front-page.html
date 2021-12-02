@@ -96,6 +96,16 @@
       <path d="M2.08819 13.9873H37.1204L30.5572 20.5506C28.672 22.4358 31.4998 25.2635 33.385 23.3783L39.3624 17.3917L43.3525 13.3953C44.1259 12.6173 44.1259 11.3609 43.3525 10.583L33.385 0.603881C33.0058 0.214196 32.4838 -0.00445366 31.94 6.87877e-05C30.1447 0.00029491 29.2637 2.18691 30.5572 3.43179L37.136 9.99506H1.98497C-0.779873 10.1322 -0.573434 14.125 2.08819 13.9873Z" fill-opacity="0.32"/>
     </symbol>
 
+    <symbol id="facebook-svg" width="10" height="18" viewBox="0 0 10 18" xmlns="http://www.w3.org/2000/svg">
+      <path d="M6.125 6.1875V3.9375C6.125 3.3165 6.629 2.8125 7.25 2.8125H8.375V0H6.125C4.26087 0 2.75 1.51088 2.75 3.375V6.1875H0.5V9H2.75V18H6.125V9H8.375L9.5 6.1875H6.125Z"/>
+    </symbol>
+
+    <symbol id="instagram-svg" width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12.375 0H5.625C2.51888 0 0 2.51888 0 5.625V12.375C0 15.4811 2.51888 18 5.625 18H12.375C15.4811 18 18 15.4811 18 12.375V5.625C18 2.51888 15.4811 0 12.375 0ZM16.3125 12.375C16.3125 14.5463 14.5463 16.3125 12.375 16.3125H5.625C3.45375 16.3125 1.6875 14.5463 1.6875 12.375V5.625C1.6875 3.45375 3.45375 1.6875 5.625 1.6875H12.375C14.5463 1.6875 16.3125 3.45375 16.3125 5.625V12.375Z"/>
+      <path d="M9 4.5C6.51487 4.5 4.5 6.51487 4.5 9C4.5 11.4851 6.51487 13.5 9 13.5C11.4851 13.5 13.5 11.4851 13.5 9C13.5 6.51487 11.4851 4.5 9 4.5ZM9 11.8125C7.44975 11.8125 6.1875 10.5503 6.1875 9C6.1875 7.44863 7.44975 6.1875 9 6.1875C10.5503 6.1875 11.8125 7.44863 11.8125 9C11.8125 10.5503 10.5503 11.8125 9 11.8125Z"/>
+      <path d="M13.8375 4.76212C14.1687 4.76212 14.4372 4.49366 14.4372 4.16249C14.4372 3.83133 14.1687 3.56287 13.8375 3.56287C13.5064 3.56287 13.2379 3.83133 13.2379 4.16249C13.2379 4.49366 13.5064 4.76212 13.8375 4.76212Z"/>
+    </symbol>
+
 
 
 
@@ -105,7 +115,7 @@
 <body class="home">
 
 <div class="page-body-cntlr">
-  <header class="header hdr-border-none d-none">
+  <header class="header hdr-border-none ">
     <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -116,7 +126,7 @@
                 </div>
               </div>
               <div class="hdr-rgt">
-                <div class="hdr-top-menu">
+                <div class="hdr-top-bar">
                   <div class="hdr-account">
                     <a href="#">Mijn account
                       <i>
@@ -128,8 +138,24 @@
                   </div>
                   <div class="hdr-social-media">
                     <ul class="reset-list">
-                      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                      <li>
+                        <a href="#" target="_blank">
+                          <i>
+                            <svg class="facebook-svg" width="10" height="18" viewBox="0 0 10 18" fill="#7D8D98">
+                              <use xlink:href="#facebook-svg"></use> 
+                            </svg>
+                          </i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" target="_blank">
+                          <i>
+                            <svg class="instagram-svg" width="18" height="18" viewBox="0 0 18 18" fill="#7D8D98">
+                              <use xlink:href="#instagram-svg"></use> 
+                            </svg>
+                          </i>
+                        </a>
+                      </li>
                     </ul>
                   </div>
                   <div class="hdr-lang-cntlr">
@@ -169,7 +195,7 @@
 
   <!-- end of Header -->
 
-  <section class="hm-banner d-none">
+  <section class="hm-banner">
     <div class="hm-bnr-icon">
       <img src="assets/images/hm-bnr-icon.png">
     </div>
@@ -197,7 +223,9 @@
             <div class="hm-banner-des">
               <h2 class="hm-bnr-sub-title fl-h6">Quis id velit diam varius ut tempus.</h2>
               <h1 class="hm-bnr-title fl-h1">Jouw team in custom-made sportkledij?</h1>
-              <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut nunc turpis, faucibus nec lectus quis, porttitor porta sem. Curabitur feugiat diam dui, vel imperdiet libero consequat at.</p>
+              <div class="hm-banner-des-inr">
+                <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut nunc turpis, faucibus nec lectus quis, porttitor porta sem. Curabitur feugiat diam dui, vel imperdiet libero consequat at.</p>
+              </div>
               <a href="#" class="fl-btn fl-btn-angel">LATEN WE SAMEN EEN TOPPROJECT STARTEN</a>
             </div>
           </div>
@@ -207,7 +235,7 @@
   </section>
 
 
-  <section class="usp-sec d-none">
+  <section class="usp-sec ">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -262,7 +290,7 @@
     </div>
   </section>
 
-  <section class="msnry-sec d-none">
+  <section class="msnry-sec ">
     <div class="msnry-grd">
       <div class="msnry-grd-item">
         <div class="msnry-grd-item-inr">
@@ -424,7 +452,7 @@
 
 
 
-  <section class="hm-grd-sec d-none">
+  <section class="hm-grd-sec ">
     <div class="hm-grd-rgt-sqr-box"></div>
     <div class="container">
       <div class="row">
@@ -434,8 +462,8 @@
               <li>
                 <div class="hm-grd-item">
                   <div class="hm-grd-des">
-                    <h2 class="hm-grd-des-title fl-h2">DESIGN</h2>
-                    <h3 class="hm-grd-des-sub-title fl-h6">Ontwerp je eigen tenue</h3>
+                    <h2 class="hm-grd-des-title fl-h2 mHc">DESIGN</h2>
+                    <h3 class="hm-grd-des-sub-title fl-h6 mHc1">Ontwerp je eigen tenue</h3>
                     <p>Heb je zelf een idee? Top! Toch liever professioneel advies? De in-house designers van FIELD helpen je graag verder!</p>
                   </div>
                 </div>
@@ -443,8 +471,8 @@
               <li>
                 <div class="hm-grd-item">
                   <div class="hm-grd-des">
-                    <h2 class="hm-grd-des-title fl-h2">CREATE</h2>
-                    <h3 class="hm-grd-des-sub-title fl-h6">Time to design</h3>
+                    <h2 class="hm-grd-des-title fl-h2 mHc">CREATE</h2>
+                    <h3 class="hm-grd-des-sub-title fl-h6 mHc1">Time to design</h3>
                     <p>We gaan aan de slag met de info die je ons gaf. We vertrekken van een wit blad om een design te ontwerpen die helemaal aansluit bij de club identiteit.</p>
                   </div>
                 </div>
@@ -452,8 +480,8 @@
               <li>
                 <div class="hm-grd-item">
                   <div class="hm-grd-des">
-                    <h2 class="hm-grd-des-title fl-h2">PLAY</h2>
-                    <h3 class="hm-grd-des-sub-title fl-h6">Indruk maken</h3>
+                    <h2 class="hm-grd-des-title fl-h2 mHc">PLAY</h2>
+                    <h3 class="hm-grd-des-sub-title fl-h6 mHc1">Indruk maken</h3>
                     <p>Er rest jouw nu nog maar één ding: Let’s kick ass on the field in je nieuwe tenue!</p>
                   </div>
                 </div>
@@ -465,7 +493,7 @@
     </div>
   </section>
 
-  <section class="process-sec d-none">
+  <section class="process-sec ">
     <div class="process-rgt-pos-img">
       <img src="assets/images/field-logo.png">
     </div>
@@ -482,7 +510,7 @@
       </div>
       <div class="process-des-ctlr">
         <div class="process-des">
-          <h2 class="process-des-title fl-h2">Waarom moet jouw team voor FIELD kiezen?</h2>
+          <h2 class="process-des-title fl-h2">Waarom moet jouw team <br> voor FIELD kiezen?</h2>
           <ul>
             <li>Faucibus nec lectus quis.</li>
             <li>Metus ultricies at porta massa eu.</li>
@@ -496,7 +524,7 @@
     </div>
   </section>
 
-  <section class="part-of-team-sec d-none">
+  <section class="part-of-team-sec ">
     <div class="part-of-team-box"></div>
     <div class="container-lg">
       <div class="row">
@@ -511,7 +539,7 @@
     </div>
   </section>
 
-  <section class="cta-sec cta-module-2 d-none">
+  <section class="cta-sec cta-module-2 ">
     <div class="cta-lft-img">
       <img src="assets/images/cta-lft-img.png">
     </div>
@@ -543,7 +571,7 @@
 
 
 
-  <section class="clubs-team-sec d-none">
+  <section class="clubs-team-sec ">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -672,7 +700,7 @@
     </div>
   </section>
 
-  <section class="main-content d-none">
+  <section class="main-content ">
     <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -864,9 +892,11 @@
     </div>    
   </section>
 
-  <section class="over-field-team-sec d-none">
+  <section class="over-field-team-sec">
     <div class="team-red-angle-img">
-      <img src="assets/images/cta-lft-img.png">
+      <img class="hide-sm" src="assets/images/cta-lft-img.png">
+      <img class="show-sm" src="assets/images/team-xs-red-angle-img.png" alt="">
+      <!-- <div class="team-red-angle-img-div" style="background-image: url(assets/images/cta-lft-img.png);"></div> -->
     </div>
     <div class="container">
       <div class="row">
@@ -944,7 +974,7 @@
                     <div class="team-grd-item-img">
                       <a class="overlay-link" href="#"></a>
                       <!-- <img src="assets/images/team-1.jpg"> -->
-                      <div class="team-grd-item-img-div inline-bg" style="background-image: url(assets/images/team-5.jpg);"></div>
+                      <div class="team-grd-item-img-div inline-bg" style="background-image: url(assets/images/team-4.jpg);"></div>
                     </div>
                     <div class="team-grd-item-des">
                       <div class="team-grd-item-heading">
@@ -974,7 +1004,7 @@
                     <div class="team-grd-item-img">
                       <a class="overlay-link" href="#"></a>
                       <!-- <img src="assets/images/team-1.jpg"> -->
-                      <div class="team-grd-item-img-div inline-bg" style="background-image: url(assets/images/team-7.jpg);"></div>
+                      <div class="team-grd-item-img-div inline-bg" style="background-image: url(assets/images/team-6.jpg);"></div>
                     </div>
                     <div class="team-grd-item-des">
                       <div class="team-grd-item-heading">
@@ -1007,7 +1037,7 @@
   </section>
 
 
-  <section class="fd-link-module-sec d-none">
+  <section class="fd-link-module-sec ">
     <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -1030,7 +1060,7 @@
     </div>    
   </section>
 
-  <footer class="footer-wrp d-none">
+  <footer class="footer-wrp ">
     <div class="ftr-top-wrap">
       <div class="container">
         <div class="row">
