@@ -6,7 +6,7 @@
 }
 .innerpage-con-wrap{
 	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-bottom: 86px;
 }
 .default-page-con h1,
 .dfp-promo-module-title,
@@ -259,7 +259,7 @@ hr {
     border-bottom: 2px solid rgba(125, 141, 152, 0.1);
 }
 .dfp-btn-module{
-	padding-top: 50px;
+	padding-top: 10px;
 }
 .dfp-btn-module .dfp-btn-module-ctlr ul{
 	padding-left: 0;
@@ -300,4 +300,11 @@ hr {
 }
 .dfp-club-collection-cntlr{
 	margin-bottom: 37px;
+}
+.dfp-team-module-cntlr .sec-entry-hdr{
+	padding-bottom: 41px;
+}
+.dfp-cta-module .cta-ctlr{
+	padding-top: 49px;
+	padding-bottom: 105px;
 }
