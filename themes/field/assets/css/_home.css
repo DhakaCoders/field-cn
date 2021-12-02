@@ -70,7 +70,7 @@
 	padding-bottom:93px;
 }
 .club-collection-sec{
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     padding-top: 140px;
 }
 /*.clb-cltion-grd-item-des{
@@ -333,6 +333,7 @@
 	.teamSlider.slick-initialized .team-grid-item{
 		display: block;
 	}
+
 }
 
 
@@ -424,6 +425,9 @@
 	.clb-cltion-grd-item-bottom-des-hover-ef {
 	    padding-left: 15px;
 	    padding-right: 15px;
+	}
+	.clb-cltion-grd-item-inner:after{
+		left:-7px;
 	}
 }
 
