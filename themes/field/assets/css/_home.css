@@ -228,7 +228,7 @@
 .team-grd-item-heading .team-grd-item-title:hover a{
  	color:#E63312;
 }
-.team-grd-item-heading span{
+.team-grd-item-heading strong{
  	color:#E63312;
  	font-size:22px;
  	text-transform: uppercase;
@@ -363,7 +363,13 @@
 }
 
 @media(max-width: 1199px){
-	
+	.clb-cltion-grd-item-des ul li {
+    font-size: 15px;
+    line-height: 1.4;
+}
+.clb-cltion-grd-item-des p{
+	font-size:15px;
+}
 
 }
 
