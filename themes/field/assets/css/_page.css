@@ -12,6 +12,9 @@
 	margin: 0 8px;
 	padding: 0!important;
 	margin-bottom:10px;
+	-webkit-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	transition: all 0.5s;
 }
 .slick-slider .slick-dots li.slick-active,
 .slick-slider .slick-dots li:hover{

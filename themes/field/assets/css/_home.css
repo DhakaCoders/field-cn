@@ -322,6 +322,11 @@
 		padding-top: 30px;
 	    padding-bottom: 25px;
 	}
+	.team-red-angle-img img, 
+	.team-red-angle-img .team-red-angle-img-div {
+	    max-width: 340px;
+	    width: 100%;
+	}
 }
 @media(max-width:991px){
 	.team-grid-item{
@@ -329,6 +334,11 @@
 	}
 	.over-field-team-sec{
 		padding-bottom:60px;
+		padding-top:100px;
+	}
+	.team-red-angle-img img, 
+	.team-red-angle-img .team-red-angle-img-div{
+	    max-width: 230px;
 	}
 }
 @media(max-width:767px){
@@ -354,10 +364,12 @@
 	}
 	.over-field-team-sec{
 		padding-bottom:38px;
+		padding-top: 60px;
 	}
 	.over-field-team-sec .sec-entry-hdr {
 	    padding-bottom: 10px;
 	}
+
 
 }
 @media(max-width:479px){
