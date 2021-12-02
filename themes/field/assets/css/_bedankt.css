@@ -32,6 +32,8 @@
 	position: absolute;
     bottom: 96%;
     right: -10px;
+    max-width: 60px;
+    width: 100%;
 }
 .page-bedankt-cntent-rgt-img-ctlr .inline-bg{
 	background-position: initial!important;
@@ -184,6 +186,14 @@
 	    height: 285px;
 	}
 }
+@media(max-width: 575px){
+	.page-bedankt-xs-img{
+		max-width: 50px;
+		width: 100%;
+		height: auto;
+	}
+}
+
 @media(max-width: 479px){
 	.page-bedankt-cntent-lft-img-ctlr{
 		height: 300px;
