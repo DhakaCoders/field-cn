@@ -93,8 +93,8 @@ header.header{
 	-webkit-transform: translate(-50%,-50%);
 	-ms-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);
-	height: 10px;
-	width: 10px;
+	height: 9px;
+	width: 9px;
 	border: 1px solid #E63312;
 	margin-top: 1px;
 }
@@ -129,8 +129,8 @@ header.header{
 	-webkit-transform: translate(-50%,-50%);
 	-ms-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);
-	height: 10px;
-	width: 10px;
+	height: 9px;
+	width: 9px;
 	border: 1px solid #E63312;
 	margin-top: 1px;
 }
@@ -304,9 +304,9 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:last-child{
 	border-bottom: 0;
 }
 nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a {
-    font-size: 20px;
+    font-size: 19px;
     display: block;
-    padding: 10px 17px;
+    padding: 8px 17px;
     text-decoration: none;
     color: #E63312;
     text-transform: uppercase;
