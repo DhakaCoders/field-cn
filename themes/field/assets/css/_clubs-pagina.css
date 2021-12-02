@@ -75,8 +75,10 @@
 .fld-club-grids-cntlr ul li{
 	padding: 0 12px;
 	margin-bottom: 30px;
-	max-width: 33.3333%;
-	width: 100%;
+/*	max-width: 33.3333%;
+	width: 100%;*/
+	/*padding-bottom: 30px;*/
+	width: 33.3333%;
 }
 .fld-club-grid{
 	position: relative;
@@ -257,7 +259,7 @@
 	    color: #fff;
 	}
 	.fld-club-grids-cntlr ul li {
-	    max-width: 50%;
+	    width: 50%;
 	}
 	.category-box-cntlr {
 	    border: 2px solid #2b2f32;
@@ -299,12 +301,20 @@
 	.fld-club-grids-sec {
 	    padding-bottom: 30px;
 	}
+	.fld-club-desc-title{
+		font-size: 28px!important;
+	}
 }
 @media (max-width: 575px){
 	.fld-club-grid-img-cntlr {
 	    height: 210px;
 	}
-
+	.fld-club-grids-cntlr ul li {
+	    width: 100%;
+	    max-width: 335px;
+	    margin: 0 auto;
+	    padding-bottom: 30px!important;
+	}
 
 }
 @media (max-width: 479px){
@@ -316,9 +326,7 @@
 	    max-width: 335px;
 	    margin: 0 auto;
 	}
-	.fld-club-grids-cntlr ul li {
-	    max-width: 100%;
-	}
+
 	.fld-club-desc-title{
 		font-size: 28px;
 	}

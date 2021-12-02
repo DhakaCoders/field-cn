@@ -467,6 +467,10 @@
     width: 100%;
 }
 
+.cta-module-img{
+    border: 20px solid #151617;
+}
+
 .cta-module{
    display: flex;
    align-items: center;
@@ -605,6 +609,7 @@
 .fl-prev i:hover svg,
 .fl-next i:hover svg{
     fill: #E63312;
+    fill-opacity: 1;
 }
 
 .clubs-team-logo{
@@ -613,6 +618,10 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 12px;
+}
+.clubs-team-logo a{
+    display: inline-block;
+    vertical-align: baseline;
 }
 
 
