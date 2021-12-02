@@ -108,6 +108,7 @@ header.header{
 .hdr-social-media ul li{
 	padding-left: 12px;
 	padding-right: 12px;
+	line-height: 1;
 }
 .hdr-social-media ul li a{
 	display: inline-block;
