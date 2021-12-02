@@ -503,6 +503,9 @@ hr {
 	.gallery-icon {
 	    overflow: initial;
 	}
+	.BtmGallerySlider .slick-list.draggable{
+		height: 100%!important;
+	}
 }
 @media (max-width: 479px){
 	

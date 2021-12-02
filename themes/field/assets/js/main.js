@@ -314,15 +314,17 @@ if( $('.wpforms-error').length ){
 //     $(this).parents('.wpforms-field').removeClass('wpforms-has-error');
 //   });
 // }
+if(windowWidth > 575){
+  if( $('.gallery-masonry-items-cntlr').length ){
+    $('.gallery-masonry-items-cntlr').masonry({
+      // options
+      itemSelector: '.gallery-masonry-item',
+    }).masonry('layout');
+  };
+}
 
-if( $('.gallery-masonry-items-cntlr').length ){
-  $('.gallery-masonry-items-cntlr').masonry({
-    // options
-    itemSelector: '.gallery-masonry-item',
-  }).masonry('layout');
-};
-
-if( $('.BtmGallerySlider').length ){
+if(windowWidth <= 575){
+  if( $('.BtmGallerySlider').length ){
     $('.BtmGallerySlider').slick({
       dots: true,
       arrows: false,
@@ -333,7 +335,9 @@ if( $('.BtmGallerySlider').length ){
       slidesToShow: 2,
       slidesToScroll: 1
     });
+  }
 }
+  
 
 /* start of Momin*/
 
