@@ -483,21 +483,12 @@ if( $('.xs-page-entry-menu').length ){
         autoplay: false,
         autoplaySpeed: 4000,
         speed: 700,
-        slidesToShow: 4,
+        slidesToShow: 3,
         slidesToScroll: 1,
         dots: true,
         responsive: [
           {
-            breakpoint: 767,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 1,
-              infinite: true,
-              dots: true
-            }
-          },
-          {
-            breakpoint: 700,
+            breakpoint: 650,
             settings: {
               slidesToShow: 2,
               slidesToScroll: 1,
@@ -505,7 +496,7 @@ if( $('.xs-page-entry-menu').length ){
             }
           },
           {
-            breakpoint: 576,
+            breakpoint:480,
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
