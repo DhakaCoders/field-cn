@@ -21,9 +21,6 @@
 	padding-bottom: 80px;
 }
 
-.club-pagina-details-con-ctlr{
-	position: relative;
-}
 .club-pagina-details-con-ctlr .breadcrumb-sec{
 	position: absolute;
 	top: 0;
@@ -82,6 +79,14 @@
 
 .two-plat-text-module-sec{
 	padding: 75px 0 110px;
+	position: relative;
+}
+
+.red-angle{
+	position: absolute;
+	top: 0;
+	left: 0;
+	max-width: 250px;
 }
 
 .two-plat-text-module-sec .sec-entry-hdr{
