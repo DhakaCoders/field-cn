@@ -360,7 +360,7 @@ ul.select2-results__options li {
     content: "";
     top: 18px;
     right: 23px;
-    background-image: url('../images/next-icon.svg');
+    background-image: url('../images/down-arrow.svg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;

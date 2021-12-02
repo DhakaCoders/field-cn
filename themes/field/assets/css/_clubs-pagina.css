@@ -210,6 +210,9 @@
 	.fld-catagories-cntlr ul li {
     	padding: 0 25px;
 	}
+	.fld-catagories-cntlr {
+	    margin-bottom: 55px;
+	}
 	.fld-catg-item i img {
 	    height: 50px!important;
 	}
