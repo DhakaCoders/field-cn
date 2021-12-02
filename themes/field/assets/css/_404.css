@@ -50,7 +50,6 @@
 		margin-bottom: 15px;
 	}
 }
-
 @media(max-width: 767px){
 	.page-404-cntent-cntlr{
 		padding-top: 35px;
@@ -77,16 +76,14 @@
 		bottom: -48px;
 	}
 	.page-bedankt-con-desc-title{
-		margin-bottom: 30px;
+		margin-bottom: 27px;
 	}
 }
-
 @media(max-width: 575px){
 	.page-404-cntent-cntlr .page-bedankt-cntent-img-inr{
 		height: 322px;
 	}
 }
-
 @media(max-width: 479px){
 	.page-404-cntent-cntlr .page-bedankt-cntent-img-inr{
 		height: 322px;
