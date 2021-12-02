@@ -62,8 +62,8 @@
 
 
 /*club collection css*/
-.club-collection-sec .sec-entry-hdr{
-	margin-bottom:40px;
+.club-collection-sec .sec-entry-hdr {
+    padding-bottom: 27px;
 }
 .clb-cltion-grd-item-inner{
 	position:relative;
@@ -313,7 +313,7 @@
     width: 100%;
 }
 .over-field-team-sec .sec-entry-hdr{
-	margin-bottom:50px;
+	padding-bottom:35px;
 }
 
 @media(max-width:1399px){
