@@ -267,30 +267,6 @@
 	    max-width: 500px;
 	    margin: 0 auto;
 	}
-/*	.xs-category-item-title{
-		font-weight: 400;
-		position: relative;
-		display: block;
-	}*/
-/*	.xs-category-item-title i {
-	    position: absolute;
-	    display: inline-block;
-	    right: 0;
-	    top: 50%;
-	    transform: translate(-50%, -50%);
-	    -webkit-transform: translate(-50%, -50%);
-	    -moz-transform: translate(-50%, -50%);
-	}
-	.rotate-180d i img{
-		transform: rotate(-180deg);
-		-webkit-transform: rotate(-180deg);
-		-moz-transform: rotate(-180deg);
-	}
-	.category-item-cntlr {
-	    display: none;
-	    top: 0;
-	    margin-top: 10px;
-	}*/
 	.fld-club-grid-img-cntlr {
 	    height: 250px;
 	}

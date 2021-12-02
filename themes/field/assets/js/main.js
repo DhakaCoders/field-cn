@@ -329,16 +329,6 @@ if( $('.gallery-masonry-items-cntlr').length ){
 
 
 /* start of Jahir*/
-// $('fld-club-catg-select-cntlr select').select2();
-// $('.fld-select-2-cntlr').select2();
-
-// if( $('.category-box-cntlr').length ){
-//   $('.category-box-cntlr').on('click', function() {
-//   $('.category-item-cntlr').toggle("slow");
-//   $('.category-box-cntlr .xs-category-item-title').toggleClass('rotate-180d');
-//   });
-// }
-
 if( $('.xs-page-entry-menu').length ){
   $('.xs-page-entry-menu ul li a').on('click', function(e){
     e.preventDefault();
@@ -347,14 +337,6 @@ if( $('.xs-page-entry-menu').length ){
     $(this).next().slideToggle(300);
   });
 }
-
-// if( $('.category-box-cntlr').length ){
-//   $('.category-box-cntlr').on('click', function() {
-//   $(this).fadeToggle("slow");
-//   $(this).addClass('show-after-click');
-//   });
-// }
-
 
 /* start of Shariful*/
 
