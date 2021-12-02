@@ -8,9 +8,6 @@
 	text-align: center;
 	padding-bottom: 10px;
 }
-.fld-catagories-sec{
-	/*padding-bottom: 65px;*/
-}
 .fld-catagories-cntlr{
 	position: relative;
 	padding-bottom: 10px;
@@ -290,6 +287,9 @@
 	    max-width: 335px;
 	    margin: 0 auto;
 	    padding-bottom: 33px!important;
+	}
+	.fld-clubs-page-contents .page-entry-hdr-desc{
+		padding-bottom: 20px;
 	}
 
 }

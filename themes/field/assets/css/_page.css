@@ -363,7 +363,7 @@ ul.select2-results__options li {
     position: absolute;
     content: "";
     top: 17px;
-    right: 23px;
+    right: 20px;
     background-image: url('../images/down-arrow.svg');
     background-repeat: no-repeat;
     background-size: contain;
