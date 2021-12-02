@@ -59,7 +59,7 @@
 	align-items: center;
 }
 .fld-catg-item i img{
-	max-height: 56px;
+	/*max-height: 56px;*/
 	width: auto;
 }
 .fld-team-grid-items-sec{
