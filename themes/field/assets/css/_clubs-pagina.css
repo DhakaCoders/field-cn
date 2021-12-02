@@ -26,7 +26,7 @@
     padding: 0;
 }
 .fld-catagories-cntlr ul li{
-	padding: 0 46px;
+	padding: 0 40px;
 	list-style: none;
 	margin-bottom: 10px;
 }
@@ -209,6 +209,9 @@
 @media (max-width: 991px){
 	.fld-catagories-cntlr ul li {
     	padding: 0 25px;
+	}
+	.fld-catagories-cntlr {
+	    margin-bottom: 55px;
 	}
 	.fld-catg-item i img {
 	    height: 50px!important;

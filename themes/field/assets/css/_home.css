@@ -133,7 +133,26 @@
 	bottom:-100%;
 	opacity:0;
 	border-top: 2px solid rgba(249, 249, 249, 0.05);
+	max-height:100%;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
+/* width */
+.clb-cltion-grd-item-bottom-des-hover-ef::-webkit-scrollbar {
+  width: 4px;
+}
+/* Track */
+.clb-cltion-grd-item-bottom-des-hover-ef::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #fff; 
+  border-radius: 10px;
+}
+/* Handle */
+.clb-cltion-grd-item-bottom-des-hover-ef::-webkit-scrollbar-thumb {
+  background: #E63312; 
+  border-radius: 10px;
+}
+
 .club-collection-grid-item:hover .clb-cltion-grd-item-bottom-des-hover-ef{
 	bottom:0;
 	opacity:1;
@@ -209,7 +228,7 @@
 .team-grd-item-heading .team-grd-item-title:hover a{
  	color:#E63312;
 }
-.team-grd-item-heading span{
+.team-grd-item-heading strong{
  	color:#E63312;
  	font-size:22px;
  	text-transform: uppercase;
@@ -301,7 +320,18 @@
 	    padding-bottom: 25px;
 	}
 }
+@media(max-width:767px){
 
+	.teamSlider .team-grid-item{
+		display: none;
+	}
+	.teamSlider .team-grid-item:first-child{
+		display: block;
+	}
+	.teamSlider.slick-initialized .team-grid-item{
+		display: block;
+	}
+}
 
 
 /*over field css end*/
@@ -333,7 +363,13 @@
 }
 
 @media(max-width: 1199px){
-	
+	.clb-cltion-grd-item-des ul li {
+    font-size: 15px;
+    line-height: 1.4;
+}
+.clb-cltion-grd-item-des p{
+	font-size:15px;
+}
 
 }
 

@@ -193,12 +193,8 @@
 .ftr-developed-by p a:hover{
     color: #e63312;
 }
+
 .ftr-angle-btn a{
-    background: #E63312;
+    font-size: 19px;
     color: #fff;
-    padding: 20px;
-    text-transform: uppercase;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
 }
