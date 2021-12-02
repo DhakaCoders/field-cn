@@ -447,6 +447,10 @@ textarea {
 
 
 @media (max-width: 1199px){
+    .contact-form-sec-wrp {
+        padding-bottom: 70px;
+        padding-top: 10px;
+    }
     .contact-form-lft {
         padding-right: 50px;
     }
@@ -469,22 +473,8 @@ textarea {
     .cnt-sec-entry-hdr-title {
         margin-bottom: 18px;
     }
-    .contact-form-sec-wrp{
-        padding-bottom: 80px;
-        padding-top: 70px;
-    }
     .contact-entry-header p{
         padding-bottom: 25px;
-    }
-    .wpforms-field-description{
-        padding: 35px 15px 10px 20px;
-    }
-    .contact-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button{
-        max-width: 260px;
-        padding: 17px;
-    }
-    .contact-google-map iframe{
-        height: 630px;
     }
 
 }
