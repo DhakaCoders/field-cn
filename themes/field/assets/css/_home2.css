@@ -1,6 +1,6 @@
 .home .hm-banner{
     position: relative;
-    z-index: 1;
+   /* z-index: 1;*/
 }
 .hm-banner{
 	position: relative;
@@ -54,26 +54,28 @@
 .hmBnrSlider .slick-list.draggable,
 .hmBnrSlider .slick-track{
     height: 100%;
+    position: relative;
+    z-index: 2;
 }
 
 .hm-bnr-slider-item,
 .hm-banner-bg{
-    position: relative;
-    z-index: 2;
+    
 }
 
 .hm-banner-des-cntlr{
 	height: 909px;
     display: flex;
     align-items: center;
-    position: relative;
-    z-index: 3;
+    
     padding-top: 180px;
 }
 
 .hm-banner-des{
     max-width: 510px;
     width: 100%;
+    position: relative;
+    z-index: 3;
 }
 
 
