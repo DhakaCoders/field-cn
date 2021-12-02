@@ -412,6 +412,28 @@ ul.select2-results__options li {
 		height:12px;
 		width:11px;
 	}
+	.default-page-con ul, ul{
+	    padding-left: 20px;
+	    padding-bottom: 10px;
+	}
+	.default-page-con ul li, ul li{
+	    padding: 4px 0 8px 23px;
+	}
+	.default-page-con ul li::before, ul li::before{
+		margin-top: 13px;
+	}
+	.default-page-con ol,
+	ol{
+		padding-left: 20px;
+	    padding-bottom: 10px;
+	}
+	.default-page-con ol li,
+	ol li {
+		padding: 4px 0 8px 23px;
+	}
+	.default-page-con ol li::before, ol li::before{
+	    margin-top: 4px;
+	}
 }
 
 @media(max-width:575px){

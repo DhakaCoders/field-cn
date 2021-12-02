@@ -17,22 +17,26 @@
     flex-wrap: wrap;
 }
 .ftr-top-col{
-    width: 20%;
+    /*width: 20%;*/
     padding-bottom: 65px;
     padding-right: 20px;
 }
-.ftr-top-col-1{
+.ftr-top-left{
     width: 18%;
 }
-
+.ftr-top-mdl{
+    width:52%;
+    display: flex;
+    flex-wrap: wrap;
+}
 .ftr-top-col-2,
 .ftr-top-col-3{
-    width: 16%;
+    width: 31%;
 }
 .ftr-top-col-4{
-    width: 20%;
+    width: 38%;
 }
-.ftr-top-col-5{
+.ftr-top-rgt{
     width: 30%;
     padding-left: 30px;
     padding-right: 0;
