@@ -116,10 +116,10 @@
 .fld-club-grid:hover .fld-club-grid-img-cntlr img{
 	filter: grayscale(0);
 }
-.fld-club-grid:hover .show-img-on-hover-img{
+.fld-club-grid:hover .show-inline-img-on-hover{
 	opacity: 1;
 }
-.show-img-on-hover-img{
+.show-inline-img-on-hover{
 	opacity: 0;
 	position: absolute;
 	left: 0;
@@ -297,7 +297,7 @@
 	    width: 76px;
 	}
 	.fld-club-grids-sec {
-	    padding-bottom: 25px;
+	    padding-bottom: 30px;
 	}
 }
 @media (max-width: 575px){
