@@ -11,6 +11,7 @@
 	background: #FFFFFF!important;
 	margin: 0 8px;
 	padding: 0!important;
+	margin-bottom:10px;
 }
 .slick-slider .slick-dots li.slick-active,
 .slick-slider .slick-dots li:hover{
@@ -360,7 +361,7 @@ ul.select2-results__options li {
     content: "";
     top: 18px;
     right: 23px;
-    background-image: url('../images/next-icon.svg');
+    background-image: url('../images/down-arrow.svg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
@@ -387,4 +388,22 @@ ul.select2-results__options li {
     padding-top: 10px;
     padding-bottom: 14px;
     display: none;
+}
+
+@media(max-width:767px){
+	.slick-slider .slick-dots li {
+	    background: transparent!important;
+	    border: 2px solid #7D8D98;
+	    height: 12px!important;
+	    width: 11px!important;
+	}
+	.slick-slider .slick-dots li.slick-active, .slick-slider .slick-dots li:hover{
+		background:transparent!important;
+	    border-color:#E63312;
+
+	}
+	.slick-slider .slick-dots li button{
+		height:12px;
+		width:11px;
+	}
 }
