@@ -62,15 +62,15 @@
 
 
 /*club collection css*/
-.club-collection-sec .sec-entry-hdr{
-	margin-bottom:40px;
+.club-collection-sec .sec-entry-hdr {
+    padding-bottom: 27px;
 }
 .clb-cltion-grd-item-inner{
 	position:relative;
 	padding-bottom:93px;
 }
 .club-collection-sec{
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     padding-top: 140px;
 }
 /*.clb-cltion-grd-item-des{
@@ -78,6 +78,8 @@
 }*/
 .clb-cltion-grd-item-img {
     padding: 82px 20px;
+}
+.clb-cltion-grd-item-inner {
     background: #E9E9E9;
 }
 .club-collection-grid-item{
@@ -311,7 +313,7 @@
     width: 100%;
 }
 .over-field-team-sec .sec-entry-hdr{
-	margin-bottom:50px;
+	padding-bottom:35px;
 }
 
 @media(max-width:1399px){
@@ -331,6 +333,7 @@
 	.teamSlider.slick-initialized .team-grid-item{
 		display: block;
 	}
+
 }
 
 
@@ -364,12 +367,36 @@
 
 @media(max-width: 1199px){
 	.clb-cltion-grd-item-des ul li {
-    font-size: 15px;
-    line-height: 1.4;
-}
-.clb-cltion-grd-item-des p{
-	font-size:15px;
-}
+	    font-size: 15px;
+	    line-height: 1.4;
+	}
+	.clb-cltion-grd-item-des p{
+		font-size:15px;
+	}
+	.clb-cltion-grd-item-bottom-des, 
+	.clb-cltion-grd-item-bottom-des-hover-ef{
+		padding-left:20px;
+		padding-right:20px;
+	}
+	.clb-cltion-item-btn .fl-btn{
+		min-width:130px;
+		padding: 10px 20px;
+	}
+	.clb-cltion-grd-item-des ul li:before {
+	    margin-top: 9px;
+	}
+	.clb-cltion-item-btn .fl-btn.fl-btn-angel:after {
+	    border-top: 45px solid #E63312;
+	}
+	.clb-cltion-item-btn .fl-btn.fl-btn-angel:hover:after {
+	    border-top: 45px solid #fff;
+	}
+	.clb-cltion-grd-item-img {
+	    padding: 70px 20px;
+	}
+	.clb-cltion-grd-item-inner:after{
+		bottom:110px;
+	}
 
 }
 
@@ -387,6 +414,20 @@
 		align-items: top;
 		justify-content: center;
 
+	}
+	.club-collection-grid {
+	    margin: 0 -7px;
+	}
+	.club-collection-grid-item {
+	    padding: 0 7px;
+	}
+	.clb-cltion-grd-item-bottom-des, 
+	.clb-cltion-grd-item-bottom-des-hover-ef {
+	    padding-left: 15px;
+	    padding-right: 15px;
+	}
+	.clb-cltion-grd-item-inner:after{
+		left:-7px;
 	}
 }
 

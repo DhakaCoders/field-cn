@@ -57,7 +57,7 @@
 	}
 	.page-404-cntent-cntlr .page-bedankt-cntent-img-cntlr{
 		width: 100%;
-		padding-bottom: 70px;
+		padding-bottom: 54px;
 	}
 	.page-404-cntent-cntlr .page-bedankt-cntent-desc-cntlr{
 		width: 100%;
@@ -65,19 +65,25 @@
 		padding-left: 0;
 		padding-top: 10px;
 	}
+	.page-404-cntent-cntlr .page-bedankt-cntent-desc-inr{
+		padding-right: 0;
+	}
 	.page-404-cntent-cntlr .page-bedankt-cntent-img-inr{
 		height: 500px;
 	}
 	.page-404-xs-img{
 		max-width: 70px;
 		width: 100%;
-		bottom: -53px;
+		bottom: -48px;
+	}
+	.page-bedankt-con-desc-title{
+		margin-bottom: 30px;
 	}
 }
 
 @media(max-width: 575px){
 	.page-404-cntent-cntlr .page-bedankt-cntent-img-inr{
-		height: 400px;
+		height: 322px;
 	}
 }
 
