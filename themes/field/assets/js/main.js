@@ -478,7 +478,7 @@ if( $('.xs-page-entry-menu').length ){
             }
           },
           {
-            breakpoint:480,
+            breakpoint:576,
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
@@ -488,7 +488,7 @@ if( $('.xs-page-entry-menu').length ){
         ]
       });
   }
- if (windowWidth <= 767) {
+ if (windowWidth <= 640) {
   if( $('.teamSlider').length ){
       $('.teamSlider').slick({
         dots: true,
@@ -497,20 +497,12 @@ if( $('.xs-page-entry-menu').length ){
         autoplay: false,
         autoplaySpeed: 4000,
         speed: 700,
-        slidesToShow: 3,
+        slidesToShow: 2,
         slidesToScroll: 1,
         dots: true,
         responsive: [
           {
-            breakpoint: 650,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1,
-              dots: true
-            }
-          },
-          {
-            breakpoint:480,
+            breakpoint:576,
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
