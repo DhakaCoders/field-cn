@@ -46,7 +46,7 @@
 	z-index: 1;
 	overflow: hidden;
 }
-.dfp-plate-one-img-bx img{
+.dfp-plate-one-img-bx > img{
 	width: 100%;
 }
 
@@ -314,6 +314,38 @@ hr {
 .fl-dft-overflow-angle{
 	display: none;
 }*/
+@media (max-width: 1599px){
+	.fl-dft-overflow-angle{
+		bottom: -4px;
+    	left: -15px;
+	}
+	.fl-dft-overflow-angle img{
+		max-width: 215px;
+		height: auto;
+	}
+}
+@media (max-width: 1399px){
+	.dfp-plate-one-img-squre {
+	    right: -59px;
+	    bottom: -48px;
+	}
+	.dfp-plate-one-img-squre img{
+		max-width: 70px;
+		height: auto;
+	}
+	.fl-dft-overflow-angle img{
+	    max-width: 188px;
+	}
+	.fl-dft-overflow-angle {
+	    bottom: 25px;
+	    left: -40px;
+	}
+}
+@media (max-width: 1299px){
+	.fl-dft-overflow-angle{
+		display: none;
+	}
+}
 @media (max-width: 1199px){
 	.innerpage-con-wrap {
 	    padding-top: 20px;
