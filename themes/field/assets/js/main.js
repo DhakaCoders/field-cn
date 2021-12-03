@@ -332,7 +332,7 @@ if(windowWidth <= 575){
       autoplay: true,
       autoplaySpeed: 4000,
       speed: 700,
-      slidesToShow: 2,
+      slidesToShow: 1,
       slidesToScroll: 1
     });
   }

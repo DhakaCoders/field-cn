@@ -545,6 +545,9 @@ hr {
 	.dfp-cta-module .cta-ctlr{
 		padding-top: 25px;
 	}
+	.dfp-field-fag-cntlr{
+		padding-bottom: 52px;
+	}
 }
 @media (max-width: 575px){
 	.btm-gallery-wrap .gallery{
@@ -572,6 +575,13 @@ hr {
 	}
 	.gallery-icon-img{
 		height: 180px;
+	}
+	.gallery-columns-3 .gallery-item img{
+		display: none;
+	}
+	.gallery-columns-3 .gallery-item .gallery-icon-img{
+		display: block;
+		height: 235px;
 	}
 }
 @media (max-width: 479px){
