@@ -20,6 +20,9 @@
 	font-weight: 600;
 	text-transform: uppercase;
 }
+.default-page-con h2{
+	line-height: 1.2;
+}
 .dfp-promo-module-title {
     line-height: 1;
     margin-top: 0;
