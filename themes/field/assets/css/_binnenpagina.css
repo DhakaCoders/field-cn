@@ -313,10 +313,10 @@ hr {
 }
 
 /*next*/
-.dfp-plate-one-img-squre,
+/*.dfp-plate-one-img-squre,
 .fl-dft-overflow-angle{
 	display: none;
-}
+}*/
 @media (max-width: 1199px){
 	.innerpage-con-wrap {
 	    padding-top: 20px;
