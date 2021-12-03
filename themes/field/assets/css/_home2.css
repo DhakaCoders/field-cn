@@ -567,6 +567,10 @@
     -webkit-transition: all 0.5s;
     -ms-transition: all 0.5s;
     transition: all 0.5s;
+    transform-origin: bottom;
+    -webkit-transform: scale3d(1,0,1);
+    -ms-transform: scale3d(1,0,1);
+    transform: scale3d(1,0,1);
 }
 
 .clubs-team-grd-des-inr{
@@ -590,6 +594,9 @@
 .clubs-team-grd-item:hover .clubs-team-grd-des{
     opacity: 1;
     visibility: visible;
+    -webkit-transform: scale3d(1,1,1);
+    -ms-transform: scale3d(1,1,1);
+    transform: scale3d(1,1,1);
 }
 
 .fl-prev-next{
