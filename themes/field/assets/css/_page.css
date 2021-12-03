@@ -96,8 +96,8 @@
 	content: "";
 	position: absolute;
 	top: -2px;
-	right: -32px;
-	border-top: 55px solid #E63312;
+	right: -30px;
+	border-top: 57px solid #E63312;
     border-right: 30px solid transparent;
     -webkit-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -432,6 +432,9 @@ ul.select2-results__options li {
 	}
 	.default-page-con ol li::before, ol li::before{
 	    margin-top: 4px;
+	}
+	.fl-btn{
+		min-width: 177px;
 	}
 }
 

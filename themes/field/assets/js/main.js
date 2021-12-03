@@ -359,10 +359,6 @@ if( $('.xs-page-entry-menu').length ){
   function bannerheight(){
       var windowWidth = $(window).width();
       var windowHeight = $(window).height();
-      /*var winHeight = (windowHeight + 100);*/
-      /*var headerHeight = $('.header').height();
-      var hdrHeight = (headerHeight + 40);
-      var bnrHeight = (windowHeight - hdrHeight);*/
       if (windowWidth > 767){
         $('.hm-banner-des-cntlr').css('height', windowHeight);
       }
@@ -398,6 +394,33 @@ if( $('.xs-page-entry-menu').length ){
       slidesToScroll: 1,
       prevArrow: $('.clubs-team-sec .fl-prev-next .fl-prev'),
       nextArrow: $('.clubs-team-sec .fl-prev-next .fl-next'),
+      responsive: [
+          {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              dots: true
+            }
+          },
+          {
+            breakpoint:576,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              dots: true
+            }
+          }
+        ]
     });
   }
 
@@ -511,7 +534,17 @@ if( $('.xs-page-entry-menu').length ){
       });
   }
 }
+if (windowWidth <= 991) {
+    $('.ftr-top-col h6').on('click', function(){
+      $(this).toggleClass('active');
+      $(this).parent().siblings().find('h6').removeClass('active');
+      $(this).parent().find('.ftr-col-menu').slideToggle(300);
+      $(this).parent().siblings().find('.ftr-col-menu').slideUp(300);
+      $(this).parent().find('.ftr-col-desc').slideToggle(300);
+      $(this).parent().siblings().find('.ftr-col-desc').slideUp(300);
+    });
 
+}
 
 new WOW().init();
 
