@@ -374,17 +374,28 @@
         max-width: 44%;
         width: 100%;
     }
+    .ftr-col-tel, .ftr-col-mail{
+        padding-bottom: 18px;
+    }
 }
 @media(max-width:479px){
-    .ftr-col-desc a, .ftr-col-menu ul li a, .ftr-col-btw{
+    .ftr-col-desc a, 
+    .ftr-col-menu ul li a, 
+    .ftr-col-btw{
         font-size:14px;
     }
     .ftr-top-mdl {
         max-width: 53%;
         width: 100%;
     }
+
 }
 @media(max-width:359px){
+    .ftr-col-desc a, 
+    .ftr-col-menu ul li a, 
+    .ftr-col-btw{
+        font-size:16px;
+    }
     .ftr-col-title{
         font-size:22px!important;
     }
@@ -400,6 +411,22 @@
     .ftr-socials {
         padding-top: 30px;
         margin-top: 30px;
+    }
+    .ftr-top-left{
+        padding-right:0px;
+    }
+    .ftr-socials ul{
+        justify-content: center;
+    }
+    .ftr-top-mdl {
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .ftr-top-left {
+        width: 100%;
+        text-align: center;
     }
 }
 
