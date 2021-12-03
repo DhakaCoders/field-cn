@@ -444,6 +444,24 @@ body.allWork {
 	nav.main-nav > ul > li > a{
 		font-size: 22px;
 	}
+	.hdr-account {
+	    padding-right: 28px;
+	}
+	.hdr-social-media {
+	    padding-left: 28px;
+	    padding-right: 28px;
+	}
+	.hdr-lang-cntlr {
+	    padding-left: 28px;
+	}
+	nav.main-nav > ul {
+	    margin-left: -20px;
+	    margin-right: -20px;
+	}
+	nav.main-nav > ul > li {
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
 }
 @media(max-width: 991px){
 	.logo a{
@@ -598,6 +616,7 @@ body.allWork {
 	    font-size: 30px;
 	}
 }
+
 
 @media(max-width: 400px){
 	.xs-mobile-menu{

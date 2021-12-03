@@ -644,3 +644,20 @@
     }
 }
 
+@media(max-width: 1199px){
+    .usp-grd ul {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+    .usp-grd ul li {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .hm-bnr-icon{
+        margin-bottom: -48px;
+    }
+    .hm-bnr-icon img {
+        max-width: 70px;
+    }
+}
+
