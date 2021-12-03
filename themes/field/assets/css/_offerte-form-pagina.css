@@ -14,6 +14,12 @@
 	padding: 0 147px;
 	position: relative;
 }
+.offerte-form-wrp .wpforms-container .wpforms-form .wpforms-page-indicator .wpforms-page-indicator-page:first-child{
+    padding-left: 0;
+}
+.offerte-form-wrp .wpforms-container .wpforms-form .wpforms-page-indicator .wpforms-page-indicator-page:last-child{
+    padding-right: 0;
+}
 .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-page-indicator .wpforms-page-indicator-page:after{
 	position: absolute;
 	content: "";
@@ -305,4 +311,46 @@
     color: #E63312;
     opacity: 1;
     display: block;
+}
+
+.offerte-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field-textarea textarea:focus, 
+.offerte-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field input:focus {
+    border: 1px solid #7D8D98!important;
+}
+
+@media(max-width: 1199px){
+    .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-page.wpforms-page-3, 
+    .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-page.wpforms-page-2,
+    .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-page.wpforms-page-1 {
+        padding-top: 51px;
+    }
+}
+@media(max-width: 767px){
+    .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-page-indicator .wpforms-page-indicator-page{
+        padding: 0 100px;
+    }
+    .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-page.wpforms-page-3 .wpforms-field,
+    .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field,
+    .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.wpforms-field-check {
+        margin-bottom: 23px;
+    }
+    .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.wpforms-field-gap{
+        padding-top: 0;
+    }
+}
+@media(max-width: 575px){
+    .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.HalfWidthField{
+        width: 100%;
+    }
+    .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-page-indicator .wpforms-page-indicator-page {
+        padding: 0 80px;
+    }
+}
+@media(max-width: 479px){
+    .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-page-indicator .wpforms-page-indicator-page {
+        padding: 0 53.5px;
+    }
+    .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-page-indicator .wpforms-page-indicator-page:after{
+        width: 61px;
+    }
 }
