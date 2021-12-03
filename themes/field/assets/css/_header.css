@@ -113,6 +113,7 @@ header.header{
 .hdr-social-media ul li a{
 	display: inline-block;
 	vertical-align: baseline;
+	line-height: 1;
 }
 .hdr-social-media ul li a:hover svg{
 	fill: #fff;
@@ -180,7 +181,7 @@ header.header{
 	color: #fff;
 }
 .hdr-lang ul li.active a{
-	font-weight: 800;
+	font-weight: 700;
 }
 
 
@@ -509,7 +510,7 @@ body.allWork {
 	    padding-left: 0;
 	    padding-right: 0;
 	    text-align: center;
-	    padding-bottom: 50px;
+	    padding-bottom: 38px;
 	}
 	nav.main-nav > ul > li > a:after{
 		content: none;
@@ -605,6 +606,25 @@ body.allWork {
 	}
 	.hdr-lang-cntlr:before{
 		content: none;
+	}
+	nav.main-nav > ul > li.menu-item-has-children > a {
+	    padding-right: 0;
+	}
+	nav.main-nav > ul > li.menu-item-has-children > a:before{
+		right: -22px;
+	}
+	.hdr-account a{
+		font-size: 16px;
+	}
+	.hdr-account a i svg{
+		width: 16px!important;
+		height: 18px;
+	}
+	.fl-btn.fl-btn-angel:after{
+		right: -30px;
+	}
+	.hdr-lang ul li a{
+		font-size: 18px;
 	}
 	
 }
