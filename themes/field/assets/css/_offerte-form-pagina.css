@@ -313,7 +313,10 @@
     display: block;
 }
 
-
+.offerte-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field-textarea textarea:focus, 
+.offerte-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field input:focus {
+    border: 1px solid #7D8D98!important;
+}
 
 @media(max-width: 1199px){
     .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-page.wpforms-page-3, 
