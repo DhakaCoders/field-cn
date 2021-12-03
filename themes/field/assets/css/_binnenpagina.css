@@ -1,5 +1,5 @@
-.block-848{
-	max-width: 848px;
+.block-807{
+	max-width: 807px;
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -19,6 +19,9 @@
 	font-family: 'Barlow Condensed', sans-serif;
 	font-weight: 600;
 	text-transform: uppercase;
+}
+.default-page-con h2{
+	line-height: 1.2;
 }
 .dfp-promo-module-title {
     line-height: 1;
@@ -43,7 +46,7 @@
 	z-index: 1;
 	overflow: hidden;
 }
-.dfp-plate-one-img-bx img{
+.dfp-plate-one-img-bx > img{
 	width: 100%;
 }
 
@@ -160,7 +163,7 @@ Gallery design
 	position: relative;
 }
 .fl-dft-lftimg-rgtdes-lft{
-	height: 736px;
+	height: 700px;
 }
 .fl-dft-lftimg-rgtdes-lft-img-scale{
 	position: relative;
@@ -215,7 +218,6 @@ Gallery design
 	padding-bottom: 75px;
 }
 .fl-dft-lftimg-rgtdes.fl-dft-rgtimg-lftdes .fl-dft-lftimg-rgtdes-lft{
-	float: right;
 	order: 2;
 }
 .fl-dft-lftimg-rgtdes.fl-dft-rgtimg-lftdes .fl-dft-lftimg-rgtdes-rgt{
@@ -267,14 +269,14 @@ hr {
 	padding-left: 0;
 	display: flex;
 	align-items: center;
-	margin-left: -12px;
-	margin-right: -12px;
+	margin-left: -7.5px;
+	margin-right: -7.5px;
     flex-wrap: wrap;
 }
 
 .dfp-btn-module-ctlr ul li{
-	padding-left: 12px;
-	padding-right: 12px;
+	padding-left: 7.5px;
+	padding-right: 7.5px;
 }
 
 
@@ -292,15 +294,10 @@ hr {
 .dfp-field-fag-cntlr{
 	padding-bottom: 15px;
 }
-/*.dfp-club-collection-cntlr .club-collection-grid{
-	display: flex;
-	flex-wrap: wrap;
+.field-faq-accordion-title{
+	margin-bottom: 0!important;
+	text-transform: capitalize!important;
 }
-.dfp-club-collection-cntlr .club-collection-grid-item{
-	width: 25%;
-	margin-bottom: 20px;
-	overflow: hidden;
-}*/
 .dfp-club-collection-cntlr{
 	margin-bottom: 62px;
 }
@@ -313,9 +310,41 @@ hr {
 }
 
 /*next*/
-.dfp-plate-one-img-squre,
+/*.dfp-plate-one-img-squre,
 .fl-dft-overflow-angle{
 	display: none;
+}*/
+@media (max-width: 1599px){
+	.fl-dft-overflow-angle{
+		bottom: -4px;
+    	left: -15px;
+	}
+	.fl-dft-overflow-angle img{
+		max-width: 215px;
+		height: auto;
+	}
+}
+@media (max-width: 1399px){
+	.dfp-plate-one-img-squre {
+	    right: -59px;
+	    bottom: -48px;
+	}
+	.dfp-plate-one-img-squre img{
+		max-width: 70px;
+		height: auto;
+	}
+	.fl-dft-overflow-angle img{
+	    max-width: 188px;
+	}
+	.fl-dft-overflow-angle {
+	    bottom: 25px;
+	    left: -40px;
+	}
+}
+@media (max-width: 1299px){
+	.fl-dft-overflow-angle{
+		display: none;
+	}
 }
 @media (max-width: 1199px){
 	.innerpage-con-wrap {
@@ -365,6 +394,12 @@ hr {
 	}
 }
 @media (max-width: 991px){
+	.block-807{
+		max-width: 100%;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 	.dfp-promo-module-title {
 	    margin-bottom: 35px;
 	}
