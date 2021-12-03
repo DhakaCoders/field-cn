@@ -377,7 +377,18 @@ if( $('.xs-page-entry-menu').length ){
       autoplaySpeed: 4000,
       speed: 700,
       slidesToShow: 1,
-      slidesToScroll: 1
+      slidesToScroll: 1,
+      responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              infinite: false,
+              dots: false
+            }
+          }
+        ]
     });
   }
 
