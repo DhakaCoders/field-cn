@@ -447,6 +447,7 @@ hr {
 	.fl-dft-lftimg-rgtdes{
 		display: block;
 		padding-bottom: 0;
+		padding-top: 0;
 	}
 	.fl-dft-lftimg-rgtdes-lft, 
 	.fl-dft-lftimg-rgtdes-rgt {
