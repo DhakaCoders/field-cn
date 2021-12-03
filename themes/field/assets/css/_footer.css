@@ -300,7 +300,7 @@
     }
     .ftr-col-title:after {
         position: absolute;
-        top: 6px;
+        top: 8px;
         content: "";
         right: 0;
         background-image: url('../images/ftr-top-col-title-img.svg');
