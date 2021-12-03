@@ -187,6 +187,7 @@
 }
 .ftr-newsletter button svg{
     margin-right: 5px;
+    margin-top: -1px;
 }
 .ftr-newsletter button:hover{
     color: #e63312;
