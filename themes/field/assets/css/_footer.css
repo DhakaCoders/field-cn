@@ -262,7 +262,7 @@
         padding-right: 20px;
     }
    .ftr-top-mdl {
-        width: 32%;
+        width: 33%;
         margin-left: auto;
     }
     .ftr-top-rgt{
@@ -388,6 +388,10 @@
         max-width: 53%;
         width: 100%;
     }
+    .ftr-angle-btn .fl-btn.fl-btn-angel{
+        min-width: 115px;
+        padding: 15px 15px;
+}
 
 }
 @media(max-width:359px){
