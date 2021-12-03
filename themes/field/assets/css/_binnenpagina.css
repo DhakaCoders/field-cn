@@ -460,6 +460,7 @@ hr {
 	.default-page-con h4, 
 	.default-page-con h5{
 		margin-bottom: 24px;
+		line-height: 1.3;
 	}
 	.dfp-promo-module-title {
 	    margin-bottom: 40px;
