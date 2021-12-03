@@ -433,6 +433,9 @@ ul.select2-results__options li {
 	.default-page-con ol li::before, ol li::before{
 	    margin-top: 4px;
 	}
+	.fl-btn{
+		min-width: 177px;
+	}
 }
 
 @media(max-width:575px){
