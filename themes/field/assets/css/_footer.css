@@ -261,6 +261,7 @@
     }
     .ftr-top-left {
         width:50%;
+        padding-right: 20px;
     }
     .ftr-top-mdl {
         width:50%;
@@ -375,8 +376,16 @@
         width: 55%;
     }
 }
-@media(max-width:479px){
-
+@media(max-width:359px){
+    .ftr-col-title{
+        font-size:22px!important;
+    }
+    .ftr-angle-btn .fl-btn{
+        padding: 15px 15px;
+    }
+    .ftr-angle-btn .fl-btn.fl-btn-angel{
+        min-width: 134px;
+    }
 }
 
 
