@@ -535,6 +535,10 @@ body.allWork {
 	}
 	.xs-contact-btn{
 		margin-bottom: 45px;
+		padding-right: 32px;
+	}
+	.xs-contact-btn .fl-btn.fl-btn-angel {
+	    min-width: 100%;
 	}
 	.xs-btm-menu{
 		display: flex;
@@ -601,6 +605,9 @@ body.allWork {
 	}
 	.hdr-lang-cntlr:before{
 		content: none;
+	}
+	.process-des-title br{
+		display: none;
 	}
 }
 
