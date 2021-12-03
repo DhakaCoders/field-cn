@@ -513,7 +513,17 @@ if( $('.xs-page-entry-menu').length ){
       });
   }
 }
+if (windowWidth <= 991) {
+    $('.ftr-top-col h6').on('click', function(){
+      $(this).toggleClass('active');
+      $(this).parent().siblings().find('h6').removeClass('active');
+      $(this).parent().find('.ftr-col-menu').slideToggle(300);
+      $(this).parent().siblings().find('.ftr-col-menu').slideUp(300);
+      $(this).parent().find('.ftr-col-desc').slideToggle(300);
+      $(this).parent().siblings().find('.ftr-col-desc').slideUp(300);
+    });
 
+}
 
 new WOW().init();
 
