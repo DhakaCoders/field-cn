@@ -71,7 +71,7 @@
 }
 .fld-club-grids-cntlr ul li{
 	padding: 0 12px;
-	margin-bottom: 30px;
+	margin-bottom: 33px;
 /*	max-width: 33.3333%;
 	width: 100%;*/
 	/*padding-bottom: 30px;*/
@@ -229,7 +229,7 @@
 	    height: 220px;
 	}
 	.fld-club-grid-desc {
-	    padding: 20px 15px;
+	    padding: 22px 15px;
 	}
 	.fld-club-grid:after {
 	    bottom: 95px;
@@ -268,7 +268,7 @@
 	    height: 250px;
 	}
 	.fld-club-grid:after {
-	    bottom: 95px;
+	    bottom: 115px;
 	    width: 76px;
 	}
 	.fld-club-grids-sec {
@@ -277,34 +277,42 @@
 	.fld-club-desc-title{
 		font-size: 30px!important;
 	}
+	.fld-club-grids-cntlr{
+	   max-width: 600px;
+	    width: 100%;
+	    margin: 0 auto;
+	}
 }
 @media (max-width: 575px){
-	.fld-club-grid-img-cntlr {
-	    height: 210px;
-	}
-	.fld-club-grids-cntlr ul li {
+	.fld-club-grid {
 	    width: 100%;
-	    max-width: 335px;
+	    max-width: 336px;
 	    margin: 0 auto;
-	    padding-bottom: 33px!important;
+	}
+	.fld-club-grids-cntlr ul{
+		margin: 0;
+	}
+	.fld-club-grids-cntlr ul li{
+		width: 100%;
+		padding: 0;
 	}
 	.fld-clubs-page-contents .page-entry-hdr-desc{
 		padding-bottom: 20px;
 	}
 
-}
-@media (max-width: 479px){
-	.fld-club-grid:after {
-	    bottom: 110px;
+	.fld-club-grid-img-cntlr {
+	    height: 270px;
 	}
-	.fld-club-grid {
-	    position: relative;
-	    max-width: 335px;
-	    margin: 0 auto;
+	.fld-club-grid:after {
+	    bottom: 125px;
+	    width: 76px;
 	}
 
+
+}
+@media (max-width: 479px){
 	.fld-club-desc-title{
-		font-size: 28px;
+		font-size: 30px;
 	}
 }
 
