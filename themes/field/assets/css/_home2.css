@@ -91,7 +91,7 @@
 .hm-banner-des p:last-child{
     margin-bottom: 30px;
 }
-.hm-banner-des .fl-btn{
+.hm-bnr-btn .fl-btn.fl-btn-angel{
     min-width: 380px;
 }
 
@@ -800,7 +800,7 @@
         width: 30px!important;
         height: 18px!important;
     }
-    .hm-banner-des .fl-btn {
+    .hm-bnr-btn .fl-btn.fl-btn-angel {
         min-width: 350px;
     }
     .cta-module {
@@ -996,5 +996,15 @@
     .clubs-team-grd{
         padding-left: 20px;
         padding-bottom: 10px;
+    }
+}
+
+@media(max-width: 479px){
+    .hm-bnr-btn{
+        padding-right: 30px!important;
+    }
+    .hm-bnr-btn .fl-btn.fl-btn-angel {
+        min-width: 100%;
+        font-size: 13px;
     }
 }
