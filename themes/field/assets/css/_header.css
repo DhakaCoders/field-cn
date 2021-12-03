@@ -606,9 +606,7 @@ body.allWork {
 	.hdr-lang-cntlr:before{
 		content: none;
 	}
-	.process-des-title br{
-		display: none;
-	}
+	
 }
 
 
