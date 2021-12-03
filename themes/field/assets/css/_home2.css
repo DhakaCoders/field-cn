@@ -517,6 +517,9 @@
 .cta-module-des p:last-of-type{
     margin-bottom: 0;
 }
+.cta-btn a{
+    min-width: 237px!important;
+}
 
 
 
