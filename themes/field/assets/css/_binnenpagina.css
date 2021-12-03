@@ -311,6 +311,9 @@ hr {
 .dfp-club-collection-cntlr .clb-cltion-item-title {
 	margin-bottom: 20px!important;
 }
+.dfp-team-module-cntlr .team-grd-item-title{
+	line-height: 1!important;
+}
 @media (max-width: 1599px){
 	.fl-dft-overflow-angle{
 		bottom: -4px;
@@ -334,7 +337,7 @@ hr {
 	    max-width: 188px;
 	}
 	.fl-dft-overflow-angle {
-	    bottom: 25px;
+	    bottom: 8px;
 	    left: -40px;
 	}
 }
@@ -457,9 +460,11 @@ hr {
 	.default-page-con h4, 
 	.default-page-con h5{
 		margin-bottom: 24px;
+		line-height: 1.3;
 	}
 	.dfp-promo-module-title {
 	    margin-bottom: 40px;
+	    line-height: 1.3!important;
 	    font-size: 36px!important;
 	}
 	.dfp-plate-one-img-bx{
@@ -540,6 +545,9 @@ hr {
 	.dfp-cta-module .cta-ctlr{
 		padding-top: 25px;
 	}
+	.dfp-field-fag-cntlr{
+		padding-bottom: 52px;
+	}
 }
 @media (max-width: 575px){
 	.btm-gallery-wrap .gallery{
@@ -567,6 +575,13 @@ hr {
 	}
 	.gallery-icon-img{
 		height: 180px;
+	}
+	.gallery-columns-3 .gallery-item img{
+		display: none;
+	}
+	.gallery-columns-3 .gallery-item .gallery-icon-img{
+		display: block;
+		height: 235px;
 	}
 }
 @media (max-width: 479px){

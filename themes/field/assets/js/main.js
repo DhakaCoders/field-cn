@@ -332,7 +332,7 @@ if(windowWidth <= 575){
       autoplay: true,
       autoplaySpeed: 4000,
       speed: 700,
-      slidesToShow: 2,
+      slidesToShow: 1,
       slidesToScroll: 1
     });
   }
@@ -377,7 +377,18 @@ if( $('.xs-page-entry-menu').length ){
       autoplaySpeed: 4000,
       speed: 700,
       slidesToShow: 1,
-      slidesToScroll: 1
+      slidesToScroll: 1,
+      responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              infinite: false,
+              dots: false
+            }
+          }
+        ]
     });
   }
 
@@ -394,6 +405,33 @@ if( $('.xs-page-entry-menu').length ){
       slidesToScroll: 1,
       prevArrow: $('.clubs-team-sec .fl-prev-next .fl-prev'),
       nextArrow: $('.clubs-team-sec .fl-prev-next .fl-next'),
+      responsive: [
+          {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              dots: true
+            }
+          },
+          {
+            breakpoint:576,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              dots: true
+            }
+          }
+        ]
     });
   }
 

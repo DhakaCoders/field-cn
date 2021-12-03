@@ -87,8 +87,10 @@
 
 </head>
 <body>
-<header class="header d-none">
-  <div class="container">
+<div class="page-body-cntlr">
+  <div class="bdoverlay"></div>
+  <header class="header">
+    <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="header-inr clearfix">
@@ -97,8 +99,8 @@
                 <a href="#"><img src="assets/images/logo.png"></a>
               </div>
             </div>
-            <div class="hdr-rgt">
-              <div class="hdr-top-menu">
+            <div class="hdr-rgt hide-sm">
+              <div class="hdr-top-bar">
                 <div class="hdr-account">
                   <a href="#">Mijn account
                     <i>
@@ -110,8 +112,24 @@
                 </div>
                 <div class="hdr-social-media">
                   <ul class="reset-list">
-                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li>
+                      <a href="#" target="_blank">
+                        <i>
+                          <svg class="facebook-svg" width="10" height="18" viewBox="0 0 10 18" fill="#7D8D98">
+                            <use xlink:href="#facebook-svg"></use> 
+                          </svg>
+                        </i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" target="_blank">
+                        <i>
+                          <svg class="instagram-svg" width="18" height="18" viewBox="0 0 18 18" fill="#7D8D98">
+                            <use xlink:href="#instagram-svg"></use> 
+                          </svg>
+                        </i>
+                      </a>
+                    </li>
                   </ul>
                 </div>
                 <div class="hdr-lang-cntlr">
@@ -142,334 +160,441 @@
                 </nav>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-  </div>
-</header>
-
-
-<!-- end of Header -->
-
-<section class="breadcrumb-sec hide-sm d-none">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="breadcrumb-cntlr">
-          <ul class="reset-list clearfix">
-            <li>
-              <a href="#">
-                <span>Home</span>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <span>Binnenpagina</span>
-              </a>
-            </li>
-            <li class="active">
-              <span>Binnenpagina</span>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<div class="faq-detail-sec-con-cntlr">
-
-  <section class="innerpage-con-wrap">
-    <article class="default-page-con" id="faq-detail">
-
-      <div class="block">
-        <div class="dfp-promo-module">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="block-848">
-                  <div class="dfp-promo-module-des">
-                    <strong class="dfp-promo-module-title fl-h1">Quam eu amet dolor scelerisque faucibus adipiscing.</strong>
-                  </div>
+            <div class="hamburgar-cntlr show-sm">
+              <div class="hamburgar">
+                <div class="hamburger-icon">
+                  <span></span>
+                  <span></span>
+                  <span></span>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  </header>
 
-      <div class="block">
-        <div class="dfp-text-module">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="block-848">
-                  <p>Dui at urna consequat magna cursus. Nunc maecenas tristique lorem metus volutpat tortor. Maecenas felis est interdum diam, euismod elementum ut eget. Sollicitudin nisi maecenas neque, commodo mauris quisque. Id aenean feugiat risus, ultrices nisi interdum consequat enim, nunc.</p>
-                  <p>Placerat pellentesque at integer mattis sit enim vitae in posuere. Mollis sem tellus egestas egestas risus posuere sed. Dignissim ullamcorper consequat sit arcu imperdiet interdum sit sem. Ut quis faucibus viverra risus egestas. Ac id faucibus sed sagittis, libero. Pulvinar turpis odio facilisi aliquam sagittis.</p>
-                  <ul>
-                    <li>Faucibus nec lectus quis.</li>
-                    <li>Metus ultricies at porta massa eu.</li>
-                    <li>Laoreet urna quis.</li>
-                  </ul>
-                  <p>Nunc maecenas tristique lorem metus volutpat tortor. Maecenas felis est interdum diam, euismod elementum ut eget. Sollicitudin nisi maecenas neque, commodo mauris quisque. Id aenean feugiat risus, ultrices nisi interdum consequat enim, nunc.</p>
+
+  <div class="xs-mobile-menu ">
+    <div class="xs-pop-up-menu-top">
+      <div class="logo">
+        <a href="#"><img src="assets/images/logo.png"></a>
+      </div>
+      <div class="hamburgar-cntlr show-sm">
+        <div class="hamburgar">
+          <div class="hamburger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="xs-menu">
+      <div class="hdr-menu">
+        <nav class="main-nav">
+          <ul class="clearfix reset-list">
+            <li class="current-menu-item"><a href="#">Home</a></li>
+            <li class="menu-item-has-children">
+              <a href="#">Clubs</a>
+              <ul class="sub-menu">
+                <li><a href="#">submenu 1</a></li>
+                <li><a href="#">submenu 2</a></li>
+                <li><a href="#">submenu 3</a></li>
+              </ul>
+            </li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Over FiELD</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="hdr-account">
+        <a href="#">Mijn account
+          <i>
+            <svg class="user-icon-svg" width="12" height="14" viewBox="0 0 12 14" fill="#7D8D98">
+              <use xlink:href="#user-icon-svg"></use> 
+            </svg>
+          </i>
+        </a>
+      </div>
+      <div class="xs-contact-btn">
+        <a href="#" class="fl-btn fl-btn-angel">Contact</a>
+      </div>
+      <div class="xs-btm-menu">
+        <div class="hdr-lang-cntlr">
+          <div class="hdr-lang">
+            <ul class="reset-list">
+              <li class="active"><a href="#">NL</a></li>
+              <li><a href="#">EN</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="xs-hdr-social-media">
+          <div class="hdr-social-media">
+            <ul class="reset-list">
+              <li>
+                <a href="#" target="_blank">
+                  <i>
+                    <svg class="facebook-svg" width="10" height="18" viewBox="0 0 10 18" fill="#7D8D98">
+                      <use xlink:href="#facebook-svg"></use> 
+                    </svg>
+                  </i>
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  <i>
+                    <svg class="instagram-svg" width="18" height="18" viewBox="0 0 18 18" fill="#7D8D98">
+                      <use xlink:href="#instagram-svg"></use> 
+                    </svg>
+                  </i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- end of Header -->
+
+  <section class="breadcrumb-sec hide-sm d-none">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="breadcrumb-cntlr">
+            <ul class="reset-list clearfix">
+              <li>
+                <a href="#">
+                  <span>Home</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>Binnenpagina</span>
+                </a>
+              </li>
+              <li class="active">
+                <span>Binnenpagina</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="faq-detail-sec-con-cntlr">
+
+    <section class="innerpage-con-wrap">
+      <article class="default-page-con" id="faq-detail">
+
+        <div class="block">
+          <div class="dfp-promo-module">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="block-848">
+                    <div class="dfp-promo-module-des">
+                      <strong class="dfp-promo-module-title fl-h1">Quam eu amet dolor scelerisque faucibus adipiscing.</strong>
+                    </div>
+                  </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="block">
+          <div class="dfp-text-module">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="block-848">
+                    <p>Dui at urna consequat magna cursus. Nunc maecenas tristique lorem metus volutpat tortor. Maecenas felis est interdum diam, euismod elementum ut eget. Sollicitudin nisi maecenas neque, commodo mauris quisque. Id aenean feugiat risus, ultrices nisi interdum consequat enim, nunc.</p>
+                    <p>Placerat pellentesque at integer mattis sit enim vitae in posuere. Mollis sem tellus egestas egestas risus posuere sed. Dignissim ullamcorper consequat sit arcu imperdiet interdum sit sem. Ut quis faucibus viverra risus egestas. Ac id faucibus sed sagittis, libero. Pulvinar turpis odio facilisi aliquam sagittis.</p>
+                    <ul>
+                      <li>Faucibus nec lectus quis.</li>
+                      <li>Metus ultricies at porta massa eu.</li>
+                      <li>Laoreet urna quis.</li>
+                    </ul>
+                    <p>Nunc maecenas tristique lorem metus volutpat tortor. Maecenas felis est interdum diam, euismod elementum ut eget. Sollicitudin nisi maecenas neque, commodo mauris quisque. Id aenean feugiat risus, ultrices nisi interdum consequat enim, nunc.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+        <div class="block">
+          <div class="dfp-gallery-module">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="block-848">
+                    <div class="gallery-wrap has-inline-bg clearfix">                    
+                      <div class="gallery gallery-columns-2">
+                        <figure class="gallery-item">
+                          <div class="gallery-icon portrait">
+                            <div class="gallery-icon-img inline-bg" style="background: url('assets/images/dfp-img-02.jpg');"></div>
+                            <img src="assets/images/dfp-img-02.jpg">
+                          </div>
+                        </figure>
+
+                        <figure class="gallery-item">
+                          <div class="gallery-icon portrait">
+                            <div class="gallery-icon-img inline-bg" style="background: url('assets/images/dfp-img-03.jpg');"></div>
+                            <img src="assets/images/dfp-img-03.jpg">
+                          </div>
+                        </figure>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="block">
+          <div class="dfp-text-module">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="block-848">
+                    <p>Ornare duis velit phasellus netus nec arcu porttitor urna turpis. Quam aliquam volutpat commodo scelerisque. Maecenas facilisi quam elit diam convallis. Consectetur nunc, pellentesque libero habitasse. Ultrices eget vitae blandit nunc consectetur.</p>
+                    <ol>
+                      <li>Faucibus nec lectus quis.</li>
+                      <li>Metus ultricies at porta massa eu.</li>
+                      <li>Laoreet urna quis.</li>
+                    </ol>
+                    <p>At dolor consequat in vestibulum tincidunt auctor. Diam ac, sed tincidunt urna quis iaculis. Diam magna porttitor auctor sit in. Purus convallis at eu, id enim tristique ut condimentum ac. Eu est enim non egestas adipiscing. Pharetra at sapien, vitae ultrices mattis aliquam. Suspendisse diam bibendum morbi sed. Libero est enim eleifend lobortis. Cursus gravida euismod amet elementum. In egestas dui, quis ante dictum sollicitudin donec montes, mi. Diam ac id eleifend odio. Feugiat enim, suspendisse nibh aliquet neque, tristique nulla. Augue libero, felis lectus tincidunt in.</p>
+                    <p>Eu purus at eget pellentesque ipsum vel dignissim at. Dolor bibendum nunc lorem enim, libero, ullamcorper nisl. Interdum et tincidunt morbi fermentum ipsum. Volutpat dis vitae sed facilisi vitae quis. Id pulvinar risus egestas ac, mauris bibendum est. At integer cursus facilisis suspendisse.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </article>
+    </section>
+
+    <section class="related-faq-sec">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="related-faq-con-cntlr">
+              <div class="sec-entry-hdr text-center">
+                <h2 class="fl-h2 sec-entry-hdr-title">gerelateerde faq</h2>
+                <p>Volutpat dis vitae sed facilisi vitae quis. Id pulvinar risus egestas ac, mauris bibendum est. At integer cursus facilisis suspendisse.</p>
+              </div>
+              <div class="related-faq-field-cntlr">
+                <div class="field-fag">
+                  <ul class="reset-list">
+                    <li>
+                      <div class="field-faq-accordion">
+                        <div class="field-faq-accordion-hdr">
+                          <h3 class="field-faq-accordion-title fl-h5">Turpis congue purus donec quis eget vel?</h3>
+                        </div>
+                        <div class="field-faq-accordion-desc">
+                          <p>Dui at urna consequat magna cursus. Nunc maecenas tristique lorem metus volutpat tortor. Maecenas felis est interdum diam, euismod elementum ut eget. Sollicitudin nisi maecenas neque, commodo mauris quisque. Id aenean feugiat risus, ultrices nisi interdum consequat enim, nunc. </p>
+                          <div class="field-faq-accordion-btn">
+                            <a href="#">LEES MEER</a>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="field-faq-accordion">
+                        <div class="field-faq-accordion-hdr">
+                          <h3 class="field-faq-accordion-title fl-h5">Turpis congue purus donec quis eget vel?</h3>
+                        </div>
+                        <div class="field-faq-accordion-desc">
+                          <p>Dui at urna consequat magna cursus. Nunc maecenas tristique lorem metus volutpat tortor. Maecenas felis est interdum diam, euismod elementum ut eget. Sollicitudin nisi maecenas neque, commodo mauris quisque. Id aenean feugiat risus, ultrices nisi interdum consequat enim, nunc. </p>
+                          <div class="field-faq-accordion-btn">
+                            <a href="#">LEES MEER</a>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="field-faq-accordion">
+                        <div class="field-faq-accordion-hdr">
+                          <h3 class="field-faq-accordion-title fl-h5">Turpis congue purus donec quis eget vel?</h3>
+                        </div>
+                        <div class="field-faq-accordion-desc">
+                          <p>Dui at urna consequat magna cursus. Nunc maecenas tristique lorem metus volutpat tortor. Maecenas felis est interdum diam, euismod elementum ut eget. Sollicitudin nisi maecenas neque, commodo mauris quisque. Id aenean feugiat risus, ultrices nisi interdum consequat enim, nunc. </p>
+                          <div class="field-faq-accordion-btn">
+                            <a href="#">LEES MEER</a>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="field-faq-accordion">
+                        <div class="field-faq-accordion-hdr">
+                          <h3 class="field-faq-accordion-title fl-h5">Turpis congue purus donec quis eget vel?</h3>
+                        </div>
+                        <div class="field-faq-accordion-desc">
+                          <p>Dui at urna consequat magna cursus. Nunc maecenas tristique lorem metus volutpat tortor. Maecenas felis est interdum diam, euismod elementum ut eget. Sollicitudin nisi maecenas neque, commodo mauris quisque. Id aenean feugiat risus, ultrices nisi interdum consequat enim, nunc. </p>
+                          <div class="field-faq-accordion-btn">
+                            <a href="#">LEES MEER</a>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  </div>
+
+
+
+  <footer class="footer-wrp ">
+    <div class="ftr-top-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="ftr-top">
+              <div class="ftr-top-left">
+                <div class="ftr-top-col ftr-top-col-1">
+                  <div class="ftr-logo">
+                    <a href="#"><img src="assets/images/ftr-logo.svg" alt=""></a>
+                  </div>
+                  <div class="ftr-socials">
+                    <ul class="reset-list">
+                        <li>
+                          <a href="#" target="_blank">
+                            <i>
+                              <svg class="ftr-facebook-icon" width="24" height="25" viewBox="0 0 24 25" fill="#7D8D98">
+                                <use xlink:href="#ftr-facebook-icon"></use> 
+                              </svg>
+                            </i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" target="_blank">
+                            <i>
+                              <svg class="ftr-instagram-icon" width="24" height="25" viewBox="0 0 24 25" fill="#7D8D98">
+                                <use xlink:href="#ftr-instagram-icon"></use> 
+                              </svg>
+                            </i>
+                          </a>
+                        </li>
+                      </ul>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="ftr-top-mdl">
+                <div class="ftr-top-col ftr-top-col-2">
+                  <h6 class="ftr-col-title fl-h6">Navigatie</h6>
+                  <div class="ftr-col-menu">
+                    <ul class="reset-list">
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">Clubs</a></li>
+                      <li><a href="#">FAQ</a></li>
+                      <li><a href="#">Over FiELD</a></li>
+                      <li><a href="#">Contact</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="ftr-top-col ftr-top-col-3">
+                  <h6 class="ftr-col-title fl-h6">Account</h6>
+                  <div class="ftr-col-menu">
+                    <ul class="reset-list">
+                      <li><a href="#">Mijn Account</a></li>
+                      <li><a href="#">Verzending</a></li>
+                      <li><a href="#">Retourneren</a></li>
+                      <li><a href="#">Voorwaarden</a></li>
+                      <li><a href="#">Privacybeleid</a></li>
+                      <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="ftr-top-col ftr-top-col-4">
+                  <h6 class="ftr-col-title fl-h6">Contact</h6>
+                  <div class="ftr-col-desc">
+                    <div class="ftr-col-tel">
+                      <a href="tel:(+32)0485001699">(+32) 0485001699</a>
+                    </div>
+                    <div class="ftr-col-mail">
+                      <a href="mailto:info@field-sportswear.com">info@field-sportswear.com</a>
+                    </div>
+                    <div class="ftr-col-btw">
+                      <span>BTW:</span>
+                      <strong>BE 000 0000</strong>
+                    </div>
+                    <div class="ftr-col-address">
+                      <a target="_blank" href="#">
+                        Burg. Maenhautstraat 64<br>
+                        9820 Merelbeke, Belgium
+                      </a>
+                    </div>
+                    <div class="ftr-angle-btn">
+                      <a href="#" class="fl-btn fl-btn-angel">Afspraak maken</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="ftr-top-rgt">
+                <div class="ftr-top-col ftr-top-col-5">
+                  <h6 class="ftr-col-title fl-h6">Nieuwsbrief</h6>
+                  <div class="ftr-newsletter">
+                    <form>
+                      <input type="email" name="" placeholder="E-mailadres">
+                      <div class="ftr-newsletter-btn">
+                        <button>
+                          <i>
+                            <svg class="square-red-icon" width="11" height="10" viewBox="0 0 11 10" fill="#E63312">
+                              <use xlink:href="#square-red-icon"></use> 
+                            </svg>
+                          </i>
+                          Inschrijven
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
       </div> 
+    </div>
 
-      <div class="block">
-        <div class="dfp-gallery-module">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="block-848">
-                  <div class="gallery-wrap has-inline-bg clearfix">                    
-                    <div class="gallery gallery-columns-2">
-                      <figure class="gallery-item">
-                        <div class="gallery-icon portrait">
-                          <div class="gallery-icon-img inline-bg" style="background: url('assets/images/dfp-img-02.jpg');"></div>
-                          <img src="assets/images/dfp-img-02.jpg">
-                        </div>
-                      </figure>
-
-                      <figure class="gallery-item">
-                        <div class="gallery-icon portrait">
-                          <div class="gallery-icon-img inline-bg" style="background: url('assets/images/dfp-img-03.jpg');"></div>
-                          <img src="assets/images/dfp-img-03.jpg">
-                        </div>
-                      </figure>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="block">
-        <div class="dfp-text-module">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="block-848">
-                  <p>Ornare duis velit phasellus netus nec arcu porttitor urna turpis. Quam aliquam volutpat commodo scelerisque. Maecenas facilisi quam elit diam convallis. Consectetur nunc, pellentesque libero habitasse. Ultrices eget vitae blandit nunc consectetur.</p>
-                  <ol>
-                    <li>Faucibus nec lectus quis.</li>
-                    <li>Metus ultricies at porta massa eu.</li>
-                    <li>Laoreet urna quis.</li>
-                  </ol>
-                  <p>At dolor consequat in vestibulum tincidunt auctor. Diam ac, sed tincidunt urna quis iaculis. Diam magna porttitor auctor sit in. Purus convallis at eu, id enim tristique ut condimentum ac. Eu est enim non egestas adipiscing. Pharetra at sapien, vitae ultrices mattis aliquam. Suspendisse diam bibendum morbi sed. Libero est enim eleifend lobortis. Cursus gravida euismod amet elementum. In egestas dui, quis ante dictum sollicitudin donec montes, mi. Diam ac id eleifend odio. Feugiat enim, suspendisse nibh aliquet neque, tristique nulla. Augue libero, felis lectus tincidunt in.</p>
-                  <p>Eu purus at eget pellentesque ipsum vel dignissim at. Dolor bibendum nunc lorem enim, libero, ullamcorper nisl. Interdum et tincidunt morbi fermentum ipsum. Volutpat dis vitae sed facilisi vitae quis. Id pulvinar risus egestas ac, mauris bibendum est. At integer cursus facilisis suspendisse.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </article>
-  </section>
-
-  <section class="related-faq-sec">
-    <div class="container">
+    <div class="ftr-btm-wrap">
+      <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <div class="related-faq-con-cntlr">
-            <div class="sec-entry-hdr text-center">
-              <h2 class="fl-h2 sec-entry-hdr-title">gerelateerde faq</h2>
-              <p>Volutpat dis vitae sed facilisi vitae quis. Id pulvinar risus egestas ac, mauris bibendum est. At integer cursus facilisis suspendisse.</p>
+          <div class="ftr-btm-cntlr">
+            <div class="ftr-copyright">
+              <p>&copy; Copyright 2021 FiELD. All Rights Reserved.</p>
             </div>
-            <div class="related-faq-field-cntlr">
-              <div class="field-fag">
-                <ul class="reset-list">
-                  <li>
-                    <div class="field-faq-accordion">
-                      <div class="field-faq-accordion-hdr">
-                        <h3 class="field-faq-accordion-title fl-h5">Turpis congue purus donec quis eget vel?</h3>
-                      </div>
-                      <div class="field-faq-accordion-desc">
-                        <p>Dui at urna consequat magna cursus. Nunc maecenas tristique lorem metus volutpat tortor. Maecenas felis est interdum diam, euismod elementum ut eget. Sollicitudin nisi maecenas neque, commodo mauris quisque. Id aenean feugiat risus, ultrices nisi interdum consequat enim, nunc. </p>
-                        <div class="field-faq-accordion-btn">
-                          <a href="#">LEES MEER</a>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="field-faq-accordion">
-                      <div class="field-faq-accordion-hdr">
-                        <h3 class="field-faq-accordion-title fl-h5">Turpis congue purus donec quis eget vel?</h3>
-                      </div>
-                      <div class="field-faq-accordion-desc">
-                        <p>Dui at urna consequat magna cursus. Nunc maecenas tristique lorem metus volutpat tortor. Maecenas felis est interdum diam, euismod elementum ut eget. Sollicitudin nisi maecenas neque, commodo mauris quisque. Id aenean feugiat risus, ultrices nisi interdum consequat enim, nunc. </p>
-                        <div class="field-faq-accordion-btn">
-                          <a href="#">LEES MEER</a>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="field-faq-accordion">
-                      <div class="field-faq-accordion-hdr">
-                        <h3 class="field-faq-accordion-title fl-h5">Turpis congue purus donec quis eget vel?</h3>
-                      </div>
-                      <div class="field-faq-accordion-desc">
-                        <p>Dui at urna consequat magna cursus. Nunc maecenas tristique lorem metus volutpat tortor. Maecenas felis est interdum diam, euismod elementum ut eget. Sollicitudin nisi maecenas neque, commodo mauris quisque. Id aenean feugiat risus, ultrices nisi interdum consequat enim, nunc. </p>
-                        <div class="field-faq-accordion-btn">
-                          <a href="#">LEES MEER</a>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="field-faq-accordion">
-                      <div class="field-faq-accordion-hdr">
-                        <h3 class="field-faq-accordion-title fl-h5">Turpis congue purus donec quis eget vel?</h3>
-                      </div>
-                      <div class="field-faq-accordion-desc">
-                        <p>Dui at urna consequat magna cursus. Nunc maecenas tristique lorem metus volutpat tortor. Maecenas felis est interdum diam, euismod elementum ut eget. Sollicitudin nisi maecenas neque, commodo mauris quisque. Id aenean feugiat risus, ultrices nisi interdum consequat enim, nunc. </p>
-                        <div class="field-faq-accordion-btn">
-                          <a href="#">LEES MEER</a>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
+            <div class="ftr-developed-by">
+              <p>Website ontwerp door <a target="_blank" href="#">Conversal</a></p>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  
+      </div> 
+    </div> 
+  </footer>
 </div>
-
-
-
-<footer class="footer-wrp d-none">
-  <div class="ftr-top-wrap">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="ftr-top">
-            <div class="ftr-top-col ftr-top-col-1">
-              <div class="ftr-logo">
-                <a href="#"><img src="assets/images/ftr-logo.svg" alt=""></a>
-              </div>
-              <div class="ftr-socials">
-                <ul class="reset-list">
-                  <li>
-                    <a target="_blank" href="#">
-                      <i class="fab fa-facebook-f"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a target="_blank" href="#">
-                      <i class="fab fa-instagram"></i>
-                    </a>
-                  </li>
-                  
-                </ul>
-              </div>
-            </div>
-            
-            <div class="ftr-top-col ftr-top-col-2">
-              <h6 class="ftr-col-title fl-h6">Navigatie</h6>
-              <div class="ftr-col-menu">
-                <ul class="reset-list">
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">Clubs</a></li>
-                  <li><a href="#">FAQ</a></li>
-                  <li><a href="#">Over FiELD</a></li>
-                  <li><a href="#">Contact</a></li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="ftr-top-col ftr-top-col-3">
-              <h6 class="ftr-col-title fl-h6">Account</h6>
-              <div class="ftr-col-menu">
-                <ul class="reset-list">
-                  <li><a href="#">Mijn Account</a></li>
-                  <li><a href="#">Verzending</a></li>
-                  <li><a href="#">Retourneren</a></li>
-                  <li><a href="#">Voorwaarden</a></li>
-                  <li><a href="#">Privacybeleid</a></li>
-                  <li><a href="#">Cookie Policy</a></li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="ftr-top-col ftr-top-col-4">
-              <h6 class="ftr-col-title fl-h6">Contact</h6>
-              <div class="ftr-col-desc">
-                <div class="ftr-col-tel">
-                  <a href="tel:(+32)0485001699">(+32) 0485001699</a>
-                </div>
-                <div class="ftr-col-mail">
-                  <a href="mailto:info@field-sportswear.com">info@field-sportswear.com</a>
-                </div>
-                <div class="ftr-col-btw">
-                  <span>BTW:</span>
-                  <strong>BE 000 0000</strong>
-                </div>
-                <div class="ftr-col-address">
-                  <a href="#">
-                    Burg. Maenhautstraat 64<br>
-                    9820 Merelbeke, Belgium
-                  </a>
-                </div>
-                <div class="ftr-angle-btn">
-                  <a href="#">Afspraak maken</a>
-                </div>
-              </div>
-            </div>
-            <div class="ftr-top-col ftr-top-col-5">
-              <h6 class="ftr-col-title fl-h6">Nieuwsbrief</h6>
-              <div class="ftr-newsletter">
-                <form>
-                  <input type="email" name="" placeholder="E-mailadres">
-                  <div class="ftr-newsletter-btn">
-                    <button>
-                      <i>
-                        <svg class="square-red-icon" width="11" height="10" viewBox="0 0 11 10" fill="#E63312">
-                          <use xlink:href="#square-red-icon"></use> 
-                        </svg>
-                      </i>
-                      Inschrijven
-                    </button>
-                  </div>
-                </form>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div> 
-  </div>
-
-  <div class="ftr-btm-wrap">
-    <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="ftr-btm-cntlr">
-          <div class="ftr-copyright">
-            <p>&copy; Copyright 2021 FiELD. All Rights Reserved.</p>
-          </div>
-          <div class="ftr-developed-by">
-            <p>Website ontwerp door <a target="_blank" href="#">Conversal</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div> 
-  </div> 
-</footer>
 
 <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
 <script src="https://code.jquery.com/jquery-migrate-3.0.0.js"></script>

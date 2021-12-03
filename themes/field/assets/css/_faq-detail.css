@@ -86,9 +86,27 @@
 @media(max-width: 767px){
 	.faq-detail-sec-con-cntlr .innerpage-con-wrap {
 	    padding-top: 39px;
-	    padding-bottom: 61px;
+	    padding-bottom: 30px;
 	}
 	#faq-detail .dfp-promo-module-title {
 	    margin-bottom: 24px;
+	}
+	#faq-detail .gallery-wrap {
+	    padding-bottom: 6px;
+	}
+	.related-faq-con-cntlr .sec-entry-hdr .sec-entry-hdr-title{
+		margin-bottom: 17px;
+	}
+	.related-faq-con-cntlr .sec-entry-hdr {
+	    padding-bottom: 15px;
+	}
+	.related-faq-field-cntlr .field-faq-accordion {
+	    margin-bottom: 20px;
+	}
+}
+@media(max-width: 575px){
+	.related-faq-field-cntlr .field-faq-accordion-title {
+	    font-size: 18px;
+	    line-height: 1.3;
 	}
 }

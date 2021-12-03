@@ -348,10 +348,6 @@
     .ftr-angle-btn .fl-btn.fl-btn-angel {
         min-width: 150px;
     }
-    .fl-btn.fl-btn-angel:after{
-        border-top: 52px solid #E63312;
-        right: -32px;
-    }
     .ftr-logo a {
         max-width: 119px;
     }
