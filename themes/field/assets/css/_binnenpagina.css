@@ -269,14 +269,14 @@ hr {
 	padding-left: 0;
 	display: flex;
 	align-items: center;
-	margin-left: -12px;
-	margin-right: -12px;
+	margin-left: -7.5px;
+	margin-right: -7.5px;
     flex-wrap: wrap;
 }
 
 .dfp-btn-module-ctlr ul li{
-	padding-left: 12px;
-	padding-right: 12px;
+	padding-left: 7.5px;
+	padding-right: 7.5px;
 }
 
 
