@@ -107,5 +107,6 @@
 @media(max-width: 575px){
 	.related-faq-field-cntlr .field-faq-accordion-title {
 	    font-size: 18px;
+	    line-height: 1.3;
 	}
 }
