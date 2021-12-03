@@ -356,7 +356,7 @@ if( $('.xs-page-entry-menu').length ){
 
 /* start of Shariful*/
 
- /* function bannerheight(){
+  function bannerheight(){
       var windowWidth = $(window).width();
       var windowHeight = $(window).height();
       if (windowWidth > 767){
@@ -366,7 +366,7 @@ if( $('.xs-page-entry-menu').length ){
     bannerheight();
     $(window).resize(function(){
       bannerheight();
-    });*/
+    });
   
   if( $('.hmBnrSlider').length ){
     $('.hmBnrSlider').slick({

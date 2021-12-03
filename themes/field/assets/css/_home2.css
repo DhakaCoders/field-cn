@@ -121,6 +121,7 @@
 
 .usp-sec{
     padding: 65px 0;
+    overflow: hidden;
 }
 
 .usp-grd ul{
@@ -311,6 +312,7 @@
 .hm-grd-sec{
     padding: 210px 0 90px;
     position: relative;
+    overflow: hidden;
 }
 .hm-grd-sec:after{
     content: "";
@@ -461,6 +463,11 @@
     top: 0;
     left: 0;
     margin-top: -50px;
+    z-index: 1;
+}
+.cta-module-2 .cta-ctlr{
+    position: relative;
+    z-index: 2;
 }
 .cta-module-2 .cta-lft-img img{
     max-width: 350px;
@@ -599,12 +606,12 @@
     transform: scale3d(1,1,1);
 }
 
-.fl-prev-next{
+.clubs-team-sec .fl-prev-next{
     margin-left: -22px;
     margin-right: -22px;
 }
-.fl-prev,
-.fl-next{
+.clubs-team-sec .fl-prev,
+.clubs-team-sec .fl-next{
     padding-left: 22px;
     padding-right: 22px;
 }
@@ -690,6 +697,104 @@
     }
     .clubs-team-sec-inr{
         padding-bottom: 65px;
+    }
+    .process-des-ctlr{
+        padding-left: 40px;
+    }
+    .cta-module-2 .cta-lft-img img {
+        max-width: 285px;
+    }
+    .cta-module-2 .cta-module {
+        padding: 80px 40px;
+    }
+    .usp-sec {
+        padding: 50px 0;
+    }
+}
+
+
+@media(max-width: 991px){
+    .usp-grd ul {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .usp-grd ul li {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .usp-grd-item-des i{
+        max-width: 25px;
+        margin-right: 10px;
+    }
+    .usp-sec {
+        padding: 40px 0;
+    }
+    .hm-bnr-icon {
+        margin-bottom: -33px;
+        left: 10px;
+    }
+    .hm-bnr-icon img {
+        max-width: 50px;
+    }
+    .hm-grd-sec {
+        padding: 145px 0 50px;
+    }
+    .hm-grd-sec:after{
+        top: 60px;
+    }
+    .process-img-lft-ctlr {
+        height: 550px;
+        width: 85%;
+    }
+    .process-img-rgt-ctlr {
+        height: 238px;
+        width: 50%;
+        margin-top: -210px;
+    }
+    .process-des-ctlr {
+        padding-left: 20px;
+    }
+    .process-des-title br{
+        display: none;
+    }
+    .process-rgt-pos-img img {
+        max-width: 50px;
+    }
+    .process-rgt-pos-img {
+        top: -100px;
+    }
+    .part-of-team-des-title {
+        font-size: 60px;
+    }
+    .part-of-team-box {
+        height: 250px;
+    }
+    .cta-module-2 .cta-module {
+        padding: 60px 25px;
+    }
+    .cta-module-2 .cta-lft-img img {
+        max-width: 220px;
+    }
+    .clubs-team-sec-inr {
+        padding-bottom: 50px;
+        padding-top: 60px;
+    }
+    .clubs-team-sec .fl-prev-next{
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+    .clubs-team-sec .fl-prev,
+    .clubs-team-sec .fl-next{
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .clubs-team-sec .fl-prev i svg, 
+    .clubs-team-sec .fl-next i svg{
+        width: 30px!important;
+        height: 18px!important;
+    }
+    .hm-banner-des .fl-btn {
+        min-width: 350px;
     }
 }
 
