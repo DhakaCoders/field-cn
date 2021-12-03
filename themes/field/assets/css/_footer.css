@@ -437,7 +437,9 @@
     .ftr-logo a {
         max-width: 119px;
     }
-
+    .ftr-socials ul li{
+        padding: 0 12px;
+    }
     .ftr-socials:before,
     .ftr-col-btw:before{
         left: 50%;
