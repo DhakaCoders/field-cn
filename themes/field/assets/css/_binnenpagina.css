@@ -163,7 +163,7 @@ Gallery design
 	position: relative;
 }
 .fl-dft-lftimg-rgtdes-lft{
-	height: 736px;
+	height: 700px;
 }
 .fl-dft-lftimg-rgtdes-lft-img-scale{
 	position: relative;
@@ -218,7 +218,6 @@ Gallery design
 	padding-bottom: 75px;
 }
 .fl-dft-lftimg-rgtdes.fl-dft-rgtimg-lftdes .fl-dft-lftimg-rgtdes-lft{
-	float: right;
 	order: 2;
 }
 .fl-dft-lftimg-rgtdes.fl-dft-rgtimg-lftdes .fl-dft-lftimg-rgtdes-rgt{
@@ -295,15 +294,10 @@ hr {
 .dfp-field-fag-cntlr{
 	padding-bottom: 15px;
 }
-/*.dfp-club-collection-cntlr .club-collection-grid{
-	display: flex;
-	flex-wrap: wrap;
+.field-faq-accordion-title{
+	margin-bottom: 0!important;
+	text-transform: capitalize!important;
 }
-.dfp-club-collection-cntlr .club-collection-grid-item{
-	width: 25%;
-	margin-bottom: 20px;
-	overflow: hidden;
-}*/
 .dfp-club-collection-cntlr{
 	margin-bottom: 62px;
 }
