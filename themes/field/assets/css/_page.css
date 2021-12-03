@@ -96,8 +96,8 @@
 	content: "";
 	position: absolute;
 	top: -2px;
-	right: -32px;
-	border-top: 55px solid #E63312;
+	right: -30px;
+	border-top: 57px solid #E63312;
     border-right: 30px solid transparent;
     -webkit-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -363,7 +363,7 @@ ul.select2-results__options li {
     position: absolute;
     content: "";
     top: 17px;
-    right: 23px;
+    right: 20px;
     background-image: url('../images/down-arrow.svg');
     background-repeat: no-repeat;
     background-size: contain;
@@ -383,7 +383,9 @@ ul.select2-results__options li {
 .xs-page-entry-menu > ul > li > ul.page-entry-sub-menu {
     position: absolute;
     background: #202122;
-    box-shadow: 0px 10px 16px rgb(56 56 56 / 45%);
+    box-shadow: 0px 2px 8px rgb(54 54 54);
+    -webkit-box-shadow: 0px 2px 8px rgb(54 54 54);
+    -moz-box-shadow: 0px 2px 8px rgb(54 54 54);
     left: 0;
     top: 100%;
     right: 0;
@@ -391,9 +393,6 @@ ul.select2-results__options li {
     padding-top: 10px;
     padding-bottom: 14px;
     display: none;
-}
-.page-entry-sub-menu li a{
-	padding: 5px 20px!important;
 }
 
 @media(max-width:767px){
@@ -412,6 +411,31 @@ ul.select2-results__options li {
 		height:12px;
 		width:11px;
 	}
+	.default-page-con ul, ul{
+	    padding-left: 20px;
+	    padding-bottom: 10px;
+	}
+	.default-page-con ul li, ul li{
+	    padding: 4px 0 8px 23px;
+	}
+	.default-page-con ul li::before, ul li::before{
+		margin-top: 13px;
+	}
+	.default-page-con ol,
+	ol{
+		padding-left: 20px;
+	    padding-bottom: 10px;
+	}
+	.default-page-con ol li,
+	ol li {
+		padding: 4px 0 8px 23px;
+	}
+	.default-page-con ol li::before, ol li::before{
+	    margin-top: 4px;
+	}
+	.fl-btn{
+		min-width: 177px;
+	}
 }
 
 @media(max-width:575px){
@@ -422,6 +446,6 @@ ul.select2-results__options li {
 		font-size: 14px;
 	}
 	.xs-page-entry-menu > ul > li > a:after{
-		top: 12px;
+		top: 13px;
 	}
 }

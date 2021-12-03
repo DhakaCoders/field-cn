@@ -314,14 +314,30 @@ if( $('.wpforms-error').length ){
 //     $(this).parents('.wpforms-field').removeClass('wpforms-has-error');
 //   });
 // }
+if(windowWidth > 575){
+  if( $('.gallery-masonry-items-cntlr').length ){
+    $('.gallery-masonry-items-cntlr').masonry({
+      // options
+      itemSelector: '.gallery-masonry-item',
+    }).masonry('layout');
+  };
+}
 
-if( $('.gallery-masonry-items-cntlr').length ){
-  $('.gallery-masonry-items-cntlr').masonry({
-    // options
-    itemSelector: '.gallery-masonry-item',
-  }).masonry('layout');
-};
-
+if(windowWidth <= 575){
+  if( $('.BtmGallerySlider').length ){
+    $('.BtmGallerySlider').slick({
+      dots: true,
+      arrows: false,
+      infinite: false,
+      autoplay: true,
+      autoplaySpeed: 4000,
+      speed: 700,
+      slidesToShow: 2,
+      slidesToScroll: 1
+    });
+  }
+}
+  
 
 /* start of Momin*/
 
@@ -329,16 +345,6 @@ if( $('.gallery-masonry-items-cntlr').length ){
 
 
 /* start of Jahir*/
-// $('fld-club-catg-select-cntlr select').select2();
-// $('.fld-select-2-cntlr').select2();
-
-// if( $('.category-box-cntlr').length ){
-//   $('.category-box-cntlr').on('click', function() {
-//   $('.category-item-cntlr').toggle("slow");
-//   $('.category-box-cntlr .xs-category-item-title').toggleClass('rotate-180d');
-//   });
-// }
-
 if( $('.xs-page-entry-menu').length ){
   $('.xs-page-entry-menu ul li a').on('click', function(e){
     e.preventDefault();
@@ -348,23 +354,11 @@ if( $('.xs-page-entry-menu').length ){
   });
 }
 
-// if( $('.category-box-cntlr').length ){
-//   $('.category-box-cntlr').on('click', function() {
-//   $(this).fadeToggle("slow");
-//   $(this).addClass('show-after-click');
-//   });
-// }
-
-
 /* start of Shariful*/
 
-  function bannerheight(){
+ /* function bannerheight(){
       var windowWidth = $(window).width();
       var windowHeight = $(window).height();
-      /*var winHeight = (windowHeight + 100);*/
-      /*var headerHeight = $('.header').height();
-      var hdrHeight = (headerHeight + 40);
-      var bnrHeight = (windowHeight - hdrHeight);*/
       if (windowWidth > 767){
         $('.hm-banner-des-cntlr').css('height', windowHeight);
       }
@@ -372,7 +366,7 @@ if( $('.xs-page-entry-menu').length ){
     bannerheight();
     $(window).resize(function(){
       bannerheight();
-    });
+    });*/
   
   if( $('.hmBnrSlider').length ){
     $('.hmBnrSlider').slick({

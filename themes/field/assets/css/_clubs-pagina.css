@@ -8,9 +8,6 @@
 	text-align: center;
 	padding-bottom: 10px;
 }
-.fld-catagories-sec{
-	/*padding-bottom: 65px;*/
-}
 .fld-catagories-cntlr{
 	position: relative;
 	padding-bottom: 10px;
@@ -267,30 +264,6 @@
 	    max-width: 500px;
 	    margin: 0 auto;
 	}
-/*	.xs-category-item-title{
-		font-weight: 400;
-		position: relative;
-		display: block;
-	}*/
-/*	.xs-category-item-title i {
-	    position: absolute;
-	    display: inline-block;
-	    right: 0;
-	    top: 50%;
-	    transform: translate(-50%, -50%);
-	    -webkit-transform: translate(-50%, -50%);
-	    -moz-transform: translate(-50%, -50%);
-	}
-	.rotate-180d i img{
-		transform: rotate(-180deg);
-		-webkit-transform: rotate(-180deg);
-		-moz-transform: rotate(-180deg);
-	}
-	.category-item-cntlr {
-	    display: none;
-	    top: 0;
-	    margin-top: 10px;
-	}*/
 	.fld-club-grid-img-cntlr {
 	    height: 250px;
 	}
@@ -299,10 +272,10 @@
 	    width: 76px;
 	}
 	.fld-club-grids-sec {
-	    padding-bottom: 30px;
+	    padding-bottom: 25px;
 	}
 	.fld-club-desc-title{
-		font-size: 28px!important;
+		font-size: 30px!important;
 	}
 }
 @media (max-width: 575px){
@@ -313,7 +286,10 @@
 	    width: 100%;
 	    max-width: 335px;
 	    margin: 0 auto;
-	    padding-bottom: 30px!important;
+	    padding-bottom: 33px!important;
+	}
+	.fld-clubs-page-contents .page-entry-hdr-desc{
+		padding-bottom: 20px;
 	}
 
 }

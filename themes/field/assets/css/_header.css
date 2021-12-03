@@ -187,13 +187,14 @@ header.header{
 nav.main-nav > ul{
 	display: flex;
 	align-items: center;
-	margin-left: -30px;
-	margin-right: -30px;
 }
 nav.main-nav > ul > li{
 	padding-left: 30px;
 	padding-right: 30px;
 	position: relative;
+}
+nav.main-nav > ul > li:last-child{
+	padding-right: 0;
 }
 nav.main-nav > ul > li > a{
 	display: inline-block;
@@ -433,16 +434,22 @@ body.allWork {
 
 
 @media(max-width: 1199px){
-	nav.main-nav > ul{
-		margin-left: -30px;
-    	margin-right: -30px;
-	}
-	nav.main-nav > ul > li{
-		padding-left: 30px;
-    	padding-right: 30px;
-	}
 	nav.main-nav > ul > li > a{
 		font-size: 22px;
+	}
+	.hdr-account {
+	    padding-right: 28px;
+	}
+	.hdr-social-media {
+	    padding-left: 28px;
+	    padding-right: 28px;
+	}
+	.hdr-lang-cntlr {
+	    padding-left: 28px;
+	}
+	nav.main-nav > ul > li {
+	    padding-left: 20px;
+	    padding-right: 20px;
 	}
 }
 @media(max-width: 991px){
@@ -598,6 +605,7 @@ body.allWork {
 	    font-size: 30px;
 	}
 }
+
 
 @media(max-width: 400px){
 	.xs-mobile-menu{
