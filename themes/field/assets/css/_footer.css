@@ -428,6 +428,16 @@
         width: 100%;
         text-align: center;
     }
+    .ftr-logo a {
+        max-width: 119px;
+    }
+
+    .ftr-socials:before {
+        left: 50%;
+        transform: translate(-50%);
+        -ms-transform: translate(-50%);
+        -webkit-transform: translate(-50%);
+    }
 }
 
 
