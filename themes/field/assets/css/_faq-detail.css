@@ -40,7 +40,35 @@
 	padding-top: 42px;
 	padding-bottom: 70px;
 }
+.related-faq-con-cntlr .sec-entry-hdr a{
+	border-left: none;
+}
+.related-faq-con-cntlr .sec-entry-hdr a:after {
+    content: "";
+    position: absolute;
+    display: block;
+    background: transparent;
+    border: 2px solid #7D8C98;
+    width: 25px;
+  	height: 54.89px;
+    top: -2px;
+    -webkit-transform-origin: bottom left;
+    -moz-transform-origin: bottom left;
+    transform-origin: bottom left;
+    left: -5px;
+    -webkit-transform: skewX( 20deg);
+    -moz-transform: skewX( 20deg);
+    transform: skewX( 20deg);
+    border-right: none;
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
 
+}
+.related-faq-con-cntlr .sec-entry-hdr a:hover:after{
+	background: #E63312;
+	border-color: #E63312;
+}
 @media(max-width: 1199px){
 	#faq-detail .dfp-promo-module-title {
 	    margin-bottom: 30px;
