@@ -1008,3 +1008,9 @@
         font-size: 13px;
     }
 }
+@media(max-width: 359px){
+     .cta-module{
+        padding-top: 35px;
+        padding-bottom: 55px;
+    }
+}
