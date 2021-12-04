@@ -612,7 +612,10 @@ body.allWork {
 	    padding-right: 0;
 	}
 	nav.main-nav > ul > li.menu-item-has-children > a:before{
-		right: -22px;
+		right: -30px;
+		height: 15px;
+    	width: 20px;
+    	background-size: contain;
 	}
 	.hdr-account a{
 		font-size: 16px;
