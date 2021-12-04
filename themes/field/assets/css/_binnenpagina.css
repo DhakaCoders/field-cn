@@ -269,11 +269,14 @@ hr {
 	margin-left: -7.5px;
 	margin-right: -7.5px;
     flex-wrap: wrap;
+    padding-bottom: 0!important;
 }
 
 .dfp-btn-module-ctlr ul li{
 	padding-left: 7.5px;
 	padding-right: 7.5px;
+	padding-top: 0!important;
+	padding-bottom: 30px;
 }
 
 
@@ -451,7 +454,7 @@ hr {
 @media (max-width: 767px){
 	.innerpage-con-wrap{
 		padding-top: 39px;
-		padding-bottom: 48px;
+		padding-bottom: 33px;
 	}
 	.default-page-con h1, 
 	.dfp-promo-module-title, 
@@ -607,6 +610,12 @@ hr {
 	.dfp-btn-module .dfp-btn-module-ctlr ul li a{
 		min-width: 152px;
 	}
+	.dfp-btn-module .dfp-btn-module-ctlr ul li:last-child{
+		width: 100%;
+	}
+	.dfp-btn-module .dfp-btn-module-ctlr ul li a.fl-btn.fl-btn-angel{
+		min-width: 292px;
+	}
 }
 @media (max-width: 359px){
 	.dfp-promo-module-title{
@@ -625,5 +634,11 @@ hr {
 	}
 	.dfp-field-fag-cntlr {
 	    padding-bottom: 40px;
+	}
+	.dfp-btn-module .dfp-btn-module-ctlr ul li a {
+	    min-width: 132px;
+	}
+	.dfp-btn-module .dfp-btn-module-ctlr ul li a.fl-btn.fl-btn-angel {
+	    min-width: 252px;
 	}
 }
