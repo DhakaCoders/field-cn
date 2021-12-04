@@ -816,6 +816,14 @@
     .msnry-grd-item{
         width: 50%;
     }
+    .hm-grd-sec-inr ul {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .hm-grd-sec-inr ul li {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 @media(max-width: 767px){
     .cta-module{
@@ -862,6 +870,10 @@
     }
     .hm-grd-sec-inr ul li:last-child:after{
         content: none;
+    }
+    .hm-grd-item{
+        max-width: 400px;
+        width: 100%;
     }
     .hm-grd-des {
         text-align: left;
@@ -966,6 +978,19 @@
         margin-left: auto;
         margin-right: auto;
     }
+    .cta-module-img img{
+        width: 100%;
+    }
+    .cta-module-2 .cta-module-des{
+        text-align: center;
+        max-width: 400px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cta-module-2 .cta-module {
+        padding: 50px 0;
+    }
     .process-des-title br{
         display: none;
     }
@@ -1053,6 +1078,9 @@
     }
     .process-xs-icon {
         top: 58px;
+    }
+    .part-of-team-des-title {
+        font-size: 42px;
     }
 }
 @media(max-width: 359px){
