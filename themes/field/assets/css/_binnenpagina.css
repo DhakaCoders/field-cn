@@ -608,3 +608,22 @@ hr {
 		min-width: 152px;
 	}
 }
+@media (max-width: 359px){
+	.dfp-promo-module-title{
+		font-size: 33px!important;
+	    margin-bottom: 30px;
+	}
+	.dfp-xs-plate-one-img-squre{
+		bottom: -37px;
+	}
+	.dfp-xs-plate-one-img-squre img {
+	    max-width: 30px;
+	    height: auto;
+	}
+	.dfp-plate-one-img-bx{
+	    margin-bottom: 38px;
+	}
+	.dfp-field-fag-cntlr {
+	    padding-bottom: 40px;
+	}
+}
