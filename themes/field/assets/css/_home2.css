@@ -717,6 +717,9 @@
         padding: 60px 60px;
         padding-right: 70px;
     }
+    .msnry-grd-item{
+        width: 33.3333%;
+    }
 }
 
 
@@ -809,6 +812,9 @@
     }
     .cta-module-des-title {
         margin-bottom: 20px!important;
+    }
+    .msnry-grd-item{
+        width: 50%;
     }
 }
 @media(max-width: 767px){
@@ -1011,6 +1017,16 @@
     }
     .hm-banner-bg.inline-bg {
         background-position: left 28% center!important;
+    }
+    .msnry-grd{
+        margin-left: 0;
+        margin-right: 0;
+        display: block;
+    }
+    .msnry-grd-item{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
