@@ -41,6 +41,7 @@ header.header{
 .logo a{
 	display: inline-block;
 	vertical-align: baseline;
+	max-width: 180px;
 }
 
 .hdr-top-bar{

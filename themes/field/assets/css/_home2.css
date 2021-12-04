@@ -963,6 +963,9 @@
     .process-des-title br{
         display: none;
     }
+    .hm-banner-des-inr {
+        padding-right: 0;
+    }
 }
 @media(max-width: 575px){
     .cta-module{
@@ -1006,6 +1009,7 @@
     .hm-bnr-btn .fl-btn.fl-btn-angel {
         min-width: 100%;
         font-size: 13px;
+        padding: 18px 20px;
     }
 }
 @media(max-width: 359px){
