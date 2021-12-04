@@ -1026,6 +1026,18 @@
     .hm-banner-bg.inline-bg {
         background-position: left 39% center!important;
     }
+    .process-img-lft-ctlr {
+        height: 270px;
+        width: 70%;
+    }
+    .process-img-rgt-ctlr {
+        height: 160px;
+        margin-top: -135px;
+        width: 42%;
+    }
+    .process-xs-icon {
+        top: 58px;
+    }
 }
 @media(max-width: 359px){
      .cta-module{
