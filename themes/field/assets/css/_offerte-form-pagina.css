@@ -191,6 +191,10 @@
 .offerte-form-wrp .wpforms-container .wpforms-field input[type=radio]:checked:after {
 	opacity: 1;
 }
+.offerte-form-wrp .wpforms-container .wpforms-field input[type=checkbox]:checked + label,
+.offerte-form-wrp .wpforms-container .wpforms-field input[type=radio]:checked + label{
+    color: #E63312!important;
+}
 /*.offerte-form-wrp .wpforms-container .wpforms-field input.wpforms-error[type=radio]:after,
 .offerte-form-wrp .wpforms-container .wpforms-field input.wpforms-error[type=checkbox]:after{
     content: none!important;
