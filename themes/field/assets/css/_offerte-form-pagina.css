@@ -245,7 +245,53 @@
 	padding-top: 18px;
 	padding-bottom: 30px;
 }
-.offerte-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button {
+.offerte-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button.lft-angle-transparent {
+    display: inline-block;
+    vertical-align: baseline;
+    min-width: 177px;
+    color: #fff;
+    background: transparent;
+    font-size: 19px;
+    line-height: 1.1;
+    text-align: center;
+    padding: 15px 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    border: 2px solid #7e8c99;
+    border-left: none;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 2;
+    cursor: pointer!important;
+    margin-left: 30px;  
+     
+}
+.offerte-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button.lft-angle-transparent:after{
+    content: "";
+    position: absolute;
+    display: block;
+    background: transparent;
+    border: 2px solid #7D8C98;
+    width: 31px;
+    height: 53.89px;
+    top: -2px;
+    -webkit-transform-origin: bottom left;
+    -moz-transform-origin: bottom left;
+    transform-origin: bottom left;
+    left: 0;
+    -webkit-transform: skewX( 30deg);
+    -moz-transform: skewX( 30deg);
+    transform: skewX( 30deg);
+    border-right: none;
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.offerte-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button.lft-angle-transparent:hover:after{
+    border-color: #fff;
+    background: #fff;
+}
+.offerte-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button.rgt-angle-bg{
     display: inline-block;
     vertical-align: baseline;
     min-width: 177px;
@@ -261,16 +307,16 @@
     position: relative;
     text-transform: uppercase;
     z-index: 2;
-    cursor: pointer!important;   
-    margin-left: 30px; 
+    cursor: pointer!important;
+    margin-right: 30px;
 }
-.offerte-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button:after{
+.offerte-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button.rgt-angle-bg:after{
     content: "";
     position: absolute;
     top: -2px;
-    left: -32px;
-    border-top: 55px solid #E63312;
-    border-left: 30px solid transparent;
+    right: -32px;
+    border-bottom: 55px solid transparent;
+    border-left: 30px solid #E63312;
     -webkit-transition: all 0.5s;
     -ms-transition: all 0.5s;
     transition: all 0.5s;
@@ -280,8 +326,8 @@
     border-color: #fff!important;
     color: #E63312!important;
 }
-.offerte-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button:hover:after{
-    border-top-color: #fff;
+.offerte-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button.rgt-angle-bg:hover:after{
+    border-left-color: #fff;
 }
 .offerte-form-sec-wrp{
 	padding-top: 5px;
@@ -337,6 +383,17 @@
     .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.wpforms-field-gap{
         padding-top: 0;
     }
+    .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button.lft-angle-transparent:after{
+        height: 54.89px;
+        left: 1px;
+    }
+    .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button.rgt-angle-bg,
+    .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button.lft-angle-transparent{
+        min-width: 150px;
+    }
+    .offerte-form-sec-wrp{
+        padding-bottom: 20px;
+    }
 }
 @media(max-width: 575px){
     .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.HalfWidthField{
@@ -350,7 +407,27 @@
     .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-page-indicator .wpforms-page-indicator-page {
         padding: 0 53.5px;
     }
+    .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button.lft-angle-transparent:after{
+        left: 0;
+    }
     .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-page-indicator .wpforms-page-indicator-page:after{
         width: 61px;
+    }
+    .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button.rgt-angle-bg,
+    .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button.lft-angle-transparent{
+        min-width: 120px;
+    }
+}
+@media(max-width: 359px){
+    .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button.rgt-angle-bg, 
+    .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button.lft-angle-transparent {
+        min-width: 100px;
+    }
+    .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button.rgt-angle-bg:after{
+        border-left: 25px solid #E63312;
+        right: -27px;
+    }
+    .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button.rgt-angle-bg{
+        margin-right: 25px;
     }
 }
