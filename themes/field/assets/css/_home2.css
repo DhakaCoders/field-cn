@@ -108,11 +108,11 @@
     bottom: 0;
     left: 20px;
     z-index: 9;
-    margin-bottom: -55px;
+    margin-bottom: -47px;
 }
 
 .hm-bnr-icon img{
-    max-width: 80px;
+    max-width: 70px;
     width: 100%;
 }
 
