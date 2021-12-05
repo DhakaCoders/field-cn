@@ -11,7 +11,7 @@
     border-bottom: 2px solid rgba(125, 141, 152, 0.1);
 }
 .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-page-indicator .wpforms-page-indicator-page{
-	padding: 0 147px;
+	padding: 0 73px;
 	position: relative;
 }
 .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-page-indicator .wpforms-page-indicator-page:first-child{
@@ -50,6 +50,7 @@
 }
 .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-page-indicator .wpforms-page-indicator-page.checked .wpforms-page-indicator-page-number{
 	background: #E63312;
+    border-color: #E63312;
 }
 .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-page-indicator .wpforms-page-indicator-page.checked .wpforms-page-indicator-page-number:after{
     content: "";
@@ -156,7 +157,7 @@
 	width: 8px;
 	height: 8px;
 	border-radius: 100%;
- 	background: #7D8D98;
+ 	background: #E63312;
 }
 .offerte-form-wrp .wpforms-container .wpforms-field input[type=checkbox]{
 	width: 18px!important;
@@ -178,7 +179,7 @@
     top: 2px;
     width: 5px;
     height: 10px;
-    border: solid #7D8D98;
+    border: solid #E63312;
     border-width: 0 2px 2px 0;
     transform: rotate(45deg);
     opacity: 0;
@@ -360,8 +361,19 @@
 }
 
 .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field-textarea textarea:focus, 
-.offerte-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field input:focus {
+.offerte-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field > input:focus {
     border: 1px solid #7D8D98!important;
+}
+.offerte-form-wrp .wpforms-container .wpforms-field input[type=radio]:focus,
+.offerte-form-wrp .wpforms-container .wpforms-field input[type=checkbox]:focus{
+    border: 1px solid rgba(125, 141, 152, 0.25)!important
+}
+.offerte-form-wrp .wpforms-container .wpforms-field input[type=radio]:checked:focus,
+.offerte-form-wrp .wpforms-container .wpforms-field input[type=checkbox]:checked:focus {
+    border: 1px solid #E63312!important;
+}
+.offerte-form-wrp .wpforms-container .wpforms-field input[type=checkbox]:checked{
+    border: 1px solid #E63312!important;
 }
 
 @media(max-width: 1199px){
@@ -372,9 +384,6 @@
     }
 }
 @media(max-width: 767px){
-    .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-page-indicator .wpforms-page-indicator-page{
-        padding: 0 100px;
-    }
     .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-page.wpforms-page-3 .wpforms-field,
     .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field,
     .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.wpforms-field-check {
@@ -398,9 +407,6 @@
 @media(max-width: 575px){
     .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.HalfWidthField{
         width: 100%;
-    }
-    .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-page-indicator .wpforms-page-indicator-page {
-        padding: 0 80px;
     }
 }
 @media(max-width: 479px){
