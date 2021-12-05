@@ -457,7 +457,7 @@
 		padding-top: 60px;
 		padding-left: 20px;
 		padding-right: 20px;
-		align-items: top;
+		align-items: flex-start;
 		justify-content: center;
 	}
 	.club-collection-grid {
@@ -476,6 +476,7 @@
 	}
 	.club-collection-sec {
 	    padding-bottom: 40px;
+	    padding-top: 50px;
 	}
 }
 @media(max-width: 575px){
@@ -487,7 +488,10 @@
 
 }
 @media(max-width: 479px){
-	
+	.fdlms-link a{
+		display: block;
+		text-align: center;
+	}
 
 }
 

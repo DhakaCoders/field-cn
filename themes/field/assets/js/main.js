@@ -427,7 +427,7 @@ bannerheight();
             }
           },
           {
-            breakpoint:576,
+            breakpoint:480,
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
