@@ -369,6 +369,7 @@
 
 .process-sec{
     position: relative;
+    z-index: 2;
 }
 .process-rgt-pos-img{
     position: absolute;
@@ -433,6 +434,15 @@
     line-height: 1.25;
     margin-bottom: 28px;
 }
+.over-field-con-ctlr .process-des p{
+    margin-bottom: 30px;
+}
+.over-field-con-ctlr .process-sec-inr{
+    align-items: flex-end;
+}
+.over-field-con-ctlr .process-des-ctlr{
+    padding-bottom: 50px;
+}
 
 .part-of-team-sec{
     padding: 60px 0 85px;
@@ -445,6 +455,7 @@
     height: 400px;
     width: 75%;
     background: rgba(125, 141, 152, 0.05);
+    z-index: 1;
 }
 
 .part-of-team-des{

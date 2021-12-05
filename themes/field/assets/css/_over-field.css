@@ -52,8 +52,9 @@
 
 
 .over-field-con-ctlr .part-of-team-box{
-	height: 1020px;
+	height: 900px;
 	width: 80%;
+	z-index: 1;
 }
 
 .over-field-con-ctlr .process-rgt-pos-img{
@@ -69,7 +70,7 @@
 	    max-width: 250px;
 	}
 	.over-field-con-ctlr .process-rgt-pos-img {
-	    top: 25px;
+	    top: 108px;
 	}
 }
 
