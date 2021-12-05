@@ -490,7 +490,7 @@ bannerheight();
         autoplay: false,
         autoplaySpeed: 4000,
         speed: 700,
-        slidesToShow: 1,
+        slidesToShow: 3,
         slidesToScroll: 1,
         prevArrow: $('.customer-service-sec .fl-prev-next .fl-prev'),
         nextArrow: $('.customer-service-sec .fl-prev-next .fl-next'),
