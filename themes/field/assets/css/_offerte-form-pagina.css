@@ -148,7 +148,7 @@
     padding: 0!important;
 }
 .offerte-form-wrp .wpforms-container .wpforms-field input[type=radio]:after {
-	content: "";
+	content: ""!important;
 	opacity: 0;
 	display: block;
 	left: 4px;
@@ -173,7 +173,7 @@
     padding: 0!important;
 }
 .offerte-form-wrp .wpforms-container .wpforms-field input[type=checkbox]:after {
-    content: "";
+    content: ""!important;
     position: absolute;
     left: 5.5px;
     top: 2px;
