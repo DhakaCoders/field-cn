@@ -62,3 +62,23 @@
 .sport-pagina-intro-desc-btn .fl-btn.fl-btn-angel{
 	min-width: 230px;
 }
+.sport-pagina-content-cntlr .club-collection-sec {
+	padding-top: 90px;
+	padding-bottom: 70px;
+}
+.sport-pagina-gallery{
+	padding-top: 90px;
+	position: relative;
+}
+.sport-pagina-gallery-bg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 185px;
+	background: #151618;
+	z-index: -1;
+}
+.sport-pagina-gallery .sec-entry-hdr-title{
+	margin-bottom: 20px;
+}
