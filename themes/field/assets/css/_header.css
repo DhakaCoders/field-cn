@@ -48,7 +48,7 @@ header.header{
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
-	padding-bottom: 25px;
+	padding-bottom: 22px;
 }
 
 .hdr-account{
@@ -94,8 +94,8 @@ header.header{
 	-webkit-transform: translate(-50%,-50%);
 	-ms-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);
-	height: 9px;
-	width: 9px;
+	height: 8px;
+	width: 8px;
 	border: 1px solid #E63312;
 	margin-top: 1px;
 }
@@ -103,13 +103,21 @@ header.header{
 .hdr-social-media ul{
 	display: flex;
 	align-items: center;
-	margin-left: -12px;
-	margin-right: -12px;
+	margin-left: -9px;
+	margin-right: -9px;
 }
 .hdr-social-media ul li{
-	padding-left: 12px;
-	padding-right: 12px;
+	padding-left: 9px;
+	padding-right: 9px;
 	line-height: 1;
+}
+.hdr-social-media ul li.facebook svg{
+	width: 9px;
+	height: auto;
+}
+.hdr-social-media ul li.instagram svg{
+	width: 15px;
+	height: auto;
 }
 .hdr-social-media ul li a{
 	display: inline-block;
@@ -132,8 +140,8 @@ header.header{
 	-webkit-transform: translate(-50%,-50%);
 	-ms-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);
-	height: 9px;
-	width: 9px;
+	height: 8px;
+	width: 8px;
 	border: 1px solid #E63312;
 	margin-top: 1px;
 }
@@ -431,14 +439,14 @@ body.allWork {
     transition: all 0.3s;
     padding: 30px 0;
     height: 100%;
-    max-width: 375px;
+    max-width: 100%;
     width: 100%;
 }
 
 
 @media(max-width: 1199px){
 	nav.main-nav > ul > li > a{
-		font-size: 22px;
+		font-size: 20px;
 	}
 	.hdr-account {
 	    padding-right: 28px;
@@ -470,7 +478,7 @@ body.allWork {
 	    padding-left: 25px;
 	}
 	nav.main-nav > ul > li > a {
-	    font-size: 21px;
+	    font-size: 19px;
 	}
 }
 @media(max-width: 767px){
@@ -539,9 +547,10 @@ body.allWork {
 	.xs-contact-btn{
 		margin-bottom: 45px;
 		padding-right: 32px;
+		text-align: center;
 	}
 	.xs-contact-btn .fl-btn.fl-btn-angel {
-	    min-width: 100%;
+	    min-width: 60%;
 	}
 	.xs-btm-menu{
 		display: flex;
@@ -631,6 +640,18 @@ body.allWork {
 	.hdr-lang ul li a{
 		font-size: 18px;
 	}
+	nav.main-nav > ul > li.menu-item-has-children:hover > a:before{
+		transform: initial;
+	    -ms-transform: initial;
+	    -webkit-transform: initial;
+	    -o-transform: initial;
+	}
+	nav.main-nav > ul > li.menu-item-has-children.sub-menu-arrow > a:before{
+		transform: rotate(-180deg);
+		-ms-transform: rotate(-180deg);
+		-webkit-transform: rotate(-180deg);
+		-o-transform: rotate(-180deg);
+	}
 	
 }
 
@@ -638,5 +659,11 @@ body.allWork {
 @media(max-width: 400px){
 	.xs-mobile-menu{
 		max-width: 100%;
+	}
+}
+
+@media(max-width: 479px){
+	.xs-contact-btn .fl-btn.fl-btn-angel {
+	    min-width: 100%;
 	}
 }

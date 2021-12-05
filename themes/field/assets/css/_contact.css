@@ -350,6 +350,7 @@ textarea {
     transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
+    margin-top: -1px;
 }
 .cntct-tel.cntct-details-col a i svg{
     width: 16px!important;
