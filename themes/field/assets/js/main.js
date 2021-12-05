@@ -494,6 +494,22 @@ bannerheight();
         slidesToScroll: 1,
         prevArrow: $('.customer-service-sec .fl-prev-next .fl-prev'),
         nextArrow: $('.customer-service-sec .fl-prev-next .fl-next'),
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint:480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            }
+          }
+        ]
       });
     }
 

@@ -150,5 +150,29 @@
 	}
 }
 @media (max-width: 1399px){
-
+	.red-angle img{
+		max-width: 210px;
+	}
+}
+@media (max-width: 1299px){
+	.red-angle img{
+		max-width: 170px;
+	}
+	.red-angle {
+	    top: 40px;
+	    left: -35px;
+	}
+}
+@media (max-width: 1199px){
+	.red-angle img{
+		max-width: 150px;
+	}
+	.red-angle {
+	    top: 40px;
+	    left: -35px;
+	}
+	.red-angle {
+	    top: 55px;
+	    left: -50px;
+	}
 }
