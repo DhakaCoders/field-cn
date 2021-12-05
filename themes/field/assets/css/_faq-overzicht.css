@@ -112,7 +112,8 @@
 }
 .field-faq-accordion-btn a{
 	display: inline-block;
-	font-size: 16px;
+	font-size: 15px;
+	font-weight: 500;
 	line-height: 1;
 	color: #E63312;
 	text-transform: uppercase;
@@ -175,8 +176,11 @@
 }
 @media(max-width: 767px){
 	.faq-overview-sec{
-		padding-top: 50px;
+		padding-top: 0;
 		padding-bottom: 40px;
+	}
+	.faq-overview-content-cntlr .xs-page-entry-menu{
+		margin-bottom: 48px;
 	}
 	.faq-overview-sec .sec-entry-hdr{
 		padding-bottom: 15px;

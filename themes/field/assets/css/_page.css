@@ -362,7 +362,7 @@ ul.select2-results__options li {
 .xs-page-entry-menu > ul > li > a:after {
     position: absolute;
     content: "";
-    top: 18px;
+    top: 19px;
     right: 20px;
     background-image: url('../images/down-arrow.svg');
     background-repeat: no-repeat;
@@ -436,6 +436,12 @@ ul.select2-results__options li {
 	.fl-btn{
 		min-width: 177px;
 	}
+	.page-entry-sec{
+		padding-top: 45px;
+	}
+	.page-entry-hdr-desc{
+		padding-bottom: 18px;
+	}
 }
 
 @media(max-width:575px){
@@ -446,6 +452,8 @@ ul.select2-results__options li {
 		font-size: 14px;
 	}
 	.xs-page-entry-menu > ul > li > a:after{
-		top: 13px;
+		top: 16px;
+		width: 15px;
+		height: 15px;
 	}
 }
