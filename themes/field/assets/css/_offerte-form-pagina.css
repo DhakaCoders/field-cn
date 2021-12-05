@@ -286,7 +286,7 @@
     background: transparent;
     border: 2px solid #7D8C98;
     width: 31px;
-    height: 53.89px;
+    height: 54.89px;
     top: -2px;
     -webkit-transform-origin: bottom left;
     -moz-transform-origin: bottom left;
@@ -296,13 +296,18 @@
     -moz-transform: skewX( 30deg);
     transform: skewX( 30deg);
     border-right: none;
+    border-bottom: none;
     transition: all 0.5s;
     -ms-transition: all 0.5s;
     -webkit-transition: all 0.5s;
 }
 .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button.lft-angle-transparent:hover:after{
-    border-color: #fff;
-    background: #fff;
+    border-color: #E63312;
+}
+.offerte-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button.lft-angle-transparent:hover{
+    border-color: #E63312!important;
+    color: #E63312!important;
+    background: transparent!important;
 }
 .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button.rgt-angle-bg{
     display: inline-block;
