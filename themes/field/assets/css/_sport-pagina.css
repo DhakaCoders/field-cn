@@ -62,3 +62,51 @@
 .sport-pagina-intro-desc-btn .fl-btn.fl-btn-angel{
 	min-width: 230px;
 }
+.sport-pagina-content-cntlr .club-collection-sec {
+	padding-bottom: 70px;
+	padding-top: 0;
+	position: relative;
+}
+.sport-pagina-club-clcsn-wrp{
+	padding-top: 90px;
+	border-top: 5px solid #1c1d1f;
+}
+.sport-pagina-content-cntlr .club-collection-sec:after {
+    content: "";
+    height: 5px;
+    background: #1c1d1f;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.sport-pagina-gallery{
+	padding-top: 90px;
+	padding-bottom: 49px;
+	position: relative;
+}
+.sport-pagina-gallery-bg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 25%;
+	background: #151618;
+	z-index: -1;
+}
+.sport-pagina-gallery .sec-entry-hdr-title{
+	margin-bottom: 20px;
+}
+.sport-pagina-lft-angle-cntlr{
+	position: absolute;
+	bottom: 130px;
+	left: -100px;
+	overflow: hidden;
+}
+.sport-pagina-cta-sec .cta-module{
+	padding-top: 0!important;
+}
+.sport-pagina-cta-sec-2{
+	padding-top: 30px;
+	padding-bottom: 82px;
+}
