@@ -62,7 +62,7 @@
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field label{
     font-weight: 500;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.3;
     margin-bottom: 10px;
     color: #FFFFFF;
@@ -337,7 +337,7 @@ textarea {
 }
 .cntct-tel.cntct-details-col a{
     font-weight: 300;
-    font-size: 24px;
+    font-size: 22px;
     color: #B2BCC2;
     padding-left: 35px;
     position: relative;
@@ -351,6 +351,10 @@ textarea {
     -ms-transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
+.cntct-tel.cntct-details-col a i svg{
+    width: 16px!important;
+    height: 28px!important;
+}
 .cntct-tel.cntct-details-col {
     padding-bottom: 36px;
     border-bottom: 1px solid #7D8C98;
@@ -358,7 +362,7 @@ textarea {
 }
 .cntct-details-col strong,
 .cntct-details-col a{
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.5;
     color: #B2BCC2;
     display: inline-block;

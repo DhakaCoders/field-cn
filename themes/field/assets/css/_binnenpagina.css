@@ -345,9 +345,14 @@ hr {
 	}
 }
 @media (max-width: 1299px){
-	.dfp-plate-one-img-squre,
-	.fl-dft-overflow-angle{
+	.dfp-plate-one-img-squre{
 		display: none;
+	}
+	.fl-dft-overflow-angle img {
+	    max-width: 120px;
+	}
+	.fl-dft-overflow-angle {
+	    bottom: 54px;
 	}
 	.dfp-xs-plate-one-img-squre{
 		display: block;
@@ -402,6 +407,12 @@ hr {
 	.fl-dft-lftimg-rgtdes.fl-dft-rgtimg-lftdes {
 	    padding-bottom: 65px;
 	}
+	.fl-dft-overflow-angle {
+	    bottom: 34px;
+	}
+	.fl-dft-overflow-angle img {
+	    max-width: 100px;
+	}
 }
 @media (max-width: 991px){
 	.block-807{
@@ -449,6 +460,12 @@ hr {
 	}
 	.fl-dft-lftimg-rgtdes-lft {
 	    height: 620px;
+	}
+	.fl-dft-overflow-angle img {
+	    max-width: 80px;
+	}
+	.fl-dft-overflow-angle {
+	    bottom: 40px;
 	}
 }
 @media (max-width: 767px){
@@ -550,6 +567,9 @@ hr {
 	}
 	.dfp-field-fag-cntlr{
 		padding-bottom: 52px;
+	}
+	.fl-dft-overflow-angle{
+		display: none;
 	}
 }
 @media (max-width: 575px){
