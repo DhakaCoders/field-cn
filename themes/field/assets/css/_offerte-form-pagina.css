@@ -3,6 +3,9 @@
 	width: 100%;
 	margin: 0 auto;
 }
+.offerte-form-dsc-wrp .page-entry-hdr-cntlr .page-entry-hdr-desc{
+    max-width: 790px;
+}
 .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-page-indicator {
     display: flex;
     justify-content: center;
