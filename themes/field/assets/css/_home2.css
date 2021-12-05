@@ -1,6 +1,5 @@
 .home .hm-banner{
     position: relative;
-   /* z-index: 1;*/
 }
 .hm-banner{
 	position: relative;
@@ -215,6 +214,9 @@
 .msnry-grd-item-img-ctlr{
     position: relative;
     overflow: hidden;
+}
+.msnry-grd-item-img img{
+    width: 100%;
 }
 
 .msnry-grd-item-img-des{
@@ -1015,6 +1017,10 @@
     }
     .hm-banner-bg.inline-bg{
         background-position: left 23% center!important;
+    }
+    .msnry-sec{
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 @media(max-width: 639px){

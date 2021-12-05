@@ -436,12 +436,31 @@ if( $('.xs-page-entry-menu').length ){
   }
 
   //Masonry
+  if(windowWidth > 575){
     if( $('.msnry-grd').length ){
       $('.msnry-grd').masonry({
         // options
         itemSelector: '.msnry-grd-item',
       }).masonry('layout');
     };
+  }
+
+  if(windowWidth < 576){
+    if( $('.msnrySlider').length ){
+      $('.msnrySlider').slick({
+        dots: true,
+        arrows: false,
+        infinite: false,
+        autoplay: false,
+        autoplaySpeed: 4000,
+        speed: 700,
+        slidesToShow: 1,
+        slidesToScroll: 1
+      });
+    }  
+  }
+  
+    
 
 
     /*var windowWidth_1920 = $('.page-body-cntlr').width();*/
