@@ -108,7 +108,7 @@
     bottom: 0;
     left: 20px;
     z-index: 9;
-    margin-bottom: -60px;
+    margin-bottom: -55px;
 }
 
 .hm-bnr-icon img{
@@ -241,7 +241,7 @@
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    height: 10px;
+    height: 9px;
     width: 10px;
     border: 1px solid #E63312;
 }

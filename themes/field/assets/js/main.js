@@ -357,8 +357,13 @@ if( $('.xs-page-entry-menu').length ){
 /* start of Shariful*/
 
   function bannerheight(){
-      var windowWidth = $(window).width();
       var windowHeight = $(window).height();
+      var windowHeight2 = 0;
+      if( windowHeight < 625 ){
+        windowHeight2 = 625;
+      }else{
+        windowHeight2 = windowHeight;
+      }
       if (windowWidth > 767){
         $('.hm-banner-des-cntlr').css('height', windowHeight);
       }
