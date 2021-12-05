@@ -89,6 +89,26 @@
       <path d="M2.08819 13.9873H37.1204L30.5572 20.5506C28.672 22.4358 31.4998 25.2635 33.385 23.3783L39.3624 17.3917L43.3525 13.3953C44.1259 12.6173 44.1259 11.3609 43.3525 10.583L33.385 0.603881C33.0058 0.214196 32.4838 -0.00445366 31.94 6.87877e-05C30.1447 0.00029491 29.2637 2.18691 30.5572 3.43179L37.136 9.99506H1.98497C-0.779873 10.1322 -0.573434 14.125 2.08819 13.9873Z" fill-opacity="0.32"/>
     </symbol>
 
+    <symbol id="facebook-svg" width="10" height="18" viewBox="0 0 10 18" xmlns="http://www.w3.org/2000/svg">
+      <path d="M6.125 6.1875V3.9375C6.125 3.3165 6.629 2.8125 7.25 2.8125H8.375V0H6.125C4.26087 0 2.75 1.51088 2.75 3.375V6.1875H0.5V9H2.75V18H6.125V9H8.375L9.5 6.1875H6.125Z"/>
+    </symbol>
+
+    <symbol id="instagram-svg" width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12.375 0H5.625C2.51888 0 0 2.51888 0 5.625V12.375C0 15.4811 2.51888 18 5.625 18H12.375C15.4811 18 18 15.4811 18 12.375V5.625C18 2.51888 15.4811 0 12.375 0ZM16.3125 12.375C16.3125 14.5463 14.5463 16.3125 12.375 16.3125H5.625C3.45375 16.3125 1.6875 14.5463 1.6875 12.375V5.625C1.6875 3.45375 3.45375 1.6875 5.625 1.6875H12.375C14.5463 1.6875 16.3125 3.45375 16.3125 5.625V12.375Z"/>
+      <path d="M9 4.5C6.51487 4.5 4.5 6.51487 4.5 9C4.5 11.4851 6.51487 13.5 9 13.5C11.4851 13.5 13.5 11.4851 13.5 9C13.5 6.51487 11.4851 4.5 9 4.5ZM9 11.8125C7.44975 11.8125 6.1875 10.5503 6.1875 9C6.1875 7.44863 7.44975 6.1875 9 6.1875C10.5503 6.1875 11.8125 7.44863 11.8125 9C11.8125 10.5503 10.5503 11.8125 9 11.8125Z"/>
+      <path d="M13.8375 4.76212C14.1687 4.76212 14.4372 4.49366 14.4372 4.16249C14.4372 3.83133 14.1687 3.56287 13.8375 3.56287C13.5064 3.56287 13.2379 3.83133 13.2379 4.16249C13.2379 4.49366 13.5064 4.76212 13.8375 4.76212Z"/>
+    </symbol>
+
+    <symbol id="xs-facebook-svg" width="12" height="24" viewBox="0 0 12 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M7.5 8.25V5.25C7.5 4.422 8.172 3.75 9 3.75H10.5V0H7.5C5.0145 0 3 2.0145 3 4.5V8.25H0V12H3V24H7.5V12H10.5L12 8.25H7.5Z"/>
+    </symbol>
+
+    <symbol id="xs-instragram-svg" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M16.5 0H7.5C3.3585 0 0 3.3585 0 7.5V16.5C0 20.6415 3.3585 24 7.5 24H16.5C20.6415 24 24 20.6415 24 16.5V7.5C24 3.3585 20.6415 0 16.5 0ZM21.75 16.5C21.75 19.395 19.395 21.75 16.5 21.75H7.5C4.605 21.75 2.25 19.395 2.25 16.5V7.5C2.25 4.605 4.605 2.25 7.5 2.25H16.5C19.395 2.25 21.75 4.605 21.75 7.5V16.5Z"/>
+      <path d="M12 6C8.6865 6 6 8.6865 6 12C6 15.3135 8.6865 18 12 18C15.3135 18 18 15.3135 18 12C18 8.6865 15.3135 6 12 6ZM12 15.75C9.933 15.75 8.25 14.067 8.25 12C8.25 9.9315 9.933 8.25 12 8.25C14.067 8.25 15.75 9.9315 15.75 12C15.75 14.067 14.067 15.75 12 15.75Z"/>
+      <path d="M18.4501 6.34949C18.8916 6.34949 19.2496 5.99154 19.2496 5.54999C19.2496 5.10844 18.8916 4.75049 18.4501 4.75049C18.0085 4.75049 17.6506 5.10844 17.6506 5.54999C17.6506 5.99154 18.0085 6.34949 18.4501 6.34949Z"/>
+    </symbol>
+
 
 
 
@@ -98,6 +118,7 @@
 <body>
 
 <div class="page-body-cntlr">
+  <div class="bdoverlay"></div>
   <header class="header hdr-border-none">
     <div class="container">
         <div class="row">
@@ -108,8 +129,8 @@
                   <a href="#"><img src="assets/images/logo.png"></a>
                 </div>
               </div>
-              <div class="hdr-rgt">
-                <div class="hdr-top-menu">
+              <div class="hdr-rgt hide-sm">
+                <div class="hdr-top-bar">
                   <div class="hdr-account">
                     <a href="#">Mijn account
                       <i>
@@ -121,8 +142,24 @@
                   </div>
                   <div class="hdr-social-media">
                     <ul class="reset-list">
-                      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                      <li>
+                        <a href="#" target="_blank">
+                          <i>
+                            <svg class="facebook-svg" width="10" height="18" viewBox="0 0 10 18" fill="#7D8D98">
+                              <use xlink:href="#facebook-svg"></use> 
+                            </svg>
+                          </i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" target="_blank">
+                          <i>
+                            <svg class="instagram-svg" width="18" height="18" viewBox="0 0 18 18" fill="#7D8D98">
+                              <use xlink:href="#instagram-svg"></use> 
+                            </svg>
+                          </i>
+                        </a>
+                      </li>
                     </ul>
                   </div>
                   <div class="hdr-lang-cntlr">
@@ -153,11 +190,102 @@
                   </nav>
                 </div>
               </div>
+              <div class="hamburgar-cntlr show-sm">
+                <div class="hamburgar">
+                  <div class="hamburger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
     </div>
   </header>
+
+  <div class="xs-mobile-menu">
+    <div class="xs-pop-up-menu-top">
+      <div class="logo">
+        <a href="#"><img src="assets/images/logo.png"></a>
+      </div>
+      <div class="hamburgar-cntlr show-sm">
+        <div class="hamburgar">
+          <div class="hamburger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="xs-menu">
+      <div class="hdr-menu">
+        <nav class="main-nav">
+          <ul class="clearfix reset-list">
+            <li class="current-menu-item"><a href="#">Home</a></li>
+            <li class="menu-item-has-children">
+              <a href="#">Clubs</a>
+              <ul class="sub-menu">
+                <li><a href="#">submenu 1</a></li>
+                <li><a href="#">submenu 2</a></li>
+                <li><a href="#">submenu 3</a></li>
+              </ul>
+            </li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Over FiELD</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="hdr-account">
+        <a href="#">Mijn account
+          <i>
+            <svg class="user-icon-svg" width="12" height="14" viewBox="0 0 12 14" fill="#7D8D98">
+              <use xlink:href="#user-icon-svg"></use> 
+            </svg>
+          </i>
+        </a>
+      </div>
+      <div class="xs-contact-btn">
+        <a href="#" class="fl-btn fl-btn-angel">Contact</a>
+      </div>
+      <div class="xs-btm-menu">
+        <div class="hdr-lang-cntlr">
+          <div class="hdr-lang">
+            <ul class="reset-list">
+              <li class="active"><a href="#">NL</a></li>
+              <li><a href="#">EN</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="xs-hdr-social-media">
+          <div class="hdr-social-media">
+            <ul class="reset-list">
+              <li>
+                <a href="#" target="_blank">
+                  <i>
+                    <svg class="xs-facebook-svg" width="12" height="24" viewBox="0 0 12 24" fill="#7D8D98">
+                      <use xlink:href="#xs-facebook-svg"></use> 
+                    </svg>
+                  </i>
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  <i>
+                    <svg class="xs-instragram-svg" width="24" height="24" viewBox="0 0 24 24" fill="#7D8D98">
+                      <use xlink:href="#xs-instragram-svg"></use> 
+                    </svg>
+                  </i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
   <!-- end of Header -->
