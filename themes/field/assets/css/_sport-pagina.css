@@ -5,7 +5,10 @@
 .sport-pagina-intro-hding{
 	position: absolute;
 	left: 0;
-	top: -153px;
+	transform: translateY(-60%);
+	-ms-transform: translateY(-60%);
+	-webkit-transform: translateY(-60%);
+	-o-transform: translateY(-60%);
 	z-index: 20;
 }
 .fl-h1-150{
@@ -104,8 +107,10 @@
 	left: -100px;
 	overflow: hidden;
 }
+
 .sport-pagina-cta-sec .cta-module{
 	padding-top: 0!important;
+	padding-bottom: 70px!important;
 }
 .sport-pagina-cta-sec-2{
 	padding-top: 30px;
@@ -117,6 +122,9 @@
 	.sport-pagina-intro-desc-cntlr{
 		padding-left: 50px;
 		padding-top: 80px;
+	}
+	.sport-pagina-intro-sec{
+		padding-bottom: 110px;
 	}
 }
 @media(max-width: 991px){
@@ -134,9 +142,64 @@
 	}
 	.sport-pagina-intro-hding{
 		top: initial;
+		left: 20px;
 		transform: translateY(-50%);
 		-ms-transform: translateY(-50%);
 		-webkit-transform: translateY(-50%);
 		-o-transform: translateY(-50%);
+	}
+	.sport-pagina-intro-sec{
+		padding-bottom: 100px;
+	}
+	.sport-pagina-content-cntlr .sport-pagina-club-clcsn-wrp{
+		padding-top: 75px;
+	}
+	.sport-pagina-content-cntlr .club-collection-sec{
+		padding-bottom: 60px!important;
+	}
+	.sport-pagina-content-cntlr .sport-pagina-gallery{
+		padding-top: 80px;
+	}
+}
+@media(max-width: 767px){
+	.sport-pagina-intro-img-rgt{
+		height: 500px;
+	}
+	.sport-pagina-intro-img-lft{
+		height: 300px;
+		margin-top: -190px;
+	}
+	.sport-pagina-intro-sec{
+		padding-bottom: 60px;
+	}
+	.sport-pagina-content-cntlr .sport-pagina-club-clcsn-wrp{
+		padding-top: 60px;
+	}
+	.sport-pagina-content-cntlr .club-collection-sec{
+		padding-bottom: 52px!important;
+	}
+	.sport-pagina-content-cntlr .sport-pagina-gallery{
+		padding-top: 65px;
+	}
+}
+@media(max-width: 575px){
+	.sport-pagina-intro-img-rgt{
+		height: 400px;
+	}
+	.sport-pagina-intro-img-lft{
+		height: 190px;
+		margin-top: -125px;
+	}
+	.sport-pagina-intro-sec{
+		padding-bottom: 40px;
+	}
+}
+@media(max-width: 479px){
+	.sport-pagina-intro-img-rgt{
+		height: 330px;
+	}
+	.sport-pagina-intro-img-lft{
+		height: 174px;
+		margin-top: -105px;
 	}
 }
