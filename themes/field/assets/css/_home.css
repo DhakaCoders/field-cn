@@ -58,7 +58,7 @@
 	padding-bottom:93px;
 }
 .club-collection-sec{
-    padding-bottom: 20px;
+    padding-bottom: 59px;
     padding-top: 100px;
 }
 /*.clb-cltion-grd-item-des{
@@ -75,6 +75,7 @@
 	position: relative;
 }
 .club-collection-grid{
+	margin-bottom: 0!important;
 	margin:0 -10px;
 }
 .clb-cltion-grd-item-img img {
@@ -210,7 +211,7 @@
 .team-grd-item-heading .team-grd-item-title,
 .team-grd-item-heading .team-grd-item-title a{
 	text-transform: capitalize;
-	margin-bottom:10px;
+	margin-bottom:6px;
 	color:#fff;
 	text-decoration: none;
 	font-size: 28px;
