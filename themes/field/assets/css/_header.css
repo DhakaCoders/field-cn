@@ -661,3 +661,9 @@ body.allWork {
 		max-width: 100%;
 	}
 }
+
+@media(max-width: 479px){
+	.xs-contact-btn .fl-btn.fl-btn-angel {
+	    min-width: 100%;
+	}
+}
