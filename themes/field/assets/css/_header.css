@@ -511,7 +511,7 @@ body.allWork {
 	    padding-left: 0;
 	    padding-right: 0;
 	    text-align: center;
-	    padding-bottom: 38px;
+	    padding-bottom: 32px;
 	}
 	nav.main-nav > ul > li > a:after{
 		content: none;
@@ -600,7 +600,7 @@ body.allWork {
     	font-size: 25px;
     }
     nav.main-nav > ul > li > a {
-	    font-size: 30px;
+	    font-size: 28px;
 	}
 	.hdr-lang-cntlr {
 	    padding-left: 0;
