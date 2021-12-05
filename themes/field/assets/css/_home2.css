@@ -21,6 +21,7 @@
     left: 0;
     display: none;
     z-index: 2;
+    overflow: hidden;
 }
 #bnr-vdo {
     position: absolute;
@@ -37,7 +38,7 @@
 .has-vdo .hm-video-cntlr{
     display: block;
 }
-.has-vdo .hm-banner-bg{
+.has-vdo .hm-bnr-slider-ctlr{
     display: none;
 }
 .hm-bnr-slider-ctlr{
@@ -107,11 +108,11 @@
     bottom: 0;
     left: 20px;
     z-index: 9;
-    margin-bottom: -60px;
+    margin-bottom: -47px;
 }
 
 .hm-bnr-icon img{
-    max-width: 80px;
+    max-width: 70px;
     width: 100%;
 }
 
@@ -240,7 +241,7 @@
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    height: 10px;
+    height: 9px;
     width: 10px;
     border: 1px solid #E63312;
 }
@@ -369,6 +370,7 @@
 
 .process-sec{
     position: relative;
+    z-index: 2;
 }
 .process-rgt-pos-img{
     position: absolute;
@@ -396,7 +398,7 @@
 
 
 .process-img-lft-ctlr{
-    width: 80%;
+    width: 75%;
     height: 750px;
 }
 .process-img-lft{
@@ -405,7 +407,7 @@
 
 .process-img-rgt-ctlr{
     height: 330px;
-    width: 37%;
+    width: 39%;
     margin-top: -300px;
     margin-left: auto;
 }
@@ -433,18 +435,32 @@
     line-height: 1.25;
     margin-bottom: 28px;
 }
+.over-field-con-ctlr .process-des p{
+    margin-bottom: 30px;
+}
+.over-field-con-ctlr .process-sec-inr{
+    align-items: flex-end;
+}
+.over-field-con-ctlr .process-des-ctlr{
+    padding-bottom: 50px;
+}
 
 .part-of-team-sec{
     padding: 60px 0 85px;
     position: relative;
+}
+.part-of-team-sec-inr{
+    position: relative;
+    z-index: 2;
 }
 .part-of-team-box{
     position: absolute;
     bottom: 0;
     right: 0;
     height: 400px;
-    width: 75%;
+    width: 77%;
     background: rgba(125, 141, 152, 0.05);
+    z-index: 1;
 }
 
 .part-of-team-des{
@@ -476,7 +492,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    margin-top: -50px;
+    margin-top: -40px;
     z-index: 1;
 }
 .cta-module-2 .cta-ctlr{
@@ -484,7 +500,7 @@
     z-index: 2;
 }
 .cta-module-2 .cta-lft-img img{
-    max-width: 350px;
+    max-width: 380px;
     width: 100%;
 }
 
@@ -664,7 +680,7 @@
 @media(max-width: 1399px){
     .process-rgt-pos-img {
         position: absolute;
-        top: 0;
+        top: 5px;
         right: 10px;
     }
     .process-rgt-pos-img img {
@@ -707,9 +723,6 @@
     .part-of-team-box{
         height: 350px;
     }
-    .part-of-team-sec {
-        padding: 70px 0 90px;
-    }
     .clubs-team-lft {
         width: 75%;
     }
@@ -717,7 +730,7 @@
         width: 25%;
     }
     .clubs-team-sec-inr{
-        padding-bottom: 65px;
+        padding-bottom: 55px;
     }
     .process-des-ctlr{
         padding-left: 40px;
@@ -780,7 +793,7 @@
         margin-top: -210px;
     }
     .process-des-ctlr {
-        padding-left: 20px;
+        padding-left: 30px;
     }
     .process-des-title br{
         display: none;
@@ -795,7 +808,8 @@
         font-size: 60px;
     }
     .part-of-team-box {
-        height: 250px;
+        height: 300px;
+        width: 80%;
     }
     .cta-module-2 .cta-module {
         padding: 60px 25px;
@@ -841,6 +855,15 @@
     .hm-grd-sec-inr ul li {
         padding-left: 10px;
         padding-right: 10px;
+    }
+    .part-of-team-sec {
+        padding: 55px 0 70px;
+    }
+    .process-des-title{
+        font-size: 36px!important;
+    }
+    .clubs-team-sec .sec-entry-hdr p br{
+        display: none;
     }
 }
 @media(max-width: 767px){
@@ -922,12 +945,13 @@
     }
     .process-img-ctlr {
         width: 100%;
-        padding-bottom: 70px;
+        padding-bottom: 55px;
     }
     .process-des-ctlr {
         width: 100%;
         padding-left: 0;
         padding-right: 0;
+        padding-top: 0;
     }
     .process-sec {
         padding-left: 20px;
@@ -1044,7 +1068,7 @@
         top: 72px;
     }
     .process-img-lft-ctlr {
-        height: 300px;
+        height: 400px;
         width: 65%;
     }
     .process-img-rgt-ctlr{
@@ -1090,7 +1114,7 @@
         background-position: left 39% center!important;
     }
     .process-img-lft-ctlr {
-        height: 270px;
+        height: 320px;
         width: 70%;
     }
     .process-img-rgt-ctlr {
@@ -1099,10 +1123,13 @@
         width: 42%;
     }
     .process-xs-icon {
-        top: 58px;
+        top: 107px;
     }
     .part-of-team-des-title {
         font-size: 42px;
+    }
+    .hm-grd-sec {
+        padding: 80px 0 25px;
     }
 }
 @media(max-width: 359px){
@@ -1112,5 +1139,11 @@
     }
     .cta-btn a{
         min-width: 200px!important;
+    }
+    .process-img-lft-ctlr{
+        height: 265px;
+    }
+    .process-xs-icon {
+        top: 53px;
     }
 }
