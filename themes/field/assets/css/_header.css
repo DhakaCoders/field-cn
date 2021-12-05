@@ -52,12 +52,12 @@ header.header{
 }
 
 .hdr-account{
-	padding-right: 35px;
+	padding-right: 30px;
 }
 .hdr-account a{
 	display: inline-block;
 	vertical-align: baseline;
-	font-size: 14px;
+	font-size: 13px;
 	line-height: 1;
 	color: #7D8D98;
 	text-transform: uppercase;
@@ -82,8 +82,8 @@ header.header{
 
 
 .hdr-social-media{
-	padding-left: 35px;
-	padding-right: 35px;
+	padding-left: 30px;
+	padding-right: 30px;
 	position: relative;
 }
 .hdr-social-media:after{
@@ -121,7 +121,7 @@ header.header{
 }
 
 .hdr-lang-cntlr{
-	padding-left: 35px;
+	padding-left: 30px;
 	position: relative;
 }
 .hdr-lang-cntlr:before{
@@ -172,7 +172,7 @@ header.header{
 	display: inline-block;
 	vertical-align: baseline;
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 13px;
 	line-height: 1;
 	color: #7D8D98;
 	text-decoration: none;
@@ -189,10 +189,11 @@ header.header{
 nav.main-nav > ul{
 	display: flex;
 	align-items: center;
+	padding-top: 7px;
 }
 nav.main-nav > ul > li{
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 35px;
+	padding-right: 35px;
 	position: relative;
 }
 nav.main-nav > ul > li:last-child{
@@ -204,7 +205,7 @@ nav.main-nav > ul > li > a{
 	text-decoration: none;
 	color: #fff;
 	text-transform: uppercase;
-	font-size: 22px;
+	font-size: 21px;
 	line-height: 1;
 	font-weight: 600;
 	font-family: 'Barlow Condensed', sans-serif;
@@ -312,7 +313,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a {
     display: block;
     padding: 8px 17px;
     text-decoration: none;
-    color: #E63312;
+    color: #101010;
     text-transform: uppercase;
     font-weight: 600;
 	font-family: 'Barlow Condensed', sans-serif;
@@ -320,7 +321,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a {
 }
 
 nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a:hover{
-	opacity: 0.7;
+	color: #E63312;
 }
 nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:after {
     position: absolute;
