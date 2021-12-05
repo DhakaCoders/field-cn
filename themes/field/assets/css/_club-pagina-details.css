@@ -1,8 +1,10 @@
 .page-banner{
 	position: relative;
+}
+.page-banner-cntlr{
+	position: relative;
 	overflow: hidden;
 }
-
 .page-banner-bg{
 	position: absolute;
 	top: 0;
@@ -20,7 +22,13 @@
 	position: relative;
 	padding-bottom: 80px;
 }
-
+.page-banner-squre-icon-ctlr{
+	position: absolute;
+	right: 80px;
+	bottom: -90px;
+	z-index: 3;
+}
+.sport-pagina-content-cntlr .breadcrumb-sec,
 .club-pagina-details-con-ctlr .breadcrumb-sec{
 	position: absolute;
 	top: 0;
@@ -84,10 +92,10 @@
 
 .red-angle{
 	position: absolute;
-	top: 0;
-	left: 0;
-	max-width: 250px;
+    top: 0;
+    left: -88px;
 	z-index: 1;
+	overflow: hidden;
 }
 
 .two-plat-text-module-sec-inr{
@@ -114,4 +122,19 @@
 .dfp-two-des-col p{
 	margin-bottom: 28px;
 }
-
+.club-pagina-details-con-ctlr .customer-service-sec .fl-prev{
+	padding-right: 24px;
+}
+.club-pagina-details-con-ctlr .customer-service-sec .fl-next{
+	padding-left: 24px;
+}
+@media (max-width: 1499px){
+	.red-angle img{
+		max-width: 250px;
+		height: auto;
+	}
+	.red-angle {
+	    top: 30px;
+	    left: 0px;
+	}
+}
