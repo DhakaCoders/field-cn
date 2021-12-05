@@ -126,12 +126,12 @@
 	line-height: 1.75;
 	font-weight: 700;
 	color: #E63312!important;
-	padding-right: 25px;
+	padding-right: 30px;
 	position: relative;
 }
 .fl-text-btn i{
 	position: absolute;
-	right: 0;
+	right: 5px;
 	top: 50%;
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
@@ -142,7 +142,7 @@
 	transition: all 0.5s;
 }
 .fl-text-btn:hover i{
-	margin-right: -5px;
+	right: 0;
 }
 .dft-fl-btn{
 	display: inline-block;

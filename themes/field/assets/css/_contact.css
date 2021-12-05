@@ -92,7 +92,7 @@
     text-align: center;
     padding: 15px 20px;
     font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     border: 2px solid #E63312;
     position: relative;
     text-transform: uppercase;
@@ -339,7 +339,7 @@ textarea {
     font-weight: 300;
     font-size: 22px;
     color: #B2BCC2;
-    padding-left: 35px;
+    padding-left: 32px;
     position: relative;
 }
 .cntct-tel.cntct-details-col a i {
@@ -350,6 +350,7 @@ textarea {
     transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
+    margin-top: -1px;
 }
 .cntct-tel.cntct-details-col a i svg{
     width: 16px!important;
