@@ -608,7 +608,7 @@ hr {
 		width: 50%;
 	}
 	.dfp-btn-module .dfp-btn-module-ctlr ul li a{
-		min-width: 152px;
+		min-width: 100%;
 	}
 	.dfp-btn-module .dfp-btn-module-ctlr ul li:last-child{
 		width: 100%;
