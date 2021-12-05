@@ -398,7 +398,7 @@
 
 
 .process-img-lft-ctlr{
-    width: 75%;
+    width: 78%;
     height: 750px;
 }
 .process-img-lft{
@@ -407,7 +407,7 @@
 
 .process-img-rgt-ctlr{
     height: 330px;
-    width: 39%;
+    width: 40%;
     margin-top: -300px;
     margin-left: auto;
 }
@@ -750,6 +750,9 @@
     }
     .msnry-grd-item{
         width: 33.3333%;
+    }
+    .process-rgt-pos-img{
+        top: -20px;
     }
 }
 
