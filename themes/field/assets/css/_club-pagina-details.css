@@ -28,6 +28,9 @@
 	bottom: -90px;
 	z-index: 3;
 }
+.sport-pagina-content-cntlr{
+	position: relative;
+}
 .sport-pagina-content-cntlr .breadcrumb-sec,
 .club-pagina-details-con-ctlr .breadcrumb-sec{
 	position: absolute;
