@@ -187,26 +187,31 @@ textarea {
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field textarea::placeholder{
     color: #7D8D98!important;
     opacity:1;
+    font-family: 'Roboto', sans-serif;
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field input::-webkit-input-placeholder,
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field textarea::-webkit-input-placeholder{ 
     color: #7D8D98!important;
     opacity:1;
+    font-family: 'Roboto', sans-serif;
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field input::-moz-placeholder,
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field textarea::-moz-placeholder{ 
     color: #7D8D98!important;
     opacity:1;
+    font-family: 'Roboto', sans-serif;
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field input:-ms-input-placeholder,
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field textarea:-ms-input-placeholder{ 
     color: #7D8D98!important;
     opacity:1;
+    font-family: 'Roboto', sans-serif;
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field input:-moz-placeholder,
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field textarea:-moz-placeholder{ 
     color: #7D8D98!important;
     opacity:1;
+    font-family: 'Roboto', sans-serif;
 }
 
 
