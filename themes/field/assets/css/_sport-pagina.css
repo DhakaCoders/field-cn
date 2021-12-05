@@ -26,6 +26,7 @@
 .sport-pagina-intro-img-cntlr{
 	width:  49.10%;
 	margin-top: -84px;
+	position: relative;
 }
 .sport-pagina-intro-desc-cntlr{
 	width: 50.90%;
@@ -109,4 +110,33 @@
 .sport-pagina-cta-sec-2{
 	padding-top: 30px;
 	padding-bottom: 82px;
+}
+
+/*responsive*/
+@media(max-width: 1199px){
+	.sport-pagina-intro-desc-cntlr{
+		padding-left: 50px;
+		padding-top: 80px;
+	}
+}
+@media(max-width: 991px){
+	.sport-pagina-intro-img-cntlr{
+		width: 100%;
+		order: 2;
+		margin-top: 0;
+	}
+	.sport-pagina-intro-desc-cntlr{
+		width: 100%;
+		padding-left: 0;
+		padding-top: 50px;
+		order: 1;
+		margin-bottom: 41px;
+	}
+	.sport-pagina-intro-hding{
+		top: initial;
+		transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+	}
 }
