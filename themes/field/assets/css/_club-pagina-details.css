@@ -39,16 +39,24 @@
 	right: 0;
 	z-index: 9;
 }
+.sport-pagina-content-cntlr .breadcrumb-cntlr ul li a, 
+.sport-pagina-content-cntlr .breadcrumb-cntlr ul li span, 
+.sport-pagina-content-cntlr .breadcrumb-cntlr ul li a span,
 .club-pagina-details-con-ctlr .breadcrumb-cntlr ul li a, 
 .club-pagina-details-con-ctlr .breadcrumb-cntlr ul li span, 
 .club-pagina-details-con-ctlr .breadcrumb-cntlr ul li a span{
 	color: #fff;
 }
+.sport-pagina-content-cntlr .breadcrumb-cntlr ul li a:hover, 
+.sport-pagina-content-cntlr .breadcrumb-cntlr ul li span:hover, 
+.sport-pagina-content-cntlr .breadcrumb-cntlr ul li a span:hover
 .club-pagina-details-con-ctlr .breadcrumb-cntlr ul li a:hover, 
 .club-pagina-details-con-ctlr .breadcrumb-cntlr ul li span:hover, 
 .club-pagina-details-con-ctlr .breadcrumb-cntlr ul li a span:hover{
 	color: #E63312;
 }
+.sport-pagina-content-cntlr .breadcrumb-cntlr ul li.active span, 
+.sport-pagina-content-cntlr .breadcrumb-cntlr ul li.active a 
 .club-pagina-details-con-ctlr .breadcrumb-cntlr ul li.active span, 
 .club-pagina-details-con-ctlr .breadcrumb-cntlr ul li.active a {
     color: #E63312;
