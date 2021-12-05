@@ -21,6 +21,7 @@
     left: 0;
     display: none;
     z-index: 2;
+    overflow: hidden;
 }
 #bnr-vdo {
     position: absolute;
@@ -37,7 +38,7 @@
 .has-vdo .hm-video-cntlr{
     display: block;
 }
-.has-vdo .hm-banner-bg{
+.has-vdo .hm-bnr-slider-ctlr{
     display: none;
 }
 .hm-bnr-slider-ctlr{
