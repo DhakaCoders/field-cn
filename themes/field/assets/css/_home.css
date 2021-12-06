@@ -45,7 +45,10 @@
 }
 .fdlms-link a:hover i svg{
 	fill: #E63312!important;
-	margin-left: 40px;
+	transform: translateX(5px);
+	-ms-transform: translateX(5px);
+	-webkit-transform: translateX(5px);
+	-o-transform: translateX(5px);
 }
 
 
