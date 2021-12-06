@@ -337,6 +337,7 @@ if(windowWidth <= 575){
     });
   }
 }
+
   
 
 /* start of Momin*/
