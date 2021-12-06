@@ -397,7 +397,7 @@
     width: 50%;
     padding-left: 50px;
     padding-right: 15px;
-    padding-top: 20px;
+    margin-top: -50px;
     position: relative;
     z-index: 2;
 }
@@ -760,6 +760,7 @@
     }
     .process-des-ctlr{
         padding-left: 40px;
+        margin-top: 0;
     }
     .cta-module-2 .cta-lft-img img {
         max-width: 285px;
