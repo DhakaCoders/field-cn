@@ -1058,6 +1058,12 @@
     .cta-module-2 .cta-ctlr{
         z-index: 1;
     }
+    .cta-module-des p{
+        color: #fff;
+    }
+    .cta-module-2 .cta-module-des p{
+        color: #B2BCC2;
+    }
 }
 
 @media(max-width: 575px){
