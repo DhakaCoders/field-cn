@@ -371,6 +371,7 @@ bannerheight();
     if( $('.msnry-grd').length ){
       $('.msnry-grd').masonry({
         itemSelector: '.msnry-grd-item',
+        
       }).masonry('layout');
     };
   }

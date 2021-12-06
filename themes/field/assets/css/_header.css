@@ -95,7 +95,7 @@ header.header{
 	-ms-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);
 	height: 8px;
-	width: 8px;
+	width: 9px;
 	border: 1px solid #E63312;
 	margin-top: 1px;
 }
@@ -105,24 +105,30 @@ header.header{
 	align-items: center;
 	margin-left: -9px;
 	margin-right: -9px;
+	padding-top: 1px;
 }
 .hdr-social-media ul li{
 	padding-left: 9px;
 	padding-right: 9px;
-	line-height: 1;
+	line-height: 13px;
+	display: block;
 }
 .hdr-social-media ul li.facebook svg{
-	width: 9px;
+	max-width: 9px!important;
 	height: auto;
 }
 .hdr-social-media ul li.instagram svg{
-	width: 15px;
+	max-width: 15px!important;
 	height: auto;
 }
 .hdr-social-media ul li a{
 	display: inline-block;
 	vertical-align: baseline;
 	line-height: 1;
+}
+.hdr-social-media ul li a i{
+	line-height: 13px;
+	display: block;
 }
 .hdr-social-media ul li a:hover svg{
 	fill: #fff;
@@ -448,6 +454,10 @@ body.allWork {
 	nav.main-nav > ul > li > a{
 		font-size: 20px;
 	}
+	nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a{
+		font-size: 18px;
+		padding-left: 20px;
+	}
 	.hdr-account {
 	    padding-right: 28px;
 	}
@@ -462,6 +472,7 @@ body.allWork {
 	    padding-left: 20px;
 	    padding-right: 20px;
 	}
+
 }
 @media(max-width: 991px){
 	.logo a{
@@ -479,6 +490,29 @@ body.allWork {
 	}
 	nav.main-nav > ul > li > a {
 	    font-size: 19px;
+	}
+	nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a{
+		font-size: 17px;
+	}
+	.hdr-account a{
+		font-size: 12px;
+		padding-left: 18px;
+	}
+	.hdr-account a i{
+		margin-top: -1px;
+	}
+	.hdr-account a i svg{
+		max-width: 11px!important;
+		height: auto;
+	}
+	.hdr-social-media ul li.facebook svg{
+		max-width: 8px!important;
+	}
+	.hdr-social-media ul li.instagram svg {
+		max-width: 14px!important;
+	}
+	.hdr-lang ul li a{
+		font-size: 12px;
 	}
 }
 @media(max-width: 767px){
@@ -652,18 +686,27 @@ body.allWork {
 		-webkit-transform: rotate(-180deg);
 		-o-transform: rotate(-180deg);
 	}
+	.xs-btm-menu{
+		max-width: 60%;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.hdr-lang ul li{
+		display: block;
+		line-height: 1;
+	}
 	
 }
 
 
-@media(max-width: 400px){
-	.xs-mobile-menu{
-		max-width: 100%;
-	}
-}
+
 
 @media(max-width: 479px){
 	.xs-contact-btn .fl-btn.fl-btn-angel {
 	    min-width: 100%;
+	}
+	.xs-btm-menu{
+		max-width: 100%;
 	}
 }
