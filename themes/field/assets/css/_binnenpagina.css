@@ -294,7 +294,7 @@ hr {
 .dfp-field-fag-cntlr{
 	padding-bottom: 15px;
 }
-.field-faq-accordion-title{
+.dfp-field-fag-module .field-faq-accordion-title{
 	margin-bottom: 0!important;
 	text-transform: capitalize!important;
 }
