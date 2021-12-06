@@ -88,7 +88,10 @@
 }
 
 .hm-banner-des-inr{
-    padding-right: 80px;
+    padding-right: 47px;
+}
+.hm-banner-des-inr p{
+    font-size: 19px;
 }
 .hm-banner-des p:last-child{
     margin-bottom: 30px;
@@ -230,6 +233,7 @@
 }
 .msnry-grd-img-title:after{
     content: "";
+    margin-top: 1px;
     position: absolute;
     top: 50%;
     left: 0;
@@ -251,13 +255,14 @@
 }
 .msnry-grd-des-title:after{
     content: "";
+    margin-top: 2px;
     position: absolute;
     top: 50%;
     left: -20px;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    height: 10px;
+    height: 9px;
     width: 10px;
     border: 1px solid #E63312;
 }
@@ -284,6 +289,9 @@
 .reb-bg .msnry-grd-item-img{
     display: none;
 }
+.reb-bg .msnry-grd-img-title:after{
+    border-color: #fff;
+}
 
 .reb-bg .msnry-grd-item-red{
     height: 260px;
@@ -291,7 +299,7 @@
 }
 
 .reb-bg .msnry-grd-item-img-des{
-    left: 0;
+    left: 30px;
     right: 0;
     bottom: initial;
     top: 50%;
@@ -302,6 +310,7 @@
 }
 .reb-bg .msnry-grd-item-img-des .msnry-grd-img-title{
     margin-bottom: 0;
+    text-align: left;
 }
 
 
@@ -758,6 +767,9 @@
     .process-rgt-pos-img{
         top: -20px;
     }
+    .hm-banner-des-inr p{
+        font-size: 18px;
+    }
 }
 
 @media(max-width: 1023px){
@@ -848,7 +860,7 @@
         height: 18px!important;
     }
     .hm-bnr-btn .fl-btn.fl-btn-angel {
-        min-width: 350px;
+        min-width: 340px;
     }
     .cta-module {
         padding: 50px 50px;
@@ -876,6 +888,9 @@
     }
     .clubs-team-sec .sec-entry-hdr p br{
         display: none;
+    }
+    .hm-banner-des-inr p{
+        font-size: 17px;
     }
 }
 @media(max-width: 767px){
@@ -1052,6 +1067,7 @@
     .hm-banner-des-inr {
         padding-right: 0;
     }
+
     .hm-banner-bg.inline-bg{
         background-position: left 39% center!important;
     }
@@ -1084,6 +1100,9 @@
     }
     .msnrySlider.slick-initialized .msnry-grd-item{
         display: block;
+    }
+    .hm-banner-des-inr p{
+        font-size: 16px;
     }
 }
 
