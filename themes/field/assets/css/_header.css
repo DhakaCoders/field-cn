@@ -445,7 +445,7 @@ body.allWork {
     transition: all 0.3s;
     padding: 30px 0;
     height: 100%;
-    max-width: 100%;
+    max-width: 70%;
     width: 100%;
 }
 
@@ -697,6 +697,19 @@ body.allWork {
 		line-height: 1;
 	}
 	
+}
+@media(max-width: 639px){
+	.xs-btm-menu{
+		max-width: 80%;
+	}
+	.xs-contact-btn .fl-btn.fl-btn-angel{
+		min-width: 80%;
+	}
+}
+@media(max-width: 575px){
+	.xs-mobile-menu{
+		max-width: 100%;
+	}
 }
 
 
