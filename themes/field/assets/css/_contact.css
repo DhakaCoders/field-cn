@@ -161,11 +161,12 @@ textarea {
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field .wpforms-error:after{
     content: "x";
     position: absolute;
-    bottom: 40px;
+    bottom: 45.5px;
     right: 22px;
     color:  #E63312;
     opacity: 1;
     display: block;
+    line-height: 1;
 }
 
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-has-error input::-webkit-input-placeholder { 
@@ -493,9 +494,6 @@ textarea {
     .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-has-error label.wpforms-error{
         top: 88px;
     }
-    .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field .wpforms-error:after{
-        bottom: 39px;
-    }
     .cnt-sec-entry-hdr-title {
         margin-bottom: 28px;
     }
@@ -534,7 +532,7 @@ textarea {
         top: 82px;
     }
     .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field .wpforms-error:after {
-        bottom: 36px;
+        bottom: 41px;
     }
     .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container{
         margin: 0 -10px;
@@ -610,7 +608,7 @@ textarea {
         top: 92px;
     }
     .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field .wpforms-error:after{
-        bottom: 41px;
+        bottom: 46px;
     }
     .wpforms-field-checkbox ul {
         margin-top: 0!important;
