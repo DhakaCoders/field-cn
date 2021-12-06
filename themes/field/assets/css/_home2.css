@@ -768,9 +768,7 @@
     .cta-module-2 .cta-module {
         padding: 80px 40px;
     }
-    .usp-sec {
-        padding: 50px 0;
-    }
+    
     .cta-module{
         padding: 60px 60px;
         padding-right: 70px;
@@ -1131,6 +1129,9 @@
     .msnry-grd-img-title{
         font-size: 30px;
     }
+    .fdlms-link a{
+        font-size: 32px!important;
+    }
 }
 
 @media(max-width: 575px){
@@ -1170,6 +1171,28 @@
         padding-left: 0;
         padding-right: 0;
     }
+    .part-of-team-des-title{
+        text-align: left;
+    }
+    body.home .sec-entry-hdr-title{
+        line-height: 1.15;
+    }
+    .fdlms-link a{
+        font-size: 30px!important;
+        display: block!important;
+    }
+    .fdlms-link a i{
+        display: block;
+        width: 100%;
+        text-align: center;
+        line-height: 1;
+        font-size: 17px;
+        margin-top: 20px;
+    }
+    .fdlms-link a i svg{
+        margin-left: 0;
+    }
+
 }
 
 @media(max-width: 479px){
@@ -1178,7 +1201,7 @@
     }
     .hm-bnr-btn .fl-btn.fl-btn-angel {
         min-width: 100%;
-        font-size: 13px;
+        font-size: 15px;
         padding: 18px 20px;
     }
     .process-img-lft-ctlr {
@@ -1189,8 +1212,9 @@
         margin-top: -135px;
         width: 42%;
     }
+
     .part-of-team-des-title {
-        font-size: 42px;
+        font-size: 38px;
     }
     .hm-grd-sec {
         padding: 80px 0 25px;
@@ -1206,6 +1230,14 @@
     .clubs-team-slider-ctlr {
         padding-right: 0;
     }
+    .process-xs-icon{
+        top: -57px;
+    }
+    .process-xs-icon img {
+        max-width: 50px;
+        display: inline-block;
+        height: auto;
+    }
 }
 @media(max-width: 359px){
      .cta-module{
@@ -1217,5 +1249,11 @@
     }
     .process-img-lft-ctlr{
         height: 265px;
+    }
+    .hm-bnr-btn .fl-btn.fl-btn-angel{
+        font-size: 13px;
+    }
+    .hm-bnr-title{
+        font-size: 47px!important;
     }
 }
