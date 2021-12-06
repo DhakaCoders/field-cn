@@ -666,6 +666,18 @@
     vertical-align: baseline;
 }
 
+.clubsTeamSlider .clubs-team-grd{
+    display: none;
+}
+
+.clubsTeamSlider .clubs-team-grd:first-child{
+    display: block;
+}
+
+.clubsTeamSlider.slick-initialized .clubs-team-grd{
+    display: block;
+}
+
 
 
 
@@ -1063,6 +1075,15 @@
     }
     .cta-module-2 .cta-module-des p{
         color: #B2BCC2;
+    }
+    .msnrySlider .msnry-grd-item{
+        display: none;
+    }
+    .msnrySlider .msnry-grd-item:first-child{
+        display: block;
+    }
+    .msnrySlider.slick-initialized .msnry-grd-item{
+        display: block;
     }
 }
 

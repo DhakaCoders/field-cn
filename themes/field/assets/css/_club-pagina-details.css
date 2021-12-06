@@ -92,6 +92,18 @@
 	padding-top: 60px;
 }
 
+.customerServiceSlider .customer-service-slider-item{
+	display: none;
+}
+
+.customerServiceSlider .customer-service-slider-item:first-child{
+	display: block;
+}
+
+.customerServiceSlider.slick-initialized .customer-service-slider-item{
+	display: block;
+}
+
 .club-pagina-details-con-ctlr .sec-entry-hdr-title{
 	margin-bottom: 30px;
 }
@@ -100,6 +112,7 @@
 .two-plat-text-module-sec{
 	padding: 75px 0 110px;
 	position: relative;
+	overflow: hidden;
 }
 
 .red-angle{
@@ -156,7 +169,7 @@
 		max-width: 210px;
 	}
 	.page-banner-squre-icon-ctlr {
-	    bottom: -65px;
+	    bottom: -73px;
 	    right: 20px;
 	}
 	.page-banner-squre-icon-ctlr img {
