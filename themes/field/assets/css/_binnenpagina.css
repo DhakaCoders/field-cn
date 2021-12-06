@@ -515,6 +515,10 @@ hr {
 		display: block;
 		padding-bottom: 0;
 		padding-top: 0;
+		max-width: 500px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	.fl-dft-lftimg-rgtdes-lft, 
 	.fl-dft-lftimg-rgtdes-rgt {
