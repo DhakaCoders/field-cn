@@ -28,7 +28,7 @@
 	margin-bottom: 20px;
 }
 .fag-overview-btn ul li a{
-	text-transform: uppercase;
+	text-transform: capitalize;
 	display: inline-block;
 	font-weight: 500;
 	line-height: 1;
@@ -66,6 +66,7 @@
 	transition: all 0.5s;
 	-ms-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	text-transform: initial;
 }
 .field-faq-accordion-title:hover{
 	color: #E63312;
