@@ -17,7 +17,6 @@
     flex-wrap: wrap;
 }
 .ftr-top-col{
-    /*width: 20%;*/
     padding-bottom: 65px;
     padding-right: 20px;
 }
@@ -356,10 +355,6 @@
     .ftr-socials ul li{
         padding-right:25px;
     }
-
-
-
-
 }
 @media(max-width:767px){
     .ftr-top-mdl {

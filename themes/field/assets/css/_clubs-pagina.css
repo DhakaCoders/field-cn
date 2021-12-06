@@ -72,9 +72,6 @@
 .fld-club-grids-cntlr ul li{
 	padding: 0 12px;
 	margin-bottom: 33px;
-/*	max-width: 33.3333%;
-	width: 100%;*/
-	/*padding-bottom: 30px;*/
 	width: 33.3333%;
 }
 .fld-club-grid{
@@ -175,7 +172,7 @@
 	opacity: 1!important;
 	z-index: 5;
 }
-/*_________________________________ responsive ____________________________________________*/
+
 @media (max-width: 1199px){
 	.fld-catagories-cntlr ul li {
     padding: 0 35px;

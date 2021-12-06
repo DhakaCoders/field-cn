@@ -123,10 +123,6 @@
 	color: #fff;
 }
 
-/*responsive*/
-@media(max-width: 1399px){
-	
-}
 @media(max-width: 1199px){
 	.fag-overview-btn ul{
 		margin: 0 -25px;
