@@ -892,6 +892,9 @@
     .hm-banner-des-inr p{
         font-size: 17px;
     }
+    .msnry-grd-item-des-inr > a{
+        font-size: 18px;
+    }
 }
 @media(max-width: 767px){
     .cta-module{
@@ -1103,6 +1106,13 @@
     }
     .hm-banner-des-inr p{
         font-size: 16px;
+    }
+    .msnry-grd-item-des-inr > a{
+        font-size: 17px;
+    }
+    .msnry-grd-des-title,
+    .msnry-grd-img-title{
+        font-size: 30px;
     }
 }
 
