@@ -179,7 +179,7 @@ Gallery design
 	position: relative;
 }
 .fl-dft-lftimg-rgtdes-rgt {
-	padding-left: 85px;
+	padding-left: 75px;
 	padding-bottom: 5px;
 	padding-top: 0;
 }
@@ -220,7 +220,7 @@ Gallery design
 .fl-dft-lftimg-rgtdes.fl-dft-rgtimg-lftdes .fl-dft-lftimg-rgtdes-rgt{
 	float: left;
 	padding-left: 0;
-	padding-right: 85px;
+	padding-right: 75px;
 }
 
 
