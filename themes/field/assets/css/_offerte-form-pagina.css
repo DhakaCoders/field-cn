@@ -3,8 +3,9 @@
 	width: 100%;
 	margin: 0 auto;
 }
-.offerte-form-dsc-wrp .page-entry-hdr-cntlr .page-entry-hdr-desc{
+.offerte-form-sec-cntlr .page-entry-hdr-cntlr .page-entry-hdr-desc{
     max-width: 790px;
+    padding-bottom: 28px;
 }
 .offerte-form-wrp .wpforms-container .wpforms-form .wpforms-page-indicator {
     display: flex;
@@ -215,6 +216,10 @@
 	line-height: 18px;
 	padding-left: 14px;
 	margin-bottom: 0!important;
+}
+.offerte-form-wrp  .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.wpforms-field-radio > ul > li label,
+.offerte-form-wrp  .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.wpforms-field-check > ul > li label{
+    font-family: 'Roboto', sans-serif;
 }
 .offerte-form-wrp  .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.wpforms-field-radio label{
 	margin-bottom: 22px;
