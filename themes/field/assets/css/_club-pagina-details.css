@@ -148,7 +148,7 @@
 	}
 	.red-angle {
 	    top: 30px;
-	    left: 0px;
+	    left: -20px;
 	}
 }
 @media (max-width: 1399px){
@@ -233,7 +233,10 @@
 	}
 	.page-banner-squre-icon-ctlr{
 		right: 20px;
-		bottom: -62px;
+		bottom: -55px;
+	}
+	.page-banner-squre-icon-ctlr img {
+	    max-width: 80px;
 	}
 	.club-pagina-details-con-ctlr .customer-service-sec .fl-prev {
 	    padding-right: 18px;
@@ -320,6 +323,11 @@
 	}
 	.red-angle {
 	    top: 0;
+	}
+	.xs-red-angle{
+		position: absolute;
+		top: 0;
+		left: 0;
 	}
 
 }
