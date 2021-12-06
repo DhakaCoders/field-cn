@@ -498,15 +498,8 @@ bannerheight();
           {
             breakpoint: 768,
             settings: {
-              slidesToShow: 2,
+              slidesToShow: 1.5,
               slidesToScroll: 1
-            }
-          },
-          {
-            breakpoint:480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
             }
           }
         ]
