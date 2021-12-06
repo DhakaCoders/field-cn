@@ -56,7 +56,7 @@
 	color: #E63312;
 }
 .sport-pagina-content-cntlr .breadcrumb-cntlr ul li.active span, 
-.sport-pagina-content-cntlr .breadcrumb-cntlr ul li.active a 
+.sport-pagina-content-cntlr .breadcrumb-cntlr ul li.active a, 
 .club-pagina-details-con-ctlr .breadcrumb-cntlr ul li.active span, 
 .club-pagina-details-con-ctlr .breadcrumb-cntlr ul li.active a {
     color: #E63312;
@@ -73,7 +73,7 @@
 
 .customer-service-sec{
 	padding-top: 90px;
-	padding-bottom: 80px;
+	padding-bottom: 40px;
 }
 
 .customer-service-sec-inr{
@@ -89,6 +89,7 @@
 .customer-service-rgt{
 	width: 44%;
 	text-align: right;
+	padding-top: 60px;
 }
 
 .club-pagina-details-con-ctlr .sec-entry-hdr-title{
@@ -132,6 +133,7 @@
 }
 .dfp-two-des-col p{
 	margin-bottom: 28px;
+	font-size: 16px;
 }
 .club-pagina-details-con-ctlr .customer-service-sec .fl-prev{
 	padding-right: 24px;
@@ -154,7 +156,11 @@
 		max-width: 210px;
 	}
 	.page-banner-squre-icon-ctlr {
-	    bottom: -75px;
+	    bottom: -65px;
+	    right: 20px;
+	}
+	.page-banner-squre-icon-ctlr img {
+	    max-width: 95px;
 	}
 	.page-banner-squre-icon-ctlr img{
 		max-width: 110px;
