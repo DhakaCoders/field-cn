@@ -151,6 +151,41 @@
 	.over-field-con-ctlr .process-img-rgt-ctlr {
 	    width: 46%;
 	}
+	.over-field-con-ctlr .process-sec-inr {
+	    display: block;
+	}
+	.over-field-con-ctlr .process-img-ctlr {
+	    width: 100%;
+	    margin-bottom: 40px;
+	}
+	.over-field-con-ctlr .process-des-ctlr{
+		width: 100%;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 0;
+	}
+	.over-field-con-ctlr .process-img{
+		max-width: 600px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.over-field-con-ctlr .process-des{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.over-field-con-ctlr .process-img-lft-ctlr {
+	    width: 84%;
+	    height: 550px;
+	}
+	.over-field-con-ctlr .process-img-rgt-ctlr {
+	    width: 29%;
+	    height: 240px;
+	    margin-top: -210px;
+	}
+	.over-field-con-ctlr .part-of-team-box{
+		width: 100%;
+	}
 }
 
 @media(max-width: 767px){
@@ -172,6 +207,26 @@
 	.over-field-con-ctlr .process-des{
 		max-width: 100%;
 	}
+	.over-field-con-ctlr .process-img-lft-ctlr {
+	    width: 84%;
+	    height: 440px;
+	}
+	.over-field-con-ctlr .process-img-rgt-ctlr {
+	    width: 27%;
+	    height: 200px;
+	    margin-top: -170px;
+	}
+	.over-field-con-ctlr .part-of-team-box {
+	    height: 870px;
+	}
+	.over-field-con-ctlr .process-des-ctlr{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.over-field-con-ctlr .process-img-ctlr{
+		padding-bottom: 0;
+	}
+	
 }
 
 @media(max-width: 575px){
@@ -181,10 +236,39 @@
 	.over-field-intr-img {
 	    height: 450px;
 	}
+	.over-field-con-ctlr .process-img-lft-ctlr {
+	    width: 84%;
+	    height: 359px;
+	}
+	.over-field-con-ctlr .process-img-rgt-ctlr {
+	    width: 27%;
+	    height: 170px;
+	    margin-top: -145px;
+	}
+	.over-field-con-ctlr .part-of-team-box {
+	    height: 915px;
+	}
 }
 
 @media(max-width: 479px){
 	.over-field-intr-img {
 	    height: 390px;
+	}
+	.over-field-con-ctlr .process-img-lft-ctlr {
+	    width: 84%;
+	    height: 280px;
+	}
+	.over-field-con-ctlr .process-img-rgt-ctlr {
+	    width: 30%;
+	    height: 160px;
+	    margin-top: -136px;
+	}
+	.over-field-con-ctlr .part-of-team-box {
+	    height: 1065px;
+	}
+}
+@media(max-width: 359px){
+	.over-field-con-ctlr .process-img-rgt-ctlr{
+		width: 33%;
 	}
 }
