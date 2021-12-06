@@ -56,14 +56,14 @@
 	color: #E63312;
 }
 .sport-pagina-content-cntlr .breadcrumb-cntlr ul li.active span, 
-.sport-pagina-content-cntlr .breadcrumb-cntlr ul li.active a 
+.sport-pagina-content-cntlr .breadcrumb-cntlr ul li.active a, 
 .club-pagina-details-con-ctlr .breadcrumb-cntlr ul li.active span, 
 .club-pagina-details-con-ctlr .breadcrumb-cntlr ul li.active a {
     color: #E63312;
 }
 
 .club-pagina-details-con-ctlr .page-bnr-title{
-	font-size: 96px!important;
+	font-size: 90px!important;
 	margin-bottom: 12px;
 }
 .club-pagina-details-con-ctlr .page-bnr-subtitle{
@@ -73,7 +73,7 @@
 
 .customer-service-sec{
 	padding-top: 90px;
-	padding-bottom: 80px;
+	padding-bottom: 40px;
 }
 
 .customer-service-sec-inr{
@@ -82,13 +82,14 @@
 	padding-bottom: 55px;
 }
 .customer-service-lft{
-	width: 60%;
+	width: 56%;
 	padding-right: 20px;
 }
 
 .customer-service-rgt{
-	width: 40%;
+	width: 44%;
 	text-align: right;
+	padding-top: 60px;
 }
 
 .club-pagina-details-con-ctlr .sec-entry-hdr-title{
@@ -132,6 +133,7 @@
 }
 .dfp-two-des-col p{
 	margin-bottom: 28px;
+	font-size: 16px;
 }
 .club-pagina-details-con-ctlr .customer-service-sec .fl-prev{
 	padding-right: 24px;
@@ -146,12 +148,35 @@
 	}
 	.red-angle {
 	    top: 30px;
-	    left: 0px;
+	    left: -20px;
 	}
 }
 @media (max-width: 1399px){
 	.red-angle img{
 		max-width: 210px;
+	}
+	.page-banner-squre-icon-ctlr {
+	    bottom: -65px;
+	    right: 20px;
+	}
+	.page-banner-squre-icon-ctlr img {
+	    max-width: 95px;
+	}
+	.page-banner-squre-icon-ctlr img{
+		max-width: 110px;
+	}
+	.page-bnr-des-ctlr{
+		height: 550px;
+		padding-bottom: 55px;
+	}
+	.club-pagina-details-con-ctlr .page-bnr-title {
+	    font-size: 80px!important;
+	}
+	.customer-service-sec {
+	    padding-top: 80px;
+	}
+	.two-plat-text-module-sec{
+		padding-bottom: 100px;
 	}
 }
 @media (max-width: 1299px){
@@ -174,5 +199,142 @@
 	.red-angle {
 	    top: 55px;
 	    left: -50px;
+	}
+	.page-bnr-des-ctlr {
+	    height: 500px;
+	}
+	.club-pagina-details-con-ctlr .page-bnr-title {
+	    font-size: 70px!important;
+	}
+	.customer-service-lft{
+		width: 67%;
+	}
+	.customer-service-rgt {
+	    width: 33%;
+	}
+	.customer-service-sec {
+	    padding-top: 70px;
+	}
+	.customer-service-sec {
+	    padding-bottom: 65px;
+	}
+	.two-plat-text-module-sec{
+		padding-bottom: 80px;
+	}
+}
+
+@media(max-width: 991px){
+	.page-bnr-des-ctlr {
+	    height: 450px;
+	    padding-bottom: 45px;
+	}
+	.club-pagina-details-con-ctlr .page-bnr-title {
+	    font-size: 58px!important;
+	}
+	.page-banner-squre-icon-ctlr{
+		right: 20px;
+		bottom: -55px;
+	}
+	.page-banner-squre-icon-ctlr img {
+	    max-width: 80px;
+	}
+	.club-pagina-details-con-ctlr .customer-service-sec .fl-prev {
+	    padding-right: 18px;
+	}
+	.club-pagina-details-con-ctlr .customer-service-sec .fl-next {
+	    padding-left: 18px;
+	}
+	.customer-service-lft {
+	    width: 75%;
+	}
+	.customer-service-rgt {
+	    width: 25%;
+	}
+	.customer-service-sec {
+	    padding-top: 60px;
+	}
+	.customer-service-sec {
+	    padding-bottom: 50px;
+	}
+	.two-plat-text-module-sec{
+		padding-bottom: 60px;
+	}
+}
+
+@media(max-width: 767px){
+	.club-pagina-details-con-ctlr .page-bnr-title {
+	    font-size: 48px!important;
+	}
+	.page-bnr-des-ctlr {
+	    height: 400px;
+	    padding-bottom: 30px;
+	}
+	.page-bnr-subtitle{
+		font-size: 18px!important;
+	}
+	.customer-service-sec-inr{
+		display: block;
+		padding-bottom: 30px;
+	}
+	.customer-service-lft {
+	    width: 100%;
+	    padding-right: 0;
+	}
+	.customer-service-rgt {
+	    width: 100%;
+	}
+	.customer-service-rgt{
+		text-align: left;
+	}
+	.customer-service-sec .fl-prev-next{
+		display: flex;
+		align-items: center;
+		padding-right: 20px;
+	}
+	.club-pagina-details-con-ctlr .customer-service-sec .fl-next{
+		margin-left: auto;
+	}
+	.customer-service-rgt{
+		padding-top: 22px;
+	}
+	.dfp-two-des-module{
+		display: block;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.dfp-two-des-col {
+	    width: 100%;
+	    padding-left: 0;
+	    padding-right: 0;
+	}
+	.customer-service-sec {
+	    padding-top: 50px;
+	    padding-bottom: 30px;
+	}
+	.club-pagina-details-con-ctlr .sec-entry-hdr-title {
+	    margin-bottom: 18px;
+	}
+	.two-plat-text-module-sec{
+		padding-top: 90px;
+		padding-bottom: 40px;
+	}
+	.red-angle img {
+	    max-width: 200px;
+	}
+	.red-angle {
+	    top: 0;
+	}
+	.xs-red-angle{
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+}
+
+@media(max-width: 575px){
+	.page-bnr-des-ctlr {
+	    height: 360px;
+	    padding-bottom: 15px;
 	}
 }
