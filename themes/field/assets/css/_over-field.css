@@ -97,6 +97,12 @@
 	.over-field-intro-pos-rgt{
 		right: 0;
 	}
+	.process-rgt-pos-img img{
+		max-width: 63px;
+	}
+	.over-field-con-ctlr .process-rgt-pos-img {
+		top: 117px;
+	}
 }
 
 @media(max-width: 1199px){
@@ -175,7 +181,7 @@
 		padding-top: 0;
 	}
 	.over-field-con-ctlr .process-sec-inr{
-		max-width: 600px;
+		max-width: 700px;
 		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
