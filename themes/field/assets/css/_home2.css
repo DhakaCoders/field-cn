@@ -1238,6 +1238,9 @@
         display: inline-block;
         height: auto;
     }
+    .over-field-con-ctlr .team-red-angle-img{
+            margin-top: -37px;
+    }
 }
 @media(max-width: 359px){
      .cta-module{
