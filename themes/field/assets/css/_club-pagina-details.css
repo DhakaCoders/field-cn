@@ -68,6 +68,7 @@
 }
 .club-pagina-details-con-ctlr .page-bnr-subtitle{
 	text-transform: initial;
+	font-size: 25px;
 }
 
 
@@ -234,6 +235,9 @@
 	.two-plat-text-module-sec{
 		padding-bottom: 80px;
 	}
+	.club-pagina-details-con-ctlr .page-bnr-subtitle{
+		font-size: 23px;
+	}
 }
 
 @media(max-width: 991px){
@@ -271,6 +275,9 @@
 	}
 	.two-plat-text-module-sec{
 		padding-bottom: 60px;
+	}
+	.club-pagina-details-con-ctlr .page-bnr-subtitle{
+		font-size: 21px;
 	}
 }
 
@@ -342,6 +349,9 @@
 		top: 0;
 		left: 0;
 	}
+	.club-pagina-details-con-ctlr .page-bnr-subtitle{
+		font-size: 19px;
+	}
 
 }
 
@@ -349,5 +359,8 @@
 	.page-bnr-des-ctlr {
 	    height: 360px;
 	    padding-bottom: 15px;
+	}
+	.club-pagina-details-con-ctlr .page-bnr-subtitle{
+		font-size: 18px;
 	}
 }
