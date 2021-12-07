@@ -14,11 +14,10 @@
 .fl-h1-150{
 	font-family: 'Machine-Regular';
 	font-weight: 500;
-	font-size: 150px;
+	font-size: 140px;
 	line-height: 1;
 	text-transform: uppercase;
 	color: #FFFFFF;
-	line-height: 97px;
 	margin-bottom: 0;
 }
 .sport-pagina-intro-cntlr{
@@ -28,7 +27,7 @@
 
 .sport-pagina-intro-img-cntlr{
 	width:  49.10%;
-	margin-top: -84px;
+	margin-top: -77px;
 	position: relative;
 }
 .sport-pagina-intro-desc-cntlr{
@@ -54,8 +53,8 @@
 	z-index: 2;
 }
 .sport-pagina-intro-desc-cntlr{
-	padding-left: 80px;
-	padding-top: 115px;
+	padding-left: 75px;
+	padding-top: 107px;
 }
 .sport-pagina-intro-desc p{
 	margin-bottom: 25px;
