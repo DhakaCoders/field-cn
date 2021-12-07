@@ -574,6 +574,27 @@ hr {
 	.fl-dft-overflow-angle{
 		display: none;
 	}
+	.default-page-con h1{
+		font-size: 36px;
+	}
+	.default-page-con h2{
+		font-size: 30px;
+	}
+	.default-page-con h3{
+		font-size: 27px;
+	}
+	.default-page-con h4{
+		font-size: 24px;
+	}
+	.default-page-con h5{
+		font-size: 22px;
+	}
+	.default-page-con h6{
+		font-size: 20px;
+	}
+	.dfp-field-fag-module .field-faq-accordion-title{
+		font-size: 18px;
+	}
 }
 @media (max-width: 575px){
 	.btm-gallery-wrap .gallery{
