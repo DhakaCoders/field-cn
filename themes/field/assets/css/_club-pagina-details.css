@@ -70,6 +70,9 @@
 	text-transform: initial;
 	font-size: 25px;
 }
+.page-bnr-title > span{
+	font-weight: 100;
+}
 
 
 .customer-service-sec{
@@ -170,14 +173,11 @@
 		max-width: 210px;
 	}
 	.page-banner-squre-icon-ctlr {
-	    bottom: -73px;
+	    bottom: -60px;
 	    right: 20px;
 	}
 	.page-banner-squre-icon-ctlr img {
-	    max-width: 95px;
-	}
-	.page-banner-squre-icon-ctlr img{
-		max-width: 110px;
+	    max-width: 90px;
 	}
 	.page-bnr-des-ctlr{
 		height: 550px;
@@ -362,5 +362,8 @@
 	}
 	.club-pagina-details-con-ctlr .page-bnr-subtitle{
 		font-size: 18px;
+	}
+	.two-plat-text-module-sec .sec-entry-hdr-title{
+		font-size: 30px;
 	}
 }
