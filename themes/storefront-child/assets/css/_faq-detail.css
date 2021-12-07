@@ -1,0 +1,115 @@
+#faq-detail .gallery-wrap{
+	padding-top: 5px;
+	padding-bottom: 26px;
+}
+#faq-detail .dfp-promo-module-title{
+	margin-bottom: 39px;
+}
+.related-faq-con-cntlr .sec-entry-hdr{
+	padding-bottom: 20px;
+}
+.related-faq-field-cntlr .field-fag{
+	max-width: 100%;
+}
+.related-faq-field-cntlr .field-fag ul{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -12px;
+}
+.related-faq-field-cntlr .field-fag ul li{
+	width: 50%;
+	padding: 0 12px;
+}
+.related-faq-field-cntlr .field-faq-accordion-title{
+	font-size: 26px;
+}
+.related-faq-field-cntlr .field-faq-accordion-desc{
+	padding-right: 35px;
+}
+.related-faq-field-cntlr .field-faq-accordion{
+	background: #101010;
+	margin-bottom: 32px;
+}
+.related-faq-sec{
+	padding-top: 80px;
+	padding-bottom: 84px;
+	background: #151618;
+	margin-bottom: 5px;
+}
+.faq-detail-sec-con-cntlr .innerpage-con-wrap{
+	padding-top: 42px;
+	padding-bottom: 70px;
+}
+
+
+@media(max-width: 1199px){
+	#faq-detail .dfp-promo-module-title {
+	    margin-bottom: 30px;
+	}
+	#faq-detail .gallery-wrap {
+	    padding-top: 0px;
+	    padding-bottom: 20px;
+	}
+	.related-faq-field-cntlr .field-faq-accordion-title {
+	    font-size: 21px;
+	}
+	.faq-detail-sec-con-cntlr .innerpage-con-wrap {
+	    padding-top: 32px;
+	    padding-bottom: 55px;
+	}
+	.related-faq-sec {
+	    padding-top: 68px;
+	    padding-bottom: 72px;
+	}
+}
+@media(max-width: 991px){
+	.related-faq-field-cntlr .field-faq-accordion {
+	    margin-bottom: 25px;
+	}
+	.related-faq-field-cntlr .field-fag ul li{
+		width: 100%;
+	}
+	.related-faq-field-cntlr .field-fag {
+	    max-width: 848px;
+	}
+	.faq-detail-sec-con-cntlr .innerpage-con-wrap {
+	    padding-top: 20px;
+	    padding-bottom: 40px;
+	}
+	#faq-detail .gallery-wrap {
+	    padding-bottom: 15px;
+	}
+	.related-faq-sec {
+	    padding-top: 55px;
+	    padding-bottom: 55px;
+	    margin-bottom: 3px;
+	}
+	
+}
+@media(max-width: 767px){
+	.faq-detail-sec-con-cntlr .innerpage-con-wrap {
+	    padding-top: 39px;
+	    padding-bottom: 30px;
+	}
+	#faq-detail .dfp-promo-module-title {
+	    margin-bottom: 24px;
+	}
+	#faq-detail .gallery-wrap {
+	    padding-bottom: 6px;
+	}
+	.related-faq-con-cntlr .sec-entry-hdr .sec-entry-hdr-title{
+		margin-bottom: 17px;
+	}
+	.related-faq-con-cntlr .sec-entry-hdr {
+	    padding-bottom: 15px;
+	}
+	.related-faq-field-cntlr .field-faq-accordion {
+	    margin-bottom: 20px;
+	}
+}
+@media(max-width: 575px){
+	.related-faq-field-cntlr .field-faq-accordion-title {
+	    font-size: 18px;
+	    line-height: 1.3;
+	}
+}

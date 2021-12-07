@@ -1,0 +1,96 @@
+.page-404-cntent-cntlr{
+	padding-top: 10px;
+}
+.page-404-cntent-cntlr .page-bedankt-cntent-img-inr{
+	height: 800px;
+	position: relative;
+}
+.page-404-cntent-rgt-img{
+	height: 100%;
+}
+.page-404-cntent-cntlr .page-bedankt-cntent-img-cntlr{
+	width: 49%;
+    order: 2;
+    position: relative;
+}
+.page-404-xs-img{
+	position: absolute;
+	bottom: -55px;
+	left: 0;
+}
+.page-404-cntent-cntlr .page-bedankt-cntent-desc-cntlr{
+	width: 51%;
+}
+.page-404-cntent-cntlr .page-bedankt-cntent-desc-inr{
+	padding-right: 20px;
+}
+.page-404-cntent-cntlr .page-bedankt-cntent-desc-cntlr{
+	order: 1;
+	padding-left: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.page-404-cntent-cntlr .page-bedankt-cntent-desc-cntlr{
+	padding-left: 15px;
+	padding-right: 0;
+
+}
+.page-bedankt-cntent-desc-inr i img{
+	max-width: 70px;
+}
+.page-404-cntent-cntlr .page-bedankt-cntent-desc-inr i{
+	margin-bottom: 20px;
+}
+
+@media(max-width: 1199px){
+	.page-404-cntent-cntlr .page-bedankt-cntent-img-inr{
+		height: 700px;
+	}
+	.page-404-cntent-cntlr .page-bedankt-cntent-desc-inr i{
+		margin-bottom: 15px;
+	}
+}
+@media(max-width: 991px){
+	.page-404-cntent-cntlr .page-bedankt-cntent-img-inr {
+	    height: 550px;
+	}
+}
+@media(max-width: 767px){
+	.page-404-cntent-cntlr{
+		padding-top: 35px;
+	}
+	.page-404-cntent-cntlr .page-bedankt-cntent-img-cntlr{
+		width: 100%;
+		padding-bottom: 54px;
+	}
+	.page-404-cntent-cntlr .page-bedankt-cntent-desc-cntlr{
+		width: 100%;
+		display: block;
+		padding-left: 0;
+		padding-top: 10px;
+	}
+	.page-404-cntent-cntlr .page-bedankt-cntent-desc-inr{
+		padding-right: 0;
+	}
+	.page-404-cntent-cntlr .page-bedankt-cntent-img-inr{
+		height: 500px;
+	}
+	.page-404-xs-img{
+		max-width: 70px;
+		width: 100%;
+		bottom: -48px;
+	}
+	.page-bedankt-con-desc-title{
+		margin-bottom: 27px;
+	}
+}
+@media(max-width: 575px){
+	.page-404-cntent-cntlr .page-bedankt-cntent-img-inr{
+		height: 322px;
+	}
+}
+@media(max-width: 479px){
+	.page-404-cntent-cntlr .page-bedankt-cntent-img-inr{
+		height: 322px;
+	}
+}

@@ -1,0 +1,321 @@
+.fld-clubs-page-contents .page-entry-hdr-title{
+	margin-bottom: 30px;
+}
+.fld-clubs-page-contents .page-entry-hdr-desc{
+	padding-bottom: 10px;
+}
+.fld-sec-intro{
+	text-align: center;
+	padding-bottom: 10px;
+}
+.fld-catagories-cntlr{
+	position: relative;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #1b1c1e;
+	margin-bottom: 65px;
+}
+.fld-catagories-cntlr ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0!important;
+    padding: 0;
+}
+.fld-catagories-cntlr ul li{
+	padding: 0 40px;
+	list-style: none;
+	margin-bottom: 10px;
+}
+.fld-catagories-cntlr ul li.active .fld-catg-item strong{
+	color: #E63312!important;
+}
+.fld-catg-item{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.category-item-title{
+	font-weight: 500;
+	line-height: 1.6;
+	color: #fff;
+	display: inline-block;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	text-transform: capitalize;
+}
+.fld-catg-item:hover .category-item-title{
+	color: #bb3319;
+}
+.fld-catg-item .fld-catg-item-img i{
+	margin-bottom: 5px;
+	align-items: center;
+	display: inline-block;
+}
+.fld-catg-item .fld-catg-item-img i img{
+	max-height: 56px;
+	width: auto;
+}
+.fld-club-grids-sec{
+	padding-bottom: 80px;
+}
+.fld-club-grids-cntlr ul{
+	display: flex;
+	align-items: center;
+	margin: 0 -12px;
+	flex-wrap: wrap;
+}
+.fld-club-grids-cntlr ul li{
+	padding: 0 12px;
+	margin-bottom: 33px;
+	width: 33.3333%;
+}
+.fld-club-grid{
+	position: relative;
+}
+.fld-club-grid:after {
+    position: absolute;
+    content: "";
+    left: -10px;
+    bottom: 115px;
+    background-color: #E63312;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    height: 2px;
+    width: 70px;
+    z-index: 10;
+}
+.fld-club-grid:hover:after{
+	background-color: #fff;
+	z-index: 3;
+}
+.fld-club-grid-img-cntlr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+.fld-club-grid-img-cntlr img{
+	max-width: 185px;
+	height: auto;
+	position: relative;
+	z-index: 2;
+	filter: grayscale(1);
+}
+.fld-club-grid:hover .fld-club-grid-img-cntlr img{
+	filter: grayscale(0);
+}
+.fld-club-grid:hover .show-inline-img-on-hover{
+	opacity: 1;
+}
+.show-inline-img-on-hover{
+	opacity: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 1;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+.fld-club-grid-desc{
+	padding: 30px 25px;
+	background-color: #151618;
+	border-left: 2px solid#202123;
+	border-right: 2px solid#202123;
+	border-bottom: 2px solid#202123;
+}
+.fld-club-desc-title{
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 600;
+	color: #FFFFFF;
+	text-transform: capitalize;
+	position: relative;
+	margin-bottom: 0!important;
+}
+.fld-club-desc-title:after{
+	position: absolute;
+	content: "";
+	right: 0;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	opacity: 0;
+	background-image: url('../images/clubs-small-squre-01.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 18px;
+	width: 20px;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+.fld-club-desc-title a{
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+}
+.fld-club-desc-title:hover a{
+	color: #e63312;
+}
+.fld-club-grid:hover .fld-club-desc-title:after{
+	opacity: 1!important;
+	z-index: 5;
+}
+
+@media (max-width: 1199px){
+	.fld-catagories-cntlr ul li {
+    padding: 0 35px;
+	}
+	.fld-catagories-cntlr{
+		margin-bottom: 55px;
+	}
+	.fld-club-grid-img-cntlr {
+	    height: 270px;
+	}
+	.fld-club-desc-title:after {
+	    height: 15px;
+	    width: 17px;
+	}
+	.fld-club-grids-cntlr ul {
+	    margin: 0 -10px;
+	}
+	.fld-club-grid-desc {
+	    padding: 25px 20px;
+	}
+	.fld-club-grids-cntlr ul li {
+	    padding: 0 10px;
+	}
+	.fld-club-grid-img-cntlr img {
+	    max-width: 160px;
+	}
+	.fld-club-grid:after {
+	    bottom: 105px;
+	}
+}
+@media (max-width: 991px){
+	.fld-catagories-cntlr ul li {
+    	padding: 0 25px;
+	}
+	.fld-catagories-cntlr {
+	    margin-bottom: 55px;
+	}
+	.fld-catg-item .fld-catg-item-img i img {
+	    height: 50px!important;
+	}
+	.category-item-title{
+		font-size: 16px;
+	}
+	.fld-catagories-sec {
+	    padding-bottom: 40px;
+	}
+	.fld-club-grid-img-cntlr img {
+	    max-width: 125px;
+	}
+	.fld-club-grid-img-cntlr {
+	    height: 220px;
+	}
+	.fld-club-grid-desc {
+	    padding: 22px 15px;
+	}
+	.fld-club-grid:after {
+	    bottom: 95px;
+	    width: 65px;
+	}
+	.fld-club-desc-title:after {
+	    height: 13px;
+	    width: 14px;
+	}
+	.fld-club-grids-sec {
+	    padding-bottom: 50px;
+	}
+}
+@media (max-width: 767px){
+	.fld-club-catg-select-cntlr {
+	    width: 100%;
+	    max-width: 335px;
+	    margin: 0 auto;
+	}
+	.fld-club-custom-select {
+	    width: 100%;
+	    padding: 15px 20px;
+	    background: #101010;
+	    color: #fff;
+	}
+	.fld-club-grids-cntlr ul li {
+	    width: 50%;
+	}
+	.category-box-cntlr {
+	    border: 2px solid #2b2f32;
+	    padding: 15px 20px;
+	    max-width: 500px;
+	    margin: 0 auto;
+	}
+	.fld-club-grid-img-cntlr {
+	    height: 250px;
+	}
+	.fld-club-grid:after {
+	    bottom: 115px;
+	    width: 76px;
+	}
+	.fld-club-grids-sec {
+	    padding-bottom: 25px;
+	}
+	.fld-club-desc-title{
+		font-size: 30px!important;
+	}
+	.fld-club-grids-cntlr{
+	   max-width: 600px;
+	    width: 100%;
+	    margin: 0 auto;
+	}
+}
+@media (max-width: 575px){
+	.fld-club-grid {
+	    width: 100%;
+	    max-width: 336px;
+	    margin: 0 auto;
+	}
+	.fld-club-grids-cntlr ul{
+		margin: 0;
+	}
+	.fld-club-grids-cntlr ul li{
+		width: 100%;
+		padding: 0;
+	}
+	.fld-clubs-page-contents .page-entry-hdr-desc{
+		padding-bottom: 20px;
+	}
+
+	.fld-club-grid-img-cntlr {
+	    height: 270px;
+	}
+	.fld-club-grid:after {
+	    bottom: 125px;
+	    width: 76px;
+	}
+
+
+}
+@media (max-width: 479px){
+	.fld-club-desc-title{
+		font-size: 30px;
+	}
+}
+
+@media (max-width: 359px){
+	.fld-club-catg-select-cntlr {
+	    width: 100%;
+	    max-width: 280px;
+	    margin: 0 auto;
+	}
+
+}
