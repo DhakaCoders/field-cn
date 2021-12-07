@@ -84,8 +84,8 @@
     top: 0;
 }
 .sport-pagina-gallery{
-	padding-top: 90px;
-	padding-bottom: 49px;
+	padding-top: 80px;
+	padding-bottom: 40px;
 	position: relative;
 }
 .sport-pagina-gallery-bg{
@@ -113,8 +113,12 @@
 	padding-bottom: 70px!important;
 }
 .sport-pagina-cta-sec-2{
-	padding-top: 30px;
+	padding-top: 15px;
 	padding-bottom: 82px;
+}
+
+.sport-pagina-content-cntlr .gallery-wrap{
+	padding-top: 25px;
 }
 
 @media(max-width: 1399px){
