@@ -199,7 +199,7 @@
 		padding-top: 60px;
 	}
 	.sport-pagina-content-cntlr .club-collection-sec{
-		padding-bottom: 52px!important;
+		padding-bottom: 45px!important;
 	}
 	.sport-pagina-content-cntlr .sport-pagina-gallery{
 		padding-top: 65px;
@@ -208,13 +208,13 @@
 		height: 300px;
 	}
 	.sport-pagina-content-cntlr .gallery-wrap{
-		padding-top: 20px;
+		padding-top: 15px;
 	}
 	.sport-pagina-cta-sec .cta-module{
 		padding-bottom: 50px!important;
 	}
 	.sport-pagina-content-cntlr .sport-pagina-cta-sec-2{
-		padding-bottom: 88px!important;
+		padding-bottom: 80px!important;
 	}
 	.sport-pagina-gallery-bg{
 		bottom: 0;
@@ -224,6 +224,9 @@
 	}
 	.sport-pagina-cta-sec .cta-lft-img{
 		top: -13px!important;
+	}
+	.club-collection-sec .sec-entry-hdr {
+	    padding-bottom: 15px;
 	}
 }
 @media(max-width: 575px){
