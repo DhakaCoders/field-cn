@@ -12,7 +12,7 @@ $intro = get_field('introsec', $thisID);
         <ul class="reset-list clearfix">
           <li>
             <a href="<?php echo esc_url(home_url('/')); ?>">
-              <span><?php _e('Home', 'canoetrip'); ?></span>
+              <span><?php _e('Home', 'field'); ?></span>
             </a>
           </li>
           <li class="active">
