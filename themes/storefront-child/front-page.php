@@ -90,165 +90,57 @@
     </div>
   </section>
 <?php endif; ?>
+<?php
+$showhidesports = get_field('showhidesports', HOMEID);
+if($showhidesports): 
+  $sportssec = get_field('sportssec', HOMEID);
+  if($sportssec):
+    $sportobj = $sportssec['select_sports'];
+    if( empty($sportobj) ){
+        $sportobj = get_posts( array(
+          'post_type' => 'sports',
+          'posts_per_page'=> -1,
+          'orderby' => 'date',
+          'order'=> 'asc',
+          'suppress_filters' => false
+        ) );  
+    }
+    if($sportobj):
+?>
   <section class="msnry-sec ">
     <div class="msnry-grd msnrySlider">
-      <div class="msnry-grd-item">
+      <?php 
+      foreach( $sportobj as $sport_row ) : 
+        $simgID = get_post_thumbnail_id($sport_row->ID);
+        $simgtag = !empty($simgID)? cbv_get_image_tag($simgID): '';
+        $is_not_img = empty($simgID)? ' reb-bg': '';
+      ?>
+      <div class="msnry-grd-item<?php echo $is_not_img; ?>">
         <div class="msnry-grd-item-inr">
           <div class="msnry-grd-item-img-ctlr">
+            <?php echo empty($simgID)?'<div class="msnry-grd-item-red"></div>':'';?>
             <div class="msnry-grd-item-img">
-              <img src="<?php echo THEME_URI; ?>/assets/images/msnry-img-01.jpg">
+              <?php echo $simgtag; ?>
             </div>
             <div class="msnry-grd-item-img-des">
-              <h2 class="msnry-grd-img-title fl-h5">VOETBAL</h2>
+              <h2 class="msnry-grd-img-title fl-h5"><?php echo get_the_title($sport_row->ID); ?></h2>
             </div>
           </div>
           <div class="msnry-grd-item-des">
             <div class="msnry-grd-item-des-inr">
-              <h2 class="msnry-grd-des-title fl-h5"><a href="#">VOETBAL</a></h2>
-              <p>Proin tempus, urna, sed et. Nunc, mattis eu ante mauris nisi, quam.</p>
-              <a href="#">Meer info</a>
+              <h2 class="msnry-grd-des-title fl-h5"><a href="<?php echo get_the_permalink($sport_row->ID); ?>"><?php echo get_the_title($sport_row->ID); ?></a></h2>
+              <?php echo wpautop($sport_row->post_excerpt); ?>
+              <a href="<?php echo get_the_permalink($sport_row->ID); ?>"><?php _e('Meer info', 'field'); ?></a>
             </div>
           </div>
         </div>
       </div>
-      <div class="msnry-grd-item">
-        <div class="msnry-grd-item-inr">
-          <div class="msnry-grd-item-img-ctlr">
-            <div class="msnry-grd-item-img">
-              <img src="<?php echo THEME_URI; ?>/assets/images/msnry-img-07.jpg">
-            </div>
-            <div class="msnry-grd-item-img-des">
-              <h2 class="msnry-grd-img-title fl-h5">VOLLEYBAL</h2>
-            </div>
-          </div>
-          <div class="msnry-grd-item-des">
-            <div class="msnry-grd-item-des-inr">
-              <h2 class="msnry-grd-des-title fl-h5"><a href="#">VOLLEYBAL</a></h2>
-              <p>Proin tempus, urna, sed et. Nunc, mattis eu ante mauris nisi, quam.</p>
-              <a href="#">Meer info</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="msnry-grd-item">
-        <div class="msnry-grd-item-inr">
-          <div class="msnry-grd-item-img-ctlr">
-            <div class="msnry-grd-item-img">
-              <img src="<?php echo THEME_URI; ?>/assets/images/msnry-img-02.jpg">
-            </div>
-            <div class="msnry-grd-item-img-des">
-              <h2 class="msnry-grd-img-title fl-h5">PADEL/TENNIS</h2>
-            </div>
-          </div>
-          <div class="msnry-grd-item-des">
-            <div class="msnry-grd-item-des-inr">
-              <h2 class="msnry-grd-des-title fl-h5"><a href="#">PADEL/TENNIS</a></h2>
-              <p>Proin tempus, urna, sed et. Nunc, mattis eu ante mauris nisi, quam.</p>
-              <a href="#">Meer info</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="msnry-grd-item reb-bg">
-        <div class="msnry-grd-item-inr">
-          <div class="msnry-grd-item-img-ctlr">
-            <div class="msnry-grd-item-red">
-              
-            </div>
-            <div class="msnry-grd-item-img">
-              <img src="<?php echo THEME_URI; ?>/assets/images/msnry-img-01.jpg">
-            </div>
-            <div class="msnry-grd-item-img-des">
-              <h2 class="msnry-grd-img-title fl-h5">Ontdek meer sporten!</h2>
-            </div>
-          </div>
-          <div class="msnry-grd-item-des">
-            <div class="msnry-grd-item-des-inr">
-              <h2 class="msnry-grd-des-title fl-h5"><a href="#">Ontdek meer sporten!</a></h2>
-              <p>Proin tempus, urna, sed et. Nunc, mattis eu ante mauris nisi, quam.</p>
-              <a href="#">Meer info</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="msnry-grd-item">
-        <div class="msnry-grd-item-inr">
-          <div class="msnry-grd-item-img-ctlr">
-            <div class="msnry-grd-item-img">
-              <img src="<?php echo THEME_URI; ?>/assets/images/msnry-img-03.jpg">
-            </div>
-            <div class="msnry-grd-item-img-des">
-              <h2 class="msnry-grd-img-title fl-h5">HOCKEY</h2>
-            </div>
-          </div>
-          <div class="msnry-grd-item-des">
-            <div class="msnry-grd-item-des-inr">
-              <h2 class="msnry-grd-des-title fl-h5"><a href="#">HOCKEY</a></h2>
-              <p>Proin tempus, urna, sed et. Nunc, mattis eu ante mauris nisi, quam.</p>
-              <a href="#">Meer info</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="msnry-grd-item">
-        <div class="msnry-grd-item-inr">
-          <div class="msnry-grd-item-img-ctlr">
-            <div class="msnry-grd-item-img">
-              <img src="<?php echo THEME_URI; ?>/assets/images/msnry-img-04.jpg">
-            </div>
-            <div class="msnry-grd-item-img-des">
-              <h2 class="msnry-grd-img-title fl-h5">BASKETBAL</h2>
-            </div>
-          </div>
-          <div class="msnry-grd-item-des">
-            <div class="msnry-grd-item-des-inr">
-              <h2 class="msnry-grd-des-title fl-h5"><a href="#">BASKETBAL</a></h2>
-              <p>Proin tempus, urna, sed et. Nunc, mattis eu ante mauris nisi, quam.</p>
-              <a href="#">Meer info</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="msnry-grd-item">
-        <div class="msnry-grd-item-inr">
-          <div class="msnry-grd-item-img-ctlr">
-            <div class="msnry-grd-item-img">
-              <img src="<?php echo THEME_URI; ?>/assets/images/msnry-img-05.jpg">
-            </div>
-            <div class="msnry-grd-item-img-des">
-              <h2 class="msnry-grd-img-title fl-h5">RUGBY</h2>
-            </div>
-          </div>
-          <div class="msnry-grd-item-des">
-            <div class="msnry-grd-item-des-inr">
-              <h2 class="msnry-grd-des-title fl-h5"><a href="#">RUGBY</a></h2>
-              <p>Proin tempus, urna, sed et. Nunc, mattis eu ante mauris nisi, quam.</p>
-              <a href="#">Meer info</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="msnry-grd-item">
-        <div class="msnry-grd-item-inr">
-          <div class="msnry-grd-item-img-ctlr">
-            <div class="msnry-grd-item-img">
-              <img src="<?php echo THEME_URI; ?>/assets/images/msnry-img-06.jpg">
-            </div>
-            <div class="msnry-grd-item-img-des">
-              <h2 class="msnry-grd-img-title fl-h5">KORFBAL</h2>
-            </div>
-          </div>
-          <div class="msnry-grd-item-des">
-            <div class="msnry-grd-item-des-inr">
-              <h2 class="msnry-grd-des-title fl-h5"><a href="#">KORFBAL</a></h2>
-              <p>Proin tempus, urna, sed et. Nunc, mattis eu ante mauris nisi, quam.</p>
-              <a href="#">Meer info</a>
-            </div>
-          </div>
-        </div>
-      </div>
+      <?php endforeach; ?>
     </div>
   </section>
+  <?php endif; ?>
+  <?php endif; ?>
+  <?php endif; ?>
 <?php
 $showhideprocess = get_field('showhideprocess', HOMEID);
 if($showhideprocess): 
