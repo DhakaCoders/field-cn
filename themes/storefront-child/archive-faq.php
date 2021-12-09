@@ -46,7 +46,6 @@ $beschrijving = get_field('beschrijving', $pageID);
 $terms = get_terms( 'faq_cat', array(
     'hide_empty' => false,
 ) );
-
 ?>
   <section class="faq-overview-sec">
     <div class="container">

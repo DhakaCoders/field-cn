@@ -237,6 +237,19 @@ function vacature_placeholder($format = 'src'){
 
 }
 
+function club_placeholder($format = 'src'){
+  $placehoder = get_field('placeholder', 'options');
+  if( !empty($placehoder) ){
+      if( $format == 'src' ){
+        $placeholder = !empty($placehoder['vacature'])? cbv_get_image_src($placehoder['vacature']):'';
+      }else{
+        $placeholder = !empty($placehoder['vacature'])? cbv_get_image_tag($placehoder['vacature']):'';
+      }
+      return $placeholder;
+  }
+  return '';
+
+}
 function no_result_text(){
   $no_results = get_field('no_results', 'options');
   if( !empty($no_results) ){
