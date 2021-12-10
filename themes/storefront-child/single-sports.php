@@ -147,6 +147,7 @@ $thisID = get_the_ID();
                 while($pQuery->have_posts()): $pQuery->the_post(); 
                 global $product, $woocommerce, $post;
                 $gridtag = cbv_get_image_tag( get_post_thumbnail_id($product->get_id()) );
+                if( empty(get_post_thumbnail_id($product->get_id())) ) $gridtag = product_placeholder('tag');
               ?>
               <div class="club-collection-grid-item">
                 <div class="clb-cltion-grd-item-inner">

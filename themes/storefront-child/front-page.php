@@ -112,7 +112,7 @@ if($showhidesports):
       <?php 
       foreach( $sportobj as $sport_row ) : 
         $simgID = get_post_thumbnail_id($sport_row->ID);
-        $simgtag = !empty($simgID)? cbv_get_image_tag($simgID): '';
+        $simgtag = !empty($simgID)? cbv_get_image_tag($simgID): sports_placeholder('tag');
         $is_not_img = empty($simgID)? ' reb-bg': '';
       ?>
       <div class="msnry-grd-item<?php echo $is_not_img; ?>">
@@ -336,7 +336,7 @@ if($showhide_team):
         <?php 
         foreach( $teamobj as $team_row ) : 
           $timgID = get_post_thumbnail_id($team_row->ID);
-          $timgtag = !empty($timgID)? cbv_get_image_tag($timgID): club_placeholder();
+          $timgtag = !empty($timgID)? cbv_get_image_tag($timgID): '';
           $banner = get_field('bannersec', $team_row->ID);
         ?>
         <div class="clubs-team-grd">
@@ -412,6 +412,7 @@ if($showhide_product):
                 while($pQuery->have_posts()): $pQuery->the_post(); 
                 global $product, $woocommerce, $post;
                 $gridtag = cbv_get_image_tag( get_post_thumbnail_id($product->get_id()) );
+                if( empty(get_post_thumbnail_id($product->get_id())) ) $gridtag = product_placeholder('tag');
               ?>
               <div class="club-collection-grid-item">
                 <div class="clb-cltion-grd-item-inner">
