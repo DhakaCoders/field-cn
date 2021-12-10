@@ -1,5 +1,4 @@
 <?php
-/*Template Name: Clubs*/
 get_header();
 $thisID = get_the_ID();
 $term_obj = get_queried_object();

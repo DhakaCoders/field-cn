@@ -2,9 +2,7 @@
 get_header();
 $pageID = get_id_by_page_template('page-faq.php');
 $thisID = get_the_ID();
-$customtitle = get_field('titel', $pageID);
-$pagetitle = !empty($customtitle)?$customtitle:get_the_title($pageID);
-$beschrijving = get_field('beschrijving', $pageID);
+$term_obj = get_queried_object();
 ?>
 <div class="faq-overview-content-cntlr">
   <section class="breadcrumb-sec hide-sm">
@@ -18,8 +16,13 @@ $beschrijving = get_field('beschrijving', $pageID);
                   <span><?php _e('Home', 'field'); ?></span>
                 </a>
               </li>
+              <li>
+                <a href="<?php echo esc_url(home_url('faq')); ?>">
+                  <span><?php _e('FAQ', 'field'); ?></span>
+                </a>
+              </li>
               <li class="active">
-                <span><?php echo get_the_title($pageID); ?></span>
+                <span><?php echo $term_obj->name; ?></span>
               </li>
             </ul>
           </div>
@@ -33,10 +36,12 @@ $beschrijving = get_field('beschrijving', $pageID);
       <div class="row">
         <div class="col-md-12">
           <div class="page-entry-hdr-cntlr text-center">
-            <?php if( !empty($pagetitle) ) printf('<h1 class="fl-h2 page-entry-hdr-title">%s</h1>', $pagetitle); ?>
+            <?php if( !empty($term_obj->name) ) printf('<h1 class="fl-h2 page-entry-hdr-title">%s</h1>', $term_obj->name); ?>
+            <?php if( !empty( $term_obj->description ) ): ?>
             <div class="page-entry-hdr-desc">
-              <?php if( !empty($beschrijving) ) echo wpautop( $beschrijving ); ?>
+              <?php echo wpautop( $term_obj->description ); ?>
             </div>
+            <?php endif; ?>
           </div>
         </div>
       </div>
@@ -54,12 +59,12 @@ $terms = get_terms( 'faq_cat', array(
           <div class="faq-overview-cntlr">
             <div class="fag-overview-btn hide-sm">
               <ul class="reset-list">
-                <li class="active"><a href="<?php echo esc_url(home_url('faq')); ?>"><?php _e('Alle', 'field'); ?></a></li>
+                <li><a href="<?php echo esc_url(home_url('faq')); ?>"><?php _e('Alle', 'field'); ?></a></li>
                 <?php 
                 if ( ! empty( $terms ) && ! is_wp_error( $terms ) ){ 
                 foreach($terms as $term){
                 ?>
-                <li><a href="<?php echo esc_url( get_term_link( $term ) ); ?>"><?php echo $term->name; ?></a></li>
+                <li<?php echo $term_obj->term_id == $term->term_id?' class="active"':''; ?>><a href="<?php echo esc_url( get_term_link( $term ) ); ?>"><?php echo $term->name; ?></a></li>
                 <?php 
                   }
                   } 
@@ -70,10 +75,14 @@ $terms = get_terms( 'faq_cat', array(
             <div class="xs-page-entry-menu show-sm">
               <ul class="reset-list">
                 <li>
-                  <a href="#"><?php _e('Categorie', 'canoetrip'); ?></a>
+                  <a href="#"><?php echo $term_obj->name; ?></a>
                   <ul class="reset-list page-entry-sub-menu">
-                    <?php foreach($terms as $term){ ?>
+                    <?php 
+                      foreach($terms as $term){ 
+                      if( $term->term_id != $term_obj->term_id ){
+                    ?>
                       <li><a href="<?php echo esc_url( get_term_link( $term ) ); ?>"><?php echo $term->name; ?></a></li>
+                      <?php } ?>
                     <?php } ?>
                   </ul>
                 </li>
@@ -88,7 +97,14 @@ $terms = get_terms( 'faq_cat', array(
                   'posts_per_page'=> 7,
                   'orderby' => 'date',
                   'order'=> 'DESC',
-                  'paged'=>$paged
+                  'paged'=>$paged,
+                  'tax_query' => array(
+                    array(
+                      'taxonomy' => 'faq_cat',
+                      'field' => 'term_id',
+                      'terms' => array($term_obj->term_id)
+                    )
+                  )
                 ));
               ?> 
               <?php if($query->have_posts()):?>

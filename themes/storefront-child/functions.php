@@ -45,8 +45,8 @@ if( !function_exists('cbv_theme_setup') ){
         register_nav_menus( array(
             'cbv_main_menu' => __( 'Hoofdmenu', 'field' ),
             'cbv_mobile_menu' => __( 'Mobielmenu', 'field' ),
-            'cbv_fta_menu' => __( 'Footer Menu', 'field' ),
-            'cbv_copyright_menu' => __( 'Copyright Menu', 'field' ),
+            'cbv_fta_menu' => __( 'Footer Menu 1', 'field' ),
+            'cbv_ftb_menu' => __( 'Footer Menu 2', 'field' )
         ) );
 
     }

@@ -50,7 +50,7 @@ $intro = get_field('introsec', $thisID);
             foreach( $intro['knops'] as $knop ):  
             $knopp = $knop['knop'];
             if( is_array( $knopp ) &&  !empty( $knopp['url'] ) ){
-                printf('<li><a href="%s" target="%s" class="fl-text-btn">%s</a></li>', $knopp['url'], $knopp['target'], $knopp['title']); 
+              printf('<li><a href="%s" target="%s" class="fl-text-btn">%s</a></li>', $knopp['url'], $knopp['target'], $knopp['title']); 
             }
             endforeach; 
         ?>
@@ -58,7 +58,7 @@ $intro = get_field('introsec', $thisID);
       </div>
   	  <?php endif; ?>
       <div class="page-bedankt-con-desc-btn">
-        <a class="fl-btn fl-btn-angel" href="<?php echo esc_url(home_url('/')); ?>"><?php _e('Home', 'canoetrip'); ?></a>
+        <a class="fl-btn fl-btn-angel" href="<?php echo esc_url(home_url('/')); ?>"><?php _e('Home', 'field'); ?></a>
       </div>
     </div>
   </div>

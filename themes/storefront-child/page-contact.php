@@ -57,7 +57,7 @@ $gmaplink = !empty($map_url)?$map_url:'javascript:void()';
                 <div class="contact-form-info">
                   <div class="contact-info-details-cntlr">
                     <div class="cntct-info-details-inr">
-                      <h2 class="contact-form-info-title fl-h5"><?php _e('Contact Info', 'terrav'); ?></h2>
+                      <h2 class="contact-form-info-title fl-h5"><?php _e('Contact Info', 'field'); ?></h2>
                       <div class="contact-details">
                         <?php if( !empty($telefoon) ): ?>
                         <div class="cntct-tel cntct-details-col">
@@ -70,7 +70,7 @@ $gmaplink = !empty($map_url)?$map_url:'javascript:void()';
                           </a>
                         </div>
                         <?php endif; ?>
-                        <?php if( !empty($adres) ) printf('<div class="cntct-addrs cntct-details-col"><a href="tel:%s">%s</a></div>', $gmaplink,  $adres); ?>
+                        <?php if( !empty($adres) ) printf('<div class="cntct-addrs cntct-details-col"><a href="%s">%s</a></div>', $gmaplink,  $adres); ?>
                         <?php if( $opening_tijd ): ?>
                         <div class="cntct-time cntct-details-col">
                           <?php 

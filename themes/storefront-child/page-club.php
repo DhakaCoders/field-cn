@@ -176,28 +176,40 @@ $terms = get_terms( 'club_cat', array(
     </div>
   </section>
 
-  <section class="fd-link-module-sec">
+<?php 
+$ftcta = get_field('ftcta', 'options');
+if($ftcta):
+?>
+  <section class="fd-link-module-sec ">
     <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="fd-link-module-sec-inr inline-bg">
-            <div class="fd-link-module-sec-desktop hide-xs inline-bg" style="background: url(<?php echo THEME_URI; ?>/assets/images/fd-link-module-sec-bg.jpg);"></div>
-            <div class="fd-link-module-sec-xs show-xs inline-bg" style="background: url(<?php echo THEME_URI; ?>/assets/images/fd-link-module-sec-bg-xs.jpg);"></div>
-            <div class="fdlms-link">
-              <a href="#">
-                <span>LATEN WE SAMEN EEN <br>TOPPROJECT STARTEN</span>
-                <i>
-                  <svg class="right-arrow-white-icon" width="33" height="18" viewBox="0 0 33 18" fill="#fff">
-                    <use xlink:href="#right-arrow-white-icon"></use> 
-                  </svg>
-                </i>
-              </a>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="fd-link-module-sec-inr inline-bg">
+              <div class="fd-link-module-sec-desktop hide-xs inline-bg" style="background: url(<?php echo !empty($ftcta['afbeelding'])? cbv_get_image_src( $ftcta['afbeelding'] ): ''; ?>);"></div>
+              <div class="fd-link-module-sec-xs show-xs inline-bg" style="background: url(<?php echo !empty($ftcta['mobiel_afbeelding'])? cbv_get_image_src( $ftcta['mobiel_afbeelding'] ): ''; ?>);"></div>
+              <?php 
+                $ftknop = $ftcta['knop'];
+                if( is_array( $ftknop ) &&  !empty( $ftknop['url'] ) ){
+              ?>
+              <div class="fdlms-link">
+                <?php 
+                  printf('<a href="%s" target="%s">', $ftknop['url'], $ftknop['target']);
+                  printf('<span>%s</span>', wp_specialchars_decode($ftknop['title']));
+                ?>
+                  <i>
+                    <svg class="right-arrow-white-icon" width="33" height="18" viewBox="0 0 33 18" fill="#fff">
+                      <use xlink:href="#right-arrow-white-icon"></use> 
+                    </svg>
+                  </i>
+                </a>
+              </div>
+              <?php } ?>
             </div>
           </div>
         </div>
-      </div>
     </div>    
   </section>
+  <?php endif; ?>
 </div>
 
 <?php get_footer(); ?>

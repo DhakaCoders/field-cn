@@ -101,7 +101,7 @@ if($showhidesports):
           'post_type' => 'sports',
           'posts_per_page'=> -1,
           'orderby' => 'date',
-          'order'=> 'asc',
+          'order'=> 'desc',
           'suppress_filters' => false
         ) );  
     }
@@ -370,16 +370,28 @@ $showhide_product = get_field('showhide_product', HOMEID);
 if($showhide_product): 
   $products = get_field('products', HOMEID);
   if($products):
-    $proobj = $products['select_producten'];
-    if( empty($proobj) ){
-        $proobj = get_posts( array(
-          'post_type' => 'product',
-          'posts_per_page'=> 4,
-          'orderby' => 'date',
-          'order'=> 'asc',
-          'suppress_filters' => false
-        ) );  
-    }
+    $productIDS = $products['select_producten'];
+    if( !empty($productIDS) ){
+      $count = count($productIDS);
+      $pIDS = ( $count > 1 )? $productIDS: $productIDS;
+      $pQuery = new WP_Query(array(
+        'post_type' => 'product',
+        'posts_per_page'=> $count,
+        'post__in' => $pIDS,
+        'orderby' => 'date',
+        'order'=> 'asc',
+
+      ));
+          
+    }else{
+      $pQuery = new WP_Query(array(
+        'post_type' => 'product',
+        'posts_per_page'=> 5,
+        'orderby' => 'date',
+        'order'=> 'desc',
+
+      ));
+    } 
 ?>
   <section class="club-collection-sec ">
     <div class="container">
@@ -392,126 +404,43 @@ if($showhide_product):
             ?>
             </div>
           </div>
+          <?php if( $pQuery->have_posts() ): ?>
           <div class="col-md-12">
             <div class="club-collection-sec-inner">
               <div class="club-collection-grid clubCollectionSlider">
-                <div class="club-collection-grid-item">
-                  <div class="clb-cltion-grd-item-inner">
-                    <div class="clb-cltion-grd-item-img">
-                      <img src="<?php echo THEME_URI; ?>/assets/images/club-cltion-1.png">
-                    </div>
-                    <div class="clb-cltion-grd-item-bottom-des">
-                      <div class="clb-cltion-grd-item-heading">
-                        <h3 class="fl-h5 clb-cltion-item-title"><a href="#">hoodie</a></h3>
-                      </div>
-                    </div>
-                    <div class="clb-cltion-grd-item-bottom-des-hover-ef">
-                      <div class="clb-cltion-grd-item-heading">
-                        <h4 class="fl-h5 clb-cltion-item-title"><a href="#">hoodie</a></h4>
-                      </div> 
-                      <div class="clb-cltion-grd-item-des">
-                        <p>Ut nunc turpis, faucibus nec lectus quis, porttitor porta sem.</p>
-                        <ul>
-                          <li>Faucibus nec lectus quis.</li>
-                          <li>Metus ultricies at porta massa eu.</li>
-                          <li>Laoreet urna quis.</li>
-                        </ul>
-                        <div class="clb-cltion-item-btn">
-                          <a href="#" class="fl-btn fl-btn-angel">meer info</a>
-                        </div>
-                      </div>
+              <?php 
+                while($pQuery->have_posts()): $pQuery->the_post(); 
+                global $product, $woocommerce, $post;
+                $gridtag = cbv_get_image_tag( get_post_thumbnail_id($product->get_id()) );
+              ?>
+              <div class="club-collection-grid-item">
+                <div class="clb-cltion-grd-item-inner">
+                  <div class="clb-cltion-grd-item-img">
+                    <?php echo $gridtag; ?>
+                  </div>
+                  <div class="clb-cltion-grd-item-bottom-des">
+                    <div class="clb-cltion-grd-item-heading">
+                      <h3 class="fl-h5 clb-cltion-item-title"><a href="<?php echo get_permalink( $product->get_id() ); ?>"><?php the_title()?></a></h3>
                     </div>
                   </div>
-                </div>
-
-                <div class="club-collection-grid-item">
-                  <div class="clb-cltion-grd-item-inner">
-                    <div class="clb-cltion-grd-item-img">
-                      <img src="<?php echo THEME_URI; ?>/assets/images/club-cltion-2.png">
-                    </div>
-                    <div class="clb-cltion-grd-item-bottom-des">
-                      <div class="clb-cltion-grd-item-heading">
-                        <h3 class="fl-h5 clb-cltion-item-title"><a href="#">POLO SHIRT</a></h3>
-                      </div>
-                    </div>
-                    <div class="clb-cltion-grd-item-bottom-des-hover-ef">
-                      <div class="clb-cltion-grd-item-heading">
-                        <h4 class="fl-h5 clb-cltion-item-title"><a href="#">POLO SHIRT</a></h4>
-                      </div> 
-                      <div class="clb-cltion-grd-item-des">
-                        <p>Ut nunc turpis, faucibus nec lectus quis, porttitor porta sem.</p>
-                        <ul>
-                          <li>Faucibus nec lectus quis.</li>
-                          <li>Metus ultricies at porta massa eu.</li>
-                          <li>Laoreet urna quis.</li>
-                        </ul>
-                        <div class="clb-cltion-item-btn">
-                          <a href="#" class="fl-btn fl-btn-angel">meer info</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
-                <div class="club-collection-grid-item">
-                  <div class="clb-cltion-grd-item-inner">
-                    <div class="clb-cltion-grd-item-img">
-                      <img src="<?php echo THEME_URI; ?>/assets/images/club-cltion-3.png">
-                    </div>
-                    <div class="clb-cltion-grd-item-bottom-des">
-                      <div class="clb-cltion-grd-item-heading">
-                        <h3 class="fl-h5 clb-cltion-item-title"><a href="#">TRAININGSJAS</a></h3>
-                      </div>
-                    </div>
-                    <div class="clb-cltion-grd-item-bottom-des-hover-ef">
-                      <div class="clb-cltion-grd-item-heading">
-                        <h4 class="fl-h5 clb-cltion-item-title"><a href="#">TRAININGSJAS</a></h4>
-                      </div> 
-                      <div class="clb-cltion-grd-item-des">
-                        <p>Ut nunc turpis, faucibus nec lectus quis, porttitor porta sem.</p>
-                        <ul>
-                          <li>Faucibus nec lectus quis.</li>
-                          <li>Metus ultricies at porta massa eu.</li>
-                          <li>Laoreet urna quis.</li>
-                        </ul>
-                        <div class="clb-cltion-item-btn">
-                          <a href="#" class="fl-btn fl-btn-angel">meer info</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="club-collection-grid-item">
-                  <div class="clb-cltion-grd-item-inner">
-                    <div class="clb-cltion-grd-item-img">
-                      <img src="<?php echo THEME_URI; ?>/assets/images/club-cltion-4.png">
-                    </div>
-                    <div class="clb-cltion-grd-item-bottom-des">
-                      <div class="clb-cltion-grd-item-heading">
-                        <h3 class="fl-h5 clb-cltion-item-title"><a href="#">TRACKSUIT BROEK</a></h3>
-                      </div>
-                    </div>
-                    <div class="clb-cltion-grd-item-bottom-des-hover-ef">
-                      <div class="clb-cltion-grd-item-heading">
-                        <h4 class="fl-h5 clb-cltion-item-title"><a href="#">TRACKSUIT BROEK</a></h4>
-                      </div> 
-                      <div class="clb-cltion-grd-item-des">
-                        <p>Ut nunc turpis, faucibus nec lectus quis, porttitor porta sem.</p>
-                        <ul>
-                          <li>Faucibus nec lectus quis.</li>
-                          <li>Metus ultricies at porta massa eu.</li>
-                          <li>Laoreet urna quis.</li>
-                        </ul>
-                        <div class="clb-cltion-item-btn">
-                          <a href="#" class="fl-btn fl-btn-angel">meer info</a>
-                        </div>
+                  <div class="clb-cltion-grd-item-bottom-des-hover-ef">
+                    <div class="clb-cltion-grd-item-heading">
+                      <h4 class="fl-h5 clb-cltion-item-title"><a href="<?php echo get_permalink( $product->get_id() ); ?>"><?php the_title()?></a></h4>
+                    </div> 
+                    <div class="clb-cltion-grd-item-des">
+                      <?php the_excerpt(); ?>
+                      <div class="clb-cltion-item-btn">
+                        <a href="<?php echo get_permalink( $product->get_id() ); ?>" class="fl-btn fl-btn-angel"><?php _e('meer info', 'field'); ?></a>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
+                <?php endwhile; ?>
+              </div>
             </div>
           </div>
+          <?php endif; wp_reset_postdata(); ?>
         </div>
     </div>    
   </section>

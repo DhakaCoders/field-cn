@@ -1,5 +1,4 @@
 <?php
-/*Template Name: Offerte*/
 get_header();
 $thisID = get_the_ID();
 $banner = get_field('bannersec', $thisID);
@@ -24,7 +23,7 @@ $banner = get_field('bannersec', $thisID);
                   </li>
                   <li>
                     <a href="<?php echo esc_url(home_url('clubs')); ?>">
-                      <span><?php _e('Club', 'field'); ?></span>
+                      <span><?php _e('Clubs', 'field'); ?></span>
                     </a>
                   </li>
                   <li class="active">
