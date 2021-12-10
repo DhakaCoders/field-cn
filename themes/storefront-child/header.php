@@ -95,12 +95,6 @@
   }else{
     $logo_tag = '';
   }
-  $mhdlogoObj = get_field('mhdlogo', 'options');
-  if( is_array($mhdlogoObj) ){
-    $mlogo_tag = '<img src="'.$mhdlogoObj['url'].'" alt="'.$mhdlogoObj['alt'].'" title="'.$mhdlogoObj['title'].'">';
-  }else{
-    $mlogo_tag = '';
-  }
   $fb_url = get_field('facebook_url', 'options');
   $inst_url = get_field('instagram_url', 'options');
 ?>  
