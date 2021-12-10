@@ -210,26 +210,26 @@ function news_placeholder($format = 'src'){
   return '';
 
 }
-function bestemming_placeholder($format = 'src'){
+function product_placeholder($format = 'src'){
   $placehoder = get_field('placeholder', 'options');
   if( !empty($placehoder) ){
       if( $format == 'src' ){
-        $placeholder = !empty($placehoder['bestemming'])? cbv_get_image_src($placehoder['bestemming']):'';
+        $placeholder = !empty($placehoder['product'])? cbv_get_image_src($placehoder['product']):'';
       }else{
-        $placeholder = !empty($placehoder['bestemming'])? cbv_get_image_tag($placehoder['bestemming']):'';
+        $placeholder = !empty($placehoder['product'])? cbv_get_image_tag($placehoder['product']):'';
       }
       return $placeholder;
   }
   return '';
 
 }
-function vacature_placeholder($format = 'src'){
+function sports_placeholder($format = 'src'){
   $placehoder = get_field('placeholder', 'options');
   if( !empty($placehoder) ){
       if( $format == 'src' ){
-        $placeholder = !empty($placehoder['vacature'])? cbv_get_image_src($placehoder['vacature']):'';
+        $placeholder = !empty($placehoder['sports'])? cbv_get_image_src($placehoder['sports']):'';
       }else{
-        $placeholder = !empty($placehoder['vacature'])? cbv_get_image_tag($placehoder['vacature']):'';
+        $placeholder = !empty($placehoder['sports'])? cbv_get_image_tag($placehoder['sports']):'';
       }
       return $placeholder;
   }
@@ -241,9 +241,9 @@ function club_placeholder($format = 'src'){
   $placehoder = get_field('placeholder', 'options');
   if( !empty($placehoder) ){
       if( $format == 'src' ){
-        $placeholder = !empty($placehoder['vacature'])? cbv_get_image_src($placehoder['vacature']):'';
+        $placeholder = !empty($placehoder['club'])? cbv_get_image_src($placehoder['club']):'';
       }else{
-        $placeholder = !empty($placehoder['vacature'])? cbv_get_image_tag($placehoder['vacature']):'';
+        $placeholder = !empty($placehoder['club'])? cbv_get_image_tag($placehoder['club']):'';
       }
       return $placeholder;
   }
