@@ -75,6 +75,7 @@ Gallery design
 }
 .gallery-item img {
 	width: 100%;
+	border-radius: 0!important;
 }
 .top-gallery-module .gallery-item img{
 	border-radius: 0;
