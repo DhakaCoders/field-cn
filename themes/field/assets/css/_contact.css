@@ -416,11 +416,11 @@ textarea {
     margin-top: 0;
 }
 .wpforms-field-checkbox ul li:after {
-    left: 7px;
-    top: 5px;
+    left: 6.5px;
+    top: 3px;
     width: 5px;
     height: 10px;
-    border: solid #239C4B;
+    border: solid #7D8D98;
     border-width: 0 2px 2px 0;
     transform: rotate(45deg);
 }
@@ -438,19 +438,30 @@ textarea {
     cursor: pointer;
     left: 0;
     right: 0;
-    top: 2px;
-    bottom: 0;
+    top: 5px;
     height: 18px!important;
     width: 18px!important;
     z-index: 1;
     margin: 0!important;
-    border: 1px solid #E2F1E7!important;
+    border: 1px solid rgba(125, 141, 152, 0.25)!important;
 }
 .wpforms-field-checkbox ul li label{
-    font-size: 16px!important;
+    margin-bottom: 0!important;
+    padding-left: 10px;
+    font-size: 14px!important;
+    line-height: 1.4!important;
+    cursor: pointer!important;
     font-weight: 400!important;
-    color: #4C5D5B!important;
-    cursor: pointer;
+    color: #7D8D98!important;
+}
+.wpforms-field-checkbox ul li label a{
+    color: #7D8D98;
+    text-decoration: underline;
+    font-weight: 400;
+}
+.wpforms-field-checkbox ul li label a:hover{
+    color: #E63312;
+    text-decoration: none;
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.wpforms-field-checkbox.wpforms-has-error label.wpforms-error{
     display: none!important;
