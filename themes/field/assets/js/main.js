@@ -274,6 +274,11 @@ if(windowWidth <= 575){
 }
 
 
+$('#toTop').click(function() {
+    $('body,html').animate({scrollTop:0},800);
+}); 
+
+
 if( $('.xs-page-entry-menu').length ){
   $('.xs-page-entry-menu ul li a').on('click', function(e){
     e.preventDefault();
