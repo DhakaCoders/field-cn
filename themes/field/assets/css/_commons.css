@@ -310,17 +310,29 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
 
 /*slider break fix*/
 
-.hmProdctGrdsSlider .hmProdctGrdsSlideItme,
-.clubCollectionSlider .club-collection-slider-item{
+
+.customerServiceSlider .customer-service-slider-item,
+.teamSlider .team-grid-item,
+.BtmGallerySlider .gallery-item,
+.clubCollectionSlider .club-collection-grid-item,
+.hmBnrSlider .hm-bnr-slider-item,
+.hmProdctGrdsSlider .hmProdctGrdsSlideItme{
 	display: none;
 }
 
-.hmProdctGrdsSlider .hmProdctGrdsSlideItme:first-child,
-.clubCollectionSlider .club-collection-slider-item:first-child{
+.customerServiceSlider .customer-service-slider-item:first-child,
+.teamSlider .team-grid-item:first-child,
+.BtmGallerySlider .gallery-item:first-child,
+.clubCollectionSlider .club-collection-grid-item:first-child,
+.hmBnrSlider .hm-bnr-slider-item:first-child,
+.hmProdctGrdsSlider .hmProdctGrdsSlideItme:first-child{
 	display: block;
 }
-
-.hmProdctGrdsSlider.slick-initialized .hmProdctGrdsSlideItme,
-.clubCollectionSlider.slick-initialized .club-collection-slider-item{
+.customerServiceSlider.slick-initialized .customer-service-slider-item,
+.teamSlider.slick-initialized .team-grid-item,
+.BtmGallerySlider.slick-initialized .gallery-item,
+.clubCollectionSlider.slick-initialized .club-collection-grid-item,
+.hmBnrSlider.slick-initialized .hm-bnr-slider-item,
+.hmProdctGrdsSlider.slick-initialized .hmProdctGrdsSlideItme{
 	display: block;
 }
