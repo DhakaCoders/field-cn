@@ -309,30 +309,43 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
 
 
 /*slider break fix*/
-
-
 .customerServiceSlider .customer-service-slider-item,
-.teamSlider .team-grid-item,
-.BtmGallerySlider .gallery-item,
 .clubCollectionSlider .club-collection-grid-item,
 .hmBnrSlider .hm-bnr-slider-item,
 .hmProdctGrdsSlider .hmProdctGrdsSlideItme{
 	display: none;
 }
-
 .customerServiceSlider .customer-service-slider-item:first-child,
-.teamSlider .team-grid-item:first-child,
-.BtmGallerySlider .gallery-item:first-child,
 .clubCollectionSlider .club-collection-grid-item:first-child,
 .hmBnrSlider .hm-bnr-slider-item:first-child,
 .hmProdctGrdsSlider .hmProdctGrdsSlideItme:first-child{
 	display: block;
 }
 .customerServiceSlider.slick-initialized .customer-service-slider-item,
-.teamSlider.slick-initialized .team-grid-item,
-.BtmGallerySlider.slick-initialized .gallery-item,
 .clubCollectionSlider.slick-initialized .club-collection-grid-item,
 .hmBnrSlider.slick-initialized .hm-bnr-slider-item,
 .hmProdctGrdsSlider.slick-initialized .hmProdctGrdsSlideItme{
 	display: block;
+}
+@media(max-width:767px){
+    .teamSlider .team-grid-item{
+        display: none;
+    }
+    .teamSlider .team-grid-item:first-child{
+        display: block;
+    }
+    .teamSlider.slick-initialized .team-grid-item{
+        display: block;
+    }
+}
+@media(max-width:575px){
+    .BtmGallerySlider .gallery-item{
+        display: none;
+    }
+    .BtmGallerySlider .gallery-item:first-child{
+        display: block;
+    }
+    .BtmGallerySlider.slick-initialized .gallery-item{
+        display: block;
+    }
 }
