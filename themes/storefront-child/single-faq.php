@@ -34,7 +34,6 @@
         <?php 
           if( get_row_layout() == 'introductietekst' ){ 
           $fc_titel = get_sub_field('fc_titel');
-          $fc_afbeelding = get_sub_field('fc_afbeelding');
         ?>
         <div class="block">
           <div class="dfp-promo-module">
@@ -45,15 +44,6 @@
                     <div class="dfp-promo-module-des">
                       <?php if( !empty($fc_titel) ) printf('<strong class="dfp-promo-module-title fl-h1">%s</strong>', $fc_titel); ?>
                     </div>
-                  </div>
-                  <div class="dfp-plate-one-img-bx">
-                    <div class="dfp-plate-one-img-squre">
-                      <img src="<?php echo THEME_URI; ?>/assets/images/dft-squre-icon.png" alt="">
-                    </div>
-                    <div class="dfp-xs-plate-one-img-squre">
-                      <img src="<?php echo THEME_URI; ?>/assets/images/dft-xs-squre-icon.png" alt="">
-                    </div>
-                    <?php if( !empty($fc_afbeelding) ) echo cbv_get_image_tag($fc_afbeelding); ?>
                   </div>
                 </div>
               </div>

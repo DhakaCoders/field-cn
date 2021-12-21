@@ -135,15 +135,16 @@
       ?>
       <div class="block">
         <div class="fl-dft-overflow-module">
+          <?php if( $positie_afbeelding == 'left' ): ?>
           <div class="fl-dft-overflow-angle">
             <img src="<?php echo THEME_URI; ?>/assets/images/dft-left-angle.png" alt="">
           </div>
           <div class="fl-dft-overflow-module-out-bg"></div>
+          <?php endif ?>
           <div class="container">
             <div class="row">
               <div class="col-md-12">
                 <div class="fl-dft-lftimg-rgtdes clearfix<?php echo $imgposcls; ?>">
-                  <div class="fl-dft-overflow-module-in-bg"></div>
                   <div class="fl-dft-lftimg-rgtdes-lft has-inline-bg">
                     <div class="inline-bg" style="background-image: url(<?php echo $imgsrc; ?>);"></div>
                     <div class="fl-dft-lftimg-rgtdes-lft-img">
