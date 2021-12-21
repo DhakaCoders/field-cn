@@ -307,7 +307,47 @@
 .over-field-team-sec .sec-entry-hdr{
 	padding-bottom:35px;
 }
-
+#toTop {
+    width: 66px;
+    height: 60px;
+    border: 4px solid #353a3d;
+    position: absolute;
+    right: 117px;
+    bottom: 113px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 20;
+    background: transparent;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+}
+#toTop:hover i svg{
+	fill: #fff!important;
+}
+#toTop:hover{
+	border-color: #fff;
+}
+#toTop:before{
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border: 2px solid #0e151d;
+}
+#toTop:after{
+	position: absolute;
+	content: "";
+	top: -4px;
+	left: -4px;
+	right: -4px;
+	bottom: -4px;
+	border: 2px solid #0e151d;
+}
 @media(max-width:1399px){
 	.team-grd-item-des{
 		padding-top: 30px;
