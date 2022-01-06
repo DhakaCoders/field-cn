@@ -210,26 +210,26 @@ function news_placeholder($format = 'src'){
   return '';
 
 }
-function bestemming_placeholder($format = 'src'){
+function product_placeholder($format = 'src'){
   $placehoder = get_field('placeholder', 'options');
   if( !empty($placehoder) ){
       if( $format == 'src' ){
-        $placeholder = !empty($placehoder['bestemming'])? cbv_get_image_src($placehoder['bestemming']):'';
+        $placeholder = !empty($placehoder['product'])? cbv_get_image_src($placehoder['product']):'';
       }else{
-        $placeholder = !empty($placehoder['bestemming'])? cbv_get_image_tag($placehoder['bestemming']):'';
+        $placeholder = !empty($placehoder['product'])? cbv_get_image_tag($placehoder['product']):'';
       }
       return $placeholder;
   }
   return '';
 
 }
-function vacature_placeholder($format = 'src'){
+function sports_placeholder($format = 'src'){
   $placehoder = get_field('placeholder', 'options');
   if( !empty($placehoder) ){
       if( $format == 'src' ){
-        $placeholder = !empty($placehoder['vacature'])? cbv_get_image_src($placehoder['vacature']):'';
+        $placeholder = !empty($placehoder['sports'])? cbv_get_image_src($placehoder['sports']):'';
       }else{
-        $placeholder = !empty($placehoder['vacature'])? cbv_get_image_tag($placehoder['vacature']):'';
+        $placeholder = !empty($placehoder['sports'])? cbv_get_image_tag($placehoder['sports']):'';
       }
       return $placeholder;
   }
@@ -237,12 +237,25 @@ function vacature_placeholder($format = 'src'){
 
 }
 
+function club_placeholder($format = 'src'){
+  $placehoder = get_field('placeholder', 'options');
+  if( !empty($placehoder) ){
+      if( $format == 'src' ){
+        $placeholder = !empty($placehoder['club'])? cbv_get_image_src($placehoder['club']):'';
+      }else{
+        $placeholder = !empty($placehoder['club'])? cbv_get_image_tag($placehoder['club']):'';
+      }
+      return $placeholder;
+  }
+  return '';
+
+}
 function no_result_text(){
   $no_results = get_field('no_results', 'options');
   if( !empty($no_results) ){
     $text = $no_results;
   }else{
-    $text = __( 'Geen resultaat', 'canoetrip' );
+    $text = __( 'Geen resultaat', 'field' );
   }
   return $text;
 
@@ -260,7 +273,7 @@ function num_format($num){
 }
 function cbv_get_excerpt(){
   global $post;
-  $link = '<a href="'. get_permalink($post->ID) . '">'.__(' ....more', 'canoetrip').'</a>';
+  $link = '<a href="'. get_permalink($post->ID) . '">'.__(' ....more', 'field').'</a>';
   $excerpt = explode(' ', get_the_excerpt());
   //array_pop($excerpt);
   $excerpt = implode(" ",$excerpt);

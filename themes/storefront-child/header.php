@@ -87,7 +87,31 @@
   <path d="M18.4501 6.34949C18.8916 6.34949 19.2496 5.99154 19.2496 5.54999C19.2496 5.10844 18.8916 4.75049 18.4501 4.75049C18.0085 4.75049 17.6506 5.10844 17.6506 5.54999C17.6506 5.99154 18.0085 6.34949 18.4501 6.34949Z"/>
 </symbol>
 </svg>
+<?php 
+  $topbartekst = get_field('topbartekst', 'options');
+  $logoObj = get_field('hdlogo', 'options');
+  if( is_array($logoObj) ){
+    $logo_tag = '<img src="'.$logoObj['url'].'" alt="'.$logoObj['alt'].'" title="'.$logoObj['title'].'">';
+  }else{
+    $logo_tag = '';
+  }
+  $fb_url = get_field('facebook_url', 'options');
+  $inst_url = get_field('instagram_url', 'options');
+?>  
 <div class="page-body-cntlr">
+<?php if( is_front_page() && $topbartekst ): ?>
+  <section class="home-messege d-none">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="home-messege-inr">
+            <?php if( !empty($topbartekst) ) echo wpautop( $topbartekst  ); ?>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<?php endif; ?>
 <div class="bdoverlay"></div>
 <header class="header hdr-border-none ">
   <div class="container">
@@ -96,13 +120,15 @@
           <div class="header-inr clearfix">
             <div class="hdr-lft">
               <div class="logo">
-                <a href="#"><img src="<?php echo THEME_URI; ?>/assets/images/logo.png"></a>
+                <a href="<?php echo esc_url(home_url('/')); ?>">
+                  <?php echo $logo_tag; ?>
+                </a>
               </div>
             </div>
             <div class="hdr-rgt hide-sm">
               <div class="hdr-top-bar">
                 <div class="hdr-account">
-                  <a href="#">Mijn account
+                  <a href="<?php echo get_permalink( wc_get_page_id( 'myaccount' ) ); ?>"><?php _e('Mijn account', 'field'); ?>
                     <i>
                       <svg class="user-icon-svg" width="12" height="14" viewBox="0 0 12 14" fill="#7D8D98">
                         <use xlink:href="#user-icon-svg"></use> 
@@ -112,8 +138,9 @@
                 </div>
                 <div class="hdr-social-media">
                   <ul class="reset-list">
+                    <?php if( !empty($fb_url) ): ?>
                     <li class="facebook">
-                      <a href="#" target="_blank">
+                      <a href="<?php echo $fb_url; ?>" target="_blank">
                         <i>
                           <svg class="facebook-svg" width="10" height="18" viewBox="0 0 10 18" fill="#7D8D98">
                             <use xlink:href="#facebook-svg"></use> 
@@ -121,8 +148,11 @@
                         </i>
                       </a>
                     </li>
+                    <?php endif;
+                    if( !empty($inst_url) ):
+                    ?>
                     <li class="instagram">
-                      <a href="#" target="_blank">
+                      <a href="<?php echo $inst_url; ?>" target="_blank">
                         <i>
                           <svg class="instagram-svg" width="18" height="18" viewBox="0 0 18 18" fill="#7D8D98">
                             <use xlink:href="#instagram-svg"></use> 
@@ -130,6 +160,7 @@
                         </i>
                       </a>
                     </li>
+                    <?php endif; ?>
                   </ul>
                 </div>
                 <div class="hdr-lang-cntlr">
@@ -143,20 +174,15 @@
               </div>
               <div class="hdr-main-menu">
                 <nav class="main-nav">
-                  <ul class="clearfix reset-list">
-                    <li class="current-menu-item"><a href="#">Home</a></li>
-                    <li class="menu-item-has-children">
-                      <a href="#">Clubs</a>
-                      <ul class="sub-menu">
-                        <li><a href="#">submenu 1</a></li>
-                        <li><a href="#">submenu 2</a></li>
-                        <li><a href="#">submenu 3</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Over FiELD</a></li>
-                    <li><a href="#">Contact</a></li>
-                  </ul>
+                  <?php 
+                    $mmenuOptions = array( 
+                        'theme_location' => 'cbv_main_menu', 
+                        'menu_class' => 'clearfix reset-list',
+                        'container' => '',
+                        'container_class' => ''
+                      );
+                    wp_nav_menu( $mmenuOptions ); 
+                  ?>
                 </nav>
               </div>
             </div>
@@ -179,7 +205,9 @@
 <div class="xs-mobile-menu ">
   <div class="xs-pop-up-menu-top">
     <div class="logo">
-      <a href="#"><img src="<?php echo THEME_URI; ?>/assets/images/logo.png"></a>
+    <a href="<?php echo esc_url(home_url('/')); ?>">
+      <?php echo $logo_tag; ?>
+    </a>
     </div>
     <div class="hamburgar-cntlr show-sm">
       <div class="hamburgar">
@@ -194,23 +222,19 @@
   <div class="xs-menu">
     <div class="hdr-menu">
       <nav class="main-nav">
-        <ul class="clearfix reset-list">
-          <li class="current-menu-item"><a href="#">Home</a></li>
-          <li class="menu-item-has-children">
-            <a href="#">Clubs</a>
-            <ul class="sub-menu">
-              <li><a href="#">submenu 1</a></li>
-              <li><a href="#">submenu 2</a></li>
-              <li><a href="#">submenu 3</a></li>
-            </ul>
-          </li>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Over FiELD</a></li>
-        </ul>
+        <?php 
+          $menuOptions = array( 
+              'theme_location' => 'cbv_mobile_main_menu', 
+              'menu_class' => 'reset-list clearfix',
+              'container' => 'ul',
+              'container_class' => ''
+            );
+          wp_nav_menu( $menuOptions ); 
+        ?>
       </nav>
     </div>
     <div class="hdr-account">
-      <a href="#">Mijn account
+      <a href="<?php echo get_permalink( wc_get_page_id( 'myaccount' ) ); ?>"><?php _e('Mijn account', 'field'); ?>
         <i>
           <svg class="user-icon-svg" width="12" height="14" viewBox="0 0 12 14" fill="#7D8D98">
             <use xlink:href="#user-icon-svg"></use> 
@@ -219,7 +243,7 @@
       </a>
     </div>
     <div class="xs-contact-btn">
-      <a href="#" class="fl-btn fl-btn-angel">Contact</a>
+      <a href="<?php echo get_link_by_page_template('page-contact.php'); ?>" class="fl-btn fl-btn-angel"><?php _e('Contact', 'field'); ?></a>
     </div>
     <div class="xs-btm-menu">
       <div class="hdr-lang-cntlr">
@@ -233,24 +257,29 @@
       <div class="xs-hdr-social-media">
         <div class="hdr-social-media">
           <ul class="reset-list">
-            <li>
-              <a href="#" target="_blank">
+            <?php if( !empty($fb_url) ): ?>
+            <li class="facebook">
+              <a href="<?php echo $fb_url; ?>" target="_blank">
                 <i>
-                  <svg class="xs-facebook-svg" width="12" height="24" viewBox="0 0 12 24" fill="#7D8D98">
-                    <use xlink:href="#xs-facebook-svg"></use> 
+                  <svg class="facebook-svg" width="10" height="18" viewBox="0 0 10 18" fill="#7D8D98">
+                    <use xlink:href="#facebook-svg"></use> 
                   </svg>
                 </i>
               </a>
             </li>
-            <li>
-              <a href="#" target="_blank">
+            <?php endif;
+            if( !empty($inst_url) ):
+            ?>
+            <li class="instagram">
+              <a href="<?php echo $inst_url; ?>" target="_blank">
                 <i>
-                  <svg class="xs-instragram-svg" width="24" height="24" viewBox="0 0 24 24" fill="#7D8D98">
-                    <use xlink:href="#xs-instragram-svg"></use> 
+                  <svg class="instagram-svg" width="18" height="18" viewBox="0 0 18 18" fill="#7D8D98">
+                    <use xlink:href="#instagram-svg"></use> 
                   </svg>
                 </i>
               </a>
             </li>
+            <?php endif; ?>
           </ul>
         </div>
       </div>

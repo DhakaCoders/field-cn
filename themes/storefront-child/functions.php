@@ -23,7 +23,7 @@ if( !function_exists('cbv_theme_setup') ){
     
     function cbv_theme_setup(){
         
-      load_theme_textdomain( 'Field', get_template_directory() . '/languages' );
+      load_theme_textdomain( 'field', get_template_directory() . '/languages' );
         add_theme_support( 'title-tag' );
         add_theme_support('woocommerce');
         add_theme_support('post-thumbnails');
@@ -43,10 +43,10 @@ if( !function_exists('cbv_theme_setup') ){
         ) );
 
         register_nav_menus( array(
-            'cbv_main_menu' => __( 'Hoofdmenu', 'Field' ),
-            'cbv_mobile_menu' => __( 'Mobielmenu', 'Field' ),
-            'cbv_fta_menu' => __( 'Footer Menu', 'Field' ),
-            'cbv_copyright_menu' => __( 'Copyright Menu', 'Field' ),
+            'cbv_main_menu' => __( 'Hoofdmenu', 'field' ),
+            'cbv_mobile_menu' => __( 'Mobielmenu', 'field' ),
+            'cbv_fta_menu' => __( 'Footer Menu 1', 'field' ),
+            'cbv_ftb_menu' => __( 'Footer Menu 2', 'field' )
         ) );
 
     }
@@ -86,8 +86,8 @@ if( function_exists('acf_add_options_page') ) {
     //parent tab
     //acf_add_options_page( 'Opties' );
     acf_add_options_page(array(
-        'page_title'    => __('Options', 'Field'),
-        'menu_title'    => __('Options', 'Field'),
+        'page_title'    => __('Options', 'field'),
+        'menu_title'    => __('Options', 'field'),
         'menu_slug'     => 'cbv_options',
         'capability'    => 'edit_posts',
         //'redirect'        => false

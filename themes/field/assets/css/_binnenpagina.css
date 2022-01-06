@@ -67,7 +67,6 @@ Gallery design
 	margin-right: -12px;
 }
 
-
 .gallery-item {
 	margin: 0;
 	padding: 0 12px;
@@ -75,6 +74,7 @@ Gallery design
 }
 .gallery-item img {
 	width: 100%;
+	border-radius: 0!important;
 }
 .top-gallery-module .gallery-item img{
 	border-radius: 0;
