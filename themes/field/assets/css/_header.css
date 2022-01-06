@@ -450,6 +450,21 @@ body.allWork {
 }
 
 
+
+
+.menu-item-has-children ul.sub-menu{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
 @media(max-width: 1199px){
 	nav.main-nav > ul > li > a{
 		font-size: 20px;

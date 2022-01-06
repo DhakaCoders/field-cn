@@ -287,6 +287,7 @@ if( $('.xs-page-entry-menu').length ){
 function bannerheight(){
   var windowWidth = $(window).width();
   var windowHeight = $(window).height();
+  console.log(windowHeight);
   var windowHeight2 = 0;
   if( windowHeight < 625 ){
     windowHeight2 = 625;
@@ -294,7 +295,7 @@ function bannerheight(){
     windowHeight2 = windowHeight;
   }
   if (windowWidth > 767){
-    $('.hm-banner-des-cntlr').css('height', windowHeight2);
+    // $('.hm-banner-des-cntlr').css('height', windowHeight2);
   }
 }
 bannerheight();
