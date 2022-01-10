@@ -371,7 +371,7 @@ bannerheight();
         ]
     });
   }
-
+ 
 
   if(windowWidth > 575){
     if( $('.msnry-grd').length ){
